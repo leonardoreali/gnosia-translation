@@ -1,0 +1,743 @@
+// Text painted into the game's UI images. Each item is a box (x, y, width, height; pixels, top-left origin)
+// that contains one English text. The translation of "Image/<id>" is drawn in its place, in the same style.
+// Boxes must contain the English text plus a little background, and no borders or other drawings.
+{
+  "textures": [
+    {
+      "bundle": "systm_en",
+      "textures": ["menu"],
+      "items": [
+        { "id": "menu.load",          "en": "Load",            "box": [15, 684, 260, 48], "cut": 14 },
+        { "id": "menu.return_title",  "en": "Return To Title", "box": [315, 684, 260, 48], "cut": 14 },
+        { "id": "menu.return_title",  "en": "Return To Title", "box": [615, 684, 260, 48], "cut": 14 },
+        { "id": "menu.how_to_play",   "en": "How To Play",     "box": [15, 769, 256, 48], "cut": 14 },
+        { "id": "menu.how_to_play",   "en": "How To Play",     "box": [315, 769, 256, 48], "cut": 14 },
+        { "id": "menu.load",          "en": "Load",            "box": [618, 769, 260, 48], "cut": 14 },
+        { "id": "menu.command_list",  "en": "Command List",    "box": [1076, 556, 260, 48], "cut": 14 },
+        { "id": "menu.options",       "en": "Options",         "box": [1378, 556, 260, 48], "cut": 14 },
+        { "id": "menu.command_list",  "en": "Command List",    "box": [1076, 641, 260, 48], "cut": 14 },
+        { "id": "menu.return_setup",  "en": "Return To Setup", "box": [1378, 641, 260, 48], "cut": 14 },
+        { "id": "menu.return_setup",  "en": "Return To Setup", "box": [1076, 726, 260, 48], "cut": 14 },
+        { "id": "menu.options",       "en": "Options",         "box": [1378, 726, 260, 48], "cut": 14 },
+        { "id": "menu.status", "en": "Status", "box": [60, 62, 190, 44], "ink": [105, 64, 235, 102] },
+        { "id": "menu.abilities", "en": "Abilities", "box": [1085, 6, 125, 25], "erase": "clear", "color": "#ffffff" },
+        { "id": "menu.ability_charisma", "en": "Charisma", "box": [1066, 61, 152, 34], "ink": [1094, 67, 1203, 89], "manual": true, "size": 23.5, "baseline": 87, "color": "#fafafa", "align": "right" },
+        { "id": "menu.ability_intuition", "en": "Intuition", "box": [1066, 120, 152, 34], "ink": [1112, 126, 1203, 148], "manual": true, "size": 23.5, "baseline": 146, "color": "#fafafa", "align": "right" },
+        { "id": "menu.ability_logic", "en": "Logic", "box": [1066, 178, 152, 39], "ink": [1139, 184, 1204, 211], "manual": true, "size": 23.5, "baseline": 204, "color": "#fafafa", "align": "right" },
+        { "id": "menu.ability_charm", "en": "Charm", "box": [1066, 237, 152, 34], "ink": [1124, 243, 1203, 265], "manual": true, "size": 23.5, "baseline": 263, "color": "#fafafa", "align": "right" },
+        { "id": "menu.ability_performance", "en": "Performance", "box": [1066, 296, 152, 35], "ink": [1071, 302, 1204, 325], "manual": true, "size": 23.5, "baseline": 323, "color": "#fafafa", "align": "right" },
+        { "id": "menu.ability_stealth", "en": "Stealth", "box": [1066, 354, 152, 34], "ink": [1119, 360, 1203, 382], "manual": true, "size": 23.5, "baseline": 380, "color": "#fafafa", "align": "right" }
+      ]
+    },
+    {
+      "bundle": "systm_en",
+      "textures": ["setup_KB", "setup_GP"],
+      "items": [
+        { "id": "setup.title", "en": "Setup", "box": [72, 60, 208, 80], "ink": [146, 92, 268, 140], "cut": 18 },
+        { "id": "setup.gnosia", "en": "[Gnosia] are enemies of humans.\\nDuring warp, they will choose a\\ntarget and eliminate the humans\\none by one. They can falsely pose\\nas [Engineers] and [Doctors].", "box": [726, 0, 352, 215], "erase": "clear", "wrap": true, "align": "left", "lineHeight": 31.25, "color": "#505050", "accent": "#f39800", "size": 26.8, "baseline": 21 },
+        { "id": "setup.ac", "en": "[AC Followers] are humans, but they\\nwill lie and try to help the Gnosia\\nwin. They, too, can falsely pose as\\n[Engineers] and [Doctors].", "box": [726, 220, 352, 185], "erase": "clear", "wrap": true, "align": "left", "lineHeight": 31.25, "color": "#505050", "accent": "#f39800", "size": 26.8 },
+        { "id": "setup.guards", "en": "[Guards] (those on Guard Duty) can\\nannounce their status together,\\nproving that one another are human.\\nOthers cannot pose as [Guards].", "box": [726, 407, 352, 150], "erase": "clear", "wrap": true, "align": "left", "lineHeight": 31.25, "color": "#505050", "accent": "#f39800", "size": 26.8 },
+        { "id": "setup.bugs", "en": "[Bugs] are enemies of both humans\\nand Gnosia. They will not disappear\\nwhen attacked, but they will\\ndisappear when investigated by an\\nEngineer. They, too, can falsely pose\\nas [Engineers] and [Doctors].", "box": [407, 660, 354, 264], "erase": "clear", "wrap": true, "align": "left", "lineHeight": 31.2, "color": "#505050", "accent": "#f39800", "size": 26.8 },
+        { "id": "setup.engineers", "en": "[Engineers] are able to investigate\\nduring warp and discern whether or\\nnot a target is Gnosia.", "box": [762, 656, 362, 108], "erase": "clear", "wrap": true, "align": "left", "lineHeight": 30, "color": "#505050", "accent": "#f39800", "size": 26.8 },
+        { "id": "setup.angels", "en": "[Guardian Angels] can select one\\nperson to protect from Gnosia\\nattack during warp.", "box": [762, 764, 362, 108], "erase": "clear", "wrap": true, "align": "left", "lineHeight": 29.5, "color": "#505050", "accent": "#f39800", "size": 26.8 },
+        { "id": "setup.doctors", "en": "[Doctors] can discern whether or not\\na person put into cold sleep was\\nGnosia.", "box": [762, 870, 362, 138], "erase": "clear", "wrap": true, "align": "left", "lineHeight": 31.5, "color": "#505050", "accent": "#f39800", "size": 26.8 }
+      ]
+    },
+    {
+      "bundle": "systm_en",
+      "textures": ["setup_KB"],
+      "items": [
+        { "id": "setup.random", "en": "Random\\nSettings", "box": [1084, 106, 134, 94], "ink": [1112, 117, 1217, 176], "skip": [[1084, 169, 58, 32]], "lineHeight": 28.5, "align": "right", "color": "#ffffff" },
+        { "id": "setup.event", "en": "Event\\nSearch", "box": [1084, 218, 134, 94], "ink": [1112, 227, 1217, 282], "skip": [[1084, 283, 58, 32]], "lineHeight": 29, "align": "right", "color": "#ffffff" }
+      ]
+    },
+    {
+      "bundle": "systm_en",
+      "textures": ["setup_GP"],
+      "items": [
+        { "id": "setup.random", "en": "Random\\nSettings", "box": [1084, 119, 134, 94], "ink": [1112, 130, 1217, 189], "skip": [[1080, 163, 36, 42]], "lineHeight": 28, "align": "right", "color": "#ffffff" },
+        { "id": "setup.event", "en": "Event\\nSearch", "box": [1084, 233, 134, 94], "ink": [1112, 242, 1217, 297], "skip": [[1080, 277, 36, 42]], "lineHeight": 29, "align": "right", "color": "#ffffff" }
+      ]
+    },
+    {
+      "bundle": "title_en",
+      "textures": ["titleAll_KB", "titleAll_GP"],
+      "items": [
+        { "id": "title.new_game", "en": "New Game", "box": [466, 22, 276, 72], "ink": [494, 44, 711, 82], "cut": 16 },
+        { "id": "title.continue", "en": "Continue", "box": [466, 116, 276, 72], "ink": [526, 139, 711, 177], "cut": 16 },
+        { "id": "title.restart", "en": "Restart", "box": [462, 200, 132, 90], "ink": [468, 216, 594, 262], "skip": [[456, 258, 62, 36]], "color": "#ffffff" }
+      ]
+    },
+    {
+      "bundle": "title_en",
+      "textures": ["title0"],
+      "items": [
+        { "id": "title.label_options", "en": "OPTIONS", "box": [12, 802, 134, 34], "erase": "clear" },
+        { "id": "title.label_credit", "en": "CREDIT", "box": [177, 802, 114, 34], "erase": "clear" },
+        { "id": "title.label_new_game", "en": "NEW GAME", "box": [312, 802, 149, 34], "erase": "clear" },
+        { "id": "title.label_continue", "en": "CONTINUE", "box": [462, 802, 154, 34], "erase": "clear" }
+      ]
+    },
+    {
+      "bundle": "title_en",
+      "textures": ["title1"],
+      "items": [
+        { "id": "title.label_new_game", "en": "NEW GAME", "box": [4, 807, 150, 34], "erase": "clear" },
+        { "id": "title.label_continue", "en": "CONTINUE", "box": [155, 807, 155, 34], "erase": "clear" },
+        { "id": "title.label_options", "en": "OPTIONS", "box": [1100, 737, 170, 34], "erase": "clear" },
+        { "id": "title.label_credit", "en": "CREDIT", "box": [1100, 784, 170, 34], "erase": "clear" }
+      ]
+    },
+    {
+      "bundle": "title_en",
+      "textures": ["title2", "title3"],
+      "items": [
+        { "id": "title.label_options", "en": "OPTIONS", "box": [1345, 741, 182, 40], "erase": "clear", "color": "#505050", "glow": "#f0f0f0" },
+        { "id": "title.label_continue", "en": "CONTINUE", "box": [1345, 795, 182, 40], "erase": "clear", "color": "#505050", "glow": "#f0f0f0" },
+        { "id": "title.label_credit", "en": "CREDIT", "box": [1532, 738, 160, 40], "erase": "clear", "color": "#505050", "glow": "#f0f0f0" },
+        { "id": "title.label_new_game", "en": "NEW GAME", "box": [1696, 741, 220, 40], "erase": "clear", "color": "#505050", "glow": "#f0f0f0" }
+      ]
+    },
+    {
+      "bundle": "title_en",
+      "textures": ["title2"],
+      "items": [
+        { "id": "title.label_exit", "en": "EXIT", "box": [1532, 795, 160, 40], "erase": "clear", "color": "#505050", "glow": "#f0f0f0" }
+      ]
+    },
+    {
+      "bundle": "title_en",
+      "textures": ["title_exit2"],
+      "items": [
+        { "id": "title.label_exit", "en": "EXIT", "box": [0, 0, 162, 56], "erase": "clear", "color": "#505050", "glow": "#f0f0f0" }
+      ]
+    },
+    {
+      "bundle": "title_en",
+      "textures": ["title_exit"],
+      "items": [
+        { "id": "title.label_exit", "en": "EXIT", "box": [0, 0, 154, 48], "erase": "clear" }
+      ]
+    },
+    {
+      "bundle": "title_en",
+      "textures": [
+        "entry_KB",
+        "entry_GP"
+      ],
+      "items": [
+        {
+          "id": "entry.player_data",
+          "en": "Player Data",
+          "box": [
+            30,
+            15,
+            318,
+            68
+          ],
+          "ink": [
+            60,
+            25,
+            352,
+            80
+          ],
+          "cut": 16,
+          "color": "#ffffff"
+        },
+        {
+          "id": "entry.name",
+          "en": "Name",
+          "box": [
+            110,
+            117,
+            115,
+            33
+          ]
+        },
+        {
+          "id": "entry.sex",
+          "en": "Sex",
+          "box": [
+            462,
+            117,
+            110,
+            33
+          ]
+        },
+        {
+          "id": "entry.abilities",
+          "en": "Abilities",
+          "box": [
+            110,
+            226,
+            115,
+            30
+          ]
+        },
+        {
+          "id": "entry.color",
+          "en": "Color",
+          "box": [
+            110,
+            520,
+            115,
+            30
+          ]
+        },
+        {
+          "id": "entry.points",
+          "en": "Points",
+          "box": [
+            468,
+            492,
+            160,
+            40
+          ],
+          "ink": [
+            488,
+            496,
+            577,
+            527
+          ]
+        },
+        {
+          "id": "entry.ability_charisma",
+          "en": "Charisma",
+          "box": [
+            116,
+            262,
+            149,
+            38
+          ],
+          "align": "right",
+          "dilate": 0.1
+        },
+        {
+          "id": "entry.ability_intuition",
+          "en": "Intuition",
+          "box": [
+            116,
+            300,
+            149,
+            37
+          ],
+          "align": "right",
+          "dilate": 0.1
+        },
+        {
+          "id": "entry.ability_logic",
+          "en": "Logic",
+          "box": [
+            116,
+            337,
+            149,
+            37
+          ],
+          "align": "right",
+          "dilate": 0.1
+        },
+        {
+          "id": "entry.ability_charm",
+          "en": "Charm",
+          "box": [
+            116,
+            374,
+            149,
+            36
+          ],
+          "align": "right",
+          "dilate": 0.1
+        },
+        {
+          "id": "entry.ability_performance",
+          "en": "Performance",
+          "box": [
+            113,
+            410,
+            152,
+            36
+          ],
+          "align": "right",
+          "dilate": 0.1,
+          "ink": [
+            115,
+            414,
+            263,
+            441
+          ]
+        },
+        {
+          "id": "entry.ability_stealth",
+          "en": "Stealth",
+          "box": [
+            116,
+            447,
+            149,
+            38
+          ],
+          "align": "right",
+          "dilate": 0.1
+        },
+        {
+          "id": "entry.start",
+          "en": "Start",
+          "box": [
+            1745,
+            1122,
+            160,
+            58
+          ],
+          "cut": 14,
+          "color": "#ffffff"
+        },
+        {
+          "id": "entry.intro",
+          "en": "Once you've input\\neverything, press “Start”.\\n\\nBon voyage!",
+          "box": [
+            1300,
+            30,
+            500,
+            200
+          ],
+          "font": "FOT",
+          "color": "#ffffff",
+          "ink": [
+            1340,
+            48,
+            1760,
+            198
+          ],
+          "align": "left",
+          "lineHeight": 40,
+          "size": 29,
+          "baseline": 77,
+          "dilate": 0.35
+        },
+        {
+          "id": "entry.gender_header",
+          "en": "Select your gender:",
+          "box": [
+            1345,
+            336,
+            460,
+            44
+          ],
+          "font": "FOT",
+          "ink": [
+            1360,
+            340,
+            1660,
+            375
+          ],
+          "align": "left",
+          "dilate": 0.35
+        },
+        {
+          "id": "entry.male",
+          "en": "Male",
+          "box": [
+            1365,
+            415,
+            130,
+            52
+          ],
+          "font": "FOT",
+          "color": "#ffffff",
+          "dilate": 0.35
+        },
+        {
+          "id": "entry.female",
+          "en": "Female",
+          "box": [
+            1515,
+            415,
+            150,
+            52
+          ],
+          "font": "FOT",
+          "color": "#ffffff",
+          "dilate": 0.35
+        },
+        {
+          "id": "entry.non_binary",
+          "en": "Non-\\nbinary",
+          "box": [
+            1700,
+            410,
+            115,
+            64
+          ],
+          "font": "FOT",
+          "color": "#ffffff",
+          "lineHeight": 28,
+          "align": "center",
+          "dilate": 0.35
+        },
+        {
+          "id": "entry.non_binary_note",
+          "en": "“Non-binary” is selectable for\\nthose who prefer not to identify\\nas “Male” or “Female”.",
+          "box": [
+            1372,
+            516,
+            460,
+            92
+          ],
+          "font": "FOT",
+          "color": "#ffffff",
+          "erase": "clear",
+          "wrap": true,
+          "align": "left",
+          "lineHeight": 29,
+          "size": 24,
+          "baseline": 539,
+          "dilate": 0.35
+        },
+        {
+          "id": "entry.color_header",
+          "en": "Select your favorite color:",
+          "box": [
+            355,
+            738,
+            520,
+            40
+          ],
+          "font": "FOT",
+          "ink": [
+            362,
+            742,
+            790,
+            772
+          ],
+          "align": "left",
+          "dilate": 0.35
+        },
+        {
+          "id": "entry.color_red",
+          "en": "Red",
+          "box": [
+            372,
+            893,
+            124,
+            40
+          ],
+          "font": "FOT",
+          "color": "#ffffff",
+          "dilate": 0.35
+        },
+        {
+          "id": "entry.color_orange",
+          "en": "Orange",
+          "box": [
+            500,
+            893,
+            122,
+            40
+          ],
+          "font": "FOT",
+          "color": "#ffffff",
+          "dilate": 0.35
+        },
+        {
+          "id": "entry.color_yellow",
+          "en": "Yellow",
+          "box": [
+            624,
+            893,
+            116,
+            40
+          ],
+          "font": "FOT",
+          "color": "#ffffff",
+          "dilate": 0.35
+        },
+        {
+          "id": "entry.color_light_green",
+          "en": "L. Green",
+          "box": [
+            745,
+            893,
+            128,
+            40
+          ],
+          "font": "FOT",
+          "color": "#ffffff",
+          "dilate": 0.35
+        },
+        {
+          "id": "entry.color_green",
+          "en": "Green",
+          "box": [
+            372,
+            1041,
+            124,
+            46
+          ],
+          "font": "FOT",
+          "color": "#ffffff",
+          "dilate": 0.35
+        },
+        {
+          "id": "entry.color_light_blue",
+          "en": "L. Blue",
+          "box": [
+            500,
+            1041,
+            122,
+            46
+          ],
+          "font": "FOT",
+          "color": "#ffffff",
+          "dilate": 0.35
+        },
+        {
+          "id": "entry.color_blue",
+          "en": "Blue",
+          "box": [
+            624,
+            1041,
+            116,
+            46
+          ],
+          "font": "FOT",
+          "color": "#ffffff",
+          "dilate": 0.35
+        },
+        {
+          "id": "entry.color_purple",
+          "en": "Purple",
+          "box": [
+            745,
+            1041,
+            128,
+            46
+          ],
+          "font": "FOT",
+          "color": "#ffffff",
+          "dilate": 0.35
+        },
+        {
+          "id": "entry.color_pink",
+          "en": "Pink",
+          "box": [
+            372,
+            1196,
+            124,
+            40
+          ],
+          "font": "FOT",
+          "color": "#ffffff",
+          "dilate": 0.35
+        },
+        {
+          "id": "entry.color_brown",
+          "en": "Brown",
+          "box": [
+            500,
+            1196,
+            122,
+            40
+          ],
+          "font": "FOT",
+          "color": "#ffffff",
+          "dilate": 0.35
+        },
+        {
+          "id": "entry.color_black",
+          "en": "Black",
+          "box": [
+            624,
+            1196,
+            116,
+            40
+          ],
+          "font": "FOT",
+          "color": "#ffffff",
+          "dilate": 0.35
+        },
+        {
+          "id": "entry.color_white",
+          "en": "White",
+          "box": [
+            745,
+            1196,
+            128,
+            40
+          ],
+          "font": "FOT",
+          "color": "#ffffff",
+          "dilate": 0.35
+        },
+        {
+          "id": "entry.points_header",
+          "en": "Assign points with directional button",
+          "box": [
+            940,
+            738,
+            445,
+            40
+          ],
+          "font": "FOT",
+          "ink": [
+            948,
+            742,
+            1381,
+            773
+          ],
+          "align": "left",
+          "dilate": 0.35
+        },
+        {
+          "id": "entry.about_charisma",
+          "en": "[Charisma] increases the influential power of\\nyour comments, making others more likely\\nto agree and follow your lead.",
+          "box": [
+            948,
+            797,
+            515,
+            95
+          ],
+          "font": "FOT",
+          "color": "#ffffff",
+          "wrap": true,
+          "align": "left",
+          "lineHeight": 31,
+          "accent": "#efdb39",
+          "size": 20,
+          "dilate": 0.35
+        },
+        {
+          "id": "entry.about_intuition",
+          "en": "[Intuition] allows you to pick up on other\\npeople's lies and suspicious behavior.",
+          "box": [
+            948,
+            897,
+            515,
+            70
+          ],
+          "font": "FOT",
+          "color": "#ffffff",
+          "wrap": true,
+          "align": "left",
+          "lineHeight": 31,
+          "accent": "#efdb39",
+          "size": 20,
+          "dilate": 0.35
+        },
+        {
+          "id": "entry.about_logic",
+          "en": "[Logic] makes it easier for you to convince\\nothers that you're right.",
+          "box": [
+            948,
+            968,
+            515,
+            70
+          ],
+          "font": "FOT",
+          "color": "#ffffff",
+          "wrap": true,
+          "align": "left",
+          "lineHeight": 31,
+          "accent": "#efdb39",
+          "size": 20,
+          "dilate": 0.35
+        },
+        {
+          "id": "entry.about_charm",
+          "en": "[Charm] makes you more amicable, and thus\\nless likely to be selected for cold sleep.",
+          "box": [
+            948,
+            1037,
+            515,
+            70
+          ],
+          "font": "FOT",
+          "color": "#ffffff",
+          "wrap": true,
+          "align": "left",
+          "lineHeight": 31,
+          "accent": "#efdb39",
+          "size": 20,
+          "dilate": 0.35
+        },
+        {
+          "id": "entry.about_performance",
+          "en": "[Performance] makes you a better liar, and helps\\nyou to more efficiently get your point across.",
+          "box": [
+            948,
+            1108,
+            515,
+            70
+          ],
+          "font": "FOT",
+          "color": "#ffffff",
+          "wrap": true,
+          "align": "left",
+          "lineHeight": 31,
+          "accent": "#efdb39",
+          "size": 20,
+          "dilate": 0.35
+        },
+        {
+          "id": "entry.about_stealth",
+          "en": "[Stealth] makes it harder for others to\\npick up on your malicious intent, and\\nmakes the Gnosia less likely to target you.",
+          "box": [
+            948,
+            1178,
+            515,
+            90
+          ],
+          "font": "FOT",
+          "color": "#ffffff",
+          "wrap": true,
+          "align": "left",
+          "lineHeight": 31,
+          "accent": "#efdb39",
+          "size": 20,
+          "dilate": 0.35
+        },
+        {
+          "id": "entry.please_input",
+          "en": "Please input your Name\\n(max. 8 characters),\\nGender, Abilities, and Color.",
+          "box": [
+            1500,
+            770,
+            495,
+            170
+          ],
+          "font": "FOT",
+          "color": "#ffffff",
+          "ink": [
+            1535,
+            785,
+            1990,
+            905
+          ],
+          "align": "left",
+          "lineHeight": 40,
+          "dilate": 0.35
+        }
+      ]
+    },
+    {
+      "bundle": "pre_en",
+      "textures": ["interface_KB", "interface_GP"],
+      "items": [
+        { "id": "interface.speak", "en": "Speak", "box": [588, 516, 128, 92], "ink": [603, 541, 708, 581], "color": "#ffffff" },
+        { "id": "interface.close", "en": "Close", "box": [588, 630, 128, 92], "ink": [609, 656, 706, 689], "color": "#ffffff" },
+        { "id": "interface.yes", "en": "Yes", "box": [588, 742, 128, 92], "ink": [624, 771, 688, 804], "color": "#ffffff" },
+        { "id": "interface.select", "en": "Select", "box": [588, 856, 128, 92], "ink": [602, 883, 710, 916], "color": "#ffffff" },
+        { "id": "interface.wait_see", "en": "Wait&\\nSee", "box": [977, 199, 146, 95], "ink": [1001, 217, 1104, 284], "lineHeight": 33, "align": "right", "color": "#ffffff" },
+        { "id": "interface.select", "en": "Select", "box": [1077, 451, 130, 92], "ink": [1096, 472, 1209, 505], "color": "#ffffff" },
+        { "id": "interface.no", "en": "No", "box": [1237, 821, 136, 92], "ink": [1289, 849, 1334, 882], "color": "#ffffff" },
+        { "id": "interface.next", "en": "Next", "box": [1391, 820, 133, 92], "ink": [1426, 848, 1504, 880], "color": "#ffffff" },
+        { "id": "interface.input", "en": "Input", "box": [1561, 804, 135, 92], "ink": [1593, 832, 1675, 871], "color": "#ffffff" },
+        { "id": "interface.delete", "en": "Delete", "box": [1714, 804, 132, 92], "ink": [1731, 830, 1839, 862], "color": "#ffffff" },
+        { "id": "interface.back", "en": "Back", "box": [1901, 437, 135, 92], "ink": [1932, 454, 2014, 487], "color": "#ffffff" },
+        { "id": "interface.change", "en": "Change", "box": [1901, 541, 135, 92], "ink": [1917, 567, 2036, 607], "color": "#ffffff" },
+        { "id": "interface.data", "en": "Data", "box": [1901, 651, 135, 92], "ink": [1934, 681, 2012, 713], "color": "#ffffff" },
+        { "id": "interface.menu", "en": "Menu", "box": [1901, 764, 135, 92], "ink": [1928, 795, 2019, 829], "color": "#ffffff" },
+        { "id": "interface.back", "en": "Back", "box": [7, 714, 132, 92], "ink": [38, 744, 120, 777], "color": "#ffffff" },
+        { "id": "interface.close", "en": "Close", "box": [7, 829, 132, 92], "ink": [31, 857, 127, 890], "color": "#ffffff" }
+      ]
+    }
+  ]
+}

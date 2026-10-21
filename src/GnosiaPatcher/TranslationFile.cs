@@ -68,6 +68,21 @@ sealed class TranslationFile
         return sb.ToString();
     }
 
+    /// <summary>
+    /// Gives the translation the same leading/trailing spaces as the text it replaces. Many rows are
+    /// fragments the game glues together ("Day " + 3, name + " and " + name), and editors tend to
+    /// strip those spaces, which would print "Dia3".
+    /// </summary>
+    public static string MatchEdgeSpaces(string original, string text)
+    {
+        static bool IsSpace(char c) => c == ' ' || c == '　';
+        int lead = 0, trail = 0;
+        while (lead < original.Length && IsSpace(original[lead])) lead++;
+        if (lead == original.Length) return text;
+        while (IsSpace(original[original.Length - 1 - trail])) trail++;
+        return original[..lead] + text.Trim(' ', '　') + original[^trail..];
+    }
+
     /// <summary>Placeholders like {0} that must survive translation.</summary>
     public static IEnumerable<string> Placeholders(string s) =>
         Regex.Matches(s, @"\{\d\}").Select(m => m.Value).Distinct();

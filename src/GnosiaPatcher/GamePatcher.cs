@@ -76,9 +76,13 @@ sealed class GamePatcher
         return Backup;
     }
 
-    public PatchResult Apply(TranslationFile translation, Action<string> log)
+    /// <summary>
+    /// Writes the translation into the game. With <paramref name="imagePreviewDir"/> nothing is written to
+    /// the game: only the translated UI images are rendered there as PNG.
+    /// </summary>
+    public PatchResult Apply(TranslationFile translation, Action<string> log, string? imagePreviewDir = null)
     {
-        string source = EnsureBackup(log);
+        string source = imagePreviewDir == null ? EnsureBackup(log) : File.Exists(Backup) ? Backup : Target;
 
         var am = new AssetsManager();
         using (var tpk = Assembly.GetExecutingAssembly().GetManifestResourceStream("classdata.tpk")!)
@@ -113,17 +117,22 @@ sealed class GamePatcher
                     // a translation must keep every placeholder of the text it replaces
                     var original = cells[EnglishColumn].AsString;
                     if (TranslationFile.Placeholders(original).Any(p => !text.Contains(p))) { result.Skipped++; continue; }
-                    cells[EnglishColumn].AsString = text;
+                    cells[EnglishColumn].AsString = TranslationFile.MatchEdgeSpaces(original, text);
                     result.Translated++;
                     changed = true;
                 }
             }
             if (changed) info.SetNewData(bf);
         }
-        result.UnknownKeys = translation.Entries.Count - used.Count;
+        result.UnknownKeys = translation.Entries.Keys.Count(k => !k.StartsWith("Image/") && !used.Contains(k));
 
         log("Adding accented letters to the fonts...");
-        result.GlyphsAdded = FontPatch.PatchAll(am, inst);
+        var fonts = new List<SdfFont>();
+        result.GlyphsAdded = FontPatch.PatchAll(am, inst, fonts);
+
+        log("Translating text in images...");
+        result.ImageTexts = ImagePatch.Apply(DataDir, translation, fonts, log, imagePreviewDir);
+        if (imagePreviewDir != null) { am.UnloadAll(); return result; }
 
         log("Writing patched file...");
         string temp = Target + ".tmp";
@@ -166,6 +175,7 @@ sealed class GamePatcher
             }
         }
         am.UnloadAll();
+        foreach (var (key, en) in ImagePatch.ReferenceRows()) lines.Add($"{key}	{en}		");
         File.WriteAllLines(outPath, lines);
         return lines.Count - 1;
     }
@@ -173,7 +183,8 @@ sealed class GamePatcher
     /// <summary>Puts the original file back and removes the backup.</summary>
     public bool Restore()
     {
-        if (!File.Exists(Backup)) return false;
+        bool images = ImagePatch.Restore(DataDir);
+        if (!File.Exists(Backup)) return images;
         File.Copy(Backup, Target, overwrite: true);
         File.Delete(Backup);
         return true;
@@ -182,5 +193,5 @@ sealed class GamePatcher
 
 sealed class PatchResult
 {
-    public int Rows, Translated, Skipped, UnknownKeys, GlyphsAdded;
+    public int Rows, Translated, Skipped, UnknownKeys, GlyphsAdded, ImageTexts;
 }

@@ -41,15 +41,17 @@ static class FontPatch
     /// <summary>Characters this patch can add.</summary>
     public static IEnumerable<char> AddedCharacters => Recipes.Select(r => r.Ch);
 
-    record G(float bx, float by, float w, float h, float adv, int rx, int ry, int rw, int rh);
-
     /// <summary>One source glyph drawn into the composite.</summary>
     record Layer(G Glyph, float Scale, float OriginX, float OriginY, bool Mirror = false, bool Rotate = false, float? ClipAbove = null);
 
-    /// <summary>Patches every small (Latin-only) TMP font in the file. Returns the glyph count added.</summary>
-    public static int PatchAll(AssetsManager am, AssetsFileInstance inst)
+    /// <summary>
+    /// Patches every small (Latin-only) TMP font in the file. Returns the glyph count added.
+    /// The resulting fonts (Latin ones falling back to the Japanese font) are added to <paramref name="fonts"/>.
+    /// </summary>
+    public static int PatchAll(AssetsManager am, AssetsFileInstance inst, List<SdfFont>? fonts = null)
     {
         long cjkFallback = 0;
+        SdfFont? cjkFont = null;
         var latinFonts = new List<AssetFileInfo>();
         foreach (var info in inst.file.GetAssetsOfType(AssetClassID.MonoBehaviour))
         {
@@ -58,17 +60,59 @@ static class FontPatch
             int count = bf["m_CharacterTable.Array"].Children.Count;
             if (count < 500) latinFonts.Add(info);
             // The Japanese font also covers Cyrillic; Latin fonts fall back to it for Russian.
-            if (bf["m_Name"].AsString.StartsWith("cinecaption", StringComparison.OrdinalIgnoreCase)) cjkFallback = info.PathId;
+            if (bf["m_Name"].AsString.StartsWith("cinecaption", StringComparison.OrdinalIgnoreCase))
+            {
+                cjkFallback = info.PathId;
+                if (fonts != null) cjkFont = Read(am, inst, bf);
+            }
         }
         int total = 0;
-        foreach (var info in latinFonts) total += Patch(am, inst, info, cjkFallback);
+        foreach (var info in latinFonts)
+        {
+            total += Patch(am, inst, info, cjkFallback, out var font);
+            font.Fallback = cjkFont;
+            fonts?.Add(font);
+        }
+        if (cjkFont != null) fonts?.Add(cjkFont);
         return total;
     }
 
     public static string ScriptName(AssetsManager am, AssetsFileInstance inst, AssetTypeValueField bf) =>
         am.GetExtAsset(inst, bf["m_Script"]).baseField?["m_ClassName"].AsString ?? "";
 
-    static int Patch(AssetsManager am, AssetsFileInstance inst, AssetFileInfo fontInfo, long fallbackPathId)
+    /// <summary>Reads a font without changing it.</summary>
+    static SdfFont Read(AssetsManager am, AssetsFileInstance inst, AssetTypeValueField bf)
+    {
+        var tex = am.GetBaseField(inst, inst.file.GetAssetInfo(bf["m_AtlasTextures.Array"].Children[0]["m_PathID"].AsLong));
+        var (glyphs, charToGlyph) = ReadTables(bf);
+        return new SdfFont
+        {
+            Name = bf["m_Name"].AsString, Atlas = tex["image data"].AsByteArray, W = tex["m_Width"].AsInt, H = tex["m_Height"].AsInt,
+            Pad = bf["m_AtlasPadding"].AsInt, PointSize = bf["m_FaceInfo.m_PointSize"].AsFloat,
+            Glyphs = charToGlyph.Where(p => glyphs.ContainsKey(p.Value)).ToDictionary(p => p.Key, p => glyphs[p.Value]),
+        };
+    }
+
+    static (Dictionary<uint, G>, Dictionary<char, uint>) ReadTables(AssetTypeValueField bf)
+    {
+        var glyphs = new Dictionary<uint, G>();
+        foreach (var g in bf["m_GlyphTable.Array"].Children)
+        {
+            var r = g["m_GlyphRect"]; var m = g["m_Metrics"];
+            glyphs[g["m_Index"].AsUInt] = new G(m["m_HorizontalBearingX"].AsFloat, m["m_HorizontalBearingY"].AsFloat,
+                m["m_Width"].AsFloat, m["m_Height"].AsFloat, m["m_HorizontalAdvance"].AsFloat,
+                r["m_X"].AsInt, r["m_Y"].AsInt, r["m_Width"].AsInt, r["m_Height"].AsInt);
+        }
+        var charToGlyph = new Dictionary<char, uint>();
+        foreach (var c in bf["m_CharacterTable.Array"].Children)
+        {
+            uint u = c["m_Unicode"].AsUInt;
+            if (u <= 0xFFFF) charToGlyph[(char)u] = c["m_GlyphIndex"].AsUInt;
+        }
+        return (glyphs, charToGlyph);
+    }
+
+    static int Patch(AssetsManager am, AssetsFileInstance inst, AssetFileInfo fontInfo, long fallbackPathId, out SdfFont font)
     {
         var bf = am.GetBaseField(inst, fontInfo);
         int pad = bf["m_AtlasPadding"].AsInt;
@@ -87,16 +131,7 @@ static class FontPatch
 
         var glyphArr = bf["m_GlyphTable.Array"];
         var charArr = bf["m_CharacterTable.Array"];
-        var glyphs = new Dictionary<uint, G>();
-        foreach (var g in glyphArr.Children)
-        {
-            var r = g["m_GlyphRect"]; var m = g["m_Metrics"];
-            glyphs[g["m_Index"].AsUInt] = new G(m["m_HorizontalBearingX"].AsFloat, m["m_HorizontalBearingY"].AsFloat,
-                m["m_Width"].AsFloat, m["m_Height"].AsFloat, m["m_HorizontalAdvance"].AsFloat,
-                r["m_X"].AsInt, r["m_Y"].AsInt, r["m_Width"].AsInt, r["m_Height"].AsInt);
-        }
-        var charToGlyph = new Dictionary<char, uint>();
-        foreach (var c in charArr.Children) charToGlyph[(char)c["m_Unicode"].AsUInt] = c["m_GlyphIndex"].AsUInt;
+        var (glyphs, charToGlyph) = ReadTables(bf);
 
         // bilinear sample of a glyph's padded atlas region, in glyph space (y up, baseline 0)
         float Sample(G g, float gx, float gy)
@@ -209,6 +244,8 @@ static class FontPatch
             CopyValues(charArr.Children.First(c => c["m_Unicode"].AsUInt == rcp.Base), nc);
             nc["m_Unicode"].AsUInt = rcp.Ch; nc["m_GlyphIndex"].AsUInt = nextIndex;
             charArr.Children.Add(nc);
+            glyphs[nextIndex] = new G(minX, maxY, cw, chh, advance, rx, ry, cw, chh);
+            charToGlyph[rcp.Ch] = nextIndex;
             nextIndex++; added++;
         }
 
@@ -223,6 +260,12 @@ static class FontPatch
                 fb.Children.Add(p);
             }
         }
+
+        font = new SdfFont
+        {
+            Name = bf["m_Name"].AsString, Atlas = dst, W = W, H = H2, Pad = pad, PointSize = pt,
+            Glyphs = charToGlyph.Where(p => glyphs.ContainsKey(p.Value)).ToDictionary(p => p.Key, p => glyphs[p.Value]),
+        };
 
         bf["m_AtlasHeight"].AsInt = H2;
         fontInfo.SetNewData(bf);

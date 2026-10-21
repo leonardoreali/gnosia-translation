@@ -37,6 +37,12 @@ try
 
     if (opts.Restore) return RestoreGame(patcher);
     if (opts.Export != null) return Exit(0, $"Exported {patcher.ExportReference(opts.Export)} lines to {opts.Export}");
+    if (opts.PreviewImages != null)
+    {
+        var t = opts.File != null ? TranslationFile.FromPath(opts.File) : TranslationFile.FromResource(Language.Patchable.First(l => l.Code.Equals(opts.Lang ?? "pt-BR", StringComparison.OrdinalIgnoreCase)));
+        var r = patcher.Apply(t, Console.WriteLine, opts.PreviewImages);
+        return Exit(0, $"{r.ImageTexts} image texts rendered to {opts.PreviewImages}");
+    }
 
     Language? lang = opts.Lang == null ? null
         : Language.Available.FirstOrDefault(l => l.Code.Equals(opts.Lang, StringComparison.OrdinalIgnoreCase));
@@ -62,7 +68,7 @@ try
     Console.WriteLine($"Installing {lang.NativeName}...");
     var result = patcher.Apply(translation, Console.WriteLine);
     Console.WriteLine();
-    Console.WriteLine($"Done! {result.Translated} of {result.Rows} lines translated, {result.GlyphsAdded} letters added to the fonts.");
+    Console.WriteLine($"Done! {result.Translated} of {result.Rows} lines translated, {result.ImageTexts} texts in images, {result.GlyphsAdded} letters added to the fonts.");
     if (result.Skipped > 0) Console.WriteLine($"{result.Skipped} lines were skipped because a {{0}}-style placeholder was missing.");
     if (result.UnknownKeys > 0) Console.WriteLine($"{result.UnknownKeys} translated lines did not match this game version.");
     Console.WriteLine();
@@ -130,7 +136,7 @@ int Exit(int code, string? message)
 
 sealed class Options
 {
-    public string? Lang, Game, File, Export, Check, Reference;
+    public string? Lang, Game, File, Export, Check, Reference, PreviewImages;
     public bool Restore;
 
     public static Options Parse(string[] args)
@@ -148,6 +154,7 @@ sealed class Options
                 case "--export": o.Export = Next(); break;
                 case "--check": o.Check = Next(); break;
                 case "--ref": o.Reference = Next(); break;
+                case "--preview-images": o.PreviewImages = Next(); break;
                 default: throw new ArgumentException($"Unknown option {args[i]}");
             }
         }

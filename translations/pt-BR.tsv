@@ -3218,9 +3218,9 @@ ScenarioBaseText/4:Jinro/18	{0} parece confiável
 ScenarioBaseText/4:Jinro/19	Ajudar a Proteger
 ScenarioBaseText/4:Jinro/20	Contestar
 ScenarioBaseText/4:Jinro/21	Não, não podemos confiar em {0}
-ScenarioBaseText/4:Jinro/22	Também Discordar
+ScenarioBaseText/4:Jinro/22	Discordar Também
 ScenarioBaseText/4:Jinro/23	Agradecer
-ScenarioBaseText/4:Jinro/24	Calar
+ScenarioBaseText/4:Jinro/24	Mandar Calar
 ScenarioBaseText/4:Jinro/25	{0} é irritante
 ScenarioBaseText/4:Jinro/26	Iniciar a Votação
 ScenarioBaseText/4:Jinro/27	Revelar Papel
@@ -3353,21 +3353,22 @@ ScenarioBaseText/16:JinroSkill/21	Vamos colocar {0} em sono criogênico
 ScenarioBaseText/16:JinroSkill/22	Concordar
 ScenarioBaseText/16:JinroSkill/23	Discordar
 ScenarioBaseText/16:JinroSkill/24	Não, não vamos fazer isso
-ScenarioBaseText/16:JinroSkill/25	Também Discordar
+ScenarioBaseText/16:JinroSkill/25	Discordar Também
 ScenarioBaseText/16:JinroSkill/26	Fim
 ScenarioBaseText/16:JinroSkill/27	Votar
 ScenarioBaseText/16:JinroSkill/28	Votem em {0}
+ScenarioBaseText/16:JinroSkill/29	Apontar Erro\n
 ScenarioBaseText/16:JinroSkill/30	Concordar
 ScenarioBaseText/16:JinroSkill/31	Resistir
 ScenarioBaseText/16:JinroSkill/32	Discordar
 ScenarioBaseText/16:JinroSkill/33	Não, ainda não quero decidir meu voto
-ScenarioBaseText/16:JinroSkill/34	Também Discordar
+ScenarioBaseText/16:JinroSkill/34	Discordar Também
 ScenarioBaseText/16:JinroSkill/35	Não Votar
 ScenarioBaseText/16:JinroSkill/36	Não votem em {0}
 ScenarioBaseText/16:JinroSkill/37	Concordar
 ScenarioBaseText/16:JinroSkill/38	Discordar
 ScenarioBaseText/16:JinroSkill/39	Não, cada um deve votar em quem quiser
-ScenarioBaseText/16:JinroSkill/40	Também Discordar
+ScenarioBaseText/16:JinroSkill/40	Discordar Também
 ScenarioBaseText/16:JinroSkill/41	Vamos Colaborar
 ScenarioBaseText/16:JinroSkill/42	Quero colaborar com {0}
 ScenarioBaseText/16:JinroSkill/43	Aceitar
@@ -8171,7 +8172,7 @@ ScenarioTutorialText/16:Sys/20	Encerrando à força agora.
 ScenarioTutorialText/16:Sys/21	A ordem do universo foi destruída...
 ScenarioTutorialText/16:Sys/22	Nenhuma Ação
 ScenarioWithoutText/0:MainWithoutG/0	Carregamento Pré-Introdução
-ScenarioWithoutText/0:MainWithoutG/1	Briefing
+ScenarioWithoutText/0:MainWithoutG/1	Instruções
 ScenarioWithoutText/0:MainWithoutG/2	O fato de você estar aqui, neste universo, significa que...\nSua \"Chave de Prata\" agora está cheia?
 ScenarioWithoutText/0:MainWithoutG/3	Está cheia
 ScenarioWithoutText/0:MainWithoutG/4	Você respondeu que está cheia.
@@ -8190,7 +8191,7 @@ ScenarioWithoutText/0:MainWithoutG/16	Certo?\nEstarei aqui, esperando por você.
 ScenarioWithoutText/0:MainWithoutG/17	Devido a um erro fatal, este universo foi aniquilado.
 ScenarioWithoutText/1:WithoutGafter/0	Criação do Loop
 ScenarioWithoutText/1:WithoutGafter/1	Carregamento Pré-Introdução
-ScenarioWithoutText/1:WithoutGafter/2	Briefing
+ScenarioWithoutText/1:WithoutGafter/2	Instruções
 ScenarioWithoutText/1:WithoutGafter/3	Não consigo ver nada.\nO que é...
 ScenarioWithoutText/1:WithoutGafter/4	Este mundo está terrivelmente instável.
 ScenarioWithoutText/1:WithoutGafter/5	Pelo visto viemos parar aqui por causa do desaparecimento do universo.\nNão acho que vá durar muito.
@@ -8253,7 +8254,7 @@ ScenarioWithoutText/1:WithoutGafter/62	A \"Chave de Prata\" precisa ser preenchi
 ScenarioWithoutText/1:WithoutGafter/63	Se você conseguir isso, então tenho certeza...\n{0}...
 ScenarioWithoutText/1:WithoutGafter/64	Este universo desmoronou.
 ScenarioWithoutText/2:WithoutGfirst/0	Carregamento Pré-Introdução
-ScenarioWithoutText/2:WithoutGfirst/1	Briefing
+ScenarioWithoutText/2:WithoutGfirst/1	Instruções
 ScenarioWithoutText/2:WithoutGfirst/2	Este lugar...
 ScenarioWithoutText/2:WithoutGfirst/3	Um universo fora do alcance dos Gnosia.\nO único universo em que nenhum tripulante está infectado.
 ScenarioWithoutText/2:WithoutGfirst/4	{0}, então você também chegou aqui.\nA este... mundo de ontem.
@@ -8358,7 +8359,7 @@ ScenarioWithoutText/2:WithoutGfirst/106	Dentro da cápsula havia...\nOutro \"voc
 ScenarioWithoutText/2:WithoutGfirst/107	E então...\nNo instante em que os olhos desse outro \"você\" se abrem...
 ScenarioWithoutText/2:WithoutGfirst/108	Devido a um erro fatal, este universo foi aniquilado.
 ScenarioWithoutText/3:WithoutGlast/0	Carregamento Pré-Introdução
-ScenarioWithoutText/3:WithoutGlast/1	Briefing
+ScenarioWithoutText/3:WithoutGlast/1	Instruções
 ScenarioWithoutText/3:WithoutGlast/2	SENHORAS E SENHORES!\nÉ... HORA DA FESTAAAAA!
 ScenarioWithoutText/3:WithoutGlast/3	O q-quê?!\nFesta...?
 ScenarioWithoutText/3:WithoutGlast/4	Tá, agora pra abrir os trabalhos...\nCAPITÃO JOOONAAAAAS!\nSilêncio, todo mundo! SILÊNCIO! ÊÊÊÊÊÊ!
@@ -8475,7 +8476,7 @@ ScenarioWithoutText/3:WithoutGlast/116	Você fechou seu loop.\nA cortina caiu. M
 ScenarioWithoutText/3:WithoutGlast/117	Desconhecido.
 ScenarioWithoutText/4:GnosMax/0	Criar Loop
 ScenarioWithoutText/4:GnosMax/1	Carregamento Pré-Introdução
-ScenarioWithoutText/4:GnosMax/2	Briefing
+ScenarioWithoutText/4:GnosMax/2	Instruções
 ScenarioWithoutText/4:GnosMax/3	Ah... Então isto é...
 ScenarioWithoutText/4:GnosMax/4	Então... Parece que estamos aqui de novo.\nNeste \"loop\".
 ScenarioWithoutText/4:GnosMax/5	E... {0}.\nSua \"Chave de Prata\" parece estar brilhando.
@@ -9142,3 +9143,88 @@ ScreenText/28:YakuKekkaScreen/12	 era humano.
 ScreenText/28:YakuKekkaScreen/13	,
 ScreenText/28:YakuKekkaScreen/14	A análise revelou que todos os que foram\ncolocados em sono criogênico ontem eram humanos.
 ScreenText/28:YakuKekkaScreen/15	A análise do sono criogênico de ontem revelou que\n
+Image/menu.load	Carregar
+Image/menu.return_title	Voltar ao Título
+Image/menu.how_to_play	Como Jogar
+Image/menu.command_list	Comandos
+Image/menu.options	Opções
+Image/menu.return_setup	Voltar à Configuração
+Image/interface.speak	Falar
+Image/interface.close	Fechar
+Image/interface.yes	Sim
+Image/interface.select	Escolher
+Image/interface.wait_see	Só\nOuvir
+Image/interface.no	Não
+Image/interface.next	Próximo
+Image/interface.input	Inserir
+Image/interface.delete	Apagar
+Image/interface.back	Voltar
+Image/interface.change	Trocar
+Image/interface.data	Dados
+Image/interface.menu	Menu
+Image/setup.title	Configuração
+Image/setup.gnosia	[Gnosia] são inimigos dos humanos. Durante o salto, escolhem um alvo e eliminam os humanos um por um. Podem fingir ser [Engenheiros] e [Médicos].
+Image/setup.ac	[Seguidores da AC] são humanos, mas mentem e tentam ajudar os Gnosia a vencer. Também podem fingir ser [Engenheiros] e [Médicos].
+Image/setup.guards	[Guardas] (de plantão) podem anunciar sua condição juntos, provando que ambos são humanos. Ninguém pode fingir ser [Guarda].
+Image/setup.bugs	[Bugs] são inimigos tanto dos humanos quanto dos Gnosia. Não somem quando atacados, mas somem quando investigados por um Engenheiro. Também podem fingir ser [Engenheiros] e [Médicos].
+Image/setup.engineers	[Engenheiros] podem investigar durante o salto e descobrir se o alvo é Gnosia ou não.
+Image/setup.angels	[Anjos da Guarda] podem escolher uma pessoa para proteger do ataque Gnosia durante o salto.
+Image/setup.doctors	[Médicos] podem descobrir se uma pessoa colocada em sono criogênico era Gnosia ou não.
+Image/setup.random	Config.\nAleatória
+Image/setup.event	Buscar\nEventos
+Image/title.new_game	Novo Jogo
+Image/title.continue	Continuar
+Image/title.restart	Recomeçar
+Image/title.label_options	OPÇÕES
+Image/title.label_credit	CRÉDITOS
+Image/title.label_new_game	NOVO JOGO
+Image/title.label_continue	CONTINUAR
+Image/title.label_exit	SAIR
+Image/entry.player_data	Dados do Jogador
+Image/entry.name	Nome
+Image/entry.sex	Sexo
+Image/entry.abilities	Atributos
+Image/entry.color	Cor
+Image/entry.points	Pontos
+Image/entry.ability_charisma	Carisma
+Image/entry.ability_intuition	Intuição
+Image/entry.ability_logic	Lógica
+Image/entry.ability_charm	Charme
+Image/entry.ability_performance	Atuação
+Image/entry.ability_stealth	Furtividade
+Image/entry.start	Começar
+Image/entry.intro	Depois de preencher tudo,\naperte “Começar”.\n\nBoa viagem!
+Image/entry.gender_header	Escolha seu gênero:
+Image/entry.male	Masculino
+Image/entry.female	Feminino
+Image/entry.non_binary	Não-\nbinário
+Image/entry.non_binary_note	“Não-binário” pode ser escolhido por quem prefere não se identificar como “Masculino” ou “Feminino”.
+Image/entry.color_header	Escolha sua cor favorita:
+Image/entry.color_red	Vermelho
+Image/entry.color_orange	Laranja
+Image/entry.color_yellow	Amarelo
+Image/entry.color_light_green	Verde-claro
+Image/entry.color_green	Verde
+Image/entry.color_light_blue	Azul-claro
+Image/entry.color_blue	Azul
+Image/entry.color_purple	Roxo
+Image/entry.color_pink	Rosa
+Image/entry.color_brown	Marrom
+Image/entry.color_black	Preto
+Image/entry.color_white	Branco
+Image/entry.points_header	Distribua os pontos com as setas
+Image/entry.about_charisma	[Carisma] aumenta a influência dos seus comentários, fazendo os outros concordarem com você e seguirem suas ideias.
+Image/entry.about_intuition	[Intuição] permite perceber as mentiras e o comportamento suspeito dos outros.
+Image/entry.about_logic	[Lógica] facilita convencer os outros de que você tem razão.
+Image/entry.about_charm	[Charme] desperta simpatia e reduz a chance de você ser escolhido para o sono criogênico.
+Image/entry.about_performance	[Atuação] faz você mentir melhor e defender seu ponto de vista com mais eficácia.
+Image/entry.about_stealth	[Furtividade] dificulta que os outros percebam suas más intenções e faz os Gnosia mirarem menos em você.
+Image/entry.please_input	Insira seu Nome\n(máx. 8 caracteres),\nGênero, Atributos e Cor.
+Image/menu.status	Situação
+Image/menu.abilities	Atributos
+Image/menu.ability_charisma	Carisma
+Image/menu.ability_intuition	Intuição
+Image/menu.ability_logic	Lógica
+Image/menu.ability_charm	Charme
+Image/menu.ability_performance	Atuação
+Image/menu.ability_stealth	Furtividade

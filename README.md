@@ -7,11 +7,11 @@ The game ships in **English, Japanese and Simplified Chinese**. This patcher add
 
 | Language | Status |
 |---|---|
-| 🇧🇷 Português (Brasil) | ✅ complete (~9,100 lines) |
-| 🇪🇸 Español | 🚧 in progress |
-| 🇩🇪 Deutsch | 🚧 in progress |
-| 🇫🇷 Français | 🚧 in progress |
-| 🇷🇺 Русский | 🚧 in progress |
+| 🇧🇷 Português (Brasil) | ✅ complete, including menu/title/setup images |
+| 🇪🇸 Español | ✅ complete (text) |
+| 🇩🇪 Deutsch | ✅ complete (text) |
+| 🇫🇷 Français | ✅ complete (text) |
+| 🇷🇺 Русский | ✅ complete (text) |
 
 > 🇧🇷 **Português:** baixe o `GnosiaTranslationPatcher.exe` em *Releases*, feche o jogo, rode o programa e escolha
 > "Português (Brasil)". Depois, nas opções do jogo, deixe o idioma em **English**. Para desfazer, rode de novo e
@@ -80,13 +80,22 @@ dotnet publish src/GnosiaPatcher -c Release -o publish
 See [docs/TRANSLATING.md](docs/TRANSLATING.md). The patcher can export the source text from *your own copy* of the
 game (`--export`) and validate a translation (`--check`).
 
+**Images.** Menus, buttons, the title screen, the Setup screen and character creation have their English text painted
+into textures. [`translations/images.json`](translations/images.json) lists the box of each text; at install time
+[`ImagePatch.cs`](src/GnosiaPatcher/ImagePatch.cs) rebuilds the background under it, measures the English text
+(size, baseline, color, alignment) and draws the translation in the same place with the game's own SDF fonts. The
+modified Addressables bundles are backed up, re-packed with LZ4, and the catalog's bundle CRCs are disabled so the
+game accepts them. Image texts are translated like any other line (`Image/<id>` keys).
+
 ## Not translated
 
-Text that is part of images (title logo, some buttons, the in-game Help pages) and the controller-mapping screen.
+The in-game Help pages and some smaller screens (results, voting, gallery) are still images in English, as is the
+controller-mapping screen.
 
 ## Legal
 
 Unofficial fan project, not affiliated with Petit Depotto or PLAYISM. Gnosia and its content are © Petit Depotto /
-PLAYISM. This repository contains no game files or original script; the patcher modifies the copy you own.
+PLAYISM. This repository contains no game files or original script (only the short English labels
+`translations/images.json` needs to find text inside images); the patcher modifies the copy you own.
 Code is MIT-licensed (see [LICENSE](LICENSE)); third-party components are listed in
 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
