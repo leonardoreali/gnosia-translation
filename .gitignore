@@ -1,0 +1,22 @@
+# Local work: game script exports, test copies of the game. Copyrighted, never commit.
+/_work/
+
+# Leftovers from the first prototype (contain game files)
+/tool/
+/work/
+/orig/
+/out/
+/dl/
+/testgame/
+/Gnosia-PTBR-Mod/
+*.zip
+
+# Build output
+bin/
+obj/
+/publish/
+
+# Game files, in case one gets copied here by mistake
+*.assets
+*.assets.original
+*.resS
