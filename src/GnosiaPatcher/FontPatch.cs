@@ -63,6 +63,8 @@ static class FontPatch
             if (bf["m_Name"].AsString.StartsWith("cinecaption", StringComparison.OrdinalIgnoreCase))
             {
                 cjkFallback = info.PathId;
+                ProportionalCyrillic(bf);
+                info.SetNewData(bf);
                 if (fonts != null) cjkFont = Read(am, inst, bf);
             }
         }
@@ -79,6 +81,25 @@ static class FontPatch
 
     public static string ScriptName(AssetsManager am, AssetsFileInstance inst, AssetTypeValueField bf) =>
         am.GetExtAsset(inst, bf["m_Script"]).baseField?["m_ClassName"].AsString ?? "";
+
+    /// <summary>
+    /// The Japanese font draws Cyrillic full-width (every letter one em wide), which spaces Russian text
+    /// out like "П р и в е т". Gives each Cyrillic glyph the same side bearings as the font's Latin letters.
+    /// </summary>
+    static void ProportionalCyrillic(AssetTypeValueField bf)
+    {
+        float gap = 0.055f * bf["m_FaceInfo.m_PointSize"].AsFloat;
+        var cyrillic = bf["m_CharacterTable.Array"].Children
+            .Where(c => c["m_Unicode"].AsUInt is >= 0x0400 and <= 0x04FF)
+            .Select(c => c["m_GlyphIndex"].AsUInt).ToHashSet();
+        foreach (var g in bf["m_GlyphTable.Array"].Children)
+        {
+            if (!cyrillic.Contains(g["m_Index"].AsUInt)) continue;
+            var m = g["m_Metrics"];
+            m["m_HorizontalBearingX"].AsFloat = gap;
+            m["m_HorizontalAdvance"].AsFloat = m["m_Width"].AsFloat + 2 * gap;
+        }
+    }
 
     /// <summary>Reads a font without changing it.</summary>
     static SdfFont Read(AssetsManager am, AssetsFileInstance inst, AssetTypeValueField bf)
