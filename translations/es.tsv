@@ -9110,3 +9110,88 @@ ScreenText/28:YakuKekkaScreen/10	\nera Gnosia.
 ScreenText/28:YakuKekkaScreen/12	 era humano.
 ScreenText/28:YakuKekkaScreen/14	El análisis reveló que todos los que\nentraron en sueño criogénico anoche eran humanos.
 ScreenText/28:YakuKekkaScreen/15	El análisis del sueño criogénico de anoche reveló que\n
+Image/menu.load	Cargar
+Image/menu.return_title	Volver al Título
+Image/menu.how_to_play	Cómo Jugar
+Image/menu.command_list	Comandos
+Image/menu.options	Opciones
+Image/menu.return_setup	Volver a Configuración
+Image/menu.status	Estado
+Image/menu.abilities	Habilidades
+Image/menu.ability_charisma	Carisma
+Image/menu.ability_intuition	Intuición
+Image/menu.ability_logic	Lógica
+Image/menu.ability_charm	Encanto
+Image/menu.ability_performance	Actuación
+Image/menu.ability_stealth	Sigilo
+Image/setup.title	Configuración
+Image/setup.gnosia	Los [Gnosia] son enemigos de los humanos. Durante el salto, eligen un objetivo y eliminan a los humanos uno por uno. Pueden hacerse pasar por [Ingenieros] y [Médicos].
+Image/setup.ac	Los [Seguidores de AC] son humanos, pero mienten e intentan ayudar a ganar a los Gnosia. También pueden hacerse pasar por [Ingenieros] y [Médicos].
+Image/setup.guards	Los [Guardias] (de Guardia) pueden anunciar su condición juntos, probando que ambos son humanos. Nadie puede hacerse pasar por [Guardia].
+Image/setup.bugs	Los [Bugs] son enemigos tanto de humanos como de Gnosia. No desaparecen si los atacan, pero sí si los investiga un Ingeniero. También pueden hacerse pasar por [Ingenieros] y [Médicos].
+Image/setup.engineers	Los [Ingenieros] pueden investigar durante el salto y saber si un objetivo es Gnosia o no.
+Image/setup.angels	Los [Ángeles Guardianes] pueden elegir a una persona para protegerla del ataque Gnosia durante el salto.
+Image/setup.doctors	Los [Médicos] pueden saber si una persona puesta en sueño criogénico era Gnosia o no.
+Image/setup.random	Config.\nAleatoria
+Image/setup.event	Buscar\nEventos
+Image/title.new_game	Nueva Partida
+Image/title.continue	Continuar
+Image/title.restart	Reiniciar
+Image/title.label_options	OPCIONES
+Image/title.label_credit	CRÉDITOS
+Image/title.label_new_game	NUEVA PARTIDA
+Image/title.label_continue	CONTINUAR
+Image/title.label_exit	SALIR
+Image/entry.player_data	Datos del Jugador
+Image/entry.name	Nombre
+Image/entry.sex	Sexo
+Image/entry.abilities	Habilidades
+Image/entry.color	Color
+Image/entry.points	Puntos
+Image/entry.ability_charisma	Carisma
+Image/entry.ability_intuition	Intuición
+Image/entry.ability_logic	Lógica
+Image/entry.ability_charm	Encanto
+Image/entry.ability_performance	Actuación
+Image/entry.ability_stealth	Sigilo
+Image/entry.start	Empezar
+Image/entry.intro	Cuando lo hayas completado\ntodo, pulsa "Empezar".\n\n¡Buen viaje!
+Image/entry.gender_header	Elige tu género:
+Image/entry.male	Hombre
+Image/entry.female	Mujer
+Image/entry.non_binary	No\nbinario
+Image/entry.non_binary_note	"No binario" se puede elegir si prefieres no identificarte como "Hombre" ni como "Mujer".
+Image/entry.color_header	Elige tu color favorito:
+Image/entry.color_red	Rojo
+Image/entry.color_orange	Naranja
+Image/entry.color_yellow	Amarillo
+Image/entry.color_light_green	V. claro
+Image/entry.color_green	Verde
+Image/entry.color_light_blue	Celeste
+Image/entry.color_blue	Azul
+Image/entry.color_purple	Morado
+Image/entry.color_pink	Rosa
+Image/entry.color_brown	Café
+Image/entry.color_black	Negro
+Image/entry.color_white	Blanco
+Image/entry.points_header	Reparte los puntos con las flechas
+Image/entry.about_charisma	El [Carisma] aumenta la influencia de tus comentarios, haciendo que los demás tiendan a apoyarte y seguir tus ideas.
+Image/entry.about_intuition	La [Intuición] te permite notar las mentiras y el comportamiento sospechoso de los demás.
+Image/entry.about_logic	La [Lógica] te facilita convencer a los demás de que tienes razón.
+Image/entry.about_charm	El [Encanto] te hace caer mejor, así que es menos probable que te elijan para el sueño criogénico.
+Image/entry.about_performance	La [Actuación] te hace mentir mejor y te ayuda a defender tu punto de vista con más eficacia.
+Image/entry.about_stealth	El [Sigilo] hace más difícil que los demás noten tus malas intenciones y que los Gnosia te tomen de blanco.
+Image/entry.please_input	Ingresa tu Nombre\n(máx. 8 caracteres),\nGénero, Habilidades y Color.
+Image/interface.speak	Hablar
+Image/interface.close	Cerrar
+Image/interface.yes	Sí
+Image/interface.select	Elegir
+Image/interface.wait_see	Solo\nMirar
+Image/interface.no	No
+Image/interface.next	Siguiente
+Image/interface.input	Ingresar
+Image/interface.delete	Borrar
+Image/interface.back	Volver
+Image/interface.change	Cambiar
+Image/interface.data	Datos
+Image/interface.menu	Menú

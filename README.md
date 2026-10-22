@@ -7,11 +7,11 @@ The game ships in **English, Japanese and Simplified Chinese**. This patcher add
 
 | Language | Status |
 |---|---|
-| 🇧🇷 Português (Brasil) | ✅ complete, including menu/title/setup images |
-| 🇪🇸 Español | ✅ complete (text) |
-| 🇩🇪 Deutsch | ✅ complete (text) |
-| 🇫🇷 Français | ✅ complete (text) |
-| 🇷🇺 Русский | ✅ complete (text) |
+| 🇧🇷 Português (Brasil) | ✅ complete, including images |
+| 🇪🇸 Español | ✅ complete, including images |
+| 🇩🇪 Deutsch | ✅ complete, including images |
+| 🇫🇷 Français | ✅ complete, including images |
+| 🇷🇺 Русский | ✅ complete, including images |
 
 > 🇧🇷 **Português:** baixe o `GnosiaTranslationPatcher.exe` em *Releases*, feche o jogo, rode o programa e escolha
 > "Português (Brasil)". Depois, nas opções do jogo, deixe o idioma em **English**. Para desfazer, rode de novo e

@@ -9232,8 +9232,88 @@ ScreenText/28:YakuKekkaScreen/11	.
 ScreenText/28:YakuKekkaScreen/12	 était humain.
 ScreenText/28:YakuKekkaScreen/14	L'analyse a révélé que toutes les personnes\nplacées en cryosommeil cette nuit étaient humaines.
 ScreenText/28:YakuKekkaScreen/15	L'analyse du cryosommeil de cette nuit a révélé que\n
+Image/menu.load	Charger
+Image/menu.return_title	Retour au titre
+Image/menu.how_to_play	Comment jouer
+Image/menu.command_list	Commandes
+Image/menu.options	Options
+Image/menu.return_setup	Retour à la config.
+Image/menu.status	Statut
+Image/menu.abilities	Capacités
+Image/menu.ability_charisma	Charisme
+Image/menu.ability_intuition	Intuition
+Image/menu.ability_logic	Logique
+Image/menu.ability_charm	Charme
+Image/menu.ability_performance	Jeu d'acteur
+Image/menu.ability_stealth	Discrétion
 Image/setup.title	Configuration
+Image/setup.gnosia	Les [Gnosia] sont les ennemis des humains. Pendant le saut, ils choisissent une cible et éliminent les humains un par un. Ils peuvent se faire passer pour [Ingénieur] ou [Médecin].
+Image/setup.ac	Les [Adeptes de l'AC] sont humains, mais ils mentent et tentent d'aider les Gnosia à gagner. Eux aussi peuvent se faire passer pour [Ingénieur] ou [Médecin].
+Image/setup.guards	Les [Gardes] (ceux de Garde) peuvent annoncer leur statut ensemble, prouvant mutuellement qu'ils sont humains. Personne ne peut se faire passer pour [Garde].
+Image/setup.bugs	Les [Bugs] sont les ennemis des humains comme des Gnosia. Ils ne disparaissent pas quand on les attaque, mais disparaissent quand un Ingénieur les analyse. Eux aussi peuvent se faire passer pour [Ingénieur] ou [Médecin].
+Image/setup.engineers	Les [Ingénieurs] peuvent enquêter pendant le saut et déterminer si une cible est Gnosia ou non.
+Image/setup.angels	Les [Anges Gardiens] peuvent choisir une personne à protéger des attaques Gnosia pendant le saut.
+Image/setup.doctors	Les [Médecins] peuvent déterminer si une personne placée en cryosommeil était Gnosia ou non.
+Image/setup.random	Réglages\naléatoires
+Image/setup.event	Chercher\névénements
+Image/title.new_game	Nouvelle partie
 Image/title.continue	Continuer
-Image/title.label_continue	Continuer
+Image/title.restart	Recommencer
+Image/title.label_options	OPTIONS
+Image/title.label_credit	CRÉDITS
+Image/title.label_new_game	NOUVELLE PARTIE
+Image/title.label_continue	CONTINUER
+Image/title.label_exit	QUITTER
+Image/entry.player_data	Profil
+Image/entry.name	Nom
+Image/entry.sex	Sexe
+Image/entry.abilities	Capacités
+Image/entry.color	Couleur
+Image/entry.points	Points
+Image/entry.ability_charisma	Charisme
+Image/entry.ability_intuition	Intuition
+Image/entry.ability_logic	Logique
+Image/entry.ability_charm	Charme
+Image/entry.ability_performance	Jeu d'acteur
+Image/entry.ability_stealth	Discrétion
+Image/entry.start	Commencer
+Image/entry.intro	Une fois tout rempli,\nappuyez sur "Commencer".\n\nBon voyage !
+Image/entry.gender_header	Choisissez votre genre :
+Image/entry.male	Homme
+Image/entry.female	Femme
+Image/entry.non_binary	Non\nbinaire
+Image/entry.non_binary_note	"Non binaire" peut être choisi si vous préférez ne vous identifier ni comme "Homme" ni comme "Femme".
+Image/entry.color_header	Choisissez votre couleur préférée :
+Image/entry.color_red	Rouge
+Image/entry.color_orange	Orange
+Image/entry.color_yellow	Jaune
+Image/entry.color_light_green	V. clair
+Image/entry.color_green	Vert
+Image/entry.color_light_blue	B. clair
+Image/entry.color_blue	Bleu
+Image/entry.color_purple	Violet
+Image/entry.color_pink	Rose
+Image/entry.color_brown	Marron
+Image/entry.color_black	Noir
+Image/entry.color_white	Blanc
+Image/entry.points_header	Répartissez les points avec les flèches
+Image/entry.about_charisma	Le [Charisme] renforce l'influence de vos remarques, et incite les autres à vous approuver et à vous suivre.
+Image/entry.about_intuition	L'[Intuition] vous permet de repérer les mensonges et les comportements louches des autres.
+Image/entry.about_logic	La [Logique] vous aide à convaincre les autres que vous avez raison.
+Image/entry.about_charm	Le [Charme] vous rend plus sympathique, et réduit le risque qu'on vous choisisse pour le cryosommeil.
+Image/entry.about_performance	Le [Jeu d'acteur] vous aide à mieux mentir et à mieux faire passer vos idées.
+Image/entry.about_stealth	La [Discrétion] aide à cacher vos mauvaises intentions, et pousse les Gnosia à moins vous viser.
+Image/entry.please_input	Saisissez votre Nom\n(8 caractères max.),\nGenre, Capacités et Couleur.
+Image/interface.speak	Parler
+Image/interface.close	Fermer
 Image/interface.yes	Oui
+Image/interface.select	Choisir
+Image/interface.wait_see	Juste\nécouter
 Image/interface.no	Non
+Image/interface.next	Suivant
+Image/interface.input	Saisir
+Image/interface.delete	Effacer
+Image/interface.back	Retour
+Image/interface.change	Changer
+Image/interface.data	Données
+Image/interface.menu	Menu

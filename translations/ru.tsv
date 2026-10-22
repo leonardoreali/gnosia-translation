@@ -9255,6 +9255,14 @@ ScreenText/28:YakuKekkaScreen/11	.
 ScreenText/28:YakuKekkaScreen/12	 - человек.
 ScreenText/28:YakuKekkaScreen/14	Анализ показал, что все отправленные прошлой ночью\nв криосон - люди.
 ScreenText/28:YakuKekkaScreen/15	Анализ после криосна прошлой ночью показал:\n
+Image/menu.load	Загрузка
+Image/menu.return_title	В главное меню
+Image/menu.how_to_play	Как играть
+Image/menu.command_list	Команды
+Image/menu.options	Настройки
+Image/menu.return_setup	К настройке игры
+Image/menu.status	Состояние
+Image/menu.abilities	Характеристики
 Image/menu.ability_charisma	Харизма
 Image/menu.ability_intuition	Интуиция
 Image/menu.ability_logic	Логика
@@ -9262,25 +9270,73 @@ Image/menu.ability_charm	Обаяние
 Image/menu.ability_performance	Актёрство
 Image/menu.ability_stealth	Скрытность
 Image/setup.title	Настройка
+Image/setup.gnosia	[Гносия] - враги людей. Во время варпа они выбирают цель и устраняют людей одного за другим. Могут выдавать себя за [Инженеров] и [Докторов].
+Image/setup.ac	[Последователи AC] - люди, но они лгут и помогают Гносии победить. Тоже могут выдавать себя за [Инженеров] и [Докторов].
+Image/setup.guards	[Караульные] могут вместе объявить о себе, доказывая, что оба - люди. Выдать себя за [Караульного] нельзя.
+Image/setup.bugs	[Баги] - враги и людей, и Гносии. Не исчезают при нападении, но исчезают при проверке Инженером. Тоже могут выдавать себя за [Инженеров] и [Докторов].
+Image/setup.engineers	[Инженеры] во время варпа могут проверить человека и узнать, Гносия ли он.
+Image/setup.angels	[Ангелы-хранители] могут выбрать одного человека и защитить его от нападения Гносии во время варпа.
+Image/setup.doctors	[Доктора] могут узнать, был ли отправленный в криосон человек Гносией.
+Image/setup.random	Случайные\nнастройки
+Image/setup.event	Поиск\nсобытий
+Image/title.new_game	Новая игра
 Image/title.continue	Продолжить
-Image/title.label_continue	Продолжить
+Image/title.restart	Заново
+Image/title.label_options	НАСТРОЙКИ
+Image/title.label_credit	АВТОРЫ
+Image/title.label_new_game	НОВАЯ ИГРА
+Image/title.label_continue	ПРОДОЛЖИТЬ
+Image/title.label_exit	ВЫХОД
+Image/entry.player_data	Данные игрока
+Image/entry.name	Имя
+Image/entry.sex	Пол
+Image/entry.abilities	Характеристики
+Image/entry.color	Цвет
+Image/entry.points	Очки
 Image/entry.ability_charisma	Харизма
 Image/entry.ability_intuition	Интуиция
 Image/entry.ability_logic	Логика
 Image/entry.ability_charm	Обаяние
 Image/entry.ability_performance	Актёрство
 Image/entry.ability_stealth	Скрытность
+Image/entry.start	Начать
+Image/entry.intro	Когда всё заполните,\nнажмите "Начать".\n\nСчастливого пути!
+Image/entry.gender_header	Выберите пол:
 Image/entry.male	Мужской
 Image/entry.female	Женский
+Image/entry.non_binary	Небинар-\nный
+Image/entry.non_binary_note	"Небинарный" можно выбрать, если вы не хотите определять себя как "Мужской" или "Женский".
+Image/entry.color_header	Выберите любимый цвет:
 Image/entry.color_red	Красный
 Image/entry.color_orange	Оранжевый
 Image/entry.color_yellow	Жёлтый
+Image/entry.color_light_green	Салатовый
 Image/entry.color_green	Зелёный
+Image/entry.color_light_blue	Голубой
 Image/entry.color_blue	Синий
 Image/entry.color_purple	Фиолетовый
 Image/entry.color_pink	Розовый
 Image/entry.color_brown	Коричневый
 Image/entry.color_black	Чёрный
 Image/entry.color_white	Белый
+Image/entry.points_header	Распределите очки кнопками направлений
+Image/entry.about_charisma	[Харизма] усиливает влияние ваших слов: другие охотнее соглашаются и следуют за вами.
+Image/entry.about_intuition	[Интуиция] помогает замечать чужую ложь и подозрительное поведение.
+Image/entry.about_logic	[Логика] помогает убеждать других в своей правоте.
+Image/entry.about_charm	[Обаяние] располагает к вам людей, и вас реже выбирают для криосна.
+Image/entry.about_performance	[Актёрство] помогает лучше лгать и убедительнее доносить свою мысль.
+Image/entry.about_stealth	[Скрытность] мешает другим заметить ваши злые намерения, и Гносия реже выбирает вас целью.
+Image/entry.please_input	Введите Имя\n(не более 8 символов),\nПол, Характеристики и Цвет.
+Image/interface.speak	Сказать
+Image/interface.close	Закрыть
 Image/interface.yes	Да
+Image/interface.select	Выбрать
+Image/interface.wait_see	Ждать\nи смотреть
 Image/interface.no	Нет
+Image/interface.next	Далее
+Image/interface.input	Ввод
+Image/interface.delete	Удалить
+Image/interface.back	Назад
+Image/interface.change	Сменить
+Image/interface.data	Данные
+Image/interface.menu	Меню

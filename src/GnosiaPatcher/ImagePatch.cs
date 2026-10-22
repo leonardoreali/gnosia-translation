@@ -409,7 +409,16 @@ static class ImagePatch
 
         // 4. lay out the translation
         int margin = it.Enclosed ? 8 : 3;
-        float avail = bw - 2 * margin;
+        string align = it.Align;
+        if (align == "auto") align = l < (bw - 1 - r) * 0.5f ? "left" : (bw - 1 - r) < l * 0.5f ? "right" : "center";
+        // room from the anchor the text keeps (where the English started, ended or was centered) to the box edge
+        float mid = (l + r + 1) / 2f;
+        float avail = align switch
+        {
+            "left" => bw - margin - l,
+            "right" => r + 1 - margin,
+            _ => 2 * Math.Min(mid - margin, bw - margin - mid),
+        };
         var paragraphs = text.Split("\\n").Select(Words).ToList();
         List<List<Word>> lines = paragraphs;
         if (it.Wrap)
@@ -429,9 +438,6 @@ static class ImagePatch
             if (squeeze * k >= 0.78f) squeeze *= k;
             else { float s2 = squeeze * k / 0.78f; size *= s2; squeeze = 0.78f; }
         }
-        string align = it.Align;
-        if (align == "auto") align = l < (bw - 1 - r) * 0.5f ? "left" : (bw - 1 - r) < l * 0.5f ? "right" : "center";
-
         var mask = new float[n]; var amask = new float[n];
         float space = font.Advance(" ") * size * squeeze;
         for (int li = 0; li < lines.Count; li++)

@@ -9120,3 +9120,88 @@ ScreenText/28:YakuKekkaScreen/10	\nwar ein Gnosia.
 ScreenText/28:YakuKekkaScreen/12	 war ein Mensch.
 ScreenText/28:YakuKekkaScreen/14	Die Analyse ergab, dass alle letzte Nacht\nin den Kälteschlaf Geschickten Menschen waren.
 ScreenText/28:YakuKekkaScreen/15	Die Kälteschlaf-Analyse von letzter Nacht ergab:\n
+Image/menu.load	Laden
+Image/menu.return_title	Zum Titel
+Image/menu.how_to_play	Anleitung
+Image/menu.command_list	Befehle
+Image/menu.options	Optionen
+Image/menu.return_setup	Zum Setup
+Image/menu.status	Status
+Image/menu.abilities	Werte
+Image/menu.ability_charisma	Charisma
+Image/menu.ability_intuition	Intuition
+Image/menu.ability_logic	Logik
+Image/menu.ability_charm	Charme
+Image/menu.ability_performance	Schauspiel
+Image/menu.ability_stealth	Tarnung
+Image/setup.title	Setup
+Image/setup.gnosia	[Gnosia] sind Feinde der Menschen. Während des Warps wählen sie ein Ziel und eliminieren die Menschen einen nach dem anderen. Sie können sich als [Ingenieur] und [Doktor] ausgeben.
+Image/setup.ac	[AC-Anhänger] sind Menschen, lügen aber und helfen den Gnosia zum Sieg. Auch sie können sich als [Ingenieur] und [Doktor] ausgeben.
+Image/setup.guards	[Wachen] (im Wachdienst) können ihren Status gemeinsam verkünden und so beweisen, dass sie Menschen sind. Niemand kann sich als [Wache] ausgeben.
+Image/setup.bugs	[Bugs] sind Feinde von Menschen und Gnosia. Bei Angriffen verschwinden sie nicht, aber wenn ein Ingenieur sie untersucht. Auch sie können sich als [Ingenieur] und [Doktor] ausgeben.
+Image/setup.engineers	[Ingenieure] können während des Warps untersuchen und feststellen, ob ein Ziel ein Gnosia ist oder nicht.
+Image/setup.angels	[Schutzengel] können eine Person wählen, die sie während des Warps vor Gnosia-Angriffen schützen.
+Image/setup.doctors	[Doktoren] können feststellen, ob eine Person im Kälteschlaf ein Gnosia war oder nicht.
+Image/setup.random	Zufalls-\nsetup
+Image/setup.event	Ereignis-\nsuche
+Image/title.new_game	Neues Spiel
+Image/title.continue	Weiter
+Image/title.restart	Neustart
+Image/title.label_options	OPTIONEN
+Image/title.label_credit	CREDITS
+Image/title.label_new_game	NEUES SPIEL
+Image/title.label_continue	WEITER
+Image/title.label_exit	BEENDEN
+Image/entry.player_data	Spielerdaten
+Image/entry.name	Name
+Image/entry.sex	Geschlecht
+Image/entry.abilities	Werte
+Image/entry.color	Farbe
+Image/entry.points	Punkte
+Image/entry.ability_charisma	Charisma
+Image/entry.ability_intuition	Intuition
+Image/entry.ability_logic	Logik
+Image/entry.ability_charm	Charme
+Image/entry.ability_performance	Schauspiel
+Image/entry.ability_stealth	Tarnung
+Image/entry.start	Start
+Image/entry.intro	Wenn du alles eingegeben\nhast, drücke "Start".\n\nGute Reise!
+Image/entry.gender_header	Wähle dein Geschlecht:
+Image/entry.male	Männlich
+Image/entry.female	Weiblich
+Image/entry.non_binary	Nicht-\nbinär
+Image/entry.non_binary_note	"Nichtbinär" können alle wählen, die sich weder als "Männlich" noch als "Weiblich" einordnen möchten.
+Image/entry.color_header	Wähle deine Lieblingsfarbe:
+Image/entry.color_red	Rot
+Image/entry.color_orange	Orange
+Image/entry.color_yellow	Gelb
+Image/entry.color_light_green	Hellgrün
+Image/entry.color_green	Grün
+Image/entry.color_light_blue	Hellblau
+Image/entry.color_blue	Blau
+Image/entry.color_purple	Lila
+Image/entry.color_pink	Rosa
+Image/entry.color_brown	Braun
+Image/entry.color_black	Schwarz
+Image/entry.color_white	Weiß
+Image/entry.points_header	Verteile die Punkte mit den Richtungstasten
+Image/entry.about_charisma	[Charisma] verstärkt den Einfluss deiner Aussagen, sodass andere dir eher zustimmen und folgen.
+Image/entry.about_intuition	[Intuition] lässt dich Lügen und verdächtiges Verhalten anderer bemerken.
+Image/entry.about_logic	[Logik] macht es leichter, andere davon zu überzeugen, dass du recht hast.
+Image/entry.about_charm	[Charme] macht dich sympathischer und senkt die Chance, dass du für den Kälteschlaf gewählt wirst.
+Image/entry.about_performance	[Schauspiel] lässt dich besser lügen und deinen Standpunkt wirksamer vertreten.
+Image/entry.about_stealth	[Tarnung] erschwert es anderen, deine bösen Absichten zu bemerken, und die Gnosia nehmen dich seltener ins Visier.
+Image/entry.please_input	Gib deinen Namen\n(max. 8 Zeichen),\nGeschlecht, Werte und Farbe ein.
+Image/interface.speak	Reden
+Image/interface.close	Schließen
+Image/interface.yes	Ja
+Image/interface.select	Wählen
+Image/interface.wait_see	Ab-\nwarten
+Image/interface.no	Nein
+Image/interface.next	Weiter
+Image/interface.input	Eingabe
+Image/interface.delete	Löschen
+Image/interface.back	Zurück
+Image/interface.change	Ändern
+Image/interface.data	Daten
+Image/interface.menu	Menü
