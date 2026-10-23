@@ -108,13 +108,17 @@
       "bundle": "systm_en",
       "textures": ["data_vote"],
       "items": [
-        { "id": "data.voting_results", "en": "Voting Results", "box": [8, 10, 340, 68], "enclosed": true }
+        { "id": "data.voting_results", "en": "Voting Results", "box": [8, 10, 340, 68], "enclosed": true },
+        { "id": "vote.revote", "en": "REVOTE", "box": [552, 646, 118, 38], "ink": [558, 650, 668, 680], "erase": "clear", "color": "#f8c800" },
+        { "id": "vote.cold_sleep", "en": "COLD SLEEP", "box": [832, 646, 172, 38], "ink": [838, 650, 1002, 680], "erase": "clear", "color": "#5bc0f0" }
       ]
     },
     {
       "bundle": "systm_en",
       "textures": ["vote_KB", "vote_GP"],
       "items": [
+        { "id": "vote.cold_sleep", "en": "COLD SLEEP", "box": [673, 910, 351, 102], "clearArea": [[716, 913], [1021, 913], [1021, 970], [989, 1010], [676, 1010], [676, 944]], "outline": [[720, 919], [1011, 919], [1011, 966], [984, 1001], [685, 1001], [685, 947]], "outlineWidth": 5.5, "erase": "clear", "ink": [705, 930, 995, 990], "fitInk": true, "manual": true, "size": 50, "baseline": 980, "color": "#5bc0f0", "align": "center" },
+        { "id": "vote.revote", "en": "REVOTE", "box": [976, 80, 350, 100], "clearArea": [[1021, 83], [1323, 83], [1323, 134], [1283, 176], [979, 176], [979, 125]], "outline": [[1024, 89], [1317, 89], [1317, 132], [1280, 170], [985, 170], [985, 127]], "outlineWidth": 5, "erase": "clear", "ink": [1012, 98, 1288, 160], "fitInk": true, "manual": true, "size": 46, "baseline": 152, "color": "#f8c800", "align": "center" },
         { "id": "vote.voting", "en": "Voting...", "box": [700, 12, 300, 69], "ink": [757, 24, 985, 80] },
         { "id": "vote.please_vote", "en": "Please Vote", "box": [10, 370, 345, 68], "enclosed": true },
         { "id": "vote.finished", "en": "Finished", "box": [480, 370, 240, 68], "enclosed": true }

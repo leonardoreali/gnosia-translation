@@ -9241,6 +9241,8 @@ Image/note.reported_gnosia	Informado como\n[Gnosia]
 Image/note.reported_human	Informado como\n[Humano]
 Image/note.numbers_doctor	Cada número es\nun Médico
 Image/note.numbers_engineer	Cada número es\nun Ingeniero
+Image/vote.cold_sleep	SUEÑO CRIOGÉNICO
+Image/vote.revote	NUEVA VOTACIÓN
 Code/was	era
 Code/wasn't	no era
 Code/were	eran

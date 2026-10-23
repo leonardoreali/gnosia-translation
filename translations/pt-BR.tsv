@@ -9274,6 +9274,8 @@ Image/note.reported_gnosia	Relatado como\n[Gnosia]
 Image/note.reported_human	Relatado como\n[Humano]
 Image/note.numbers_doctor	Cada número é\num Médico
 Image/note.numbers_engineer	Cada número é\num Engenheiro
+Image/vote.cold_sleep	SONO CRIOGÊNICO
+Image/vote.revote	NOVA VOTAÇÃO
 Code/was	era
 Code/wasn't	não era
 Code/were	eram

@@ -9386,6 +9386,8 @@ Image/note.reported_gnosia	Назван:\n[Гносия]
 Image/note.reported_human	Назван:\n[Человек]
 Image/note.numbers_doctor	Номер = один\nДоктор
 Image/note.numbers_engineer	Номер = один\nИнженер
+Image/vote.cold_sleep	КРИОСОН
+Image/vote.revote	ПЕРЕГОЛОСОВАНИЕ
 Code/was	-
 Code/wasn't	- не
 Code/were	-

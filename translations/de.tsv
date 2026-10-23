@@ -9251,6 +9251,8 @@ Image/note.reported_gnosia	Gemeldet als\n[Gnosia]
 Image/note.reported_human	Gemeldet als\n[Mensch]
 Image/note.numbers_doctor	Jede Zahl ist\nein Doktor
 Image/note.numbers_engineer	Jede Zahl ist\nein Ingenieur
+Image/vote.cold_sleep	KÄLTESCHLAF
+Image/vote.revote	NEUWAHL
 Code/was	war
 Code/wasn't	war nicht
 Code/were	waren

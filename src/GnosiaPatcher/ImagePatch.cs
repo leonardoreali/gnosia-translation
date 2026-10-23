@@ -57,6 +57,10 @@ static class ImagePatch
         public int Cut { get; set; }                      // ignore this many pixels of the box's bottom-right corner (slanted button edge)
         public bool FitInk { get; set; }                  // no wider than the English text (the game shows only that part of the image)
         public int? WrapWidth { get; set; }               // narrower lines than the box (the game draws a button over part of it)
+        public int[][]? ClearArea { get; set; }           // polygon (image x, y points) to make transparent instead of the text's rectangle:
+                                                          // the inside of a banner whose slanted text crosses its outline
+        public int[][]? Outline { get; set; }             // closed polygon redrawn as a line after clearing (the banner's border)
+        public float OutlineWidth { get; set; } = 5;
     }
 
     public static string Key(Item it) => "Image/" + it.Id;
@@ -377,7 +381,8 @@ static class ImagePatch
             for (int x = 0; x < bw; x++)
                 for (int c = 0; c < 4; c++)
                 {
-                    bool inside = x >= el && x <= er && y >= et && y <= eb && !Cut(x, y);
+                    bool inside = it.ClearArea != null ? InPolygon(it.ClearArea, bx + x + 0.5f, by + y + 0.5f)
+                                                       : x >= el && x <= er && y >= et && y <= eb && !Cut(x, y);
                     int rx = Math.Min(bw - 1, er + 1);
                     while (rx > el && Cut(rx, y)) rx--;
                     int lx = Math.Max(0, el - 1);
@@ -482,14 +487,16 @@ static class ImagePatch
             for (int i = 0; i < n; i++) glow[i] = Math.Clamp(glow[i] * 2.2f, 0, 1);
         }
 
-        // 5. compose: background, glow, then text, in premultiplied color
+        // 5. compose: background, redrawn border, glow, then text, in premultiplied color
         for (int i = 0; i < n; i++)
         {
             int y = i / bw, x = i % bw, o = ((by + y) * img.W + bx + x) * 4;
             if (Cut(x, y)) continue;
+            float line = it.Outline == null ? 0 : Math.Clamp(it.OutlineWidth / 2 - DistanceToOutline(it.Outline, bx + x + 0.5f, by + y + 0.5f) + 0.5f, 0, 1);
             for (int c = 0; c < 4; c++)
             {
                 float v = bg[i * 4 + c];
+                v += (paint[c] - v) * line;
                 if (glow != null) v += (glowColor![c] - v) * glow[i];
                 v += (paint[c] - v) * mask[i];
                 v += (accent[c] - v) * amask[i];
@@ -546,6 +553,31 @@ static class ImagePatch
                 }
             if (!near) diff[i] = 0;
         }
+    }
+
+    /// <summary>Distance from a point to the nearest edge of a closed polygon given as [x, y] pairs.</summary>
+    static float DistanceToOutline(int[][] poly, float x, float y)
+    {
+        float best = float.MaxValue;
+        for (int i = 0, j = poly.Length - 1; i < poly.Length; j = i++)
+        {
+            float ax = poly[j][0], ay = poly[j][1], dx = poly[i][0] - ax, dy = poly[i][1] - ay;
+            float t = Math.Clamp(((x - ax) * dx + (y - ay) * dy) / Math.Max(dx * dx + dy * dy, 1e-6f), 0, 1);
+            float ex = ax + t * dx - x, ey = ay + t * dy - y;
+            best = Math.Min(best, MathF.Sqrt(ex * ex + ey * ey));
+        }
+        return best;
+    }
+
+    /// <summary>Even-odd test of a point against a polygon given as [x, y] pairs.</summary>
+    static bool InPolygon(int[][] poly, float x, float y)
+    {
+        bool inside = false;
+        for (int i = 0, j = poly.Length - 1; i < poly.Length; j = i++)
+            if ((poly[i][1] > y) != (poly[j][1] > y) &&
+                x < (poly[j][0] - poly[i][0]) * (y - poly[i][1]) / (float)(poly[j][1] - poly[i][1]) + poly[i][0])
+                inside = !inside;
+        return inside;
     }
 
     static float LineWidth(SdfFont font, List<Word> words)
