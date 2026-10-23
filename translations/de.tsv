@@ -9275,6 +9275,13 @@ Image/keys.decision	Wählen/Mal seh'n
 Image/keys.backlog	Verlauf
 Image/keys.reset	Zurücksetzen
 Image/keys.save	Speichern
+Image/credit.development	Entwicklung
+Image/credit.executive_producer	Ausführender Produzent:
+Image/credit.scenario	Szenario/Entwicklung:
+Image/credit.visuals	Grafik:
+Image/credit.sound	Sound:
+Image/credit.publishing	Vertrieb
+Image/credit.fan_translation	Inoffizielle Übersetzung: leonardoreali\nTests: AndersonRx
 Code/was	war
 Code/wasn't	war nicht
 Code/were	waren

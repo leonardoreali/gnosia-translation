@@ -9410,6 +9410,13 @@ Image/keys.decision	Выбор/Ждать
 Image/keys.backlog	Журнал
 Image/keys.reset	Сбросить
 Image/keys.save	Сохранить
+Image/credit.development	Разработка
+Image/credit.executive_producer	Исполнительный продюсер:
+Image/credit.scenario	Сценарий/Разработка:
+Image/credit.visuals	Графика:
+Image/credit.sound	Звук:
+Image/credit.publishing	Издатель
+Image/credit.fan_translation	Перевод: leonardoreali\nТесты: AndersonRx
 Code/was	-
 Code/wasn't	- не
 Code/were	-

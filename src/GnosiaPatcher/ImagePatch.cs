@@ -356,7 +356,8 @@ static class ImagePatch
             Png.Write(Path.Combine(dbg, $"{it.Id}_{bx}_{by}.png"), o, bw * 2, bh);
         }
         float maxd = diff.Max();
-        if (maxd < 0.08f) { log($"  image text \"{it.Id}\": no text found in its box"); return false; }
+        // a manual item may add text where the image had none (its area, size and color are given)
+        if (maxd < 0.08f && !it.Manual) { log($"  image text \"{it.Id}\": no text found in its box"); return false; }
         var cov = diff.Select(d => { float v = Math.Clamp(d / (maxd * 0.9f), 0, 1); return v < 0.1f ? 0 : v; }).ToArray();
         int l = bw, r = -1, t = bh, b = -1, el = bw, er = -1, et = bh, eb = -1;
         var paint = new float[4]; int pn = 0;

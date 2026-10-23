@@ -278,6 +278,19 @@
     },
     {
       "bundle": "systm_en",
+      "textures": ["credit"],
+      "items": [
+        { "id": "credit.development", "en": "Development", "box": [760, 252, 200, 30], "ink": [806, 256, 916, 279], "align": "center" },
+        { "id": "credit.executive_producer", "en": "Executive Producer:", "box": [645, 363, 218, 30], "ink": [699, 366, 859, 391], "align": "right" },
+        { "id": "credit.scenario", "en": "Scenario/Development:", "box": [645, 392, 216, 30], "ink": [665, 395, 859, 420], "align": "right" },
+        { "id": "credit.visuals", "en": "Visuals:", "box": [700, 421, 161, 28], "ink": [796, 424, 859, 448], "align": "right" },
+        { "id": "credit.sound", "en": "Sound:", "box": [700, 448, 160, 30], "ink": [800, 451, 858, 476], "align": "right" },
+        { "id": "credit.publishing", "en": "Publishing", "box": [760, 531, 200, 30], "ink": [818, 535, 903, 558], "align": "center" },
+        { "id": "credit.fan_translation", "en": "x\\nx", "box": [640, 600, 440, 80], "ink": [843, 612, 849, 614], "manual": true, "size": 21, "baseline": 628, "lineHeight": 27, "color": "#5e5670", "align": "center" }
+      ]
+    },
+    {
+      "bundle": "systm_en",
       "textures": ["result"],
       "items": [
         { "id": "result.actual_roles", "en": "Actual Roles", "box": [24, 726, 212, 46], "ink": [30, 732, 210, 764], "cut": 16 }

@@ -9265,6 +9265,13 @@ Image/keys.decision	Elegir/Solo ver
 Image/keys.backlog	Historial
 Image/keys.reset	Restablecer
 Image/keys.save	Guardar
+Image/credit.development	Desarrollo
+Image/credit.executive_producer	Productor Ejecutivo:
+Image/credit.scenario	Guion/Desarrollo:
+Image/credit.visuals	Arte:
+Image/credit.sound	Sonido:
+Image/credit.publishing	Distribución
+Image/credit.fan_translation	Traducción no oficial: leonardoreali\nPruebas: AndersonRx
 Code/was	era
 Code/wasn't	no era
 Code/were	eran

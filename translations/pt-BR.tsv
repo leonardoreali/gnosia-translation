@@ -9294,10 +9294,17 @@ Image/option.full_screen	Tela Cheia
 Image/option.windowed	Janela
 Image/option.resolution	Resolução da Tela
 Image/keys.config	Configurar Teclas
-Image/keys.decision	Escolher/Só ver
+Image/keys.decision	Escolher/Observar
 Image/keys.backlog	Histórico
 Image/keys.reset	Restaurar Padrão
 Image/keys.save	Salvar
+Image/credit.development	Desenvolvimento
+Image/credit.executive_producer	Produtor Executivo:
+Image/credit.scenario	Roteiro/Desenvolvimento:
+Image/credit.visuals	Arte:
+Image/credit.sound	Som:
+Image/credit.publishing	Publicação
+Image/credit.fan_translation	Tradução não oficial: leonardoreali\nTestes: AndersonRx
 Code/was	era
 Code/wasn't	não era
 Code/were	eram

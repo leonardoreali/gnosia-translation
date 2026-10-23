@@ -126,8 +126,8 @@ game accepts them. Image texts are translated like any other line (`Image/<id>` 
 
 ## Not translated
 
-Still images in English: the in-game Help pages, the Credits screen (mostly names,
-drawn over the artwork), the small NAME / ROLE / TARGET
+Still images in English: the in-game Help pages,
+the small NAME / ROLE / TARGET
 labels of the dialogue window, "Usage" and the vertical "Req'd" in the Command List, and a few labels of the
 results and gallery screens. The headers of the Command List, Current Status, Crew Data, Discussion Log, the
 Doctor/Engineer reports, voting and the ability graph are translated.
