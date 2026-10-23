@@ -59,6 +59,20 @@
     },
     {
       "bundle": "systm_en",
+      "textures": ["menu_keyconfig_KB", "menu_keyconfig_GP"],
+      "items": [
+        { "id": "keys.button", "en": "Key\\nConfig", "box": [40, 8, 104, 59], "ink": [48, 16, 134, 64], "lineHeight": 24.5, "align": "left", "color": "#ffffff" }
+      ]
+    },
+    {
+      "bundle": "systm_en",
+      "textures": ["move"],
+      "items": [
+        { "id": "move.select_destination", "en": "Select Destination", "box": [1455, 30, 380, 50], "ink": [1465, 38, 1829, 75], "cut": 10, "color": "#ffffff" }
+      ]
+    },
+    {
+      "bundle": "systm_en",
       "textures": ["menu_option_keycon"],
       "items": [
         { "id": "menu.options", "en": "Options", "box": [170, 96, 200, 54], "ink": [176, 102, 341, 146], "fitInk": true, "cut": 14 },

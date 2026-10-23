@@ -9284,7 +9284,7 @@ Image/option.high	Alto
 Image/option.message_speed	Velocidade do Texto
 Image/option.slow	Lento
 Image/option.fast	Rápido
-Image/option.prevent_skip	Evitar pular mensagens\nao apertar repetidamente
+Image/option.prevent_skip	Evitar pular mensagens ao\napertar Escolher várias vezes
 Image/option.during_events	Durante Eventos
 Image/option.during_debate	Durante a Discussão
 Image/option.on	SIM
@@ -9305,6 +9305,8 @@ Image/credit.visuals	Arte:
 Image/credit.sound	Som:
 Image/credit.publishing	Publicação
 Image/credit.fan_translation	Tradução não oficial: leonardoreali\nTestes: AndersonRx
+Image/keys.button	Teclas
+Image/move.select_destination	Escolha o Destino
 Code/was	era
 Code/wasn't	não era
 Code/were	eram
