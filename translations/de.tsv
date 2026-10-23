@@ -9205,6 +9205,23 @@ Image/interface.back	Zurück
 Image/interface.change	Ändern
 Image/interface.data	Daten
 Image/interface.menu	Menü
+Image/aclist.explanation	Erklärung
+Image/info.current_status	Aktueller Status
+Image/info.current_settings	Aktuelle Regeln
+Image/data.crew_data	Crewdaten
+Image/data.age	Alter (ca.)
+Image/data.origin	Herkunft
+Image/data.sex	Geschlecht
+Image/data.discussion_log	Diskussionslog
+Image/data.doctor_report	Doktorbericht
+Image/data.engineer_report	Ingenieursbericht
+Image/data.data_reference	Referenzdaten
+Image/data.voting_results	Abstimmungsergebnis
+Image/vote.voting	Abstimmung...
+Image/vote.please_vote	Bitte abstimmen
+Image/vote.finished	Fertig
+Image/talent.ability_graph	Wertediagramm
+Image/param.change_abilities	Werte ändern
 Code/was	war
 Code/wasn't	war nicht
 Code/were	waren

@@ -120,9 +120,10 @@ game accepts them. Image texts are translated like any other line (`Image/<id>` 
 
 ## Not translated
 
-The in-game Help pages and some smaller screens (results, voting, gallery) are still images in English, as is the
-controller-mapping screen. The headers of the Command List ("Command List", "Explanation", "Usage", "Req'd") are
-images too and stay in English.
+Still images in English: the in-game Help pages, the controller-mapping screen, the small NAME / ROLE / TARGET
+labels of the dialogue window, "Usage" and the vertical "Req'd" in the Command List, and a few labels of the
+results and gallery screens. The headers of the Command List, Current Status, Crew Data, Discussion Log, the
+Doctor/Engineer reports, voting and the ability graph are translated.
 
 ## Legal
 

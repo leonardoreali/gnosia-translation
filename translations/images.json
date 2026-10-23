@@ -31,6 +31,110 @@
     },
     {
       "bundle": "systm_en",
+      "textures": ["menu_acList"],
+      "items": [
+        { "id": "menu.command_list", "en": "Command List", "box": [12, 62, 258, 52], "ink": [16, 72, 268, 111], "cut": 8 },
+        { "id": "aclist.explanation", "en": "Explanation", "box": [614, 36, 304, 48], "ink": [620, 38, 851, 82], "skip": [[600, 76, 330, 3]] }
+      ]
+    },
+    {
+      "bundle": "systm_en",
+      "textures": ["info"],
+      "items": [
+        { "id": "info.current_status", "en": "Current Status", "box": [20, 10, 222, 38], "erase": "clear", "enclosed": true, "color": "#ffffff" }
+      ]
+    },
+    {
+      "bundle": "systm_en",
+      "textures": ["infoR"],
+      "items": [
+        { "id": "info.current_settings", "en": "Current Settings", "box": [20, 10, 210, 38], "erase": "clear", "enclosed": true, "color": "#ffffff" }
+      ]
+    },
+    {
+      "bundle": "systm_en",
+      "textures": ["data_join"],
+      "items": [
+        { "id": "data.crew_data", "en": "Crew Data", "box": [60, 140, 290, 62] },
+        { "id": "data.age", "en": "Age (Est.)", "box": [244, 278, 134, 30], "ink": [252, 282, 365, 307], "size": 25.7, "baseline": 302, "cut": 15 },
+        { "id": "data.origin", "en": "Origin", "box": [394, 278, 122, 30], "ink": [416, 282, 487, 307], "size": 25.7, "baseline": 302, "cut": 15 },
+        { "id": "data.sex", "en": "Sex", "box": [540, 278, 110, 30], "ink": [573, 282, 619, 306], "size": 25.7, "baseline": 302, "cut": 15 }
+      ]
+    },
+    {
+      "bundle": "systm_en",
+      "textures": ["data_log"],
+      "items": [
+        { "id": "data.discussion_log", "en": "Discussion Log", "box": [655, 70, 350, 72], "enclosed": true }
+      ]
+    },
+    {
+      "bundle": "systm_en",
+      "textures": ["data_doctor"],
+      "items": [
+        { "id": "data.doctor_report", "en": "Doctor Report", "box": [6, 810, 340, 62], "cut": 18 }
+      ]
+    },
+    {
+      "bundle": "systm_en",
+      "textures": ["data_engineer"],
+      "items": [
+        { "id": "data.engineer_report", "en": "Engineer Report", "box": [6, 810, 340, 62], "ink": [15, 820, 332, 864], "cut": 18 }
+      ]
+    },
+    {
+      "bundle": "systm_en",
+      "textures": ["data"],
+      "items": [
+        { "id": "data.data_reference", "en": "Data Reference", "box": [240, 892, 360, 60], "enclosed": true }
+      ]
+    },
+    {
+      "bundle": "systm_en",
+      "textures": ["data_vote"],
+      "items": [
+        { "id": "data.voting_results", "en": "Voting Results", "box": [8, 10, 340, 68], "enclosed": true }
+      ]
+    },
+    {
+      "bundle": "systm_en",
+      "textures": ["vote_KB", "vote_GP"],
+      "items": [
+        { "id": "vote.voting", "en": "Voting...", "box": [700, 12, 300, 69], "ink": [757, 24, 985, 80] },
+        { "id": "vote.please_vote", "en": "Please Vote", "box": [10, 370, 345, 68], "enclosed": true },
+        { "id": "vote.finished", "en": "Finished", "box": [480, 370, 240, 68], "enclosed": true }
+      ]
+    },
+    {
+      "bundle": "systm_en",
+      "textures": ["data_talent_1", "data_talent_1b", "data_talent_2", "data_talent_3", "data_talent_4", "data_talent_5", "data_talent_6", "data_talent_7", "data_talent_8", "data_talent_9", "data_talent_10", "data_talent_11", "data_talent_12", "data_talent_13", "data_talent_14"],
+      "items": [
+        { "id": "talent.ability_graph", "en": "Ability Graph", "box": [5, 6, 126, 33], "ink": [8, 11, 127, 31], "erase": "clear", "color": "#6e6e6e" },
+        { "id": "menu.ability_charisma", "en": "Charisma", "box": [205, 3, 125, 27], "erase": "clear", "color": "#6e6e6e" },
+        { "id": "menu.ability_intuition", "en": "Intuition", "box": [350, 60, 94, 26], "erase": "clear", "color": "#6e6e6e" },
+        { "id": "menu.ability_stealth", "en": "Stealth", "box": [80, 60, 100, 26], "erase": "clear", "color": "#6e6e6e" },
+        { "id": "menu.ability_performance", "en": "Performance", "box": [30, 173, 145, 26], "erase": "clear", "color": "#6e6e6e" },
+        { "id": "menu.ability_logic", "en": "Logic", "box": [350, 173, 90, 26], "erase": "clear", "color": "#6e6e6e" },
+        { "id": "menu.ability_charm", "en": "Charm", "box": [220, 230, 95, 27], "erase": "clear", "color": "#6e6e6e" }
+      ]
+    },
+    {
+      "bundle": "systm_en",
+      "textures": ["paramChange_KB", "paramChange_GP"],
+      "items": [
+        { "id": "menu.status", "en": "Status", "box": [60, 62, 190, 44], "ink": [105, 64, 235, 102] },
+        { "id": "menu.abilities", "en": "Abilities", "box": [58, 224, 140, 28] },
+        { "id": "menu.ability_charisma", "en": "Charisma", "box": [46, 278, 190, 40] },
+        { "id": "menu.ability_intuition", "en": "Intuition", "box": [46, 337, 190, 40] },
+        { "id": "menu.ability_logic", "en": "Logic", "box": [46, 396, 190, 40] },
+        { "id": "menu.ability_charm", "en": "Charm", "box": [46, 455, 190, 40] },
+        { "id": "menu.ability_performance", "en": "Performance", "box": [46, 514, 190, 40] },
+        { "id": "menu.ability_stealth", "en": "Stealth", "box": [46, 573, 190, 40] },
+        { "id": "param.change_abilities", "en": "Change Abilities", "box": [1512, 30, 262, 51], "ink": [1519, 39, 1766, 80], "cut": 10 }
+      ]
+    },
+    {
+      "bundle": "systm_en",
       "textures": ["setup_KB", "setup_GP"],
       "items": [
         { "id": "setup.title", "en": "Setup", "box": [72, 60, 208, 80], "ink": [146, 92, 268, 140], "cut": 18 },

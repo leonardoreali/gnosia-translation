@@ -9340,6 +9340,23 @@ Image/interface.back	Назад
 Image/interface.change	Сменить
 Image/interface.data	Данные
 Image/interface.menu	Меню
+Image/aclist.explanation	Описание
+Image/info.current_status	Текущее состояние
+Image/info.current_settings	Текущие настройки
+Image/data.crew_data	Данные экипажа
+Image/data.age	Возраст
+Image/data.origin	Родина
+Image/data.sex	Пол
+Image/data.discussion_log	Журнал обсуждений
+Image/data.doctor_report	Отчёт Доктора
+Image/data.engineer_report	Отчёт Инженера
+Image/data.data_reference	Справочные данные
+Image/data.voting_results	Итоги голосования
+Image/vote.voting	Голосование...
+Image/vote.please_vote	Голосуйте
+Image/vote.finished	Готово
+Image/talent.ability_graph	График характеристик
+Image/param.change_abilities	Изменить
 Code/was	-
 Code/wasn't	- не
 Code/were	-

@@ -9195,6 +9195,23 @@ Image/interface.back	Volver
 Image/interface.change	Cambiar
 Image/interface.data	Datos
 Image/interface.menu	Menú
+Image/aclist.explanation	Explicación
+Image/info.current_status	Estado Actual
+Image/info.current_settings	Ajustes Actuales
+Image/data.crew_data	Datos de la Tripulación
+Image/data.age	Edad (Est.)
+Image/data.origin	Origen
+Image/data.sex	Sexo
+Image/data.discussion_log	Registro del Debate
+Image/data.doctor_report	Informe del Médico
+Image/data.engineer_report	Informe del Ingeniero
+Image/data.data_reference	Datos de Referencia
+Image/data.voting_results	Resultado de la Votación
+Image/vote.voting	Votando...
+Image/vote.please_vote	Vota, por favor
+Image/vote.finished	Terminado
+Image/talent.ability_graph	Gráfico de Habilidades
+Image/param.change_abilities	Cambiar Habilidades
 Code/was	era
 Code/wasn't	no era
 Code/were	eran

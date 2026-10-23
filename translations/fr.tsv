@@ -9317,6 +9317,23 @@ Image/interface.back	Retour
 Image/interface.change	Changer
 Image/interface.data	Données
 Image/interface.menu	Menu
+Image/aclist.explanation	Explication
+Image/info.current_status	Statut actuel
+Image/info.current_settings	Réglages actuels
+Image/data.crew_data	Fiches de l'équipage
+Image/data.age	Âge (est.)
+Image/data.origin	Origine
+Image/data.sex	Sexe
+Image/data.discussion_log	Journal des débats
+Image/data.doctor_report	Rapport du Médecin
+Image/data.engineer_report	Rapport d'Ingénieur
+Image/data.data_reference	Données de référence
+Image/data.voting_results	Résultats du vote
+Image/vote.voting	Vote en cours...
+Image/vote.please_vote	Votez, svp
+Image/vote.finished	Terminé
+Image/talent.ability_graph	Graphe des capacités
+Image/param.change_abilities	Modifier les capacités
 Code/was	était
 Code/wasn't	n'était pas
 Code/were	étaient

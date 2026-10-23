@@ -9228,6 +9228,23 @@ Image/menu.ability_logic	Lógica
 Image/menu.ability_charm	Charme
 Image/menu.ability_performance	Atuação
 Image/menu.ability_stealth	Furtividade
+Image/aclist.explanation	Explicação
+Image/info.current_status	Situação Atual
+Image/info.current_settings	Configuração Atual
+Image/data.crew_data	Dados da Tripulação
+Image/data.age	Idade
+Image/data.origin	Origem
+Image/data.sex	Sexo
+Image/data.discussion_log	Registro da Discussão
+Image/data.doctor_report	Relatório do Médico
+Image/data.engineer_report	Relatório do Engenheiro
+Image/data.data_reference	Dados de Referência
+Image/data.voting_results	Resultado da Votação
+Image/vote.voting	Votando...
+Image/vote.please_vote	Vote, por favor
+Image/vote.finished	Concluído
+Image/talent.ability_graph	Gráfico de Atributos
+Image/param.change_abilities	Mudar Atributos
 Code/was	era
 Code/wasn't	não era
 Code/were	eram
