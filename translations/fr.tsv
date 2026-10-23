@@ -9365,6 +9365,23 @@ Image/note.numbers_doctor	Chaque numéro\nest un Médecin
 Image/note.numbers_engineer	Chaque numéro\nest un Ingénieur
 Image/vote.cold_sleep	CRYOSOMMEIL
 Image/vote.revote	NOUVEAU VOTE
+Image/option.volume	Volume
+Image/option.bgm	Musique
+Image/option.sfx	Effets
+Image/option.low	Bas
+Image/option.high	Haut
+Image/option.message_speed	Vitesse du texte
+Image/option.slow	Lent
+Image/option.fast	Rapide
+Image/option.prevent_skip	Empêcher de passer les\nmessages en martelant
+Image/option.during_events	Pendant les évènements
+Image/option.during_debate	Pendant le débat
+Image/option.on	OUI
+Image/option.off	NON
+Image/option.display_mode	Mode d'affichage
+Image/option.full_screen	Plein écran
+Image/option.windowed	Fenêtré
+Image/option.resolution	Résolution
 Code/was	était
 Code/wasn't	n'était pas
 Code/were	étaient

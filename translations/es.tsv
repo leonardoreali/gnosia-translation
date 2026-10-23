@@ -9243,6 +9243,23 @@ Image/note.numbers_doctor	Cada número es\nun Médico
 Image/note.numbers_engineer	Cada número es\nun Ingeniero
 Image/vote.cold_sleep	SUEÑO CRIOGÉNICO
 Image/vote.revote	NUEVA VOTACIÓN
+Image/option.volume	Volumen
+Image/option.bgm	Música
+Image/option.sfx	Efectos
+Image/option.low	Bajo
+Image/option.high	Alto
+Image/option.message_speed	Velocidad del Texto
+Image/option.slow	Lento
+Image/option.fast	Rápido
+Image/option.prevent_skip	Evitar saltar mensajes\nal pulsar repetidamente
+Image/option.during_events	En Eventos
+Image/option.during_debate	En el Debate
+Image/option.on	SÍ
+Image/option.off	NO
+Image/option.display_mode	Modo de Pantalla
+Image/option.full_screen	Completa
+Image/option.windowed	Ventana
+Image/option.resolution	Resolución
 Code/was	era
 Code/wasn't	no era
 Code/were	eran

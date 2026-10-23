@@ -9253,6 +9253,23 @@ Image/note.numbers_doctor	Jede Zahl ist\nein Doktor
 Image/note.numbers_engineer	Jede Zahl ist\nein Ingenieur
 Image/vote.cold_sleep	KÄLTESCHLAF
 Image/vote.revote	NEUWAHL
+Image/option.volume	Lautstärke
+Image/option.bgm	Musik
+Image/option.sfx	Effekte
+Image/option.low	Leise
+Image/option.high	Laut
+Image/option.message_speed	Textgeschwindigkeit
+Image/option.slow	Langsam
+Image/option.fast	Schnell
+Image/option.prevent_skip	Überspringen verhindern\nbei schnellem Drücken
+Image/option.during_events	Bei Ereignissen
+Image/option.during_debate	In der Diskussion
+Image/option.on	AN
+Image/option.off	AUS
+Image/option.display_mode	Anzeigemodus
+Image/option.full_screen	Vollbild
+Image/option.windowed	Fenster
+Image/option.resolution	Auflösung
 Code/was	war
 Code/wasn't	war nicht
 Code/were	waren

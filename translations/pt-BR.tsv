@@ -9276,6 +9276,23 @@ Image/note.numbers_doctor	Cada número é\num Médico
 Image/note.numbers_engineer	Cada número é\num Engenheiro
 Image/vote.cold_sleep	SONO CRIOGÊNICO
 Image/vote.revote	NOVA VOTAÇÃO
+Image/option.volume	Volume
+Image/option.bgm	Música
+Image/option.sfx	Efeitos
+Image/option.low	Baixo
+Image/option.high	Alto
+Image/option.message_speed	Velocidade do Texto
+Image/option.slow	Lento
+Image/option.fast	Rápido
+Image/option.prevent_skip	Evitar pular mensagens\nao apertar o botão rápido
+Image/option.during_events	Durante Eventos
+Image/option.during_debate	Durante a Discussão
+Image/option.on	SIM
+Image/option.off	NÃO
+Image/option.display_mode	Modo de Tela
+Image/option.full_screen	Tela Cheia
+Image/option.windowed	Janela
+Image/option.resolution	Resolução da Tela
 Code/was	era
 Code/wasn't	não era
 Code/were	eram

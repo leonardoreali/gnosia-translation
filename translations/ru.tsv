@@ -9388,6 +9388,23 @@ Image/note.numbers_doctor	Номер = один\nДоктор
 Image/note.numbers_engineer	Номер = один\nИнженер
 Image/vote.cold_sleep	КРИОСОН
 Image/vote.revote	ПЕРЕГОЛОСОВАНИЕ
+Image/option.volume	Громкость
+Image/option.bgm	Музыка
+Image/option.sfx	Эффекты
+Image/option.low	Тихо
+Image/option.high	Громко
+Image/option.message_speed	Скорость текста
+Image/option.slow	Медленно
+Image/option.fast	Быстро
+Image/option.prevent_skip	Не пропускать текст\nпри частых нажатиях
+Image/option.during_events	В событиях
+Image/option.during_debate	В обсуждении
+Image/option.on	ВКЛ
+Image/option.off	ВЫКЛ
+Image/option.display_mode	Режим экрана
+Image/option.full_screen	Полный
+Image/option.windowed	Окно
+Image/option.resolution	Разрешение
 Code/was	-
 Code/wasn't	- не
 Code/were	-

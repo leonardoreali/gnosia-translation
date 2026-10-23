@@ -31,6 +31,34 @@
     },
     {
       "bundle": "systm_en",
+      "textures": ["menu_option"],
+      "items": [
+        { "id": "menu.options", "en": "Options", "box": [100, 66, 190, 50], "ink": [105, 72, 272, 113] },
+        { "id": "option.volume", "en": "Volume", "box": [124, 150, 150, 38], "ink": [128, 154, 236, 183], "color": "#ffffff", "size": 30 },
+        { "id": "option.bgm", "en": "BGM", "box": [150, 199, 90, 34], "ink": [155, 202, 222, 230], "color": "#ffffff", "size": 27 },
+        { "id": "option.low", "en": "Low", "box": [138, 270, 70, 30], "ink": [144, 272, 199, 297], "color": "#ffffff", "size": 25, "align": "left" },
+        { "id": "option.high", "en": "High", "box": [498, 270, 76, 30], "ink": [507, 272, 568, 297], "color": "#ffffff", "size": 25, "align": "right" },
+        { "id": "option.sfx", "en": "SFX", "box": [150, 321, 90, 34], "ink": [155, 324, 216, 352], "color": "#ffffff", "size": 27 },
+        { "id": "option.low", "en": "Low", "box": [138, 390, 70, 30], "ink": [144, 392, 199, 417], "color": "#ffffff", "size": 25, "align": "left" },
+        { "id": "option.high", "en": "High", "box": [498, 390, 76, 30], "ink": [507, 392, 568, 417], "color": "#ffffff", "size": 25, "align": "right" },
+        { "id": "option.message_speed", "en": "Message Speed", "box": [122, 476, 250, 36], "ink": [125, 479, 348, 509], "color": "#ffffff", "size": 30 },
+        { "id": "option.slow", "en": "Slow", "box": [134, 552, 76, 30], "ink": [140, 554, 201, 580], "color": "#ffffff", "size": 25, "align": "left" },
+        { "id": "option.fast", "en": "Fast", "box": [498, 552, 76, 30], "ink": [507, 554, 568, 580], "color": "#ffffff", "size": 25, "align": "right" },
+        { "id": "option.prevent_skip", "en": "Prevent Skipping\\nMessages w/Button Mash", "box": [666, 92, 410, 84], "ink": [670, 95, 1042, 172], "lineHeight": 47, "align": "left", "color": "#ffffff", "size": 28 },
+        { "id": "option.during_events", "en": "During Events", "box": [666, 196, 230, 32], "ink": [670, 199, 860, 225], "color": "#ffffff", "size": 26 },
+        { "id": "option.on", "en": "ON", "box": [740, 242, 50, 30], "ink": [743, 244, 783, 269], "color": "#ffffff", "size": 25, "align": "left" },
+        { "id": "option.off", "en": "OFF", "box": [914, 242, 60, 30], "ink": [917, 244, 968, 269], "color": "#ffffff", "size": 25, "align": "left" },
+        { "id": "option.during_debate", "en": "During Debate", "box": [666, 284, 230, 34], "ink": [670, 287, 860, 314], "color": "#ffffff", "size": 26 },
+        { "id": "option.on", "en": "ON", "box": [740, 331, 50, 30], "ink": [743, 333, 783, 359], "color": "#ffffff", "size": 25, "align": "left" },
+        { "id": "option.off", "en": "OFF", "box": [914, 331, 60, 30], "ink": [917, 333, 968, 359], "color": "#ffffff", "size": 25, "align": "left" },
+        { "id": "option.display_mode", "en": "Display Mode", "box": [666, 381, 250, 36], "ink": [670, 384, 895, 413], "color": "#ffffff", "size": 30 },
+        { "id": "option.full_screen", "en": "Full Screen", "box": [740, 435, 134, 28], "ink": [743, 437, 869, 460], "color": "#ffffff", "size": 22, "align": "left" },
+        { "id": "option.windowed", "en": "Windowed", "box": [914, 435, 120, 28], "ink": [917, 437, 1028, 460], "color": "#ffffff", "size": 22, "align": "left" },
+        { "id": "option.resolution", "en": "Screen Resolution", "box": [666, 484, 290, 38], "ink": [670, 487, 939, 519], "color": "#ffffff", "size": 30 }
+      ]
+    },
+    {
+      "bundle": "systm_en",
       "textures": ["menu_acList"],
       "items": [
         { "id": "menu.command_list", "en": "Command List", "box": [12, 62, 258, 52], "ink": [16, 72, 268, 111], "cut": 8 },
