@@ -3230,7 +3230,7 @@ ScenarioBaseText/4:Jinro/22	Тоже возразить
 ScenarioBaseText/4:Jinro/23	Поблагодарить
 ScenarioBaseText/4:Jinro/24	Заткнуться
 ScenarioBaseText/4:Jinro/25	{0} раздражает
-ScenarioBaseText/4:Jinro/26	Начать голосование
+ScenarioBaseText/4:Jinro/26	Голосовать
 ScenarioBaseText/4:Jinro/27	Раскрыть роль
 ScenarioBaseText/4:Jinro/28	Раскрыта роль: {0}
 ScenarioBaseText/4:Jinro/29	Раскрыть себя
@@ -3254,11 +3254,11 @@ ScenarioBaseText/4:Jinro/46	{0} - точно Последователь AC
 ScenarioBaseText/4:Jinro/47	{0} - точно Баг
 ScenarioBaseText/4:Jinro/48	Слова {0} не сходятся
 ScenarioBaseText/4:Jinro/49	{0} - Последователь AC или Баг
-ScenarioBaseText/4:Jinro/50	Указать на ошибку
+ScenarioBaseText/4:Jinro/50	Указать ошибку
 ScenarioBaseText/4:Jinro/51	Это неправда
 ScenarioBaseText/4:Jinro/52	Это очевидно
 ScenarioBaseText/4:Jinro/53	Мы это уже знаем
-ScenarioBaseText/4:Jinro/54	Указать на ошибку
+ScenarioBaseText/4:Jinro/54	Указать ошибку
 ScenarioBaseText/4:Jinro/55	Это неправда
 ScenarioBaseText/4:Jinro/56	Это очевидно
 ScenarioBaseText/4:Jinro/57	Мы это уже знаем
@@ -3266,7 +3266,7 @@ ScenarioBaseText/4:Jinro/58	Поблагодарить
 ScenarioBaseText/4:Jinro/59	Признан врагом
 ScenarioBaseText/4:Jinro/60	Чем ниже "Логика", тем вероятнее ошибки,\nиз-за которых вас признают "точно врагом".
 ScenarioBaseText/4:Jinro/61	Ничего не произошло
-ScenarioBaseText/4:Jinro/62	Начать голосование
+ScenarioBaseText/4:Jinro/62	Голосовать
 ScenarioBaseText/4:Jinro/63	Начинается голосование
 ScenarioBaseText/4:Jinro/64	Ничего не произошло
 ScenarioBaseText/4:Jinro/65	Раскусить ложь
@@ -3281,13 +3281,13 @@ ScenarioBaseText/5:JinroTohyogo/3	Заморозить
 ScenarioBaseText/5:JinroTohyogo/4	Переголосовать
 ScenarioBaseText/5:JinroTohyogo/5	ПОСЛЕДНЕЕ ГОЛОСОВАНИЕ
 ScenarioBaseText/5:JinroTohyogo/6	Голосование будет проведено повторно
-ScenarioBaseText/5:JinroTohyogo/7	Ещё раз переголосовать
+ScenarioBaseText/5:JinroTohyogo/7	Переголосовать
 ScenarioBaseText/5:JinroTohyogo/8	ГОЛОСОВАНИЕ ПРИОСТАНОВЛЕНО
 ScenarioBaseText/5:JinroTohyogo/9	Прийти к решению не удалось
 ScenarioBaseText/5:JinroTohyogo/10	Заморозить всех
-ScenarioBaseText/5:JinroTohyogo/11	Никого не замораживать
+ScenarioBaseText/5:JinroTohyogo/11	Без заморозки
 ScenarioBaseText/5:JinroTohyogo/12	Поддержать план
-ScenarioBaseText/5:JinroTohyogo/13	Возразить против плана
+ScenarioBaseText/5:JinroTohyogo/13	Против плана
 ScenarioBaseText/5:JinroTohyogo/14	Сделать вывод
 ScenarioBaseText/5:JinroTohyogo/15	Все отправятся в криосон
 ScenarioBaseText/5:JinroTohyogo/16	Никто не отправится в криосон
@@ -3297,7 +3297,7 @@ ScenarioBaseText/5:JinroTohyogo/19	Умолять
 ScenarioBaseText/5:JinroTohyogo/20	Пожалуйста! Только не криосон!
 ScenarioBaseText/5:JinroTohyogo/21	Умолять
 ScenarioBaseText/5:JinroTohyogo/22	Пожалуйста! Только не криосон!
-ScenarioBaseText/5:JinroTohyogo/23	Реакция на мольбы
+ScenarioBaseText/5:JinroTohyogo/23	Ответить
 ScenarioBaseText/5:JinroTohyogo/24	Мольбы не помогли
 ScenarioBaseText/5:JinroTohyogo/25	Решение принято.\nКриосон.
 ScenarioBaseText/5:JinroTohyogo/26	Какого чёрта?! Сволочи...
@@ -3347,11 +3347,11 @@ ScenarioBaseText/16:JinroSkill/7	Прекратить
 ScenarioBaseText/16:JinroSkill/8	Давайте не будем
 ScenarioBaseText/16:JinroSkill/9	Остановлено
 ScenarioBaseText/16:JinroSkill/10	Болтовня
-ScenarioBaseText/16:JinroSkill/11	Давайте поговорим о еде
-ScenarioBaseText/16:JinroSkill/12	Давайте поговорим о любви
-ScenarioBaseText/16:JinroSkill/13	Давайте рассказывать страшилки
-ScenarioBaseText/16:JinroSkill/14	Поддержать болтовню
-ScenarioBaseText/16:JinroSkill/15	Прекратить болтовню
+ScenarioBaseText/16:JinroSkill/11	О еде
+ScenarioBaseText/16:JinroSkill/12	О любви
+ScenarioBaseText/16:JinroSkill/13	Страшилки
+ScenarioBaseText/16:JinroSkill/14	Тоже болтать
+ScenarioBaseText/16:JinroSkill/15	Хватит болтать
 ScenarioBaseText/16:JinroSkill/16	Болтовня окончена
 ScenarioBaseText/16:JinroSkill/17	Разговор о любимой еде продолжился...
 ScenarioBaseText/16:JinroSkill/18	Разговор о любви и романтике продолжился...
@@ -9382,6 +9382,10 @@ Image/help.next	Далее
 Image/help.back	Назад
 Image/help.previous	Пред.
 Image/result.actual_roles	Истинные роли
+Image/note.reported_gnosia	Назван:\n[Гносия]
+Image/note.reported_human	Назван:\n[Человек]
+Image/note.numbers_doctor	Номер = один\nДоктор
+Image/note.numbers_engineer	Номер = один\nИнженер
 Code/was	-
 Code/wasn't	- не
 Code/were	-

@@ -206,6 +206,29 @@
     },
     {
       "bundle": "systm_en",
+      "textures": ["data_doctor", "data_engineer"],
+      "items": [
+        { "id": "data.coming_out", "en": "Coming Out", "box": [6, 19, 192, 34], "enclosed": true },
+        { "id": "note.reported_gnosia", "en": "Reported as\\n[Gnosia]", "box": [148, 602, 128, 50], "ink": [152, 604, 272, 649], "lineHeight": 24, "align": "left", "erase": "cols", "color": "#86868e", "accent": "#e8004e" },
+        { "id": "note.reported_human", "en": "Reported as\\n[Human]", "box": [148, 668, 128, 50], "ink": [152, 670, 272, 715], "lineHeight": 24, "align": "left", "erase": "cols", "color": "#86868e", "accent": "#7ab830" }
+      ]
+    },
+    {
+      "bundle": "systm_en",
+      "textures": ["data_doctor"],
+      "items": [
+        { "id": "note.numbers_doctor", "en": "Numbers correspond\\nto each Doctor", "box": [18, 731, 206, 48], "ink": [22, 733, 218, 777], "lineHeight": 24, "align": "left", "erase": "cols", "color": "#86868e" }
+      ]
+    },
+    {
+      "bundle": "systm_en",
+      "textures": ["data_engineer"],
+      "items": [
+        { "id": "note.numbers_engineer", "en": "Numbers correspond\\nto each Doctor", "box": [18, 731, 206, 48], "ink": [22, 733, 218, 777], "lineHeight": 24, "align": "left", "erase": "cols", "color": "#86868e" }
+      ]
+    },
+    {
+      "bundle": "systm_en",
       "textures": ["result"],
       "items": [
         { "id": "result.actual_roles", "en": "Actual Roles", "box": [24, 726, 212, 46], "ink": [30, 732, 210, 764], "cut": 16 }

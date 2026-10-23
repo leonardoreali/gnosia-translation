@@ -3278,7 +3278,7 @@ ScenarioBaseText/5:JinroTohyogo/19	Supplier
 ScenarioBaseText/5:JinroTohyogo/20	Pitié ! Pas le cryosommeil !
 ScenarioBaseText/5:JinroTohyogo/21	Supplier
 ScenarioBaseText/5:JinroTohyogo/22	Pitié ! Pas le cryosommeil !
-ScenarioBaseText/5:JinroTohyogo/23	Réagir à la supplication
+ScenarioBaseText/5:JinroTohyogo/23	Réagir
 ScenarioBaseText/5:JinroTohyogo/24	Supplication ratée
 ScenarioBaseText/5:JinroTohyogo/25	Une décision a été prise.\nCe sera le cryosommeil.
 ScenarioBaseText/5:JinroTohyogo/26	C'est quoi ce délire ?! Bande de nazes...
@@ -3328,11 +3328,11 @@ ScenarioBaseText/16:JinroSkill/7	Arrêtez
 ScenarioBaseText/16:JinroSkill/8	Ne faisons pas ça
 ScenarioBaseText/16:JinroSkill/9	Arrêté
 ScenarioBaseText/16:JinroSkill/10	Bavarder
-ScenarioBaseText/16:JinroSkill/11	Parlons de nourriture
+ScenarioBaseText/16:JinroSkill/11	Parlons cuisine
 ScenarioBaseText/16:JinroSkill/12	Parlons d'amour
-ScenarioBaseText/16:JinroSkill/13	Racontons des histoires qui font peur
-ScenarioBaseText/16:JinroSkill/14	Se joindre au bavardage
-ScenarioBaseText/16:JinroSkill/15	Arrêter le bavardage
+ScenarioBaseText/16:JinroSkill/13	Histoires de peur
+ScenarioBaseText/16:JinroSkill/14	Bavarder aussi
+ScenarioBaseText/16:JinroSkill/15	Couper court
 ScenarioBaseText/16:JinroSkill/16	Bavardage terminé
 ScenarioBaseText/16:JinroSkill/17	La conversation sur les plats préférés a continué...
 ScenarioBaseText/16:JinroSkill/18	La conversation sur l'amour et la romance a continué...
@@ -9359,6 +9359,10 @@ Image/help.next	Suiv.
 Image/help.back	Retour
 Image/help.previous	Précédent
 Image/result.actual_roles	Vrais rôles
+Image/note.reported_gnosia	Déclaré\n[Gnosia]
+Image/note.reported_human	Déclaré\n[Humain]
+Image/note.numbers_doctor	Chaque numéro\nest un Médecin
+Image/note.numbers_engineer	Chaque numéro\nest un Ingénieur
 Code/was	était
 Code/wasn't	n'était pas
 Code/were	étaient

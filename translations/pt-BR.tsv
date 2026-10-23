@@ -2333,7 +2333,7 @@ CharaText/11:Shigemichi/140	Eu sou humano... Ei, quem tá rindo de mim?!\nEu SOU
 CharaText/11:Shigemichi/141	Ei, a gente tem mesmo que falar isso?\nIsso é um saco. Não quero me dar o trabalho.
 CharaText/11:Shigemichi/142	Sabe, a comida do refeitório daqui tem cheiro meio de inseto...\nDá pra fazer alguma coisa sobre isso?
 CharaText/11:Shigemichi/143	Sabe, a comida do refeitório daqui tem cheiro meio de inseto, né?\nEu só queria um bom e velho miojo.
-CharaText/11:Shigemichi/144	Ei, vocês têm alguém em quem tão interessados?
+CharaText/11:Shigemichi/144	Ei, vocês tão interessados em alguém?
 CharaText/11:Shigemichi/145	Sabe... Acho que posso estar amaldiçoado...\nVive acontecendo coisa assustadora comigo... Mais alguém tem uma história assim?
 CharaText/11:Shigemichi/146	Comida, é? Eu adoro uma boa comida!\nVamos pedir uns petiscos pra LeVi! Eu quero uma omelete!
 CharaText/11:Shigemichi/147	Ah, minhas histórias de amor não correspondido...\nEu podia falar por dias!
@@ -3273,11 +3273,11 @@ ScenarioBaseText/5:JinroTohyogo/3	Congelar
 ScenarioBaseText/5:JinroTohyogo/4	Votar de Novo
 ScenarioBaseText/5:JinroTohyogo/5	VOTAÇÃO FINAL
 ScenarioBaseText/5:JinroTohyogo/6	A votação será refeita
-ScenarioBaseText/5:JinroTohyogo/7	Votar Mais Uma Vez
+ScenarioBaseText/5:JinroTohyogo/7	Votar de Novo
 ScenarioBaseText/5:JinroTohyogo/8	VOTAÇÃO SUSPENSA
 ScenarioBaseText/5:JinroTohyogo/9	Não foi possível chegar a uma decisão
 ScenarioBaseText/5:JinroTohyogo/10	Congelar Todos
-ScenarioBaseText/5:JinroTohyogo/11	Não Congelar Ninguém
+ScenarioBaseText/5:JinroTohyogo/11	Não Congelar
 ScenarioBaseText/5:JinroTohyogo/12	Apoiar o Plano
 ScenarioBaseText/5:JinroTohyogo/13	Rejeitar o Plano
 ScenarioBaseText/5:JinroTohyogo/14	Concluir
@@ -3339,11 +3339,11 @@ ScenarioBaseText/16:JinroSkill/7	Parem com Isso
 ScenarioBaseText/16:JinroSkill/8	Não vamos fazer isso
 ScenarioBaseText/16:JinroSkill/9	Interrompido
 ScenarioBaseText/16:JinroSkill/10	Conversa Fiada
-ScenarioBaseText/16:JinroSkill/11	Vamos falar de comida
-ScenarioBaseText/16:JinroSkill/12	Vamos falar de amor
-ScenarioBaseText/16:JinroSkill/13	Vamos contar histórias de terror
-ScenarioBaseText/16:JinroSkill/14	Entrar na Conversa Fiada
-ScenarioBaseText/16:JinroSkill/15	Parar a Conversa Fiada
+ScenarioBaseText/16:JinroSkill/11	Falar de comida
+ScenarioBaseText/16:JinroSkill/12	Falar de amor
+ScenarioBaseText/16:JinroSkill/13	Histórias de terror
+ScenarioBaseText/16:JinroSkill/14	Entrar na Conversa
+ScenarioBaseText/16:JinroSkill/15	Parar a Conversa
 ScenarioBaseText/16:JinroSkill/16	Fim da Conversa Fiada
 ScenarioBaseText/16:JinroSkill/17	A conversa sobre comidas favoritas continuou...
 ScenarioBaseText/16:JinroSkill/18	A conversa sobre amor e romance continuou...
@@ -9270,6 +9270,10 @@ Image/help.next	Próx.
 Image/help.back	Voltar
 Image/help.previous	Anterior
 Image/result.actual_roles	Papéis Reais
+Image/note.reported_gnosia	Relatado como\n[Gnosia]
+Image/note.reported_human	Relatado como\n[Humano]
+Image/note.numbers_doctor	Cada número é\num Médico
+Image/note.numbers_engineer	Cada número é\num Engenheiro
 Code/was	era
 Code/wasn't	não era
 Code/were	eram

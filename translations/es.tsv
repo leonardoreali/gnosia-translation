@@ -3206,7 +3206,7 @@ ScenarioBaseText/4:Jinro/22	Sumarse al Rebate
 ScenarioBaseText/4:Jinro/23	Agradecer
 ScenarioBaseText/4:Jinro/24	Callar
 ScenarioBaseText/4:Jinro/25	{0} es molesto
-ScenarioBaseText/4:Jinro/26	Empezar la Votación
+ScenarioBaseText/4:Jinro/26	Iniciar Votación
 ScenarioBaseText/4:Jinro/27	Revelar Rol
 ScenarioBaseText/4:Jinro/28	Reveló su rol: {0}
 ScenarioBaseText/4:Jinro/29	Revelar Rol Propio
@@ -3242,7 +3242,7 @@ ScenarioBaseText/4:Jinro/58	Agradecer
 ScenarioBaseText/4:Jinro/59	Reconocido como Enemigo
 ScenarioBaseText/4:Jinro/60	Con menos \"Lógica\" es más probable cometer\nerrores que te hagan \"enemigo seguro\".
 ScenarioBaseText/4:Jinro/61	No pasó nada
-ScenarioBaseText/4:Jinro/62	Empezar la Votación
+ScenarioBaseText/4:Jinro/62	Iniciar Votación
 ScenarioBaseText/4:Jinro/63	Ahora comienza la votación
 ScenarioBaseText/4:Jinro/64	No pasó nada
 ScenarioBaseText/4:Jinro/65	Ver la Mentira
@@ -3261,7 +3261,7 @@ ScenarioBaseText/5:JinroTohyogo/7	Votar Otra Vez
 ScenarioBaseText/5:JinroTohyogo/8	VOTACIÓN SUSPENDIDA
 ScenarioBaseText/5:JinroTohyogo/9	No se llegó a una decisión
 ScenarioBaseText/5:JinroTohyogo/10	Congelar a Todos
-ScenarioBaseText/5:JinroTohyogo/11	No Congelar a Nadie
+ScenarioBaseText/5:JinroTohyogo/11	No Congelar
 ScenarioBaseText/5:JinroTohyogo/12	Apoyar el Plan
 ScenarioBaseText/5:JinroTohyogo/13	Rechazar el Plan
 ScenarioBaseText/5:JinroTohyogo/14	Sacar Conclusión
@@ -3273,7 +3273,7 @@ ScenarioBaseText/5:JinroTohyogo/19	Suplicar
 ScenarioBaseText/5:JinroTohyogo/20	¡Por favor! ¡El sueño criogénico no!
 ScenarioBaseText/5:JinroTohyogo/21	Suplicar
 ScenarioBaseText/5:JinroTohyogo/22	¡Por favor! ¡El sueño criogénico no!
-ScenarioBaseText/5:JinroTohyogo/23	Reaccionar a la Súplica
+ScenarioBaseText/5:JinroTohyogo/23	Reaccionar
 ScenarioBaseText/5:JinroTohyogo/24	Súplica Fallida
 ScenarioBaseText/5:JinroTohyogo/25	Se tomó una decisión.\nSueño criogénico.
 ScenarioBaseText/5:JinroTohyogo/26	¡¿Qué demonios?! Desgraciados...
@@ -3325,7 +3325,7 @@ ScenarioBaseText/16:JinroSkill/9	Detenido
 ScenarioBaseText/16:JinroSkill/10	Charlar
 ScenarioBaseText/16:JinroSkill/11	Hablemos de comida
 ScenarioBaseText/16:JinroSkill/12	Hablemos de amor
-ScenarioBaseText/16:JinroSkill/13	Contemos historias de miedo
+ScenarioBaseText/16:JinroSkill/13	Historias de miedo
 ScenarioBaseText/16:JinroSkill/14	Unirse a la Charla
 ScenarioBaseText/16:JinroSkill/15	Detener la Charla
 ScenarioBaseText/16:JinroSkill/16	Charla Terminada
@@ -9237,6 +9237,10 @@ Image/help.next	Sig.
 Image/help.back	Atrás
 Image/help.previous	Anterior
 Image/result.actual_roles	Roles Reales
+Image/note.reported_gnosia	Informado como\n[Gnosia]
+Image/note.reported_human	Informado como\n[Humano]
+Image/note.numbers_doctor	Cada número es\nun Médico
+Image/note.numbers_engineer	Cada número es\nun Ingeniero
 Code/was	era
 Code/wasn't	no era
 Code/were	eran

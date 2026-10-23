@@ -3205,7 +3205,7 @@ ScenarioBaseText/4:Jinro/22	Mitwiderlegen
 ScenarioBaseText/4:Jinro/23	Danken
 ScenarioBaseText/4:Jinro/24	Klappe halten
 ScenarioBaseText/4:Jinro/25	{0} nervt
-ScenarioBaseText/4:Jinro/26	Abstimmung starten
+ScenarioBaseText/4:Jinro/26	Abstimmen
 ScenarioBaseText/4:Jinro/27	Rolle zeigen
 ScenarioBaseText/4:Jinro/28	Rolle als {0} gezeigt
 ScenarioBaseText/4:Jinro/29	Eigene Rolle zeigen
@@ -3241,7 +3241,7 @@ ScenarioBaseText/4:Jinro/58	Danken
 ScenarioBaseText/4:Jinro/59	Als Feind erkannt
 ScenarioBaseText/4:Jinro/60	Mit niedriger "Logik" machst du eher Fehler,\ndurch die du als "sicher Feind" erkannt wirst.
 ScenarioBaseText/4:Jinro/61	Nichts geschah
-ScenarioBaseText/4:Jinro/62	Abstimmung starten
+ScenarioBaseText/4:Jinro/62	Abstimmen
 ScenarioBaseText/4:Jinro/63	Die Abstimmung beginnt jetzt
 ScenarioBaseText/4:Jinro/64	Nichts geschah
 ScenarioBaseText/4:Jinro/65	Lüge durchschauen
@@ -3256,11 +3256,11 @@ ScenarioBaseText/5:JinroTohyogo/3	Einfrieren
 ScenarioBaseText/5:JinroTohyogo/4	Neu abstimmen
 ScenarioBaseText/5:JinroTohyogo/5	LETZTE ABSTIMMUNG
 ScenarioBaseText/5:JinroTohyogo/6	Die Abstimmung wird wiederholt
-ScenarioBaseText/5:JinroTohyogo/7	Erneut neu abstimmen
+ScenarioBaseText/5:JinroTohyogo/7	Neu abstimmen
 ScenarioBaseText/5:JinroTohyogo/8	ABSTIMMUNG AUSGESETZT
 ScenarioBaseText/5:JinroTohyogo/9	Es kam keine Entscheidung zustande
 ScenarioBaseText/5:JinroTohyogo/10	Alle einfrieren
-ScenarioBaseText/5:JinroTohyogo/11	Niemanden einfrieren
+ScenarioBaseText/5:JinroTohyogo/11	Keinen einfrieren
 ScenarioBaseText/5:JinroTohyogo/12	Plan zustimmen
 ScenarioBaseText/5:JinroTohyogo/13	Plan ablehnen
 ScenarioBaseText/5:JinroTohyogo/14	Ergebnis ziehen
@@ -3272,7 +3272,7 @@ ScenarioBaseText/5:JinroTohyogo/19	Betteln
 ScenarioBaseText/5:JinroTohyogo/20	Bitte! Nicht der Kälteschlaf!
 ScenarioBaseText/5:JinroTohyogo/21	Betteln
 ScenarioBaseText/5:JinroTohyogo/22	Bitte! Nicht der Kälteschlaf!
-ScenarioBaseText/5:JinroTohyogo/23	Auf Betteln reagieren
+ScenarioBaseText/5:JinroTohyogo/23	Reagieren
 ScenarioBaseText/5:JinroTohyogo/24	Betteln gescheitert
 ScenarioBaseText/5:JinroTohyogo/25	Eine Entscheidung ist gefallen.\nEs bleibt beim Kälteschlaf.
 ScenarioBaseText/5:JinroTohyogo/26	Was zum Teufel?! Mistkerle...
@@ -3322,10 +3322,10 @@ ScenarioBaseText/16:JinroSkill/7	Hört auf
 ScenarioBaseText/16:JinroSkill/8	Lassen wir das
 ScenarioBaseText/16:JinroSkill/9	Gestoppt
 ScenarioBaseText/16:JinroSkill/10	Smalltalk
-ScenarioBaseText/16:JinroSkill/11	Reden wir über Essen
-ScenarioBaseText/16:JinroSkill/12	Reden wir über Liebe
-ScenarioBaseText/16:JinroSkill/13	Erzählen wir Gruselgeschichten
-ScenarioBaseText/16:JinroSkill/14	Beim Smalltalk mitmachen
+ScenarioBaseText/16:JinroSkill/11	Über Essen reden
+ScenarioBaseText/16:JinroSkill/12	Über Liebe reden
+ScenarioBaseText/16:JinroSkill/13	Gruselgeschichten
+ScenarioBaseText/16:JinroSkill/14	Mitplaudern
 ScenarioBaseText/16:JinroSkill/15	Smalltalk beenden
 ScenarioBaseText/16:JinroSkill/16	Smalltalk beendet
 ScenarioBaseText/16:JinroSkill/17	Das Gespräch über Lieblingsessen ging weiter...
@@ -3336,7 +3336,7 @@ ScenarioBaseText/16:JinroSkill/21	Schicken wir {0} in den Kälteschlaf
 ScenarioBaseText/16:JinroSkill/22	Zustimmen
 ScenarioBaseText/16:JinroSkill/23	Ablehnen
 ScenarioBaseText/16:JinroSkill/24	Nein, lassen wir das
-ScenarioBaseText/16:JinroSkill/25	Auch widersprechen
+ScenarioBaseText/16:JinroSkill/25	Auch dagegen
 ScenarioBaseText/16:JinroSkill/26	Ende
 ScenarioBaseText/16:JinroSkill/27	Abstimmen
 ScenarioBaseText/16:JinroSkill/28	Für {0} stimmen
@@ -3345,13 +3345,13 @@ ScenarioBaseText/16:JinroSkill/30	Zustimmen
 ScenarioBaseText/16:JinroSkill/31	Widersetzen
 ScenarioBaseText/16:JinroSkill/32	Ablehnen
 ScenarioBaseText/16:JinroSkill/33	Nein, ich will meine Stimme noch nicht festlegen
-ScenarioBaseText/16:JinroSkill/34	Auch widersprechen
+ScenarioBaseText/16:JinroSkill/34	Auch dagegen
 ScenarioBaseText/16:JinroSkill/35	Nicht abstimmen
 ScenarioBaseText/16:JinroSkill/36	Nicht für {0} stimmen
 ScenarioBaseText/16:JinroSkill/37	Zustimmen
 ScenarioBaseText/16:JinroSkill/38	Ablehnen
 ScenarioBaseText/16:JinroSkill/39	Nein, jede Person sollte wählen, wen sie will
-ScenarioBaseText/16:JinroSkill/40	Auch widersprechen
+ScenarioBaseText/16:JinroSkill/40	Auch dagegen
 ScenarioBaseText/16:JinroSkill/41	Zusammenarbeiten
 ScenarioBaseText/16:JinroSkill/42	Ich will mit {0} zusammenarbeiten
 ScenarioBaseText/16:JinroSkill/43	Annehmen
@@ -9247,6 +9247,10 @@ Image/help.next	Weiter
 Image/help.back	Zurück
 Image/help.previous	Vorherige
 Image/result.actual_roles	Wahre Rollen
+Image/note.reported_gnosia	Gemeldet als\n[Gnosia]
+Image/note.reported_human	Gemeldet als\n[Mensch]
+Image/note.numbers_doctor	Jede Zahl ist\nein Doktor
+Image/note.numbers_engineer	Jede Zahl ist\nein Ingenieur
 Code/was	war
 Code/wasn't	war nicht
 Code/were	waren
