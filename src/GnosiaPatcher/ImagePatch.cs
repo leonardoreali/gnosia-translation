@@ -393,6 +393,7 @@ static class ImagePatch
                     if (Cut(rx, y)) rx = lx;
                     float v = !inside && it.Erase != "copy" ? Px(x, y, c) : it.Erase switch
                     {
+                        "none" or "inpaint" => Px(x, y, c),
                         "clear" => 0,
                         "copy" => img.P[((it.From![1] + y) * img.W + it.From[0] + x) * 4 + c],
                         "cols" => Lerp(Px(x, Math.Max(0, et - 1), c), Px(x, Math.Min(bh - 1, eb + 1), c), (y - et + 1) / (float)(eb - et + 2)),
@@ -400,6 +401,24 @@ static class ImagePatch
                     };
                     bg[(y * bw + x) * 4 + c] = v;
                 }
+        if (it.Erase == "inpaint")
+        {
+            // textured backgrounds: replace only the letters (and their glow), filled in from the pixels around them
+            var hole = new bool[n];
+            for (int i = 0; i < n; i++)
+            {
+                int y = i / bw, x = i % bw;
+                if (cov[i] <= 0 || x < el || x > er || y < et || y > eb) continue;
+                for (int dy = -2; dy <= 2; dy++)
+                    for (int dx = -2; dx <= 2; dx++)
+                    {
+                        int nx = x + dx, ny = y + dy;
+                        // transparent pixels around the panel stay transparent
+                        if (nx >= 0 && ny >= 0 && nx < bw && ny < bh && bg[(ny * bw + nx) * 4 + 3] >= 0.5f) hole[ny * bw + nx] = true;
+                    }
+            }
+            Inpaint(bg, hole, bw, bh);
+        }
         if (it.Color != null) paint = ParseColor(it.Color);
         var accent = it.Accent != null ? ParseColor(it.Accent) : paint;
 
@@ -556,6 +575,44 @@ static class ImagePatch
                     if (nx >= 0 && ny >= 0 && nx < bw && ny < bh && label[ny * bw + nx] > 0) near = true;
                 }
             if (!near) diff[i] = 0;
+        }
+    }
+
+    /// <summary>
+    /// Fills the hole pixels of an RGBA image layer by layer from the outside in, each one taking the average of
+    /// its already known neighbours, so the surrounding texture reaches into the hole instead of a smooth gradient.
+    /// </summary>
+    static void Inpaint(float[] px, bool[] hole, int w, int h)
+    {
+        var todo = (bool[])hole.Clone();
+        var layer = new List<(int I, float R, float G, float B, float A)>();
+        while (true)
+        {
+            layer.Clear();
+            for (int i = 0; i < todo.Length; i++)
+            {
+                if (!todo[i]) continue;
+                int x = i % w, y = i / w, k = 0;
+                float r = 0, g = 0, b = 0, a = 0;
+                // opaque neighbours first: a transparent edge next to the hole must not fade it
+                for (int pass = 0; pass < 2 && k == 0; pass++)
+                    for (int dy = -1; dy <= 1; dy++)
+                        for (int dx = -1; dx <= 1; dx++)
+                        {
+                            int nx = x + dx, ny = y + dy;
+                            if ((dx == 0 && dy == 0) || nx < 0 || ny < 0 || nx >= w || ny >= h || todo[ny * w + nx]) continue;
+                            int o = (ny * w + nx) * 4;
+                            if (pass == 0 && px[o + 3] < 0.9f) continue;
+                            r += px[o]; g += px[o + 1]; b += px[o + 2]; a += px[o + 3]; k++;
+                        }
+                if (k > 0) layer.Add((i, r / k, g / k, b / k, a / k));
+            }
+            if (layer.Count == 0) return;
+            foreach (var (i, r, g, b, a) in layer)
+            {
+                px[i * 4] = r; px[i * 4 + 1] = g; px[i * 4 + 2] = b; px[i * 4 + 3] = a;
+                todo[i] = false;
+            }
         }
     }
 

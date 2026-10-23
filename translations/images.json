@@ -63,9 +63,9 @@
       "items": [
         { "id": "tgt.disguise_1", "en": "Disguise", "box": [365, 4, 172, 42], "ink": [373, 8, 517, 43], "align": "left", "color": "#ffffff", "dilate": 0.3 },
         { "id": "tgt.disguise_2", "en": "Yourself & Lie", "box": [398, 44, 210, 32], "ink": [406, 45, 600, 73], "align": "right", "color": "#ffffff", "dilate": 0.3 },
-        { "id": "tgt.choose_1", "en": "Choose a Target", "box": [80, 212, 258, 75], "ink": [86, 215, 333, 286], "eraseOnly": true },
-        { "id": "tgt.choose_2", "en": "a Target", "box": [200, 236, 136, 46], "ink": [217, 240, 329, 276], "manual": true, "size": 38, "baseline": 274, "align": "right", "color": "#ffffff", "dilate": 0.3 },
-        { "id": "tgt.choose_1", "en": "Choose", "box": [82, 212, 140, 42], "ink": [88, 217, 214, 250], "manual": true, "size": 41, "baseline": 248, "fitInk": true, "align": "left", "color": "#ffffff", "dilate": 0.3 },
+        { "id": "tgt.choose_1", "en": "Choose a Target", "box": [80, 212, 258, 75], "ink": [86, 215, 333, 285], "eraseOnly": true, "erase": "inpaint" },
+        { "id": "tgt.choose_2", "en": "a Target", "box": [200, 236, 136, 46], "ink": [217, 240, 329, 276], "manual": true, "erase": "none", "size": 38, "baseline": 274, "align": "right", "color": "#ffffff", "dilate": 0.3 },
+        { "id": "tgt.choose_1", "en": "Choose", "box": [82, 212, 140, 42], "ink": [88, 217, 214, 250], "manual": true, "erase": "none", "size": 41, "baseline": 248, "fitInk": true, "align": "left", "color": "#ffffff", "dilate": 0.3 },
         { "id": "tgt.investigate", "en": "Who will you investigate?", "box": [8, 326, 346, 46], "ink": [13, 330, 342, 370], "align": "left", "color": "#ffffff" },
         { "id": "tgt.protect", "en": "Who will you protect?", "box": [8, 414, 350, 46], "ink": [13, 418, 347, 458], "align": "left", "color": "#ffffff" }
       ]
