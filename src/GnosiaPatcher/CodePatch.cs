@@ -8,6 +8,7 @@ namespace GnosiaPatcher;
 /// {5} with the English words "was", "were", "wasn't" and "weren't", choosing the plural when the list of names
 /// contains "and". This rewrites those string constants in Assembly-CSharp.dll with the translation's
 /// "Code/was", "Code/wasn't", "Code/were" and "Code/weren't" entries, and "and" with its own word for "and".
+/// The player's own Doctor/Engineer result screen glues " was " between a name and "Gnosia" the same way.
 /// </summary>
 static class CodePatch
 {
@@ -28,6 +29,8 @@ static class CodePatch
         if (replace.Count == 0) { Restore(dataDir); return 0; }
         if (translation.Entries.TryGetValue(AndKey, out var and) && and.Trim().Length > 0)
             replace["and"] = " " + and.Trim() + " ";
+        // the player's own Doctor/Engineer result: name + " was " + "Gnosia" + "."
+        if (replace.TryGetValue("was", out var was)) replace[" was "] = " " + was.Trim() + " ";
 
         string path = Path.Combine(dataDir, "Managed", Dll), backup = path + BackupSuffix;
         if (!File.Exists(backup)) File.Copy(path, backup);
@@ -37,16 +40,19 @@ static class CodePatch
         int changed = 0;
         using (var asm = AssemblyDefinition.ReadAssembly(backup, new ReaderParameters { AssemblyResolver = resolver }))
         {
-            // only the methods that build a report: they are the ones loading "wasn't"
-            var methods = asm.MainModule.GetTypes().SelectMany(t => t.Methods).Where(m => m.HasBody &&
-                m.Body.Instructions.Any(i => i.OpCode == OpCodes.Ldstr && (string)i.Operand == "wasn't"));
+            // only the methods that build a report (they load "wasn't") or the player's result (" was ")
+            static bool Loads(MethodDefinition m, string s) => m.Body.Instructions.Any(i => i.OpCode == OpCodes.Ldstr && (string)i.Operand == s);
+            var methods = asm.MainModule.GetTypes().SelectMany(t => t.Methods).Where(m => m.HasBody && (Loads(m, "wasn't") || Loads(m, " was ")));
             foreach (var method in methods)
+            {
+                bool report = Loads(method, "wasn't");
                 foreach (var ins in method.Body.Instructions)
-                    if (ins.OpCode == OpCodes.Ldstr && replace.TryGetValue((string)ins.Operand, out var text))
+                    if (ins.OpCode == OpCodes.Ldstr && (report || (string)ins.Operand == " was ") && replace.TryGetValue((string)ins.Operand, out var text))
                     {
                         ins.Operand = text;
                         changed++;
                     }
+            }
             asm.Write(path + ".tmp");
         }
         File.Move(path + ".tmp", path, overwrite: true);

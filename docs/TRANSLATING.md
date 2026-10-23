@@ -50,6 +50,9 @@ Code/were	eram
 Code/weren't	não eram
 ```
 
+`Code/was` is also used when the player is the Doctor or Engineer: the result screen builds
+"<name> was Gnosia." in code, so it becomes "<name> era Gnosia." (spaces are added around it).
+
 - Lines that are only names, symbols or internal labels can be omitted; the English stays.
 - Context column (`asset:sheet`) tells who speaks: `Chara:Setsu` are Setsu's lines, `ScenarioSQ:SQ3` is an SQ event.
 - **Setsu and Raqio are non-binary.** Avoid gendered forms for them where the language allows.
