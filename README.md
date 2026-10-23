@@ -5,13 +5,18 @@ the sci-fi social deduction RPG by Petit Depotto.
 
 The game ships in **English, Japanese and Simplified Chinese**. This patcher adds:
 
-| Language | Status |
-|---|---|
-| 🇧🇷 Português (Brasil) | ✅ complete, including images |
-| 🇪🇸 Español | ✅ complete, including images |
-| 🇩🇪 Deutsch | ✅ complete, including images |
-| 🇫🇷 Français | ✅ complete, including images |
-| 🇷🇺 Русский | ✅ complete, including images |
+| Language | Translated | Tested in game | Reviewed by a native speaker |
+|---|---|---|---|
+| 🇧🇷 Português (Brasil) | ✅ text + images | ✅ | ✅ |
+| 🇪🇸 Español | ✅ text + images | ✅ | ❌ |
+| 🇩🇪 Deutsch | ✅ text + images | ❌ | ❌ |
+| 🇫🇷 Français | ✅ text + images | ❌ | ❌ |
+| 🇷🇺 Русский | ✅ text + images | ❌ | ❌ |
+
+> **Made with AI.** I built this project with a lot of help from AI (Claude, by Anthropic): it wrote most of the code
+> and the first draft of every translation, while I'm still learning programming. Only Brazilian Portuguese has been
+> reviewed by a native speaker so far; the other languages may have mistakes or awkward phrasing.
+> Native speakers who want to help are very welcome — see [Contributing](#contributing).
 
 > 🇧🇷 **Português:** baixe o `GnosiaTranslationPatcher.exe` em *Releases*, feche o jogo, rode o programa e escolha
 > "Português (Brasil)". Depois, nas opções do jogo, deixe o idioma em **English**. Para desfazer, rode de novo e
@@ -75,10 +80,19 @@ third_party/         Unity class database used by AssetsTools.NET
 dotnet publish src/GnosiaPatcher -c Release -o publish
 ```
 
-## Adding or improving a translation
+## Contributing
 
-See [docs/TRANSLATING.md](docs/TRANSLATING.md). The patcher can export the source text from *your own copy* of the
-game (`--export`) and validate a translation (`--check`).
+Anyone can help, no programming needed:
+
+- **Found a wrong or awkward line?** Open an [issue](../../issues) with the language, a screenshot or the line as it
+  appears in the game, and your suggested fix.
+- **Want to review or fix a language?** Translations are plain text files, `translations/<lang>.tsv`, one line per
+  `key<TAB>text`. Edit the file on GitHub (pencil icon) or in a fork and open a pull request. Keep `{0}`, `\n` and
+  the key on the left exactly as they are.
+- **Want to add a language or do bigger work?** See [docs/TRANSLATING.md](docs/TRANSLATING.md). The patcher can export
+  the source text from *your own copy* of the game (`--export`) and validate a translation (`--check`).
+
+Reviewers are credited in the README and the release notes.
 
 **Images.** Menus, buttons, the title screen, the Setup screen and character creation have their English text painted
 into textures. [`translations/images.json`](translations/images.json) lists the box of each text; at install time
