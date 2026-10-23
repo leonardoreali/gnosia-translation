@@ -9419,6 +9419,12 @@ Image/credit.publishing	Издатель
 Image/credit.fan_translation	Перевод: leonardoreali\nТесты: AndersonRx
 Image/keys.button	Клавиши
 Image/move.select_destination	Выберите место
+Image/tgt.disguise_1	Притворись
+Image/tgt.disguise_2	и лги
+Image/tgt.choose_1	Выбери
+Image/tgt.choose_2	цель
+Image/tgt.investigate	Кого проверить?
+Image/tgt.protect	Кого защитить?
 Code/was	-
 Code/wasn't	- не
 Code/were	-
