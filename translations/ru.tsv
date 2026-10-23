@@ -8978,8 +8978,8 @@ ScreenText/10:GalleryScreen/13	Др. изображение
 ScreenText/11:GameMenuHelpScreen/0	Основные правила
 ScreenText/11:GameMenuHelpScreen/1	Описание экрана
 ScreenText/11:GameMenuHelpScreen/2	Развитие сюжета
-ScreenText/11:GameMenuHelpScreen/3	Вопросы и ответы  (часть 1)
-ScreenText/11:GameMenuHelpScreen/4	Вопросы и ответы  (часть 2)
+ScreenText/11:GameMenuHelpScreen/3	Вопросы (1)
+ScreenText/11:GameMenuHelpScreen/4	Вопросы (2)
 ScreenText/11:GameMenuHelpScreen/5	Обзор игры
 ScreenText/11:GameMenuHelpScreen/6	Список ролей
 ScreenText/11:GameMenuHelpScreen/7	Обсуждение  (симпатия/доверие)
@@ -9378,6 +9378,9 @@ Image/room.desc_logic	[Логика] помогает убеждать друг�
 Image/room.desc_charm	[Обаяние] делает вас симпатичнее, и вас реже выбирают для криосна.
 Image/room.desc_performance	[Актёрство] помогает лучше лгать и убедительнее доносить свою мысль.
 Image/room.desc_stealth	[Скрытность] мешает другим заметить ваши дурные намерения, и Гносия реже выбирает вас целью.
+Image/help.next	Далее
+Image/help.back	Назад
+Image/help.previous	Пред.
 Code/was	-
 Code/wasn't	- не
 Code/were	-

@@ -9243,6 +9243,9 @@ Image/room.desc_logic	[Logik] macht es leichter, andere davon zu überzeugen, da
 Image/room.desc_charm	[Charme] macht dich sympathischer, sodass du seltener für den Kälteschlaf gewählt wirst.
 Image/room.desc_performance	[Schauspiel] macht dich zu einem besseren Lügner und hilft dir, deinen Standpunkt wirksamer zu vermitteln.
 Image/room.desc_stealth	[Tarnung] macht es anderen schwerer, deine bösen Absichten zu bemerken, und die Gnosia wählen dich seltener als Ziel.
+Image/help.next	Weiter
+Image/help.back	Zurück
+Image/help.previous	Vorherige
 Code/was	war
 Code/wasn't	war nicht
 Code/were	waren

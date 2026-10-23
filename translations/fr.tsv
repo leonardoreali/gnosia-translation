@@ -8952,8 +8952,8 @@ ScreenText/10:GalleryScreen/11	Zoom avant/arrière
 ScreenText/10:GalleryScreen/12	Gauche/Droite
 ScreenText/10:GalleryScreen/13	Autre image
 ScreenText/11:GameMenuHelpScreen/0	Règles de base
-ScreenText/11:GameMenuHelpScreen/1	Explication de l'écran
-ScreenText/11:GameMenuHelpScreen/2	Faire avancer l'histoire
+ScreenText/11:GameMenuHelpScreen/1	Les écrans
+ScreenText/11:GameMenuHelpScreen/2	Avancer l'histoire
 ScreenText/11:GameMenuHelpScreen/3	Q&R  (Partie 1)
 ScreenText/11:GameMenuHelpScreen/4	Q&R  (Partie 2)
 ScreenText/11:GameMenuHelpScreen/5	Présentation du jeu
@@ -9355,6 +9355,9 @@ Image/room.desc_logic	[Logique] vous aide à convaincre les autres que vous avez
 Image/room.desc_charm	[Charme] vous rend plus sympathique, et donc moins susceptible d'être envoyé en cryosommeil.
 Image/room.desc_performance	[Jeu d'acteur] vous aide à mieux mentir et à faire passer vos idées plus efficacement.
 Image/room.desc_stealth	[Discrétion] rend vos mauvaises intentions plus difficiles à percevoir, et les Gnosia vous ciblent moins souvent.
+Image/help.next	Suiv.
+Image/help.back	Retour
+Image/help.previous	Précédent
 Code/was	était
 Code/wasn't	n'était pas
 Code/were	étaient

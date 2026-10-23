@@ -8862,8 +8862,8 @@ ScreenText/10:GalleryScreen/13	Imagem Alt.
 ScreenText/11:GameMenuHelpScreen/0	Regras Básicas
 ScreenText/11:GameMenuHelpScreen/1	Explicação da Tela
 ScreenText/11:GameMenuHelpScreen/2	Avançando a História
-ScreenText/11:GameMenuHelpScreen/3	Perguntas  (Parte 1)
-ScreenText/11:GameMenuHelpScreen/4	Perguntas  (Parte 2)
+ScreenText/11:GameMenuHelpScreen/3	Perguntas (1)
+ScreenText/11:GameMenuHelpScreen/4	Perguntas (2)
 ScreenText/11:GameMenuHelpScreen/5	Visão Geral do Jogo
 ScreenText/11:GameMenuHelpScreen/6	Lista de Papéis
 ScreenText/11:GameMenuHelpScreen/7	Discussão  (Simpatia/Confiança)
@@ -9266,6 +9266,9 @@ Image/room.desc_logic	[Lógica] facilita convencer os outros de que você tem ra
 Image/room.desc_charm	[Charme] faz os outros gostarem mais de você, diminuindo a chance de você ir para o sono criogênico.
 Image/room.desc_performance	[Atuação] faz você mentir melhor e ajuda a transmitir suas ideias com mais eficiência.
 Image/room.desc_stealth	[Furtividade] dificulta que os outros percebam suas más intenções e diminui a chance de os Gnosia escolherem você como alvo.
+Image/help.next	Próx.
+Image/help.back	Voltar
+Image/help.previous	Anterior
 Code/was	era
 Code/wasn't	não era
 Code/were	eram

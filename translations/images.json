@@ -205,6 +205,29 @@
       ]
     },
     {
+      "bundle": "help_en",
+      "textures": ["help_KB", "help_GP"],
+      "items": [
+        { "id": "menu.how_to_play", "en": "How to Play", "box": [590, 22, 262, 60], "ink": [611, 35, 835, 79], "cut": 20 },
+        { "id": "help.back", "en": "Back", "box": [587, 175, 48, 21], "ink": [589, 176, 635, 194], "erase": "clear", "color": "#ffffff" },
+        { "id": "help.previous", "en": "Previous", "box": [567, 199, 88, 23], "ink": [569, 201, 655, 220], "erase": "clear", "color": "#ffffff" }
+      ]
+    },
+    {
+      "bundle": "help_en",
+      "textures": ["help_KB"],
+      "items": [
+        { "id": "help.next", "en": "Next", "box": [615, 145, 54, 23], "ink": [616, 146, 667, 166], "erase": "clear", "color": "#ffffff" }
+      ]
+    },
+    {
+      "bundle": "help_en",
+      "textures": ["help_GP"],
+      "items": [
+        { "id": "help.next", "en": "Next", "box": [596, 145, 55, 23], "ink": [598, 146, 650, 166], "erase": "clear", "color": "#ffffff" }
+      ]
+    },
+    {
       "bundle": "title_en",
       "textures": ["titleAll_KB", "titleAll_GP"],
       "items": [

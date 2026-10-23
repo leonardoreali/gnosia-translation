@@ -8834,7 +8834,7 @@ ScreenText/10:GalleryScreen/11	Acercar/Alejar
 ScreenText/10:GalleryScreen/12	Mover Izq./Der.
 ScreenText/10:GalleryScreen/13	Imagen Alt.
 ScreenText/11:GameMenuHelpScreen/0	Reglas Básicas
-ScreenText/11:GameMenuHelpScreen/1	Explicación de Pantalla
+ScreenText/11:GameMenuHelpScreen/1	Guía de Pantalla
 ScreenText/11:GameMenuHelpScreen/2	Avanzar la Historia
 ScreenText/11:GameMenuHelpScreen/3	P y R  (Parte 1)
 ScreenText/11:GameMenuHelpScreen/4	P y R  (Parte 2)
@@ -9233,6 +9233,9 @@ Image/room.desc_logic	[Lógica] facilita convencer a los demás de que tienes ra
 Image/room.desc_charm	[Encanto] hace que caigas mejor, y así es menos probable que te elijan para el sueño criogénico.
 Image/room.desc_performance	[Actuación] te ayuda a mentir mejor y a transmitir tus ideas con más eficacia.
 Image/room.desc_stealth	[Sigilo] hace que a los demás les cueste notar tus malas intenciones, y que los Gnosia te elijan menos como objetivo.
+Image/help.next	Sig.
+Image/help.back	Atrás
+Image/help.previous	Anterior
 Code/was	era
 Code/wasn't	no era
 Code/were	eran
