@@ -9331,7 +9331,7 @@ Image/interface.speak	Сказать
 Image/interface.close	Закрыть
 Image/interface.yes	Да
 Image/interface.select	Выбрать
-Image/interface.wait_see	Наблю-\nдать
+Image/interface.wait_see	Ждать
 Image/interface.no	Нет
 Image/interface.next	Далее
 Image/interface.input	Ввод

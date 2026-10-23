@@ -9308,7 +9308,7 @@ Image/interface.speak	Parler
 Image/interface.close	Fermer
 Image/interface.yes	Oui
 Image/interface.select	Choisir
-Image/interface.wait_see	Juste\nvoir
+Image/interface.wait_see	Observer
 Image/interface.no	Non
 Image/interface.next	Suivant
 Image/interface.input	Saisir

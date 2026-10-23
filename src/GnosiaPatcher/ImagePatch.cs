@@ -61,6 +61,7 @@ static class ImagePatch
                                                           // the inside of a banner whose slanted text crosses its outline
         public int[][]? Outline { get; set; }             // closed polygon redrawn as a line after clearing (the banner's border)
         public float OutlineWidth { get; set; } = 5;
+        public bool EraseOnly { get; set; }               // only removes this part of the English (another item draws the translation)
     }
 
     public static string Key(Item it) => "Image/" + it.Id;
@@ -429,6 +430,7 @@ static class ImagePatch
         };
         if (it.FitInk) avail = Math.Min(avail, r - l + 1 + 4);
         if (it.WrapWidth is int ww) avail = Math.Min(avail, ww);
+        if (it.EraseOnly) text = "";
         var paragraphs = text.Split("\\n").Select(Words).ToList();
         List<List<Word>> lines = paragraphs;
         if (it.Wrap)
