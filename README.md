@@ -18,6 +18,18 @@ The game ships in **English, Japanese and Simplified Chinese**. This patcher add
 > reviewed by a native speaker so far; the other languages may have mistakes or awkward phrasing.
 > Native speakers who want to help are very welcome — see [Contributing](#contributing).
 
+### Other fan translations
+
+Other fans have put a lot of work into hand-made translations. Please check them out:
+
+- 🇫🇷 **Français:** a complete, human-made translation by [Équipe Mirai](https://equipemirai.com/gnosia/) and
+  [Dream Team Trad](https://www.dreamteamtrad.fr/gnosia/) (2024). **If you play in French, we recommend theirs.**
+- 🇷🇺 **Русский:** a full translation by QuestLion, ZedcliF and Libert, announced in December 2025
+  ([news](https://www.playground.ru/gnosia/news/gnosia_poluchit_polnotsennyj_fanatskij_russkij_perevod-1811855)).
+  Check its current status before choosing this patcher's Russian.
+
+Know another one? Open an issue and it will be added here.
+
 > 🇧🇷 **Português:** baixe o `GnosiaTranslationPatcher.exe` em *Releases*, feche o jogo, rode o programa e escolha
 > "Português (Brasil)". Depois, nas opções do jogo, deixe o idioma em **English**. Para desfazer, rode de novo e
 > escolha "Restore".
