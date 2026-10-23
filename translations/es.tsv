@@ -848,9 +848,9 @@ CharaText/4:Jonas/126	{1} no podría ser {0}. SIN EM-BARGO...\nEso, eh... en rea
 CharaText/4:Jonas/127	Mi investigación ha concluido.
 CharaText/4:Jonas/128	El cuerpo humano congelado y helado es algo bello.\nAunque lo arruiné un poco con mi "examen".
 CharaText/4:Jonas/129	Por la presente... ¡IN-FORMO! {1} {3} {0}.
-CharaText/4:Jonas/130	Por la presente... ¡IN-FORMO! {1} {3} no {0}.
+CharaText/4:Jonas/130	Por la presente... ¡IN-FORMO! {1} no {3} {0}.
 CharaText/4:Jonas/131	¡IN-FORME! {2} {4} {0}.
-CharaText/4:Jonas/132	¡IN-FORME! {1} {3} no {0}.
+CharaText/4:Jonas/132	¡IN-FORME! {1} no {3} {0}.
 CharaText/4:Jonas/133	Tú... me copiaste los resultados total, ¿no...?\n
 CharaText/4:Jonas/134	¡De mi parte, un rotundo NO! ¡A-JÁ! ¡La fachada del demonio se desmorona!\n
 CharaText/4:Jonas/135	¡IN-FORME! {0} ha sido... victimizado.\nCausa de muerte: ¡GNOSIA!
@@ -1064,7 +1064,7 @@ CharaText/5:Kukulsika/126	Según lo que descubrió, {1} no era {0}.)
 CharaText/5:Kukulsika/127	(Kukrushka da a entender...\nque no sabía a quién investigar.)
 CharaText/5:Kukulsika/128	(Diciendo ser Médico, Kukrushka informa.\n
 CharaText/5:Kukulsika/129	Al parecer descubrió que {1} {3} {0}.)
-CharaText/5:Kukulsika/130	Al parecer {1} {3} no {0}.)
+CharaText/5:Kukulsika/130	Al parecer {1} no {3} {0}.)
 CharaText/5:Kukulsika/131	{2} {4} {0}, según su informe.)
 CharaText/5:Kukulsika/132	Al parecer no había {0} entre los congelados anoche.)
 CharaText/5:Kukulsika/133	(Kukrushka asiente.\n
@@ -1682,7 +1682,7 @@ CharaText/8:Remnant/129	Según el registro, {1} no es {0}.
 CharaText/8:Remnant/130	Ya no hace falta revisar...
 CharaText/8:Remnant/131	Yo... revisé a los que están en sueño criogénico...\n
 CharaText/8:Remnant/132	{1} {3}... {0}.
-CharaText/8:Remnant/133	{1} {3}... no {0}.
+CharaText/8:Remnant/133	{1}... no {3} {0}.
 CharaText/8:Remnant/134	Revisé a {1}. Y {2}... {4} {0}.
 CharaText/8:Remnant/135	{1}...\nNinguno de ellos era {0}.
 CharaText/8:Remnant/136	Mi investigación dio... los mismos resultados.\n
@@ -1893,7 +1893,7 @@ CharaText/9:Setsu/128	Al menos, {1} no era {0}.
 CharaText/9:Setsu/129	Como Ingeniero, no tengo nada en particular que informar.\nNo queda nadie que requiera investigación.
 CharaText/9:Setsu/130	Estos son los resultados de mis pruebas tras el sueño criogénico de anoche.\n
 CharaText/9:Setsu/131	{1} {3} {0}.
-CharaText/9:Setsu/132	Al menos, {1} {3} no {0}.
+CharaText/9:Setsu/132	Al menos, {1} no {3} {0}.
 CharaText/9:Setsu/133	{2} {4} {0}.
 CharaText/9:Setsu/134	Cero. {1}...\nNadie era {0}.
 CharaText/9:Setsu/135	Mis resultados fueron los mismos.\n
@@ -2917,7 +2917,7 @@ CharaText/14:Yuriko/127	{1} no mostró señales de infección {0}.\nNada signifi
 CharaText/14:Yuriko/128	No había nadie que valiera la pena investigar.\n¿No está todo suficientemente claro?
 CharaText/14:Yuriko/129	Analicé el tejido cerebral de quienes congelamos ayer.\n
 CharaText/14:Yuriko/130	Jeje, felicidades.\n{1} {3} {0}.
-CharaText/14:Yuriko/131	{1} {3} no {0}.\nEl sueño criogénico no sirvió de nada.
+CharaText/14:Yuriko/131	{1} no {3} {0}.\nEl sueño criogénico no sirvió de nada.
 CharaText/14:Yuriko/132	Entre {1}, {2} {4} infectado por los {0}.\nAtrapado en nuestra red, como se esperaba.
 CharaText/14:Yuriko/133	{1} eran todos humanos normales...\nParece que los {0} se escondieron bien.
 CharaText/14:Yuriko/134	Mis hallazgos fueron los mismos...\n
@@ -3118,7 +3118,7 @@ OthersText/4:setting/41	Bug Seguro
 OthersText/4:setting/42	Decir que Soy Humano
 OthersText/4:setting/43	Votar
 OthersText/4:setting/44	No Votar
-OthersText/4:setting/45	Charla
+OthersText/4:setting/45	Charlar
 OthersText/4:setting/46	Congelar a Todos
 OthersText/4:setting/47	Colaboremos
 OthersText/4:setting/48	Buscar Apoyo
@@ -3199,10 +3199,10 @@ ScenarioBaseText/4:Jinro/15	Proteger
 ScenarioBaseText/4:Jinro/16	Me agrada {0}
 ScenarioBaseText/4:Jinro/17	Probablemente se puede confiar en {0}
 ScenarioBaseText/4:Jinro/18	{0} parece de fiar
-ScenarioBaseText/4:Jinro/19	Ayudar a Proteger
+ScenarioBaseText/4:Jinro/19	Proteger Juntos
 ScenarioBaseText/4:Jinro/20	Rebatir
 ScenarioBaseText/4:Jinro/21	No, no podemos confiar en {0}
-ScenarioBaseText/4:Jinro/22	Discrepar También
+ScenarioBaseText/4:Jinro/22	Sumarse al Rebate
 ScenarioBaseText/4:Jinro/23	Agradecer
 ScenarioBaseText/4:Jinro/24	Callar
 ScenarioBaseText/4:Jinro/25	{0} es molesto
@@ -3312,7 +3312,7 @@ ScenarioBaseText/14:Talk/1	Preparación de Conversación Libre
 ScenarioBaseText/14:Talk/2	Conversación Libre
 ScenarioBaseText/15:Talk_Myroom/0	Ir a Habitación
 ScenarioBaseText/15:Talk_Myroom/1	Elegir Habitación
-ScenarioBaseText/16:JinroSkill/0	Decir que Eres Humano
+ScenarioBaseText/16:JinroSkill/0	Decir que Soy Humano
 ScenarioBaseText/16:JinroSkill/1	Intenta declarar que eres humano
 ScenarioBaseText/16:JinroSkill/2	Fin
 ScenarioBaseText/16:JinroSkill/3	{0} no dijo ser humano...
@@ -9195,3 +9195,7 @@ Image/interface.back	Volver
 Image/interface.change	Cambiar
 Image/interface.data	Datos
 Image/interface.menu	Menú
+Code/was	era
+Code/wasn't	no era
+Code/were	eran
+Code/weren't	no eran

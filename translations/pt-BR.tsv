@@ -647,7 +647,7 @@ CharaText/3:Gina/127	Investiguei {1}, e o resultado foi "humano".\nNão é {0}.
 CharaText/3:Gina/128	Não sobrou ninguém que eu queira investigar...
 CharaText/3:Gina/129	Tenho um relatório. Examinei quem foi para o sono criogênico ontem.\n
 CharaText/3:Gina/130	{1} {3} {0}.
-CharaText/3:Gina/131	O resultado deu negativo para {0}. {1} {3} humano.
+CharaText/3:Gina/131	O resultado deu negativo para {0}. {1} {3} humano(a).
 CharaText/3:Gina/132	{2} {4} {0}.
 CharaText/3:Gina/133	{1}, ambos humanos.\nO que estamos fazendo...?
 CharaText/3:Gina/134	Meu relatório é o mesmo.\n
@@ -851,9 +851,9 @@ CharaText/4:Jonas/126	{1} não teria como ser {0}. PO-RÉM...\nIsso, hã... na v
 CharaText/4:Jonas/127	Minha pesquisa está concluída.
 CharaText/4:Jonas/128	O corpo humano congelado e gélido é algo belo.\nMas acabei bagunçando um pouco com meu "exame".
 CharaText/4:Jonas/129	Eu aqui... RE-LA-TO! {1} {3} {0}.
-CharaText/4:Jonas/130	Eu aqui... RE-LA-TO! {1} {3} não {0}.
+CharaText/4:Jonas/130	Eu aqui... RE-LA-TO! {1} não {3} {0}.
 CharaText/4:Jonas/131	RE-LA-TO! {2} {4} {0}.
-CharaText/4:Jonas/132	RE-LA-TO! {1} {3} não {0}.
+CharaText/4:Jonas/132	RE-LA-TO! {1} não {3} {0}.
 CharaText/4:Jonas/133	Você... copiou totalmente meus resultados, não foi...?\n
 CharaText/4:Jonas/134	De mim, um sonoro NÃO! A-HÁ! A fachada do patife desmorona!\n
 CharaText/4:Jonas/135	RE-LA-TO! {0} foi... vitimado(a).\nCausa da morte: GNOSIA!
@@ -1068,7 +1068,7 @@ CharaText/5:Kukulsika/126	Segundo o que ela descobriu, {1} não era {0}.)
 CharaText/5:Kukulsika/127	(Kukrushka indica...\nque não sabia quem investigar.)
 CharaText/5:Kukulsika/128	(Alegando ser a Médica, Kukrushka relata.\n
 CharaText/5:Kukulsika/129	Pelo visto ela descobriu que {1} {3} {0}.)
-CharaText/5:Kukulsika/130	Pelo visto {1} {3} não {0}.)
+CharaText/5:Kukulsika/130	Pelo visto {1} não {3} {0}.)
 CharaText/5:Kukulsika/131	{2} {4} {0}, segundo o relatório dela.)
 CharaText/5:Kukulsika/132	Pelo visto não havia {0} entre os congelados ontem à noite.)
 CharaText/5:Kukulsika/133	(Kukrushka acena com a cabeça.\n
@@ -1689,7 +1689,7 @@ CharaText/8:Remnant/129	Segundo o registro, {1} não é {0}.
 CharaText/8:Remnant/130	Não há mais necessidade de verificar...
 CharaText/8:Remnant/131	Eu... verifiquei os que estão em sono criogênico...\n
 CharaText/8:Remnant/132	{1} {3}... {0}.
-CharaText/8:Remnant/133	{1} {3}... não {0}.
+CharaText/8:Remnant/133	{1}... não {3} {0}.
 CharaText/8:Remnant/134	Verifiquei {1}. E {2}... {4} {0}.
 CharaText/8:Remnant/135	{1}...\nNenhum deles era {0}.
 CharaText/8:Remnant/136	Minha pesquisa deu... os mesmos resultados.\n
@@ -1901,7 +1901,7 @@ CharaText/9:Setsu/128	No mínimo, {1} não era {0}.
 CharaText/9:Setsu/129	Como Engenheiro, não tenho nada em especial a relatar.\nNão sobrou ninguém que precise ser investigado.
 CharaText/9:Setsu/130	Aqui estão os resultados dos meus testes pós-sono criogênico de ontem.\n
 CharaText/9:Setsu/131	{1} {3} {0}.
-CharaText/9:Setsu/132	No mínimo, {1} {3} não {0}.
+CharaText/9:Setsu/132	No mínimo, {1} não {3} {0}.
 CharaText/9:Setsu/133	{2} {4} {0}.
 CharaText/9:Setsu/134	Zero. {1}...\nNinguém era {0}.
 CharaText/9:Setsu/135	Meus resultados foram os mesmos.\n
@@ -2930,7 +2930,7 @@ CharaText/14:Yuriko/127	{1} não mostrou sinais de infecção {0}.\nNada de sign
 CharaText/14:Yuriko/128	Não havia ninguém que valesse investigar.\nNão está tudo claro o bastante?
 CharaText/14:Yuriko/129	Analisei o tecido cerebral dos congelados ontem.\n
 CharaText/14:Yuriko/130	Hehe, parabéns.\n{1} {3} {0}.
-CharaText/14:Yuriko/131	{1} {3} não {0}.\nO sono criogênico foi inútil.
+CharaText/14:Yuriko/131	{1} não {3} {0}.\nO sono criogênico foi inútil.
 CharaText/14:Yuriko/132	Entre {1}, {2} {4} infectado(a) por {0}.\nPreso(a) na nossa rede, como esperado.
 CharaText/14:Yuriko/133	{1} eram todos humanos comuns...\nParece que o {0} se escondeu bem.
 CharaText/14:Yuriko/134	Minhas descobertas foram as mesmas...\n
@@ -3215,10 +3215,10 @@ ScenarioBaseText/4:Jinro/15	Proteger
 ScenarioBaseText/4:Jinro/16	Eu gosto de {0}
 ScenarioBaseText/4:Jinro/17	Dá pra confiar em {0}, provavelmente
 ScenarioBaseText/4:Jinro/18	{0} parece confiável
-ScenarioBaseText/4:Jinro/19	Ajudar a Proteger
+ScenarioBaseText/4:Jinro/19	Reforçar Proteção
 ScenarioBaseText/4:Jinro/20	Contestar
 ScenarioBaseText/4:Jinro/21	Não, não podemos confiar em {0}
-ScenarioBaseText/4:Jinro/22	Discordar Também
+ScenarioBaseText/4:Jinro/22	Reforçar Contestação
 ScenarioBaseText/4:Jinro/23	Agradecer
 ScenarioBaseText/4:Jinro/24	Mandar Calar
 ScenarioBaseText/4:Jinro/25	{0} é irritante
@@ -3338,7 +3338,7 @@ ScenarioBaseText/16:JinroSkill/6	Eu Sou Humano
 ScenarioBaseText/16:JinroSkill/7	Parem com Isso
 ScenarioBaseText/16:JinroSkill/8	Não vamos fazer isso
 ScenarioBaseText/16:JinroSkill/9	Interrompido
-ScenarioBaseText/16:JinroSkill/10	Puxar Conversa Fiada
+ScenarioBaseText/16:JinroSkill/10	Conversa Fiada
 ScenarioBaseText/16:JinroSkill/11	Vamos falar de comida
 ScenarioBaseText/16:JinroSkill/12	Vamos falar de amor
 ScenarioBaseText/16:JinroSkill/13	Vamos contar histórias de terror
@@ -5674,7 +5674,7 @@ ScenarioSQText/1:SQ2/33	Você respondeu que comentários assim só te causam pro
 ScenarioSQText/1:SQ2/34	É...\nDesculpe por dizer algo assim sem perguntar antes...
 ScenarioSQText/1:SQ2/35	Continuar
 ScenarioSQText/1:SQ2/36	C-certo... Devíamos voltar.\nJá está quase na hora.
-ScenarioSQText/2:SQ3/0	Perceber mentira
+ScenarioSQText/2:SQ3/0	Perceber Mentira
 ScenarioSQText/2:SQ3/1	(Você percebeu a mentira de {0}...)
 ScenarioSQText/2:SQ3/2	Registrar conversa
 ScenarioSQText/2:SQ3/3	Conversa
@@ -8929,7 +8929,7 @@ ScreenText/14:GameMenuSkillScreen/2	Refutar
 ScreenText/14:GameMenuSkillScreen/3	Defender
 ScreenText/14:GameMenuSkillScreen/4	Reforçar Defesa
 ScreenText/14:GameMenuSkillScreen/5	Proteger
-ScreenText/14:GameMenuSkillScreen/6	Proteger Juntos
+ScreenText/14:GameMenuSkillScreen/6	Reforçar Proteção
 ScreenText/14:GameMenuSkillScreen/7	Agradecer
 ScreenText/14:GameMenuSkillScreen/8	Contestar
 ScreenText/14:GameMenuSkillScreen/9	Reforçar Contestação
@@ -9044,7 +9044,7 @@ ScreenText/22:ParamChangeSkillScreen/2	Refutar
 ScreenText/22:ParamChangeSkillScreen/3	Defender
 ScreenText/22:ParamChangeSkillScreen/4	Reforçar Defesa
 ScreenText/22:ParamChangeSkillScreen/5	Proteger
-ScreenText/22:ParamChangeSkillScreen/6	Proteger Juntos
+ScreenText/22:ParamChangeSkillScreen/6	Reforçar Proteção
 ScreenText/22:ParamChangeSkillScreen/7	Agradecer
 ScreenText/22:ParamChangeSkillScreen/8	Contestar
 ScreenText/22:ParamChangeSkillScreen/9	Reforçar Contestação
@@ -9228,3 +9228,7 @@ Image/menu.ability_logic	Lógica
 Image/menu.ability_charm	Charme
 Image/menu.ability_performance	Atuação
 Image/menu.ability_stealth	Furtividade
+Code/was	era
+Code/wasn't	não era
+Code/were	eram
+Code/weren't	não eram

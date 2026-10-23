@@ -124,7 +124,7 @@ sealed class GamePatcher
             }
             if (changed) info.SetNewData(bf);
         }
-        result.UnknownKeys = translation.Entries.Keys.Count(k => !k.StartsWith("Image/") && !used.Contains(k));
+        result.UnknownKeys = translation.Entries.Keys.Count(k => !k.StartsWith("Image/") && !k.StartsWith("Code/") && !used.Contains(k));
 
         log("Adding accented letters to the fonts...");
         var fonts = new List<SdfFont>();
@@ -139,6 +139,11 @@ sealed class GamePatcher
         using (var writer = new AssetsFileWriter(temp)) inst.file.Write(writer);
         am.UnloadAll();
         File.Move(temp, Target, overwrite: true);
+
+        // after UnloadAll: until then the type-tree generator keeps the game's DLLs open
+        log("Translating words inserted by the game's code...");
+        (am.MonoTempGenerator as IDisposable)?.Dispose();
+        CodePatch.Apply(DataDir, translation);
         return result;
     }
 
@@ -184,7 +189,8 @@ sealed class GamePatcher
     public bool Restore()
     {
         bool images = ImagePatch.Restore(DataDir);
-        if (!File.Exists(Backup)) return images;
+        bool code = CodePatch.Restore(DataDir);
+        if (!File.Exists(Backup)) return images || code;
         File.Copy(Backup, Target, overwrite: true);
         File.Delete(Backup);
         return true;

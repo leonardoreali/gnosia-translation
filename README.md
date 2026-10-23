@@ -66,6 +66,11 @@ Japanese, English and Chinese.
 **Text.** Each row is addressed by a stable key (`ScenarioSetsuText/3:Setsu4/17`), so translation files contain only
 the translated text — never the game's own script. Rows whose `{0}` placeholders would be lost are skipped.
 
+**Words in the code.** The Doctor's and Engineer's reports (`{1} {3} {0}.`) get `{3}`–`{5}` filled by the game's
+code with the English "was / were / wasn't / weren't". [`CodePatch.cs`](src/GnosiaPatcher/CodePatch.cs) replaces
+those few string constants in `Assembly-CSharp.dll` (backed up as `Assembly-CSharp.dll.original`) with the
+translation's `Code/was`, `Code/wasn't`, `Code/were` and `Code/weren't` entries.
+
 **Fonts.** The Latin TextMeshPro fonts only contain ASCII, so `é` would render as a blank square. Instead of
 re-rasterizing a font, [`FontPatch.cs`](src/GnosiaPatcher/FontPatch.cs) builds every missing letter out of glyphs
 already in the atlas: base letter + an ASCII mark (`` ` ^ ~ , . ``), scaled, mirrored (acute = mirrored grave),

@@ -98,7 +98,7 @@ int Check(string path, string? reference)
     var badChars = new SortedDictionary<char, int>();
     foreach (var (key, text) in t.Entries)
     {
-        if (reference != null)
+        if (reference != null && !key.StartsWith("Code/"))
         {
             if (!refText.TryGetValue(key, out var en)) { Console.WriteLine($"unknown key: {key}"); problems++; continue; }
             foreach (var ph in TranslationFile.Placeholders(en))

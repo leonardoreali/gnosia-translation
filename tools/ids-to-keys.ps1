@@ -33,5 +33,9 @@ foreach ($line in [IO.File]::ReadLines((Resolve-Path $Reference), $utf8)) {
     if ($byEnglish.ContainsKey($p[1])) { $out.Add("$($p[0])`t$($byEnglish[$p[1]])") }
 }
 $target = "$PSScriptRoot\..\translations\$Lang.tsv"
+# words for the game's code (Code/was...) are not rows of the game: keep them from the current file
+if (Test-Path $target) {
+    foreach ($line in [IO.File]::ReadLines((Resolve-Path $target), $utf8)) { if ($line.StartsWith('Code/')) { $out.Add($line) } }
+}
 [IO.File]::WriteAllLines($target, $out, $utf8)
 "$Lang : $($byEnglish.Count) unique lines -> $($out.Count - 1) rows written to translations\$Lang.tsv ($bad bad lines)"

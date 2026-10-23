@@ -38,6 +38,18 @@ Split the work into as many files as you like (e.g. `0001.tsv`, `0301.tsv`…); 
 | `\"` | An escaped quote, as in the source. Plain `"` also works. |
 | Leading/trailing spaces | Some lines are fragments glued together by the game (`" was Gnosia"`, `"Last night, "`). Translate them so they still join. |
 
+**Doctor and Engineer reports.** In lines like `{1} {3} {0}.` the game itself fills `{3}`/`{4}` with "was" or
+"were" (plural when several people are named) and `{5}` with "wasn't" or "weren't". Give the words for your
+language in four extra lines of `translations/<lang>.tsv`, and place `{3}` where that word goes in your sentence
+(e.g. Portuguese `{1} não {3} {0}.` → "Stella não era Gnosia"):
+
+```
+Code/was	era
+Code/wasn't	não era
+Code/were	eram
+Code/weren't	não eram
+```
+
 - Lines that are only names, symbols or internal labels can be omitted; the English stays.
 - Context column (`asset:sheet`) tells who speaks: `Chara:Setsu` are Setsu's lines, `ScenarioSQ:SQ3` is an SQ event.
 - **Setsu and Raqio are non-binary.** Avoid gendered forms for them where the language allows.

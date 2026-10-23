@@ -248,7 +248,7 @@ CharaText/1:Cipi/126	Кого бы просканировать?\nПонятия
 CharaText/1:Cipi/127	Я просканировал всех в криосне.\n
 CharaText/1:Cipi/128	Ага, в яблочко. {1} {3} {0}.
 CharaText/1:Cipi/129	{1} - не {0}. Зря мы так с {1}.
-CharaText/1:Cipi/130	Среди {1} это {2} {4}.\nИменно {0}.
+CharaText/1:Cipi/130	Среди {1} {2} {4} тот самый.\nИменно {0}.
 CharaText/1:Cipi/131	{1}. Мимо.\nНикто из них - не {0}.
 CharaText/1:Cipi/132	Мой отчёт тот же.\n
 CharaText/1:Cipi/133	Что...? Это просто неправда.\n
@@ -1483,7 +1483,7 @@ CharaText/7:Rakio/128	Дальнейшая проверка была бы бес
 CharaText/7:Rakio/129	Те, кто в криосне, уже осмотрены.\n
 CharaText/7:Rakio/130	{1} {3} {0}. Это ясно.\nПродолжаем в том же духе с криосном.
 CharaText/7:Rakio/131	{1} - не {0}, просто обычный человек.\nА ожидания были больше.
-CharaText/7:Rakio/132	Среди {1} {2} {4} {0}.\nНеплохо, пожалуй.
+CharaText/7:Rakio/132	Среди {1}: {2} {4} {0}.\nНеплохо, пожалуй.
 CharaText/7:Rakio/133	{1} - все обычные люди. Ха, мы сильно промахнулись.
 CharaText/7:Rakio/134	Хмф. Что ж, пожалуй, я тебе верю. У меня те же результаты.\n
 CharaText/7:Rakio/135	Ха-ха, нет. Фальшивка раскрыла карты!\n
@@ -2324,7 +2324,7 @@ CharaText/11:Shigemichi/127	Кого... кого мне вообще прове�
 CharaText/11:Shigemichi/128	Эй, вот мой отчёт. Вчера я проверил того, кто в криосне...\n
 CharaText/11:Shigemichi/129	{1}, да? Ага, {1} {3} {0}.\nМы на шаг ближе к победе!
 CharaText/11:Shigemichi/130	Оказывается, {1} {5} {0}.\nПрости, {1}...
-CharaText/11:Shigemichi/131	{0} затесался среди {1}...\n{2} {4} - {0}!
+CharaText/11:Shigemichi/131	{0} затесался среди {1}...\n{2} {4} {0}!
 CharaText/11:Shigemichi/132	{1}. Среди них нет никого, кто {0}...
 CharaText/11:Shigemichi/133	Ага, у меня так же. Те же результаты.\n
 CharaText/11:Shigemichi/134	Эй! Ты пытаешься нас обдурить!\n
@@ -2936,7 +2936,7 @@ CharaText/14:Yuriko/128	Не было никого, кто стоил бы пр�
 CharaText/14:Yuriko/129	Я проанализировала мозговую ткань тех, кого заморозили вчера.\n
 CharaText/14:Yuriko/130	Хе-хе, поздравляю.\n{1} {3} {0}.
 CharaText/14:Yuriko/131	{1} {3} не {0}.\nКриосон был бессмыслен.
-CharaText/14:Yuriko/132	Среди {1} {2} {4} - заражение, {0}.\nПопались в нашу сеть, как и ожидалось.
+CharaText/14:Yuriko/132	Среди {1}: {2} {4} {0}.\nПопались в нашу сеть, как и ожидалось.
 CharaText/14:Yuriko/133	{1} - все обычные люди...\nПохоже, тот, кто {0}, хорошо спрятался.
 CharaText/14:Yuriko/134	Мои результаты те же...\n
 CharaText/14:Yuriko/135	Значит, твоя роль явно в том, чтобы распространять дезинформацию...\n
@@ -3223,10 +3223,10 @@ ScenarioBaseText/4:Jinro/15	Заступиться
 ScenarioBaseText/4:Jinro/16	Мне нравится {0}
 ScenarioBaseText/4:Jinro/17	{0}, наверное, можно доверять
 ScenarioBaseText/4:Jinro/18	{0}, похоже, можно доверять
-ScenarioBaseText/4:Jinro/19	Помочь заступиться
+ScenarioBaseText/4:Jinro/19	Заступиться вместе
 ScenarioBaseText/4:Jinro/20	Возразить
 ScenarioBaseText/4:Jinro/21	Нет, {0} доверять нельзя
-ScenarioBaseText/4:Jinro/22	Тоже возразить
+ScenarioBaseText/4:Jinro/22	Поддержать возражение
 ScenarioBaseText/4:Jinro/23	Поблагодарить
 ScenarioBaseText/4:Jinro/24	Заткнуться
 ScenarioBaseText/4:Jinro/25	{0} раздражает
@@ -3336,7 +3336,7 @@ ScenarioBaseText/14:Talk/1	Подготовка к свободному разг
 ScenarioBaseText/14:Talk/2	Свободный разговор
 ScenarioBaseText/15:Talk_Myroom/0	Пойти в помещение
 ScenarioBaseText/15:Talk_Myroom/1	Выбор помещения
-ScenarioBaseText/16:JinroSkill/0	Сказать, что вы человек
+ScenarioBaseText/16:JinroSkill/0	"Я человек"
 ScenarioBaseText/16:JinroSkill/1	Попробуйте заявить, что вы человек
 ScenarioBaseText/16:JinroSkill/2	Конец
 ScenarioBaseText/16:JinroSkill/3	{0} не заявляет, что человек...
@@ -3346,7 +3346,7 @@ ScenarioBaseText/16:JinroSkill/6	Я человек
 ScenarioBaseText/16:JinroSkill/7	Прекратить
 ScenarioBaseText/16:JinroSkill/8	Давайте не будем
 ScenarioBaseText/16:JinroSkill/9	Остановлено
-ScenarioBaseText/16:JinroSkill/10	Завести болтовню
+ScenarioBaseText/16:JinroSkill/10	Болтовня
 ScenarioBaseText/16:JinroSkill/11	Давайте поговорим о еде
 ScenarioBaseText/16:JinroSkill/12	Давайте поговорим о любви
 ScenarioBaseText/16:JinroSkill/13	Давайте рассказывать страшилки
@@ -9340,3 +9340,7 @@ Image/interface.back	Назад
 Image/interface.change	Сменить
 Image/interface.data	Данные
 Image/interface.menu	Меню
+Code/was	-
+Code/wasn't	- не
+Code/were	-
+Code/weren't	- не
