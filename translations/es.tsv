@@ -9086,7 +9086,7 @@ ScreenText/23:ResultScreen/28	Fin\n
 ScreenText/23:ResultScreen/29	Es como si el tiempo mismo se hubiera detenido.\nEs hora de partir hacia un nuevo universo.
 ScreenText/23:ResultScreen/30	Fin\n
 ScreenText/23:ResultScreen/31	EXP Sube
-ScreenText/23:ResultScreen/32	Puedes Subir Nv.
+ScreenText/23:ResultScreen/32	¡Sube de Nivel!
 ScreenText/23:ResultScreen/33	¿De verdad quieres terminar la partida?
 ScreenText/23:ResultScreen/34	Tras el final, en el \"Registro\", puedes ver las intenciones ocultas\ny acciones secretas de todos.\nEl Registro se ve desde \"Datos de Referencia\".
 ScreenText/23:ResultScreen/35	No se pudieron cargar los datos.
@@ -9236,6 +9236,7 @@ Image/room.desc_stealth	[Sigilo] hace que a los demás les cueste notar tus mala
 Image/help.next	Sig.
 Image/help.back	Atrás
 Image/help.previous	Anterior
+Image/result.actual_roles	Roles Reales
 Code/was	era
 Code/wasn't	no era
 Code/were	eran

@@ -9206,7 +9206,7 @@ ScreenText/23:ResultScreen/28	Fin\n
 ScreenText/23:ResultScreen/29	C'est comme si le temps lui-même s'était arrêté.\nIl est temps de partir vers un nouvel univers.
 ScreenText/23:ResultScreen/30	Fin\n
 ScreenText/23:ResultScreen/31	EXP en hausse
-ScreenText/23:ResultScreen/32	Niv. sup. possible
+ScreenText/23:ResultScreen/32	Niveau dispo.
 ScreenText/23:ResultScreen/33	Voulez-vous vraiment terminer la partie ?
 ScreenText/23:ResultScreen/34	Après la fin, dans le "Journal", vous pouvez voir les\nintentions cachées et les actions secrètes de chacun.\nLe Journal se consulte via les "Données de référence".
 ScreenText/23:ResultScreen/35	Échec du chargement des données.
@@ -9358,6 +9358,7 @@ Image/room.desc_stealth	[Discrétion] rend vos mauvaises intentions plus diffici
 Image/help.next	Suiv.
 Image/help.back	Retour
 Image/help.previous	Précédent
+Image/result.actual_roles	Vrais rôles
 Code/was	était
 Code/wasn't	n'était pas
 Code/were	étaient

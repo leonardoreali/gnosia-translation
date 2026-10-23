@@ -9230,7 +9230,7 @@ ScreenText/23:ResultScreen/28	Конец\n
 ScreenText/23:ResultScreen/29	Будто само время остановилось.\nПора отправляться в новую вселенную.
 ScreenText/23:ResultScreen/30	Конец\n
 ScreenText/23:ResultScreen/31	Опыт +
-ScreenText/23:ResultScreen/32	Можно повысить уровень
+ScreenText/23:ResultScreen/32	Ур. доступен
 ScreenText/23:ResultScreen/33	Вы действительно хотите завершить игру?
 ScreenText/23:ResultScreen/34	После окончания в \"Журнале\" можно увидеть скрытые\nнамерения и тайные действия всех.\nЖурнал доступен в \"Справочных данных\".
 ScreenText/23:ResultScreen/35	Не удалось загрузить данные.
@@ -9381,6 +9381,7 @@ Image/room.desc_stealth	[Скрытность] мешает другим зам�
 Image/help.next	Далее
 Image/help.back	Назад
 Image/help.previous	Пред.
+Image/result.actual_roles	Истинные роли
 Code/was	-
 Code/wasn't	- не
 Code/were	-

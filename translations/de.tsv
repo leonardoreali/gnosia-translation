@@ -9097,7 +9097,7 @@ ScreenText/23:ResultScreen/28	Ende\n
 ScreenText/23:ResultScreen/29	Es ist, als wäre die Zeit selbst stehen geblieben.\nZeit, in ein neues Universum aufzubrechen.
 ScreenText/23:ResultScreen/30	Ende\n
 ScreenText/23:ResultScreen/31	EP rauf
-ScreenText/23:ResultScreen/32	Lv.-Aufstieg möglich
+ScreenText/23:ResultScreen/32	Lv.-Up möglich
 ScreenText/23:ResultScreen/33	Willst du das Spiel wirklich beenden?
 ScreenText/23:ResultScreen/34	Nach dem Ende kannst du im "Logbuch" die verborgenen\nAbsichten und heimlichen Taten aller ansehen.\nDas Logbuch findest du unter "Referenzdaten".
 ScreenText/23:ResultScreen/35	Laden fehlgeschlagen.
@@ -9246,6 +9246,7 @@ Image/room.desc_stealth	[Tarnung] macht es anderen schwerer, deine bösen Absich
 Image/help.next	Weiter
 Image/help.back	Zurück
 Image/help.previous	Vorherige
+Image/result.actual_roles	Wahre Rollen
 Code/was	war
 Code/wasn't	war nicht
 Code/were	waren

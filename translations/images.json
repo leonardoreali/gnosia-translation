@@ -139,16 +139,16 @@
       "items": [
         { "id": "menu.status", "en": "Status", "box": [60, 62, 190, 44], "ink": [105, 64, 235, 102] },
         { "id": "menu.abilities", "en": "Abilities", "box": [58, 224, 140, 28], "ink": [74, 225, 177, 251] },
-        { "id": "menu.ability_charisma", "en": "Charisma", "box": [46, 278, 190, 40] },
-        { "id": "menu.ability_intuition", "en": "Intuition", "box": [46, 337, 190, 40] },
-        { "id": "menu.ability_logic", "en": "Logic", "box": [46, 396, 190, 40] },
-        { "id": "menu.ability_charm", "en": "Charm", "box": [46, 455, 190, 40] },
-        { "id": "menu.ability_performance", "en": "Performance", "box": [46, 514, 190, 40] },
-        { "id": "menu.ability_stealth", "en": "Stealth", "box": [46, 573, 190, 40] },
+        { "id": "menu.ability_charisma", "en": "Charisma", "box": [46, 278, 190, 40], "align": "right" },
+        { "id": "menu.ability_intuition", "en": "Intuition", "box": [46, 337, 190, 40], "align": "right" },
+        { "id": "menu.ability_logic", "en": "Logic", "box": [46, 396, 190, 40], "align": "right" },
+        { "id": "menu.ability_charm", "en": "Charm", "box": [46, 455, 190, 40], "align": "right" },
+        { "id": "menu.ability_performance", "en": "Performance", "box": [46, 514, 190, 40], "align": "right" },
+        { "id": "menu.ability_stealth", "en": "Stealth", "box": [46, 573, 190, 40], "align": "right" },
         { "id": "room.menu", "en": "Room Menu", "box": [1075, 588, 385, 72], "ink": [1091, 597, 1435, 656] },
         { "id": "room.level_up", "en": "Level Up", "box": [1100, 678, 250, 66], "ink": [1146, 695, 1332, 742] },
         { "id": "menu.command_list", "en": "Command List", "box": [1076, 770, 270, 64], "enclosed": true },
-        { "id": "room.level_up", "en": "Level Up", "box": [40, 735, 245, 66], "ink": [84, 750, 270, 799] },
+        { "id": "room.level_up", "en": "Level Up", "box": [40, 735, 245, 66], "ink": [84, 750, 270, 799], "fitInk": true, "cut": 14 },
         { "id": "room.leave", "en": "Leave Room", "box": [598, 675, 270, 60], "enclosed": true },
         { "id": "room.sleep", "en": "Sleep", "box": [700, 765, 175, 60], "ink": [734, 773, 856, 822], "cut": 12 },
         { "id": "room.desc_charisma", "en": "[Charisma] increases the influential power\\nof your comments, making others more\\nlikely to agree and follow your lead.", "box": [1058, 0, 439, 96], "ink": [1062, 1, 1497, 82], "manual": true, "size": 21.5, "baseline": 20, "erase": "clear", "wrap": true, "align": "left", "lineHeight": 27.5, "color": "#ffffff", "accent": "#f5d300" },
@@ -156,7 +156,7 @@
         { "id": "room.desc_logic", "en": "[Logic] makes it easier for you to convince\\nothers that you' re right.", "box": [1058, 178, 439, 72], "ink": [1062, 182, 1497, 239], "manual": true, "size": 21.5, "baseline": 204, "erase": "clear", "wrap": true, "align": "left", "lineHeight": 27.5, "color": "#ffffff", "accent": "#f5d300" },
         { "id": "room.desc_charm", "en": "[Charm] makes you more amicable, and thus\\nless likely to be selected for cold sleep.", "box": [1058, 255, 439, 75], "ink": [1062, 259, 1497, 318], "manual": true, "size": 21.5, "baseline": 282, "erase": "clear", "wrap": true, "align": "left", "lineHeight": 27.5, "color": "#ffffff", "accent": "#f5d300" },
         { "id": "room.desc_performance", "en": "[Performance] makes you a better liar,\\nand helps you to more efficiently\\nget your point across.", "box": [1058, 335, 439, 101], "ink": [1062, 339, 1497, 426], "manual": true, "size": 21.5, "baseline": 360, "erase": "clear", "wrap": true, "align": "left", "lineHeight": 27.5, "color": "#ffffff", "accent": "#f5d300" },
-        { "id": "room.desc_stealth", "en": "[Stealth] makes it harder for others\\nto pick up on your malicious\\nintent, and makes the Gnosia\\nless likely to target you.", "box": [1058, 440, 439, 125], "ink": [1062, 445, 1497, 559], "manual": true, "size": 21.5, "baseline": 467, "erase": "clear", "wrap": true, "align": "left", "lineHeight": 27.5, "color": "#ffffff", "accent": "#f5d300" }
+        { "id": "room.desc_stealth", "en": "[Stealth] makes it harder for others\\nto pick up on your malicious\\nintent, and makes the Gnosia\\nless likely to target you.", "box": [1058, 440, 439, 125], "ink": [1062, 445, 1497, 559], "wrapWidth": 318, "manual": true, "size": 21.5, "baseline": 467, "erase": "clear", "wrap": true, "align": "left", "lineHeight": 27.5, "color": "#ffffff", "accent": "#f5d300" }
       ]
     },
     {
@@ -165,12 +165,12 @@
       "items": [
         { "id": "menu.status", "en": "Status", "box": [60, 62, 190, 44], "ink": [105, 64, 235, 102] },
         { "id": "menu.abilities", "en": "Abilities", "box": [58, 224, 140, 28] },
-        { "id": "menu.ability_charisma", "en": "Charisma", "box": [46, 278, 190, 40] },
-        { "id": "menu.ability_intuition", "en": "Intuition", "box": [46, 337, 190, 40] },
-        { "id": "menu.ability_logic", "en": "Logic", "box": [46, 396, 190, 40] },
-        { "id": "menu.ability_charm", "en": "Charm", "box": [46, 455, 190, 40] },
-        { "id": "menu.ability_performance", "en": "Performance", "box": [46, 514, 190, 40] },
-        { "id": "menu.ability_stealth", "en": "Stealth", "box": [46, 573, 190, 40] },
+        { "id": "menu.ability_charisma", "en": "Charisma", "box": [46, 278, 190, 40], "align": "right" },
+        { "id": "menu.ability_intuition", "en": "Intuition", "box": [46, 337, 190, 40], "align": "right" },
+        { "id": "menu.ability_logic", "en": "Logic", "box": [46, 396, 190, 40], "align": "right" },
+        { "id": "menu.ability_charm", "en": "Charm", "box": [46, 455, 190, 40], "align": "right" },
+        { "id": "menu.ability_performance", "en": "Performance", "box": [46, 514, 190, 40], "align": "right" },
+        { "id": "menu.ability_stealth", "en": "Stealth", "box": [46, 573, 190, 40], "align": "right" },
         { "id": "param.change_abilities", "en": "Change Abilities", "box": [1512, 30, 262, 51], "ink": [1519, 39, 1766, 80], "cut": 10 }
       ]
     },
@@ -202,6 +202,13 @@
       "items": [
         { "id": "setup.random", "en": "Random\\nSettings", "box": [1084, 119, 134, 94], "ink": [1112, 130, 1217, 189], "skip": [[1080, 163, 36, 42]], "lineHeight": 28, "align": "right", "color": "#ffffff" },
         { "id": "setup.event", "en": "Event\\nSearch", "box": [1084, 233, 134, 94], "ink": [1112, 242, 1217, 297], "skip": [[1080, 277, 36, 42]], "lineHeight": 29, "align": "right", "color": "#ffffff" }
+      ]
+    },
+    {
+      "bundle": "systm_en",
+      "textures": ["result"],
+      "items": [
+        { "id": "result.actual_roles", "en": "Actual Roles", "box": [24, 726, 212, 46], "ink": [30, 732, 210, 764], "cut": 16 }
       ]
     },
     {

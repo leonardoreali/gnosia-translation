@@ -56,6 +56,7 @@ static class ImagePatch
         public bool Enclosed { get; set; }                // only shapes fully inside the box are text (box crosses borders)
         public int Cut { get; set; }                      // ignore this many pixels of the box's bottom-right corner (slanted button edge)
         public bool FitInk { get; set; }                  // no wider than the English text (the game shows only that part of the image)
+        public int? WrapWidth { get; set; }               // narrower lines than the box (the game draws a button over part of it)
     }
 
     public static string Key(Item it) => "Image/" + it.Id;
@@ -421,6 +422,7 @@ static class ImagePatch
             _ => 2 * Math.Min(mid - margin, bw - margin - mid),
         };
         if (it.FitInk) avail = Math.Min(avail, r - l + 1 + 4);
+        if (it.WrapWidth is int ww) avail = Math.Min(avail, ww);
         var paragraphs = text.Split("\\n").Select(Words).ToList();
         List<List<Word>> lines = paragraphs;
         if (it.Wrap)

@@ -9115,7 +9115,7 @@ ScreenText/23:ResultScreen/28	Fim\n
 ScreenText/23:ResultScreen/29	É como se o próprio tempo tivesse parado.\nÉ hora de partir para um novo universo.
 ScreenText/23:ResultScreen/30	Fim\n
 ScreenText/23:ResultScreen/31	EXP Aumentou
-ScreenText/23:ResultScreen/32	Pode Subir de Nível
+ScreenText/23:ResultScreen/32	Subir de Nível!
 ScreenText/23:ResultScreen/33	Deseja mesmo encerrar o jogo?
 ScreenText/23:ResultScreen/34	Depois do fim, no \"Registro\", você pode ver as intenções\nocultas e ações secretas de todos.\nO Registro pode ser visto em \"Dados de Referência\".
 ScreenText/23:ResultScreen/35	Falha ao carregar os dados.
@@ -9269,6 +9269,7 @@ Image/room.desc_stealth	[Furtividade] dificulta que os outros percebam suas más
 Image/help.next	Próx.
 Image/help.back	Voltar
 Image/help.previous	Anterior
+Image/result.actual_roles	Papéis Reais
 Code/was	era
 Code/wasn't	não era
 Code/were	eram
