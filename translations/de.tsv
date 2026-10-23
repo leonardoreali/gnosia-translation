@@ -9270,6 +9270,11 @@ Image/option.display_mode	Anzeigemodus
 Image/option.full_screen	Vollbild
 Image/option.windowed	Fenster
 Image/option.resolution	Auflösung
+Image/keys.config	Tastenbelegung
+Image/keys.decision	Wählen/Mal seh'n
+Image/keys.backlog	Verlauf
+Image/keys.reset	Zurücksetzen
+Image/keys.save	Speichern
 Code/was	war
 Code/wasn't	war nicht
 Code/were	waren

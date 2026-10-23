@@ -9284,7 +9284,7 @@ Image/option.high	Alto
 Image/option.message_speed	Velocidade do Texto
 Image/option.slow	Lento
 Image/option.fast	Rápido
-Image/option.prevent_skip	Evitar pular mensagens\nao apertar o botão rápido
+Image/option.prevent_skip	Evitar pular mensagens\nao apertar repetidamente
 Image/option.during_events	Durante Eventos
 Image/option.during_debate	Durante a Discussão
 Image/option.on	SIM
@@ -9293,6 +9293,11 @@ Image/option.display_mode	Modo de Tela
 Image/option.full_screen	Tela Cheia
 Image/option.windowed	Janela
 Image/option.resolution	Resolução da Tela
+Image/keys.config	Configurar Teclas
+Image/keys.decision	Escolher/Só ver
+Image/keys.backlog	Histórico
+Image/keys.reset	Restaurar Padrão
+Image/keys.save	Salvar
 Code/was	era
 Code/wasn't	não era
 Code/were	eram

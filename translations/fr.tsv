@@ -9382,6 +9382,11 @@ Image/option.display_mode	Mode d'affichage
 Image/option.full_screen	Plein écran
 Image/option.windowed	Fenêtré
 Image/option.resolution	Résolution
+Image/keys.config	Touches
+Image/keys.decision	Choisir/Juste voir
+Image/keys.backlog	Historique
+Image/keys.reset	Par défaut
+Image/keys.save	Enregistrer
 Code/was	était
 Code/wasn't	n'était pas
 Code/were	étaient

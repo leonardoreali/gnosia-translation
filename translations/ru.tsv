@@ -9405,6 +9405,11 @@ Image/option.display_mode	Режим экрана
 Image/option.full_screen	Полный
 Image/option.windowed	Окно
 Image/option.resolution	Разрешение
+Image/keys.config	Управление
+Image/keys.decision	Выбор/Ждать
+Image/keys.backlog	Журнал
+Image/keys.reset	Сбросить
+Image/keys.save	Сохранить
 Code/was	-
 Code/wasn't	- не
 Code/were	-

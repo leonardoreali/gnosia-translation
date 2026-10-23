@@ -59,6 +59,23 @@
     },
     {
       "bundle": "systm_en",
+      "textures": ["menu_option_keycon"],
+      "items": [
+        { "id": "menu.options", "en": "Options", "box": [170, 96, 200, 54], "ink": [176, 102, 341, 146], "fitInk": true, "cut": 14 },
+        { "id": "keys.config", "en": "Key Config", "box": [208, 192, 170, 36], "ink": [212, 195, 364, 225], "color": "#ffffff", "size": 29, "dilate": 0.2, "align": "left" },
+        { "id": "keys.decision", "en": "Decision/Wait & See", "box": [195, 272, 292, 36], "ink": [199, 275, 441, 305], "color": "#ffffff", "size": 29, "dilate": 0.2, "align": "left" },
+        { "id": "interface.speak", "en": "Speak", "box": [195, 343, 200, 38], "ink": [199, 346, 274, 377], "color": "#ffffff", "size": 29, "dilate": 0.2, "align": "left" },
+        { "id": "interface.back", "en": "Back", "box": [195, 416, 200, 36], "ink": [199, 419, 258, 448], "color": "#ffffff", "size": 29, "dilate": 0.2, "align": "left" },
+        { "id": "interface.data", "en": "Data", "box": [195, 489, 200, 36], "ink": [199, 492, 261, 521], "color": "#ffffff", "size": 29, "dilate": 0.2, "align": "left" },
+        { "id": "keys.backlog", "en": "Backlog", "box": [704, 272, 290, 36], "ink": [708, 275, 804, 305], "color": "#ffffff", "size": 29, "dilate": 0.2, "align": "left" },
+        { "id": "info.current_status", "en": "Current Status", "box": [704, 343, 290, 38], "ink": [708, 346, 910, 377], "color": "#ffffff", "size": 29, "dilate": 0.2, "align": "left" },
+        { "id": "info.current_settings", "en": "Current Settings", "box": [704, 416, 290, 36], "ink": [708, 419, 930, 448], "color": "#ffffff", "size": 29, "dilate": 0.2, "align": "left" },
+        { "id": "keys.reset", "en": "Reset to default", "box": [540, 585, 200, 36], "ink": [546, 588, 734, 617], "color": "#ffffff", "size": 26, "dilate": 0.2, "align": "center" },
+        { "id": "keys.save", "en": "Save Settings", "box": [860, 585, 172, 36], "ink": [866, 588, 1024, 617], "color": "#ffffff", "size": 26, "dilate": 0.2, "align": "center" }
+      ]
+    },
+    {
+      "bundle": "systm_en",
       "textures": ["menu_acList"],
       "items": [
         { "id": "menu.command_list", "en": "Command List", "box": [12, 62, 258, 52], "ink": [16, 72, 268, 111], "cut": 8 },

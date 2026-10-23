@@ -9260,6 +9260,11 @@ Image/option.display_mode	Modo de Pantalla
 Image/option.full_screen	Completa
 Image/option.windowed	Ventana
 Image/option.resolution	Resolución
+Image/keys.config	Configurar Teclas
+Image/keys.decision	Elegir/Solo ver
+Image/keys.backlog	Historial
+Image/keys.reset	Restablecer
+Image/keys.save	Guardar
 Code/was	era
 Code/wasn't	no era
 Code/were	eran
