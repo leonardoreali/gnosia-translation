@@ -9284,7 +9284,7 @@ Image/option.high	Alto
 Image/option.message_speed	Velocidade do Texto
 Image/option.slow	Lento
 Image/option.fast	Rápido
-Image/option.prevent_skip	Evitar pular mensagens ao\napertar Escolher várias vezes
+Image/option.prevent_skip	Não pular mensagens ao\napertar os botões sem parar
 Image/option.during_events	Durante Eventos
 Image/option.during_debate	Durante a Discussão
 Image/option.on	SIM

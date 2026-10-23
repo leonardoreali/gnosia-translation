@@ -62,6 +62,7 @@ static class ImagePatch
         public int[][]? Outline { get; set; }             // closed polygon redrawn as a line after clearing (the banner's border)
         public float OutlineWidth { get; set; } = 5;
         public bool EraseOnly { get; set; }               // only removes this part of the English (another item draws the translation)
+        public bool Redraw { get; set; }                  // draw even when the translation equals the English (to match its neighbours' font)
     }
 
     public static string Key(Item it) => "Image/" + it.Id;
@@ -180,7 +181,7 @@ static class ImagePatch
 
     /// <summary>The translation of a box, with quotes unescaped (game text stores them as \").</summary>
     static string? Translated(TranslationFile t, Item it) =>
-        t.Entries.TryGetValue(Key(it), out var s) && s.Length > 0 && s != it.En ? s.Replace("\\\"", "\"") : null;
+        t.Entries.TryGetValue(Key(it), out var s) && s.Length > 0 && (s != it.En || it.Redraw) ? s.Replace("\\\"", "\"") : null;
 
     /// <summary>Puts back every original bundle and catalog file. Returns whether anything was restored.</summary>
     public static bool Restore(string dataDir)
