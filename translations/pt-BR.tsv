@@ -959,7 +959,7 @@ CharaText/4:Jonas/234	Porém... Hehe, valeu!\nErgo um brinde à loucura de {0}!
 CharaText/5:Kukulsika/0	Kukrushka
 CharaText/5:Kukulsika/1	Desconhecido
 CharaText/5:Kukulsika/2	Muito intuitiva, age pelas emoções.
-CharaText/5:Kukulsika/3	Comunica-se por expressões faciais e linguagem corporal.
+CharaText/5:Kukulsika/3	Fala por expressões faciais e linguagem corporal.
 CharaText/5:Kukulsika/4	Não é humana, segundo Yuriko.
 CharaText/5:Kukulsika/5	Quando é Guarda junto de Remnan, mata todo mundo.
 CharaText/5:Kukulsika/6	Boneca autônoma de dois corpos; o outro fica guardado.
@@ -1165,7 +1165,7 @@ CharaText/6:Otome/1	Planeta Oceânico\nNada
 CharaText/6:Otome/2	Um tanto reservada; tímida, mas gosta de pessoas.
 CharaText/6:Otome/3	Uma beluga inteligente nascida num planeta oceânico.
 CharaText/6:Otome/4	Apaixonada por seu pesquisador, o \"Dr. Yoshikado\".
-CharaText/6:Otome/5	Traumatizada por engolir um peixinho-dourado sem querer.
+CharaText/6:Otome/5	Tem trauma de ter engolido um peixinho-dourado.
 CharaText/6:Otome/6	Audição perfeita; sente os movimentos ao redor.
 CharaText/6:Otome/7	Sonha em, de algum modo, virar humana.
 CharaText/6:Otome/8	Medidas: 7
@@ -1368,12 +1368,12 @@ CharaText/6:Otome/224	Nossa...\nNa verdade eu também sou Gnosia!\nHehehe, acho 
 CharaText/6:Otome/225	*Uííí!* {0}!\nObrigada por toda a sua ajuda!
 CharaText/7:Rakio/0	Raqio
 CharaText/7:Rakio/1	Frota\nGliese
-CharaText/7:Rakio/2	Supremacista intelectual. Ótimo em atuar.
+CharaText/7:Rakio/2	Supremacista intelectual. Tem talento para atuar.
 CharaText/7:Rakio/3	Vem do estado superclasse "Frota Móvel Gliese".
-CharaText/7:Rakio/4	Designado como homem ao nascer; identifica-se como não binário.
-CharaText/7:Rakio/5	Comunicativo, mas não tanto verbalmente.
+CharaText/7:Rakio/4	Sexo masculino ao nascer; identidade não binária.
+CharaText/7:Rakio/5	Comunica-se bem, mas não tanto com palavras.
 CharaText/7:Rakio/6	Era estudante do ensino médio em Gliese.
-CharaText/7:Rakio/7	Dono da "Chave de Prata" por direito de nascença.
+CharaText/7:Rakio/7	Detém a "Chave de Prata" por direito de nascença.
 CharaText/7:Rakio/8	Medidas: 7
 CharaText/7:Rakio/9	Eu sou {0}. Lembre-se disso.\nNão é exagero dizer que o universo nasceu comigo.
 CharaText/7:Rakio/10	Dá grande importância à lógica e duvida rápido\naté de aliados próximos. Surpreendentemente\nbrincalhão, costuma alegar falsamente vários papéis.
@@ -1581,7 +1581,7 @@ CharaText/8:Remnant/2	Introvertido, um tanto indeciso.
 CharaText/8:Remnant/3	De um planeta onde só há IAs.
 CharaText/8:Remnant/4	Conhece SQ há muito tempo.
 CharaText/8:Remnant/5	Foi o bichinho de estimação dos pais de SQ.
-CharaText/8:Remnant/6	Trabalhou numa nave de espaço profundo por mais de 50 anos.
+CharaText/8:Remnant/6	Trabalhou 50+ anos numa nave de espaço profundo.
 CharaText/8:Remnant/7	Medidas: 6
 CharaText/8:Remnant/8	Medidas: 7
 CharaText/8:Remnant/10	Meu nome é {0}. Prazer em conhecer.
@@ -1792,7 +1792,7 @@ CharaText/9:Setsu/1	Base 52
 CharaText/9:Setsu/2	Forte senso de justiça e responsabilidade. Lógica.
 CharaText/9:Setsu/3	Faz loops numa ordem diferente da do protagonista.
 CharaText/9:Setsu/4	Não gosta de Sha-Ming e às vezes briga com ele.
-CharaText/9:Setsu/5	Membro das Forças Especiais do Exército Galáctico Federal.
+CharaText/9:Setsu/5	Forças Especiais do Exército Galáctico Federal.
 CharaText/9:Setsu/6	Espera salvar todos a bordo, se possível.
 CharaText/9:Setsu/7	Escapou da morte certa graças à "chave".
 CharaText/9:Setsu/8	Medidas: 7
@@ -2209,10 +2209,10 @@ CharaText/10:ShaMin/226	Quer dizer, eu sou Gnosia, então...\nAcho que também n
 CharaText/10:ShaMin/227	Enfim, nós dois sobrevivemos.\nViva nós, né? Né?!
 CharaText/11:Shigemichi/0	Shigemichi
 CharaText/11:Shigemichi/1	Planeta\nShangun
-CharaText/11:Shigemichi/2	Gentil, personalidade positiva. Estranhamente carismático.
+CharaText/11:Shigemichi/2	Gentil e positivo. Estranhamente carismático.
 CharaText/11:Shigemichi/3	Cobriu o corpo com pele artificial após um acidente.
 CharaText/11:Shigemichi/4	A pele artificial também serve como traje espacial.
-CharaText/11:Shigemichi/5	Destinado a voltar no tempo e virar um "Pequeno Cinzento".
+CharaText/11:Shigemichi/5	Vai voltar no tempo e virar um "Pequeno Cinzento".
 CharaText/11:Shigemichi/6	Colecionador e mestre de jogos retrô.
 CharaText/11:Shigemichi/7	Apaixonado pela Stella.
 CharaText/11:Shigemichi/8	Nunca teve uma namorada de verdade.
@@ -2412,8 +2412,8 @@ CharaText/12:SQ/2	Hedonista, festeira, esconde os sentimentos.
 CharaText/12:SQ/3	Conhece Remnan há muito tempo.
 CharaText/12:SQ/4	Seria filha de Remnan?
 CharaText/12:SQ/5	Criada numa cápsula de incubação, saiu há um ano.
-CharaText/12:SQ/6	Nasceu por acidente durante o transplante de mente da mãe.
-CharaText/12:SQ/7	Sem papel/Gnosia: SQ = a mãe, após transplante bem-sucedido.
+CharaText/12:SQ/6	Nasceu por acidente no transplante mental da mãe.
+CharaText/12:SQ/7	Sem papel/Gnosia: SQ = mãe, transplante concluído.
 CharaText/12:SQ/8	Medidas: 7
 CharaText/12:SQ/9	Ooooi! É a {0}!
 CharaText/12:SQ/10	Charme e Atuação de primeira linha.\nCautelosa e egoísta, raramente fala,\no que torna suas mentiras difíceis de perceber.
@@ -2824,7 +2824,7 @@ CharaText/14:Yuriko/2	Atributos altos e forte influência. Chama atenção.
 CharaText/14:Yuriko/3	Sacerdotisa ciborgue da nave estelar "Hoshibune".
 CharaText/14:Yuriko/4	Fugiu da Hoshibune; será morta se for pega.
 CharaText/14:Yuriko/5	Conhece a verdade sobre o que Gnos realmente é.
-CharaText/14:Yuriko/6	Gnos é na verdade um conjunto de humanos ciborguizados.
+CharaText/14:Yuriko/6	Gnos é na verdade um grupo de humanos ciborguizados.
 CharaText/14:Yuriko/7	Capaz de interferir na percepção humana e distorcê-la.
 CharaText/14:Yuriko/8	Medidas: 7
 CharaText/14:Yuriko/9	Meu nome é {0}. Um prazer, certamente.
@@ -9245,6 +9245,17 @@ Image/vote.please_vote	Vote, por favor
 Image/vote.finished	Concluído
 Image/talent.ability_graph	Gráfico de Atributos
 Image/param.change_abilities	Mudar Atributos
+Image/data.btn_engineer	RELATÓRIO DO\nENGENHEIRO
+Image/data.btn_doctor	RELATÓRIO\nDO MÉDICO
+Image/data.btn_voting	RESULTADO\nDA VOTAÇÃO
+Image/data.btn_discussion	REGISTRO DA\nDISCUSSÃO
+Image/data.btn_crew	DADOS DA\nTRIPULAÇÃO
+Image/data.coming_out	Revelação
+Image/data.role	Papel
+Image/data.ally	Aliado
+Image/data.collaborator	Colaborador
+Image/data.detractor	Desafeto
+Image/data.friend	Amigo
 Code/was	era
 Code/wasn't	não era
 Code/were	eram

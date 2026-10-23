@@ -741,7 +741,7 @@ CharaText/3:Gina/222	Oui...
 CharaText/3:Gina/223	C'est grâce à toi que j'ai pu survivre.\nAlors... Merci, {0}.
 CharaText/4:Jonas/1	Terre
 CharaText/4:Jonas/2	Capacités globalement élevées, mais ça ne se voit pas.
-CharaText/4:Jonas/3	Était à bord d'un vaisseau légendaire il y a près de 1000 ans.
+CharaText/4:Jonas/3	À bord d'un vaisseau légendaire il y a près de 1000 ans.
 CharaText/4:Jonas/4	Propriétaire du croiseur interstellaire "D.Q.O.".
 CharaText/4:Jonas/5	Ancien héros de l'ère d'exploration spatiale ; actuel farfelu.
 CharaText/4:Jonas/6	A une forte affinité avec Kukrushka.
@@ -961,7 +961,7 @@ CharaText/5:Kukulsika/3	Communique par expressions et gestes.
 CharaText/5:Kukulsika/4	Pas humaine, selon Yuriko.
 CharaText/5:Kukulsika/5	De garde avec Remnan, elle tue tout le monde.
 CharaText/5:Kukulsika/6	Poupée autonome à deux corps ; l'autre est stocké.
-CharaText/5:Kukulsika/7	Poupée de Jonas ; sa personnalité passe d'un corps à l'autre.
+CharaText/5:Kukulsika/7	Poupée de Jonas ; sa personnalité change de corps.
 CharaText/5:Kukulsika/8	Mensurations 8
 CharaText/5:Kukulsika/9	(Cette fille s'appelle {0}.\n{0} ne parle pas. Personne n'a jamais entendu sa voix.\nPourtant, {0} est très éloquente, et s'exprime par ses mimiques et ses gestes.)
 CharaText/5:Kukulsika/10	Son Charme et son Jeu d'acteur élevés la rendent\ndifficile à envoyer en cryosommeil, même soupçonnée.\nAgissant surtout par émotion, elle vise ceux qu'elle\nn'aime pas plutôt que les ennemis dangereux.
@@ -1365,8 +1365,8 @@ CharaText/6:Otome/224	Waouh...\nEn fait, moi, je suis Gnosia !\nHéhéhé, je su
 CharaText/6:Otome/225	*Couic !* {0} !\nMerci pour toute ton aide !
 CharaText/7:Rakio/1	Flotte\nde Gliese
 CharaText/7:Rakio/2	Suprémaciste de l'intellect. Excellent jeu d'acteur.
-CharaText/7:Rakio/3	Vient de l'État de classe supérieure "Flotte mobile de Gliese".
-CharaText/7:Rakio/4	Sexe assigné à la naissance : masculin ; s'identifie comme non binaire.
+CharaText/7:Rakio/3	Vient de l'État supérieur "Flotte mobile de Gliese".
+CharaText/7:Rakio/4	Sexe masculin à la naissance ; non binaire.
 CharaText/7:Rakio/5	Communique beaucoup, mais pas tant verbalement.
 CharaText/7:Rakio/6	Était au lycée sur Gliese.
 CharaText/7:Rakio/7	Possède la "Clé d'Argent" de naissance.
@@ -1576,7 +1576,7 @@ CharaText/8:Remnant/2	Introverti, plutôt indécis.
 CharaText/8:Remnant/3	Vient d'une planète peuplée uniquement d'IA.
 CharaText/8:Remnant/4	Connaît SQ depuis longtemps.
 CharaText/8:Remnant/5	Était autrefois l'animal de compagnie des parents de SQ.
-CharaText/8:Remnant/6	A travaillé plus de 50 ans sur un vaisseau de l'espace lointain.
+CharaText/8:Remnant/6	Plus de 50 ans sur un vaisseau de l'espace lointain.
 CharaText/8:Remnant/7	Mensurations 6
 CharaText/8:Remnant/8	Mensurations 7
 CharaText/8:Remnant/10	Je m'appelle {0}. Enchanté.
@@ -1787,7 +1787,7 @@ CharaText/9:Setsu/1	Base 52
 CharaText/9:Setsu/2	Grand sens de la justice et des responsabilités. Logique.
 CharaText/9:Setsu/3	Boucle dans un ordre différent du personnage principal.
 CharaText/9:Setsu/4	N'aime pas Sha-Ming, se dispute parfois avec lui.
-CharaText/9:Setsu/5	Membre des forces spéciales de l'Armée galactique fédérale.
+CharaText/9:Setsu/5	Membre des forces spéciales de l'Armée galactique.
 CharaText/9:Setsu/6	Espère sauver tout le monde à bord, si possible.
 CharaText/9:Setsu/7	A échappé à une mort certaine grâce à la "clé".
 CharaText/9:Setsu/8	Mensurations 7
@@ -2202,9 +2202,9 @@ CharaText/10:ShaMin/225	Hein ? Donc t'étais un de ces Adeptes de l'AC ?\nPutaaa
 CharaText/10:ShaMin/226	Enfin, je suis Gnosia, alors...\nJe suppose que je me débrouille pas mal non plus.
 CharaText/10:ShaMin/227	Bref, on a survécu tous les deux.\nBravo nous, hein ? Hein ?!
 CharaText/11:Shigemichi/1	Planète\nShangun
-CharaText/11:Shigemichi/2	Personnalité gentille et positive. Étrangement charismatique.
+CharaText/11:Shigemichi/2	Gentil et positif. Étrangement charismatique.
 CharaText/11:Shigemichi/3	Corps couvert de peau artificielle après un accident.
-CharaText/11:Shigemichi/4	Sa peau artificielle peut aussi servir de combinaison spatiale.
+CharaText/11:Shigemichi/4	Sa peau artificielle sert aussi de combinaison spatiale.
 CharaText/11:Shigemichi/5	Doit remonter le temps pour devenir un "Petit Gris".
 CharaText/11:Shigemichi/6	Collectionneur et maître des jeux rétro.
 CharaText/11:Shigemichi/7	Amoureux de Stella.
@@ -2403,7 +2403,7 @@ CharaText/12:SQ/1	Ceinture\nde Li Liu
 CharaText/12:SQ/2	Hédoniste, aime s'amuser, cache ses sentiments.
 CharaText/12:SQ/3	Connaît Remnan depuis longtemps.
 CharaText/12:SQ/4	Peut-être la fille de Remnan ?
-CharaText/12:SQ/5	Élevée dans une capsule d'incubation, en est sortie il y a un an.
+CharaText/12:SQ/5	Élevée en capsule d'incubation, sortie il y a un an.
 CharaText/12:SQ/6	Née par accident pendant la greffe mentale de sa mère.
 CharaText/12:SQ/7	Aucune/Gnosia SQ=Mère après une greffe réussie.
 CharaText/12:SQ/8	Mensurations 7
@@ -9334,6 +9334,17 @@ Image/vote.please_vote	Votez, svp
 Image/vote.finished	Terminé
 Image/talent.ability_graph	Graphe des capacités
 Image/param.change_abilities	Modifier les capacités
+Image/data.btn_engineer	RAPPORT\nD'INGÉNIEUR
+Image/data.btn_doctor	RAPPORT\nDU MÉDECIN
+Image/data.btn_voting	RÉSULTATS\nDU VOTE
+Image/data.btn_discussion	JOURNAL\nDES DÉBATS
+Image/data.btn_crew	FICHES DE\nL'ÉQUIPAGE
+Image/data.coming_out	Annonce
+Image/data.role	Rôle
+Image/data.ally	Allié
+Image/data.collaborator	Collaborateur
+Image/data.detractor	Détracteur
+Image/data.friend	Ami
 Code/was	était
 Code/wasn't	n'était pas
 Code/were	étaient

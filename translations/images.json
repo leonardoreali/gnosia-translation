@@ -86,7 +86,22 @@
       "bundle": "systm_en",
       "textures": ["data"],
       "items": [
-        { "id": "data.data_reference", "en": "Data Reference", "box": [240, 892, 360, 60], "enclosed": true }
+        { "id": "data.data_reference", "en": "Data Reference", "box": [240, 892, 360, 60], "enclosed": true },
+        { "id": "data.btn_engineer", "en": "ENGINEER\\nREPORT", "box": [500, 172, 234, 76], "lineHeight": 37, "align": "right", "enclosed": true },
+        { "id": "data.btn_doctor", "en": "DOCTOR\\nREPORT", "box": [580, 368, 220, 76], "lineHeight": 37, "align": "right", "enclosed": true },
+        { "id": "data.btn_doctor", "en": "DOCTOR\\nREPORT", "box": [580, 500, 220, 76], "lineHeight": 37, "align": "right", "enclosed": true },
+        { "id": "data.btn_voting", "en": "VOTING\\nRESULTS", "box": [280, 512, 220, 78], "lineHeight": 37, "align": "right", "enclosed": true },
+        { "id": "data.btn_voting", "en": "VOTING\\nRESULTS", "box": [280, 646, 220, 78], "lineHeight": 37, "align": "right", "enclosed": true },
+        { "id": "data.btn_discussion", "en": "DISCUSSION\\nLOG", "box": [556, 630, 240, 76], "lineHeight": 37, "align": "right", "enclosed": true },
+        { "id": "data.btn_crew", "en": "CREW\\nDATA", "box": [320, 778, 178, 76], "lineHeight": 37, "align": "right", "enclosed": true },
+        { "id": "data.btn_engineer", "en": "ENGINEER\\nREPORT", "box": [570, 764, 228, 76], "ink": [600, 769, 794, 834], "lineHeight": 37, "align": "right" },
+        { "id": "data.coming_out", "en": "Coming Out", "box": [45, 149, 183, 28], "ink": [64, 151, 211, 176] },
+        { "id": "data.role", "en": "Role", "box": [262, 149, 96, 28], "enclosed": true },
+        { "id": "data.ally", "en": "Ally", "box": [30, 7, 92, 32], "ink": [43, 9, 118, 38], "manual": true, "size": 21, "baseline": 26, "color": "#ffffff", "align": "left" },
+        { "id": "data.ally", "en": "Ally", "box": [270, 349, 92, 31], "ink": [276, 351, 328, 379], "manual": true, "size": 21.1, "baseline": 372, "color": "#f4f4f4", "align": "left" },
+        { "id": "data.collaborator", "en": "Collaborator", "box": [30, 378, 170, 28], "enclosed": true },
+        { "id": "data.detractor", "en": "Detractor", "box": [10, 537, 165, 28], "ink": [23, 538, 166, 564], "manual": true, "size": 30, "baseline": 562, "color": "#5b4b5e" },
+        { "id": "data.friend", "en": "Friend", "box": [10, 572, 165, 28], "ink": [47, 573, 139, 598], "manual": true, "size": 28, "baseline": 595, "color": "#5b4b5e" }
       ]
     },
     {

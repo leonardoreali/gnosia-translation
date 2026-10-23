@@ -138,7 +138,7 @@ CharaText/0:Takashi/153	Du hast gebettelt und gefleht, nicht in den Kälteschlaf
 CharaText/0:Takashi/154	{1} wurde letzte Nacht angegriffen und kann nicht {0} sein.\nWiderwillig berichtest du, dass {1} nicht {0} war.
 CharaText/1:Cipi/2	Ausgeglichene, vielseitige Persönlichkeit. Scharfsinnig.
 CharaText/1:Cipi/3	Das Fleisch seines Halses ist mit einer Katze verwachsen.
-CharaText/1:Cipi/4	Hat sich operieren lassen, um einen Katzenkörper zu bekommen.
+CharaText/1:Cipi/4	Ließ sich operieren, um einen Katzenkörper zu haben.
 CharaText/1:Cipi/5	War Crewmitglied auf einem Frachtschiff.
 CharaText/1:Cipi/6	Will die "Verkatzung" operativ vollenden.
 CharaText/1:Cipi/7	Wuchs umgeben von Katzen auf.
@@ -958,7 +958,7 @@ CharaText/5:Kukulsika/2	Sehr intuitiv, handelt nach Gefühl.
 CharaText/5:Kukulsika/3	Spricht durch Mimik und Körpersprache.
 CharaText/5:Kukulsika/4	Laut Yuriko kein Mensch.
 CharaText/5:Kukulsika/5	Mit Remnan im Wachdienst ermordet sie alle.
-CharaText/5:Kukulsika/6	Autonome Puppe mit zwei Körpern; der andere ist eingelagert.
+CharaText/5:Kukulsika/6	Autonome Puppe, zwei Körper; einer ist eingelagert.
 CharaText/5:Kukulsika/7	Jonas' Puppe; die Persönlichkeit wechselt die Körper.
 CharaText/5:Kukulsika/8	Körpermaße 8
 CharaText/5:Kukulsika/9	(Dieses Mädchen heißt {0}.\n{0} spricht nicht. Niemand hat je ihre Stimme gehört.\nDoch {0} ist sehr ausdrucksstark und spricht mit Mimik und Gesten.)
@@ -1160,7 +1160,7 @@ CharaText/6:Otome/1	Meeresplanet\nNada
 CharaText/6:Otome/2	Etwas zurückhaltend; schüchtern, mag aber Leute.
 CharaText/6:Otome/3	Intelligenter Belugawal von einem Meeresplaneten.
 CharaText/6:Otome/4	In ihren Forscher "Dr. Yoshikado" verliebt.
-CharaText/6:Otome/5	Traumatisiert, weil sie aus Versehen einen Goldfisch verschluckte.
+CharaText/6:Otome/5	Trauma: hat aus Versehen einen Goldfisch verschluckt.
 CharaText/6:Otome/6	Perfektes Gehör; spürt Bewegungen um sich herum.
 CharaText/6:Otome/7	Träumt davon, irgendwie ein Mensch zu werden.
 CharaText/6:Otome/8	Körpermaße 7
@@ -1364,7 +1364,7 @@ CharaText/6:Otome/225	*Quiek!* {0}!\nDanke für all deine Hilfe!
 CharaText/7:Rakio/1	Gliese-\nFlotte
 CharaText/7:Rakio/2	Verfechter der Intelligenz. Großes Schauspieltalent.
 CharaText/7:Rakio/3	Aus dem Superstaat "Mobile Flotte Gliese".
-CharaText/7:Rakio/4	Bei Geburt männlich zugewiesen; identifiziert sich als nichtbinär.
+CharaText/7:Rakio/4	Bei Geburt männlich zugewiesen; nichtbinär.
 CharaText/7:Rakio/5	Kommunikativ, aber nicht so sehr mit Worten.
 CharaText/7:Rakio/6	Besuchte eine Oberschule in Gliese.
 CharaText/7:Rakio/7	Durch Geburtsrecht Besitz des "Silberschlüssels".
@@ -2400,8 +2400,8 @@ CharaText/12:SQ/2	Hedonistisch, lebenslustig, versteckt ihre Gefühle.
 CharaText/12:SQ/3	Kennt Remnan von früher.
 CharaText/12:SQ/4	Vielleicht Remnans Tochter?
 CharaText/12:SQ/5	Wuchs in einer Brutkapsel auf, vor einem Jahr geschlüpft.
-CharaText/12:SQ/6	Versehentlich bei der Geisttransplantation der Mutter geboren.
-CharaText/12:SQ/7	Kein/Gnosia-SQ = Mutter nach erfolgreicher Transplantation.
+CharaText/12:SQ/6	Entstand zufällig beim Geisttransfer der Mutter.
+CharaText/12:SQ/7	Kein/Gnosia-SQ = Mutter nach Transplantation.
 CharaText/12:SQ/8	Körpermaße 7
 CharaText/12:SQ/9	Heeeeey! Ich bin {0}!
 CharaText/12:SQ/10	Erstklassiger Charme und Schauspiel.\nVorsichtig und egoistisch, sagt selten etwas,\nwodurch ihre Lügen schwer zu erkennen sind.
@@ -2807,7 +2807,7 @@ CharaText/13:Stella/223	Hehehe, ich selbst bin ein Kind von Gnos.\nIch hatte geh
 CharaText/13:Stella/224	Gute Arbeit, {0}.\nNun gehen Sie und ruhen Sie sich aus.
 CharaText/14:Yuriko/1	Unbekannt
 CharaText/14:Yuriko/2	Hohe Werte, großer Einfluss. Fällt auf.
-CharaText/14:Yuriko/3	Kybernetisierte Schreinjungfrau des Raumschiffs "Hoshibune".
+CharaText/14:Yuriko/3	Kybernetisierte Schreinjungfrau der "Hoshibune".
 CharaText/14:Yuriko/4	Floh von der Hoshibune; wird getötet, falls gefasst.
 CharaText/14:Yuriko/5	Kennt die Wahrheit darüber, was Gnos wirklich ist.
 CharaText/14:Yuriko/6	Gnos ist ein Zusammenschluss kybernetisierter Menschen.
@@ -9222,6 +9222,17 @@ Image/vote.please_vote	Bitte abstimmen
 Image/vote.finished	Fertig
 Image/talent.ability_graph	Wertediagramm
 Image/param.change_abilities	Werte ändern
+Image/data.btn_engineer	INGENIEURS-\nBERICHT
+Image/data.btn_doctor	DOKTOR-\nBERICHT
+Image/data.btn_voting	ABSTIMMUNGS-\nERGEBNIS
+Image/data.btn_discussion	DISKUSSIONS-\nLOG
+Image/data.btn_crew	CREW-\nDATEN
+Image/data.coming_out	Rolle gezeigt
+Image/data.role	Rolle
+Image/data.ally	Verbündet
+Image/data.collaborator	Partner
+Image/data.detractor	Gegner
+Image/data.friend	Freund
 Code/was	war
 Code/wasn't	war nicht
 Code/were	waren

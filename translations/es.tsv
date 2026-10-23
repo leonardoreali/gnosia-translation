@@ -1574,7 +1574,7 @@ CharaText/8:Remnant/2	Introvertido, algo indeciso.
 CharaText/8:Remnant/3	De un planeta habitado solo por IA.
 CharaText/8:Remnant/4	Conoce a SQ desde hace mucho.
 CharaText/8:Remnant/5	Fue la mascota de los padres de SQ.
-CharaText/8:Remnant/6	Trabajó en una nave de espacio profundo por más de 50 años.
+CharaText/8:Remnant/6	Trabajó más de 50 años en una nave espacial.
 CharaText/8:Remnant/7	Medidas: 6
 CharaText/8:Remnant/8	Medidas: 7
 CharaText/8:Remnant/10	Me llamo {0}. Mucho gusto.
@@ -1784,7 +1784,7 @@ CharaText/9:Setsu/1	Base 52
 CharaText/9:Setsu/2	Gran sentido de justicia y responsabilidad. Lógica.
 CharaText/9:Setsu/3	En bucle en distinto orden que el protagonista.
 CharaText/9:Setsu/4	Le desagrada Sha-Ming; a veces pelean.
-CharaText/9:Setsu/5	Miembro de Fuerzas Especiales del Ejército Galáctico Federal.
+CharaText/9:Setsu/5	Fuerzas Especiales del Ejército Galáctico Federal.
 CharaText/9:Setsu/6	Espera salvar a todos a bordo, si es posible.
 CharaText/9:Setsu/7	Escapó de una muerte segura con la "llave".
 CharaText/9:Setsu/8	Medidas: 7
@@ -9212,6 +9212,17 @@ Image/vote.please_vote	Vota, por favor
 Image/vote.finished	Terminado
 Image/talent.ability_graph	Gráfico de Habilidades
 Image/param.change_abilities	Cambiar Habilidades
+Image/data.btn_engineer	INFORME DEL\nINGENIERO
+Image/data.btn_doctor	INFORME\nDEL MÉDICO
+Image/data.btn_voting	RESULTADOS\nDE VOTACIÓN
+Image/data.btn_discussion	REGISTRO\nDEL DEBATE
+Image/data.btn_crew	DATOS DE LA\nTRIPULACIÓN
+Image/data.coming_out	Revelación
+Image/data.role	Rol
+Image/data.ally	Aliado
+Image/data.collaborator	Colaborador
+Image/data.detractor	Detractor
+Image/data.friend	Amigo
 Code/was	era
 Code/wasn't	no era
 Code/were	eran
