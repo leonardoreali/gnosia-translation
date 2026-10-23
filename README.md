@@ -121,7 +121,8 @@ game accepts them. Image texts are translated like any other line (`Image/<id>` 
 ## Not translated
 
 The in-game Help pages and some smaller screens (results, voting, gallery) are still images in English, as is the
-controller-mapping screen.
+controller-mapping screen. The headers of the Command List ("Command List", "Explanation", "Usage", "Req'd") are
+images too and stay in English.
 
 ## Legal
 
