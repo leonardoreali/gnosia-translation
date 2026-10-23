@@ -3044,7 +3044,7 @@ OthersText/0:config/18	Пластиковый цветок
 OthersText/0:config/19	Мир без Гносии
 OthersText/0:config/20	В петле
 OthersText/0:config/21	Снова в петле
-OthersText/0:config/22	Не дай себя обмануть
+OthersText/0:config/22	Не обманись
 OthersText/0:config/23	Аллакосия
 OthersText/0:config/24	Душевая - Джина
 OthersText/0:config/25	Обмануть и быть обманутым (1)
@@ -3135,7 +3135,7 @@ OthersText/4:setting/34	Обаяние
 OthersText/4:setting/35	Логика
 OthersText/4:setting/36	Актёрство
 OthersText/4:setting/37	Скрытность
-OthersText/4:setting/38	Призвать раскрыться
+OthersText/4:setting/38	Вызов ролей
 OthersText/4:setting/39	Точно человек
 OthersText/4:setting/40	Точно враг
 OthersText/4:setting/41	Точно Баг
@@ -3144,7 +3144,7 @@ OthersText/4:setting/43	Голосовать
 OthersText/4:setting/44	Не голосовать
 OthersText/4:setting/45	Болтовня
 OthersText/4:setting/46	Заморозить всех
-OthersText/4:setting/47	Давайте сотрудничать
+OthersText/4:setting/47	Сотрудничать
 OthersText/4:setting/48	Искать поддержку
 OthersText/4:setting/49	Пресечь спор
 OthersText/4:setting/50	Преувеличить
@@ -3152,7 +3152,7 @@ OthersText/4:setting/51	Увильнуть
 OthersText/4:setting/52	Ответный удар
 OthersText/4:setting/53	Сожаление
 OthersText/4:setting/54	Просить помощи
-OthersText/4:setting/55	Не дай себя обмануть
+OthersText/4:setting/55	Не обманись
 OthersText/4:setting/56	Умолять
 OthersText/4:setting/57	Главный пульт
 OthersText/4:setting/58	Каюта
@@ -3217,25 +3217,25 @@ ScenarioBaseText/4:Jinro/9	Согласиться
 ScenarioBaseText/4:Jinro/10	Защитить
 ScenarioBaseText/4:Jinro/11	Нет, я не хочу сомневаться в {0}
 ScenarioBaseText/4:Jinro/12	Нет, с {0} всё в порядке
-ScenarioBaseText/4:Jinro/13	Поддержать защиту
+ScenarioBaseText/4:Jinro/13	Тоже защитить
 ScenarioBaseText/4:Jinro/14	Опровергнуть
 ScenarioBaseText/4:Jinro/15	Заступиться
 ScenarioBaseText/4:Jinro/16	Мне нравится {0}
 ScenarioBaseText/4:Jinro/17	{0}, наверное, можно доверять
 ScenarioBaseText/4:Jinro/18	{0}, похоже, можно доверять
-ScenarioBaseText/4:Jinro/19	Заступиться вместе
+ScenarioBaseText/4:Jinro/19	Тоже заступиться
 ScenarioBaseText/4:Jinro/20	Возразить
 ScenarioBaseText/4:Jinro/21	Нет, {0} доверять нельзя
-ScenarioBaseText/4:Jinro/22	Поддержать возражение
+ScenarioBaseText/4:Jinro/22	Тоже возразить
 ScenarioBaseText/4:Jinro/23	Поблагодарить
 ScenarioBaseText/4:Jinro/24	Заткнуться
 ScenarioBaseText/4:Jinro/25	{0} раздражает
 ScenarioBaseText/4:Jinro/26	Начать голосование
 ScenarioBaseText/4:Jinro/27	Раскрыть роль
 ScenarioBaseText/4:Jinro/28	Раскрыта роль: {0}
-ScenarioBaseText/4:Jinro/29	Раскрыть свою роль
+ScenarioBaseText/4:Jinro/29	Раскрыть себя
 ScenarioBaseText/4:Jinro/30	Тоже заявлена роль: {0}.
-ScenarioBaseText/4:Jinro/31	Призвать раскрыться
+ScenarioBaseText/4:Jinro/31	Вызов ролей
 ScenarioBaseText/4:Jinro/32	Кто {0}, выйдите вперёд
 ScenarioBaseText/4:Jinro/33	Раскрыть роль
 ScenarioBaseText/4:Jinro/34	Раскрыта роль: {0}
@@ -3377,7 +3377,7 @@ ScenarioBaseText/16:JinroSkill/37	Согласиться
 ScenarioBaseText/16:JinroSkill/38	Не согласиться
 ScenarioBaseText/16:JinroSkill/39	Нет, голосуем, как хотим
 ScenarioBaseText/16:JinroSkill/40	Тоже возразить
-ScenarioBaseText/16:JinroSkill/41	Давайте сотрудничать
+ScenarioBaseText/16:JinroSkill/41	Сотрудничать
 ScenarioBaseText/16:JinroSkill/42	Я хочу сотрудничать с {0}
 ScenarioBaseText/16:JinroSkill/43	Принять
 ScenarioBaseText/16:JinroSkill/44	Хорошо, давай работать вместе.
@@ -3401,7 +3401,7 @@ ScenarioBaseText/16:JinroSkill/61	Ответный удар
 ScenarioBaseText/16:JinroSkill/62	Нет, {0} подозрительнее меня
 ScenarioBaseText/16:JinroSkill/63	Сожаление
 ScenarioBaseText/16:JinroSkill/64	Как ужасно, что на них напали...
-ScenarioBaseText/16:JinroSkill/65	Не дай себя обмануть
+ScenarioBaseText/16:JinroSkill/65	Не обманись
 ScenarioBaseText/16:JinroSkill/66	{0} лжёт. Осторожнее.
 ScenarioBaseText/16:JinroSkill/67	Просить помощи
 ScenarioBaseText/16:JinroSkill/68	Попросить их опровергнуть {0}
@@ -3447,8 +3447,8 @@ ScenarioCipiText/0:Cipi1/20	Разговор
 ScenarioCipiText/0:Cipi1/21	Хм...? Что такое?\nА, {1}?
 ScenarioCipiText/0:Cipi1/22	Ха-ха, шансы примерно пятьдесят на пятьдесят.\nХорошо, что мне удалось сговориться с {1}.
 ScenarioCipiText/0:Cipi1/23	Мне неприятно врать {1}.\nНо чтобы выжить, надо делать то, что надо.
-ScenarioCipiText/0:Cipi1/24	Получен навык \"Давайте сотрудничать\"
-ScenarioCipiText/0:Cipi1/25	Вы получили навык \"Давайте сотрудничать\".\nПри успехе вы можете заключить союз с другим человеком.\nТребуется 15 \"Обаяния\".
+ScenarioCipiText/0:Cipi1/24	Получен навык \"Сотрудничать\"
+ScenarioCipiText/0:Cipi1/25	Вы получили навык \"Сотрудничать\".\nПри успехе вы можете заключить союз с другим человеком.\nТребуется 15 \"Обаяния\".
 ScenarioCipiText/0:Cipi1/26	Победа
 ScenarioCipiText/0:Cipi1/27	В вестибюле
 ScenarioCipiText/0:Cipi1/28	Больше половины экипажа - Гносия,\nкорабль захвачен.
@@ -4269,8 +4269,8 @@ ScenarioGinaText/1:Gina2/10	Промолчать
 ScenarioGinaText/1:Gina2/11	У меня нет такой сильной интуиции, как у Комет.\nНо что-то меня беспокоит.
 ScenarioGinaText/1:Gina2/12	Не знаю почему. Но...\nВ {1} я чувствую что-то тревожное.
 ScenarioGinaText/1:Gina2/13	Остерегайтесь {1}.\nЯ не хочу, чтобы вас обманули.
-ScenarioGinaText/1:Gina2/14	Получен навык \"Не дай себя обмануть\"
-ScenarioGinaText/1:Gina2/15	Вы получили навык \"Не дай себя обмануть\".\nПредупреждая всех о том, кто вас подозревает,\nвы облегчаете распознавание его лжи. Требуется 30 \"Харизмы\".
+ScenarioGinaText/1:Gina2/14	Получен навык \"Не обманись\"
+ScenarioGinaText/1:Gina2/15	Вы получили навык \"Не обманись\".\nПредупреждая всех о том, кто вас подозревает,\nвы облегчаете распознавание его лжи. Требуется 30 \"Харизмы\".
 ScenarioGinaText/1:Gina2/16	Почему-то я...\nЯ хочу вам доверять, {0}. Не хочу, чтобы вы исчезли.
 ScenarioGinaText/1:Gina2/17	Что ж... До завтра.
 ScenarioGinaText/1:Gina2/18	Обновление данных экипажа: Джина
@@ -8236,9 +8236,9 @@ ScenarioTutorialText/15:Nanori/20	Об Инженерах
 ScenarioTutorialText/15:Nanori/21	Инженер - важное оружие в борьбе с врагом.\nИнженер может дать важнейшее знание о том,\nкто Гносия, а кто нет.
 ScenarioTutorialText/15:Nanori/22	Но если он не выйдет вперёд, поделиться этим знанием не сможет.\nИнженеры часто не выходят вперёд из страха перед нападением.
 ScenarioTutorialText/15:Nanori/23	Так что иногда нужно подтолкнуть их раскрыться.\nИнформация может решить исход этой битвы.
-ScenarioTutorialText/15:Nanori/24	Получен навык \"Призвать раскрыться\"
-ScenarioTutorialText/15:Nanori/25	Вы получили навык \"Призвать раскрыться\".\nЕсли ваша \"Харизма\" 10 или выше,\nего можно использовать раз за обсуждение.
-ScenarioTutorialText/15:Nanori/26	Вы получили навык \"Призвать раскрыться\".\nДля использования \"Харизма\" должна быть 10 или выше.
+ScenarioTutorialText/15:Nanori/24	Получен навык \"Вызов ролей\"
+ScenarioTutorialText/15:Nanori/25	Вы получили навык \"Вызов ролей\".\nЕсли ваша \"Харизма\" 10 или выше,\nего можно использовать раз за обсуждение.
+ScenarioTutorialText/15:Nanori/26	Вы получили навык \"Вызов ролей\".\nДля использования \"Харизма\" должна быть 10 или выше.
 ScenarioTutorialText/15:Nanori/27	Подробности и условия использования навыков можно посмотреть в каюте\nили в "Списке команд" в стартовом меню.
 ScenarioTutorialText/15:Nanori/28	Да...\nВот, пожалуй, и всё.
 ScenarioTutorialText/15:Nanori/29	Что ж... борьба будет долгой.\nСделаем всё, что можем, чтобы пройти через это.
@@ -9043,14 +9043,14 @@ ScreenText/14:GameMenuSkillScreen/0	Сомнение
 ScreenText/14:GameMenuSkillScreen/1	Согласиться
 ScreenText/14:GameMenuSkillScreen/2	Опровергнуть
 ScreenText/14:GameMenuSkillScreen/3	Защитить
-ScreenText/14:GameMenuSkillScreen/4	Поддержать защиту
+ScreenText/14:GameMenuSkillScreen/4	Тоже защитить
 ScreenText/14:GameMenuSkillScreen/5	Заступиться
-ScreenText/14:GameMenuSkillScreen/6	Заступиться вместе
+ScreenText/14:GameMenuSkillScreen/6	Тоже заступиться
 ScreenText/14:GameMenuSkillScreen/7	Поблагодарить
 ScreenText/14:GameMenuSkillScreen/8	Возразить
-ScreenText/14:GameMenuSkillScreen/9	Поддержать возражение
+ScreenText/14:GameMenuSkillScreen/9	Тоже возразить
 ScreenText/14:GameMenuSkillScreen/10	Раскрыть роль
-ScreenText/14:GameMenuSkillScreen/11	Раскрыть свою роль
+ScreenText/14:GameMenuSkillScreen/11	Раскрыть себя
 ScreenText/14:GameMenuSkillScreen/12	Точно человек
 ScreenText/14:GameMenuSkillScreen/13	Точно враг
 ScreenText/14:GameMenuSkillScreen/14	Снижает доверие к человеку словами\n"Он подозрителен" и т. п.\nЧем выше Логика и Актёрство,\nтем лучше результат.\nВысокая Харизма увеличивает число\nсогласных с вами.\nЕсли применить к неподозрительному,\nвас могут счесть лжецом.
@@ -9157,14 +9157,14 @@ ScreenText/22:ParamChangeSkillScreen/0	Сомнение
 ScreenText/22:ParamChangeSkillScreen/1	Согласиться
 ScreenText/22:ParamChangeSkillScreen/2	Опровергнуть
 ScreenText/22:ParamChangeSkillScreen/3	Защитить
-ScreenText/22:ParamChangeSkillScreen/4	Поддержать защиту
+ScreenText/22:ParamChangeSkillScreen/4	Тоже защитить
 ScreenText/22:ParamChangeSkillScreen/5	Заступиться
-ScreenText/22:ParamChangeSkillScreen/6	Заступиться вместе
+ScreenText/22:ParamChangeSkillScreen/6	Тоже заступиться
 ScreenText/22:ParamChangeSkillScreen/7	Поблагодарить
 ScreenText/22:ParamChangeSkillScreen/8	Возразить
-ScreenText/22:ParamChangeSkillScreen/9	Поддержать возражение
+ScreenText/22:ParamChangeSkillScreen/9	Тоже возразить
 ScreenText/22:ParamChangeSkillScreen/10	Раскрыть роль
-ScreenText/22:ParamChangeSkillScreen/11	Раскрыть свою роль
+ScreenText/22:ParamChangeSkillScreen/11	Раскрыть себя
 ScreenText/22:ParamChangeSkillScreen/12	Точно человек
 ScreenText/22:ParamChangeSkillScreen/13	Точно враг
 ScreenText/22:ParamChangeSkillScreen/14	Снижает доверие к человеку словами\n"Он подозрителен" и т. п.\nЧем выше Логика и Актёрство,\nтем лучше результат.\nВысокая Харизма увеличивает число\nсогласных с вами.\nЕсли применить к неподозрительному,\nвас могут счесть лжецом.

@@ -3025,7 +3025,7 @@ OthersText/0:config/18	Flor de Plástico
 OthersText/0:config/19	Un Mundo sin Gnosia
 OthersText/0:config/20	En el Bucle
 OthersText/0:config/21	Otra Vez en el Bucle
-OthersText/0:config/22	No te Dejes Engañar
+OthersText/0:config/22	No te Engañes
 OthersText/0:config/23	Allacosia
 OthersText/0:config/24	Duchas - Gina
 OthersText/0:config/25	Engañar y Ser Engañado (1)
@@ -3115,7 +3115,7 @@ OthersText/4:setting/38	Presentarse
 OthersText/4:setting/39	Humano Seguro
 OthersText/4:setting/40	Enemigo Seguro
 OthersText/4:setting/41	Bug Seguro
-OthersText/4:setting/42	Decir que Soy Humano
+OthersText/4:setting/42	Decirse Humano
 OthersText/4:setting/43	Votar
 OthersText/4:setting/44	No Votar
 OthersText/4:setting/45	Charlar
@@ -3128,7 +3128,7 @@ OthersText/4:setting/51	Evadir
 OthersText/4:setting/52	Contraatacar
 OthersText/4:setting/53	Lamentar
 OthersText/4:setting/54	Pedir Ayuda
-OthersText/4:setting/55	No te Dejes Engañar
+OthersText/4:setting/55	No te Engañes
 OthersText/4:setting/56	Suplicar
 OthersText/4:setting/57	Control Central
 OthersText/4:setting/58	Habitación
@@ -3312,7 +3312,7 @@ ScenarioBaseText/14:Talk/1	Preparación de Conversación Libre
 ScenarioBaseText/14:Talk/2	Conversación Libre
 ScenarioBaseText/15:Talk_Myroom/0	Ir a Habitación
 ScenarioBaseText/15:Talk_Myroom/1	Elegir Habitación
-ScenarioBaseText/16:JinroSkill/0	Decir que Soy Humano
+ScenarioBaseText/16:JinroSkill/0	Decirse Humano
 ScenarioBaseText/16:JinroSkill/1	Intenta declarar que eres humano
 ScenarioBaseText/16:JinroSkill/2	Fin
 ScenarioBaseText/16:JinroSkill/3	{0} no dijo ser humano...
@@ -3377,7 +3377,7 @@ ScenarioBaseText/16:JinroSkill/61	Contraatacar
 ScenarioBaseText/16:JinroSkill/62	No, {0} da más que sospechar que yo
 ScenarioBaseText/16:JinroSkill/63	Lamentar
 ScenarioBaseText/16:JinroSkill/64	Es terrible que le hayan atacado...
-ScenarioBaseText/16:JinroSkill/65	No te Dejes Engañar
+ScenarioBaseText/16:JinroSkill/65	No te Engañes
 ScenarioBaseText/16:JinroSkill/66	{0} miente. Cuidado.
 ScenarioBaseText/16:JinroSkill/67	Pedir Ayuda
 ScenarioBaseText/16:JinroSkill/68	Que refuten a {0}
@@ -4232,8 +4232,8 @@ ScenarioGinaText/1:Gina2/10	No decir nada
 ScenarioGinaText/1:Gina2/11	No soy tan intuitiva como Comet.\nPero algo me inquieta.
 ScenarioGinaText/1:Gina2/12	No sé por qué. Pero...\nSiento algo perturbador en {1}.
 ScenarioGinaText/1:Gina2/13	Ten cuidado con {1}.\nNo quiero que te engañen.
-ScenarioGinaText/1:Gina2/14	Habilidad \"No te Dejes Engañar\" adquirida
-ScenarioGinaText/1:Gina2/15	Adquiriste la habilidad \"No te Dejes Engañar\".\nAl advertir a los demás sobre alguien que sospecha de ti,\nhaces que sus mentiras sean más fáciles de ver. Requiere 30 de \"Carisma\".
+ScenarioGinaText/1:Gina2/14	Habilidad \"No te Engañes\" adquirida
+ScenarioGinaText/1:Gina2/15	Adquiriste la habilidad \"No te Engañes\".\nAl advertir a los demás sobre alguien que sospecha de ti,\nhaces que sus mentiras sean más fáciles de ver. Requiere 30 de \"Carisma\".
 ScenarioGinaText/1:Gina2/16	Por alguna razón, yo...\nQuiero confiar en ti, {0}. No quiero que te vayas.
 ScenarioGinaText/1:Gina2/17	Muy bien... Nos vemos mañana.
 ScenarioGinaText/1:Gina2/18	Datos de Tripulación Actualizados: Gina

@@ -3120,7 +3120,7 @@ OthersText/4:setting/38	Se manifester
 OthersText/4:setting/39	Humain certain
 OthersText/4:setting/40	Ennemi certain
 OthersText/4:setting/41	Bug certain
-OthersText/4:setting/42	Dire "Je suis humain"
+OthersText/4:setting/42	Se dire humain
 OthersText/4:setting/43	Voter
 OthersText/4:setting/44	Ne pas voter
 OthersText/4:setting/45	Bavarder
@@ -3214,7 +3214,7 @@ ScenarioBaseText/4:Jinro/25	{0} est pénible
 ScenarioBaseText/4:Jinro/26	Lancer le vote
 ScenarioBaseText/4:Jinro/27	Révéler son rôle
 ScenarioBaseText/4:Jinro/28	A révélé son rôle : {0}
-ScenarioBaseText/4:Jinro/29	Révéler son propre rôle
+ScenarioBaseText/4:Jinro/29	Révéler son rôle
 ScenarioBaseText/4:Jinro/30	A aussi revendiqué le rôle de {0}.
 ScenarioBaseText/4:Jinro/31	Se manifester
 ScenarioBaseText/4:Jinro/32	{0}, manifeste-toi
@@ -3317,7 +3317,7 @@ ScenarioBaseText/14:Talk/1	Préparation de la conversation libre
 ScenarioBaseText/14:Talk/2	Conversation libre
 ScenarioBaseText/15:Talk_Myroom/0	Aller en cabine
 ScenarioBaseText/15:Talk_Myroom/1	Choisir une cabine
-ScenarioBaseText/16:JinroSkill/0	Dire "Je suis humain"
+ScenarioBaseText/16:JinroSkill/0	Se dire humain
 ScenarioBaseText/16:JinroSkill/1	Essayer de déclarer qu'on est humain
 ScenarioBaseText/16:JinroSkill/2	Fin
 ScenarioBaseText/16:JinroSkill/3	{0} n'a pas affirmé être humain...
@@ -3750,8 +3750,8 @@ ScenarioCometText/3:Comet4/23	Continuer
 ScenarioCometText/3:Comet4/24	En fait, ça pourrait être vachement utile.\nJe vais essayer de demander à tous les autres, la prochaine fois.\n"T'es humain ?"
 ScenarioCometText/3:Comet4/25	Je pourrai peut-être voir s'ils mentent.\nEt ceux qui répondent pas sont forcément louches.\nHéhé, d'une pierre deux coups !
 ScenarioCometText/3:Comet4/26	Tu sais, Comet...\nT'es genre, courageuse ? Mais aussi genre, un peu tordue ?
-ScenarioCometText/3:Comet4/27	Compétence "Dire "Je suis humain"" acquise
-ScenarioCometText/3:Comet4/28	Vous avez acquis la compétence "Dire "Je suis humain"".\nFaites déclarer à tout le monde "Je suis humain", et tentez de voir qui ment.\nRequiert 20 en "Intuition".
+ScenarioCometText/3:Comet4/27	Compétence "Se dire humain" acquise
+ScenarioCometText/3:Comet4/28	Vous avez acquis la compétence "Se dire humain".\nFaites déclarer à tout le monde "Je suis humain", et tentez de voir qui ment.\nRequiert 20 en "Intuition".
 ScenarioCometText/4:Comet5/0	Préchargement du scénario
 ScenarioCometText/4:Comet5/1	Expliquer la situation
 ScenarioCometText/4:Comet5/2	Mince, j'ai l'impression qu'ils vont tout de suite découvrir.\nQue je suis pas humaine, tu vois ?
@@ -9026,7 +9026,7 @@ ScreenText/14:GameMenuSkillScreen/7	Remercier
 ScreenText/14:GameMenuSkillScreen/8	Contester
 ScreenText/14:GameMenuSkillScreen/9	Contester aussi
 ScreenText/14:GameMenuSkillScreen/10	Révéler son rôle
-ScreenText/14:GameMenuSkillScreen/11	Révéler son propre rôle
+ScreenText/14:GameMenuSkillScreen/11	Révéler son rôle
 ScreenText/14:GameMenuSkillScreen/12	Humain certain
 ScreenText/14:GameMenuSkillScreen/13	Ennemi certain
 ScreenText/14:GameMenuSkillScreen/14	Fait baisser la confiance envers quelqu'un\nen disant "C'est louche", etc.\nLogique et Jeu d'acteur élevés\ndonnent de meilleurs résultats.\nUn Charisme élevé augmente aussi le\nnombre de personnes qui vous approuvent.\nL'utiliser sur quelqu'un qui n'est pas louche\npeut vous faire passer pour un menteur.
@@ -9140,7 +9140,7 @@ ScreenText/22:ParamChangeSkillScreen/7	Remercier
 ScreenText/22:ParamChangeSkillScreen/8	Contester
 ScreenText/22:ParamChangeSkillScreen/9	Contester aussi
 ScreenText/22:ParamChangeSkillScreen/10	Révéler son rôle
-ScreenText/22:ParamChangeSkillScreen/11	Révéler son propre rôle
+ScreenText/22:ParamChangeSkillScreen/11	Révéler son rôle
 ScreenText/22:ParamChangeSkillScreen/12	Humain certain
 ScreenText/22:ParamChangeSkillScreen/13	Ennemi certain
 ScreenText/22:ParamChangeSkillScreen/14	Fait baisser la confiance envers quelqu'un\nen disant "C'est louche", etc.\nLogique et Jeu d'acteur élevés\ndonnent de meilleurs résultats.\nUn Charisme élevé augmente aussi le\nnombre de personnes qui vous approuvent.\nL'utiliser sur quelqu'un qui n'est pas louche\npeut vous faire passer pour un menteur.

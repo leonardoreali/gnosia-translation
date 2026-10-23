@@ -3038,7 +3038,7 @@ OthersText/0:config/18	Flor de Plástico
 OthersText/0:config/19	Um Mundo Sem Gnosia
 OthersText/0:config/20	No Loop
 OthersText/0:config/21	No Loop de Novo
-OthersText/0:config/22	Não Se Deixe Enganar
+OthersText/0:config/22	Não Caia Nessa
 OthersText/0:config/23	Allacosia
 OthersText/0:config/24	Chuveiros - Gina
 OthersText/0:config/25	Enganar e Ser Enganado (1)
@@ -3144,7 +3144,7 @@ OthersText/4:setting/51	Desconversar
 OthersText/4:setting/52	Retaliar
 OthersText/4:setting/53	Lamentar
 OthersText/4:setting/54	Pedir Ajuda
-OthersText/4:setting/55	Não Se Deixe Enganar
+OthersText/4:setting/55	Não Caia Nessa
 OthersText/4:setting/56	Implorar
 OthersText/4:setting/57	Controle Principal
 OthersText/4:setting/58	Quarto
@@ -3218,14 +3218,14 @@ ScenarioBaseText/4:Jinro/18	{0} parece confiável
 ScenarioBaseText/4:Jinro/19	Reforçar Proteção
 ScenarioBaseText/4:Jinro/20	Contestar
 ScenarioBaseText/4:Jinro/21	Não, não podemos confiar em {0}
-ScenarioBaseText/4:Jinro/22	Reforçar Contestação
+ScenarioBaseText/4:Jinro/22	Reforçar Objeção
 ScenarioBaseText/4:Jinro/23	Agradecer
 ScenarioBaseText/4:Jinro/24	Mandar Calar
 ScenarioBaseText/4:Jinro/25	{0} é irritante
 ScenarioBaseText/4:Jinro/26	Iniciar a Votação
 ScenarioBaseText/4:Jinro/27	Revelar Papel
 ScenarioBaseText/4:Jinro/28	Revelou ser {0}
-ScenarioBaseText/4:Jinro/29	Revelar o Próprio Papel
+ScenarioBaseText/4:Jinro/29	Revelar Meu Papel
 ScenarioBaseText/4:Jinro/30	Também se apresentou como {0}.
 ScenarioBaseText/4:Jinro/31	Apresentar-se
 ScenarioBaseText/4:Jinro/32	{0}, apresente-se
@@ -3393,7 +3393,7 @@ ScenarioBaseText/16:JinroSkill/61	Retaliar
 ScenarioBaseText/16:JinroSkill/62	Não, {0} é mais suspeito(a) que eu
 ScenarioBaseText/16:JinroSkill/63	Lamentar
 ScenarioBaseText/16:JinroSkill/64	É horrível que tenham sido atacados...
-ScenarioBaseText/16:JinroSkill/65	Não Se Deixe Enganar
+ScenarioBaseText/16:JinroSkill/65	Não Caia Nessa
 ScenarioBaseText/16:JinroSkill/66	{0} está mentindo. Cuidado.
 ScenarioBaseText/16:JinroSkill/67	Pedir Ajuda
 ScenarioBaseText/16:JinroSkill/68	Fazer refutarem {0}
@@ -8932,9 +8932,9 @@ ScreenText/14:GameMenuSkillScreen/5	Proteger
 ScreenText/14:GameMenuSkillScreen/6	Reforçar Proteção
 ScreenText/14:GameMenuSkillScreen/7	Agradecer
 ScreenText/14:GameMenuSkillScreen/8	Contestar
-ScreenText/14:GameMenuSkillScreen/9	Reforçar Contestação
+ScreenText/14:GameMenuSkillScreen/9	Reforçar Objeção
 ScreenText/14:GameMenuSkillScreen/10	Revelar Papel
-ScreenText/14:GameMenuSkillScreen/11	Revelar o Próprio Papel
+ScreenText/14:GameMenuSkillScreen/11	Revelar Meu Papel
 ScreenText/14:GameMenuSkillScreen/12	Humano Garantido
 ScreenText/14:GameMenuSkillScreen/13	Inimigo Garantido
 ScreenText/14:GameMenuSkillScreen/14	Diminui a confiança em alguém dizendo\n\"Essa pessoa é suspeita\" etc.\nLógica e Atuação altas\ndão resultados melhores.\nCarisma alto também aumenta o\nnúmero de pessoas que concordam com você.\nUsar em alguém que não é suspeito\npode fazer acharem que você mente.
@@ -9047,9 +9047,9 @@ ScreenText/22:ParamChangeSkillScreen/5	Proteger
 ScreenText/22:ParamChangeSkillScreen/6	Reforçar Proteção
 ScreenText/22:ParamChangeSkillScreen/7	Agradecer
 ScreenText/22:ParamChangeSkillScreen/8	Contestar
-ScreenText/22:ParamChangeSkillScreen/9	Reforçar Contestação
+ScreenText/22:ParamChangeSkillScreen/9	Reforçar Objeção
 ScreenText/22:ParamChangeSkillScreen/10	Revelar Papel
-ScreenText/22:ParamChangeSkillScreen/11	Revelar o Próprio Papel
+ScreenText/22:ParamChangeSkillScreen/11	Revelar Meu Papel
 ScreenText/22:ParamChangeSkillScreen/12	Humano Garantido
 ScreenText/22:ParamChangeSkillScreen/13	Inimigo Garantido
 ScreenText/22:ParamChangeSkillScreen/14	Diminui a confiança em alguém dizendo\n\"Essa pessoa é suspeita\" etc.\nLógica e Atuação altas\ndão resultados melhores.\nCarisma alto também aumenta o\nnúmero de pessoas que concordam com você.\nUsar em alguém que não é suspeito\npode fazer acharem que você mente.

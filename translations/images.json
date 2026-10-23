@@ -72,51 +72,51 @@
       "bundle": "title_en",
       "textures": ["title0"],
       "items": [
-        { "id": "title.label_options", "en": "OPTIONS", "box": [12, 802, 134, 34], "erase": "clear" },
-        { "id": "title.label_credit", "en": "CREDIT", "box": [177, 802, 114, 34], "erase": "clear" },
-        { "id": "title.label_new_game", "en": "NEW GAME", "box": [312, 802, 149, 34], "erase": "clear" },
-        { "id": "title.label_continue", "en": "CONTINUE", "box": [462, 802, 154, 34], "erase": "clear" }
+        { "id": "title.label_options", "en": "OPTIONS", "box": [12, 802, 134, 34], "erase": "clear", "fitInk": true },
+        { "id": "title.label_credit", "en": "CREDIT", "box": [177, 802, 114, 34], "erase": "clear", "fitInk": true },
+        { "id": "title.label_new_game", "en": "NEW GAME", "box": [312, 802, 149, 34], "erase": "clear", "fitInk": true },
+        { "id": "title.label_continue", "en": "CONTINUE", "box": [462, 802, 154, 34], "erase": "clear", "fitInk": true }
       ]
     },
     {
       "bundle": "title_en",
       "textures": ["title1"],
       "items": [
-        { "id": "title.label_new_game", "en": "NEW GAME", "box": [4, 807, 150, 34], "erase": "clear" },
-        { "id": "title.label_continue", "en": "CONTINUE", "box": [155, 807, 155, 34], "erase": "clear" },
-        { "id": "title.label_options", "en": "OPTIONS", "box": [1100, 737, 170, 34], "erase": "clear" },
-        { "id": "title.label_credit", "en": "CREDIT", "box": [1100, 784, 170, 34], "erase": "clear" }
+        { "id": "title.label_new_game", "en": "NEW GAME", "box": [4, 807, 150, 34], "erase": "clear", "fitInk": true },
+        { "id": "title.label_continue", "en": "CONTINUE", "box": [155, 807, 155, 34], "erase": "clear", "fitInk": true },
+        { "id": "title.label_options", "en": "OPTIONS", "box": [1100, 737, 170, 34], "erase": "clear", "fitInk": true },
+        { "id": "title.label_credit", "en": "CREDIT", "box": [1100, 784, 170, 34], "erase": "clear", "fitInk": true }
       ]
     },
     {
       "bundle": "title_en",
       "textures": ["title2", "title3"],
       "items": [
-        { "id": "title.label_options", "en": "OPTIONS", "box": [1345, 741, 182, 40], "erase": "clear", "color": "#505050", "glow": "#f0f0f0" },
-        { "id": "title.label_continue", "en": "CONTINUE", "box": [1345, 795, 182, 40], "erase": "clear", "color": "#505050", "glow": "#f0f0f0" },
-        { "id": "title.label_credit", "en": "CREDIT", "box": [1532, 738, 160, 40], "erase": "clear", "color": "#505050", "glow": "#f0f0f0" },
-        { "id": "title.label_new_game", "en": "NEW GAME", "box": [1696, 741, 220, 40], "erase": "clear", "color": "#505050", "glow": "#f0f0f0" }
+        { "id": "title.label_options", "en": "OPTIONS", "box": [1345, 741, 182, 40], "erase": "clear", "color": "#505050", "glow": "#f0f0f0", "fitInk": true },
+        { "id": "title.label_continue", "en": "CONTINUE", "box": [1345, 795, 182, 40], "erase": "clear", "color": "#505050", "glow": "#f0f0f0", "fitInk": true },
+        { "id": "title.label_credit", "en": "CREDIT", "box": [1532, 738, 160, 40], "erase": "clear", "color": "#505050", "glow": "#f0f0f0", "fitInk": true },
+        { "id": "title.label_new_game", "en": "NEW GAME", "box": [1696, 741, 220, 40], "erase": "clear", "color": "#505050", "glow": "#f0f0f0", "fitInk": true }
       ]
     },
     {
       "bundle": "title_en",
       "textures": ["title2"],
       "items": [
-        { "id": "title.label_exit", "en": "EXIT", "box": [1532, 795, 160, 40], "erase": "clear", "color": "#505050", "glow": "#f0f0f0" }
+        { "id": "title.label_exit", "en": "EXIT", "box": [1532, 795, 160, 40], "erase": "clear", "color": "#505050", "glow": "#f0f0f0", "fitInk": true }
       ]
     },
     {
       "bundle": "title_en",
       "textures": ["title_exit2"],
       "items": [
-        { "id": "title.label_exit", "en": "EXIT", "box": [0, 0, 162, 56], "erase": "clear", "color": "#505050", "glow": "#f0f0f0" }
+        { "id": "title.label_exit", "en": "EXIT", "box": [0, 0, 162, 56], "erase": "clear", "color": "#505050", "glow": "#f0f0f0", "fitInk": true }
       ]
     },
     {
       "bundle": "title_en",
       "textures": ["title_exit"],
       "items": [
-        { "id": "title.label_exit", "en": "EXIT", "box": [0, 0, 154, 48], "erase": "clear" }
+        { "id": "title.label_exit", "en": "EXIT", "box": [0, 0, 154, 48], "erase": "clear", "fitInk": true }
       ]
     },
     {

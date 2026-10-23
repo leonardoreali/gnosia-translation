@@ -55,6 +55,7 @@ static class ImagePatch
         public bool Manual { get; set; }                  // use Ink as the exact text area (needs Size and Color)
         public bool Enclosed { get; set; }                // only shapes fully inside the box are text (box crosses borders)
         public int Cut { get; set; }                      // ignore this many pixels of the box's bottom-right corner (slanted button edge)
+        public bool FitInk { get; set; }                  // no wider than the English text (the game shows only that part of the image)
     }
 
     public static string Key(Item it) => "Image/" + it.Id;
@@ -419,6 +420,7 @@ static class ImagePatch
             "right" => r + 1 - margin,
             _ => 2 * Math.Min(mid - margin, bw - margin - mid),
         };
+        if (it.FitInk) avail = Math.Min(avail, r - l + 1 + 4);
         var paragraphs = text.Split("\\n").Select(Words).ToList();
         List<List<Word>> lines = paragraphs;
         if (it.Wrap)
@@ -437,6 +439,20 @@ static class ImagePatch
             float k = avail / widest;
             if (squeeze * k >= 0.78f) squeeze *= k;
             else { float s2 = squeeze * k / 0.78f; size *= s2; squeeze = 0.78f; }
+        }
+        if (!multi)
+        {
+            // accents and descenders (Õ, Ç) the English did not have must stay inside the box:
+            // move the line up or down into free room, and shrink it only when it is taller than the box
+            var mt = font.Measure(string.Join(" ", lines[0].Select(w => w.Text)));
+            float top = baseline - mt.t * size, bottom = baseline - mt.b * size, lo = 2, hi = bh - 3;
+            if (bottom - top > hi - lo)
+            {
+                float k = (hi - lo) / (bottom - top);
+                size *= k; top = baseline - mt.t * size; bottom = baseline - mt.b * size;
+            }
+            if (bottom > hi) baseline -= bottom - hi;
+            else if (top < lo) baseline += lo - top;
         }
         var mask = new float[n]; var amask = new float[n];
         float space = font.Advance(" ") * size * squeeze;

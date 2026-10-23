@@ -3024,7 +3024,7 @@ OthersText/0:config/18	Plastikblume
 OthersText/0:config/19	Eine Welt ohne Gnosia
 OthersText/0:config/20	Im Loop
 OthersText/0:config/21	Wieder im Loop
-OthersText/0:config/22	Lass dich nicht täuschen
+OthersText/0:config/22	Nicht reinfallen
 OthersText/0:config/23	Allacosia
 OthersText/0:config/24	Duschraum - Gina
 OthersText/0:config/25	Täuschen und getäuscht werden (1)
@@ -3120,14 +3120,14 @@ OthersText/4:setting/44	Nicht abstimmen
 OthersText/4:setting/45	Smalltalk
 OthersText/4:setting/46	Alle einfrieren
 OthersText/4:setting/47	Zusammenarbeiten
-OthersText/4:setting/48	Zustimmung suchen
+OthersText/4:setting/48	Zuspruch suchen
 OthersText/4:setting/49	Einwand blocken
 OthersText/4:setting/50	Übertreiben
 OthersText/4:setting/51	Ablenken
 OthersText/4:setting/52	Kontern
 OthersText/4:setting/53	Bedauern
 OthersText/4:setting/54	Hilfe suchen
-OthersText/4:setting/55	Lass dich nicht täuschen
+OthersText/4:setting/55	Nicht reinfallen
 OthersText/4:setting/56	Betteln
 OthersText/4:setting/57	Hauptkontrolle
 OthersText/4:setting/58	Zimmer
@@ -3360,13 +3360,13 @@ ScenarioBaseText/16:JinroSkill/45	Ablehnen
 ScenarioBaseText/16:JinroSkill/46	Ablehnen
 ScenarioBaseText/16:JinroSkill/47	Nicht antworten
 ScenarioBaseText/16:JinroSkill/48	{0} hat um Hilfe gebeten, aber...\nDu willst erst abwarten, wie es sich entwickelt.
-ScenarioBaseText/16:JinroSkill/49	Zustimmung suchen
+ScenarioBaseText/16:JinroSkill/49	Zuspruch suchen
 ScenarioBaseText/16:JinroSkill/50	Tun wir alle, was {0} sagt
 ScenarioBaseText/16:JinroSkill/51	Einwand blocken
 ScenarioBaseText/16:JinroSkill/52	Ich dulde keinen Widerspruch gegen {0}
 ScenarioBaseText/16:JinroSkill/53	Übertreiben
 ScenarioBaseText/16:JinroSkill/54	Ja, was {0} sagt, ist richtig
-ScenarioBaseText/16:JinroSkill/55	Zustimmung suchen
+ScenarioBaseText/16:JinroSkill/55	Zuspruch suchen
 ScenarioBaseText/16:JinroSkill/56	Folgen wir {0}
 ScenarioBaseText/16:JinroSkill/57	Übertreiben
 ScenarioBaseText/16:JinroSkill/58	{0} hat recht
@@ -3376,7 +3376,7 @@ ScenarioBaseText/16:JinroSkill/61	Kontern
 ScenarioBaseText/16:JinroSkill/62	Nein, {0} ist verdächtiger als ich
 ScenarioBaseText/16:JinroSkill/63	Bedauern
 ScenarioBaseText/16:JinroSkill/64	Wie schrecklich, dass es so einen Angriff gab...
-ScenarioBaseText/16:JinroSkill/65	Lass dich nicht täuschen
+ScenarioBaseText/16:JinroSkill/65	Nicht reinfallen
 ScenarioBaseText/16:JinroSkill/66	{0} lügt. Vorsicht.
 ScenarioBaseText/16:JinroSkill/67	Hilfe suchen
 ScenarioBaseText/16:JinroSkill/68	Gegen {0} widerlegen lassen
@@ -4232,8 +4232,8 @@ ScenarioGinaText/1:Gina2/10	Nichts sagen
 ScenarioGinaText/1:Gina2/11	Ich bin nicht so intuitiv wie Comet.\nAber etwas stört mich einfach.
 ScenarioGinaText/1:Gina2/12	Ich weiß nicht, warum. Aber...\nan {1} spüre ich etwas Beunruhigendes.
 ScenarioGinaText/1:Gina2/13	Sei vorsichtig mit {1}.\nIch will nicht, dass du getäuscht wirst.
-ScenarioGinaText/1:Gina2/14	Fähigkeit "Lass dich nicht täuschen" erhalten
-ScenarioGinaText/1:Gina2/15	Du hast die Fähigkeit "Lass dich nicht täuschen" erhalten.\nWarnst du die anderen vor jemandem, der dich verdächtigt,\nsind dessen Lügen leichter zu erkennen. Benötigt 30 "Charisma".
+ScenarioGinaText/1:Gina2/14	Fähigkeit "Nicht reinfallen" erhalten
+ScenarioGinaText/1:Gina2/15	Du hast die Fähigkeit "Nicht reinfallen" erhalten.\nWarnst du die anderen vor jemandem, der dich verdächtigt,\nsind dessen Lügen leichter zu erkennen. Benötigt 30 "Charisma".
 ScenarioGinaText/1:Gina2/16	Aus irgendeinem Grund...\nwill ich dir vertrauen, {0}. Ich will nicht, dass du verschwindest.
 ScenarioGinaText/1:Gina2/17	Nun denn... Bis morgen.
 ScenarioGinaText/1:Gina2/18	Crew-Update: Gina
@@ -6407,8 +6407,8 @@ ScenarioSigeText/0:Sige1/13	Ihr seid alle so unhöflich.
 ScenarioSigeText/0:Sige1/14	Aber... es ist seltsam.\nAlles, was Shigemichi sagt...\naus irgendeinem Grund... will ich ihm glauben.
 ScenarioSigeText/0:Sige1/15	Oh ja, ich versteh so, voll, was du meinst!\nEr tut mir so, leid, wenn ich ihm nicht zuhöre.
 ScenarioSigeText/0:Sige1/16	Bemitleidet mich nich'!\nIch geb hier nur mein Bestes, um zu überleben, OK?!
-ScenarioSigeText/0:Sige1/17	Fähigkeit "Zustimmung suchen" erhalten
-ScenarioSigeText/0:Sige1/18	Du hast die Fähigkeit "Zustimmung suchen" erhalten.\nDamit unterstützt du Aussagen aktiv und gewinnst\ndie Zustimmung aller. Benötigt 25 "Charisma".
+ScenarioSigeText/0:Sige1/17	Fähigkeit "Zuspruch suchen" erhalten
+ScenarioSigeText/0:Sige1/18	Du hast die Fähigkeit "Zuspruch suchen" erhalten.\nDamit unterstützt du Aussagen aktiv und gewinnst\ndie Zustimmung aller. Benötigt 25 "Charisma".
 ScenarioSigeText/1:Sige2/0	Duell!
 ScenarioSigeText/1:Sige2/1	Jonas! Nimm meine Herausforderung an!
 ScenarioSigeText/1:Sige2/2	Wie bitte...?
