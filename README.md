@@ -118,6 +118,12 @@ into textures. [`translations/images.json`](translations/images.json) lists the 
 modified Addressables bundles are backed up, re-packed with LZ4, and the catalog's bundle CRCs are disabled so the
 game accepts them. Image texts are translated like any other line (`Image/<id>` keys).
 
+## Credits
+
+- [leonardoreali](https://github.com/leonardoreali): project, Brazilian Portuguese review
+- [AndersonRx](https://github.com/AndersonRx): playtesting
+- Built with AI assistance (Claude, by Anthropic)
+
 ## Not translated
 
 Still images in English: the in-game Help pages, the controller-mapping screen, the small NAME / ROLE / TARGET
