@@ -9233,6 +9233,16 @@ Image/data.ally	Verbündet
 Image/data.collaborator	Partner
 Image/data.detractor	Gegner
 Image/data.friend	Freund
+Image/room.menu	Zimmermenü
+Image/room.level_up	Aufleveln
+Image/room.leave	Zimmer verlassen
+Image/room.sleep	Schlafen
+Image/room.desc_charisma	[Charisma] verstärkt den Einfluss deiner Worte, sodass andere dir eher zustimmen und folgen.
+Image/room.desc_intuition	[Intuition] lässt dich Lügen und verdächtiges Verhalten anderer erkennen.
+Image/room.desc_logic	[Logik] macht es leichter, andere davon zu überzeugen, dass du recht hast.
+Image/room.desc_charm	[Charme] macht dich sympathischer, sodass du seltener für den Kälteschlaf gewählt wirst.
+Image/room.desc_performance	[Schauspiel] macht dich zu einem besseren Lügner und hilft dir, deinen Standpunkt wirksamer zu vermitteln.
+Image/room.desc_stealth	[Tarnung] macht es anderen schwerer, deine bösen Absichten zu bemerken, und die Gnosia wählen dich seltener als Ziel.
 Code/was	war
 Code/wasn't	war nicht
 Code/were	waren

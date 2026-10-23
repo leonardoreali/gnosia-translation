@@ -9223,6 +9223,16 @@ Image/data.ally	Aliado
 Image/data.collaborator	Colaborador
 Image/data.detractor	Detractor
 Image/data.friend	Amigo
+Image/room.menu	Menú del Cuarto
+Image/room.level_up	Subir de Nivel
+Image/room.leave	Salir del Cuarto
+Image/room.sleep	Dormir
+Image/room.desc_charisma	[Carisma] aumenta la influencia de tus comentarios, haciendo que los demás estén de acuerdo contigo y te sigan.
+Image/room.desc_intuition	[Intuición] te permite notar las mentiras y el comportamiento sospechoso de los demás.
+Image/room.desc_logic	[Lógica] facilita convencer a los demás de que tienes razón.
+Image/room.desc_charm	[Encanto] hace que caigas mejor, y así es menos probable que te elijan para el sueño criogénico.
+Image/room.desc_performance	[Actuación] te ayuda a mentir mejor y a transmitir tus ideas con más eficacia.
+Image/room.desc_stealth	[Sigilo] hace que a los demás les cueste notar tus malas intenciones, y que los Gnosia te elijan menos como objetivo.
 Code/was	era
 Code/wasn't	no era
 Code/were	eran

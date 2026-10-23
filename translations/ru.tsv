@@ -9368,6 +9368,16 @@ Image/data.ally	Союзник
 Image/data.collaborator	Соратник
 Image/data.detractor	Недруг
 Image/data.friend	Друг
+Image/room.menu	Меню каюты
+Image/room.level_up	Новый уровень
+Image/room.leave	Выйти из каюты
+Image/room.sleep	Спать
+Image/room.desc_charisma	[Харизма] усиливает влияние ваших слов: другие охотнее соглашаются и идут за вами.
+Image/room.desc_intuition	[Интуиция] помогает замечать ложь и подозрительное поведение других.
+Image/room.desc_logic	[Логика] помогает убеждать других в своей правоте.
+Image/room.desc_charm	[Обаяние] делает вас симпатичнее, и вас реже выбирают для криосна.
+Image/room.desc_performance	[Актёрство] помогает лучше лгать и убедительнее доносить свою мысль.
+Image/room.desc_stealth	[Скрытность] мешает другим заметить ваши дурные намерения, и Гносия реже выбирает вас целью.
 Code/was	-
 Code/wasn't	- не
 Code/were	-

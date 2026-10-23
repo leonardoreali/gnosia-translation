@@ -9345,6 +9345,16 @@ Image/data.ally	Allié
 Image/data.collaborator	Collaborateur
 Image/data.detractor	Détracteur
 Image/data.friend	Ami
+Image/room.menu	Menu de la chambre
+Image/room.level_up	Niveau sup.
+Image/room.leave	Quitter la chambre
+Image/room.sleep	Dormir
+Image/room.desc_charisma	[Charisme] renforce l'influence de vos propos : les autres sont plus enclins à être d'accord et à vous suivre.
+Image/room.desc_intuition	[Intuition] vous permet de repérer les mensonges et les comportements suspects des autres.
+Image/room.desc_logic	[Logique] vous aide à convaincre les autres que vous avez raison.
+Image/room.desc_charm	[Charme] vous rend plus sympathique, et donc moins susceptible d'être envoyé en cryosommeil.
+Image/room.desc_performance	[Jeu d'acteur] vous aide à mieux mentir et à faire passer vos idées plus efficacement.
+Image/room.desc_stealth	[Discrétion] rend vos mauvaises intentions plus difficiles à percevoir, et les Gnosia vous ciblent moins souvent.
 Code/was	était
 Code/wasn't	n'était pas
 Code/were	étaient
