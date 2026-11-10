@@ -86,4 +86,23 @@ To try it in the game without rebuilding the patcher:
 GnosiaTranslationPatcher.exe --lang <lang> --file translations\<lang>.tsv
 ```
 
+## 4. Text inside images
+
+Menus, buttons and the How to Play pages are images. Their texts are ordinary lines with `Image/<id>` keys.
+
+```
+GnosiaTranslationPatcher.exe --dump-images _work\dump                      every English UI image, as PNG
+GnosiaTranslationPatcher.exe --preview-images _work\preview --lang <lang>  the translated images, game untouched
+```
+
+**How to Play pages** (`Image/help.<page>.<n>`, 358 lines): the repository does not contain their English text.
+Read it from the dumped images (`help_en/help_cont<page>.png`, white text: open them over a dark background) or
+translate from `translations/pt-BR.tsv`. In these lines `\n` starts a new paragraph, the patcher wraps the text
+by itself, `[words]` are drawn in the block's highlight color and `<words>` in its second one. Some lines are
+pieces of a sentence around a key icon that cannot move ("Press" + icon + "to open..."): keep them short.
+Check the result with `--preview-images` and shorten what gets too small.
+
+**Choice boxes.** Answer options in events (`Because I trust you`) sit in a narrow box, about 18 average
+letters wide. Longer options wrap to a second line.
+
 To ship a new language, add it to `Language.Patchable` in `src/GnosiaPatcher/Languages.cs`.

@@ -3454,7 +3454,7 @@ ScenarioCipiText/1:Cipi2/1	Conversa
 ScenarioCipiText/1:Cipi2/2	Ei, {0}.\nVeio fazer exercício também?
 ScenarioCipiText/1:Cipi2/3	Vamos suar um pouco.\nTanta conversa e sono deixam a gente fora de forma!
 ScenarioCipiText/1:Cipi2/4	Sabe.\nPra um trabalhador braçal como eu, é questão de vida ou morte.
-ScenarioCipiText/1:Cipi2/5	Qual é o seu trabalho?
+ScenarioCipiText/1:Cipi2/5	Qual seu trabalho?
 ScenarioCipiText/1:Cipi2/6	Você perguntou ao Chipie com o que ele trabalha.
 ScenarioCipiText/1:Cipi2/7	Trabalho na tripulação de um cargueiro.\nBom, perdi minha nave lá em Liu-An, mas mesmo assim.
 ScenarioCipiText/1:Cipi2/8	Não dizer nada
@@ -3550,7 +3550,7 @@ ScenarioCometText/0:Comet1/2	Cara, isso é difícil...
 ScenarioCometText/0:Comet1/3	Pra mim é óbvio que {1} tá totalmente mentindo.\nMas não consigo descobrir qual é o miolo da mentira.
 ScenarioCometText/0:Comet1/4	Não responder
 ScenarioCometText/0:Comet1/5	O miolo da mentira é tipo... Hm, como eu explico?\nTá, tipo, por exemplo...
-ScenarioCometText/0:Comet1/6	O miolo da mentira?
+ScenarioCometText/0:Comet1/6	Que mentira?
 ScenarioCometText/0:Comet1/7	Você perguntou o que ela quer dizer com \"miolo da mentira\".
 ScenarioCometText/0:Comet1/8	Hm, como eu explico?\nTá, tipo, por exemplo...
 ScenarioCometText/0:Comet1/9	Continuar
@@ -3808,7 +3808,7 @@ ScenarioCometText/4:Comet5/44	Ah, {0}...\nDesculpa, eu tava meio aérea.
 ScenarioCometText/4:Comet5/45	Hehe, então a gente venceu, né...
 ScenarioCometText/4:Comet5/46	Mas, {0}, me diz uma coisa.\nQuer dizer, não sei por que tô perguntando agora, mas...
 ScenarioCometText/4:Comet5/47	Sinceramente, eu meio que te atrapalhei, né?\nPor que você não me entregou?
-ScenarioCometText/4:Comet5/48	Você é minha parceira
+ScenarioCometText/4:Comet5/48	Somos parceiros
 ScenarioCometText/4:Comet5/49	Você disse à Comet que é porque vocês são parceiros.
 ScenarioCometText/4:Comet5/50	Hm, você tem razão...\nTenho muita sorte de ter você como parceiro(a).
 ScenarioCometText/4:Comet5/51	Hehe, valeu, {0}!
@@ -4143,18 +4143,18 @@ ScenarioGinaText/0:Gina1/3	...!
 ScenarioGinaText/0:Gina1/4	Uma voz vem do saguão.\nVamos ver o que é...
 ScenarioGinaText/0:Gina1/5	Ah...
 ScenarioGinaText/0:Gina1/6	A Gina está sozinha no saguão.\nPareceu que ela estava discutindo com alguém...
-ScenarioGinaText/0:Gina1/7	Falando com quem?
+ScenarioGinaText/0:Gina1/7	Com quem falava?
 ScenarioGinaText/0:Gina1/8	Você perguntou à Gina com quem ela estava falando.
 ScenarioGinaText/0:Gina1/9	Não posso dizer...\nDesculpe.
 ScenarioGinaText/0:Gina1/10	Não responder
 ScenarioGinaText/0:Gina1/12	.........\nCom vocês dois em silêncio, fica bem constrangedor.
 ScenarioGinaText/0:Gina1/13	Nós...
 ScenarioGinaText/0:Gina1/14	Esta nave...\nPara onde será que ela vai?
-ScenarioGinaText/0:Gina1/15	Alguma estação espacial
+ScenarioGinaText/0:Gina1/15	Estação espacial
 ScenarioGinaText/0:Gina1/16	Você respondeu que ela provavelmente vai para uma estação espacial próxima.
 ScenarioGinaText/0:Gina1/17	Sim... provavelmente.\nEspero que consigamos chegar.
 ScenarioGinaText/0:Gina1/18	Boa noite...\nAté amanhã.
-ScenarioGinaText/0:Gina1/19	Os confins do espaço
+ScenarioGinaText/0:Gina1/19	O fim do espaço
 ScenarioGinaText/0:Gina1/20	Você respondeu que ela talvez acabe indo para os confins do espaço.
 ScenarioGinaText/0:Gina1/21	Eu... me pergunto.\nTalvez não consigamos ir a lugar nenhum, afinal.
 ScenarioGinaText/0:Gina1/23	Boa noite...\nAté amanhã.
@@ -4670,7 +4670,7 @@ ScenarioKukulText/0:Kukul1/2	(Kukrushka está tentando dizer algo à Otome usand
 ScenarioKukulText/0:Kukul1/3	*Uíí uíí!*\nAh, Kukrushka, você é tão hilária!
 ScenarioKukulText/0:Kukul1/4	(Kukrushka...\nComeça a gesticular com mais vigor!)
 ScenarioKukulText/0:Kukul1/5	*Iiii!*\n*Uíí UÍÍÍÍÍ!*\nAhahaha, estou rindo tanto que dói!
-ScenarioKukulText/0:Kukul1/6	O que está acontecendo?
+ScenarioKukulText/0:Kukul1/6	Fazendo o quê?
 ScenarioKukulText/0:Kukul1/7	Você perguntou às duas o que estão fazendo.
 ScenarioKukulText/0:Kukul1/8	Continuar
 ScenarioKukulText/0:Kukul1/9	(Kukrushka olha para você e para de se mexer na hora.)
@@ -4764,7 +4764,7 @@ ScenarioKukulText/3:Kukul4/9	Até logo.
 ScenarioKukulText/3:Kukul4/10	Continuar
 ScenarioKukulText/3:Kukul4/11	Hã?
 ScenarioKukulText/3:Kukul4/12	Não estamos fazendo o loop...\nO que está acontecendo?
-ScenarioKukulText/3:Kukul4/13	Talvez tenha acabado
+ScenarioKukulText/3:Kukul4/13	Vai ver acabou
 ScenarioKukulText/3:Kukul4/14	Você respondeu que talvez vocês não vão mais fazer loops.
 ScenarioKukulText/3:Kukul4/15	O quê...?!\nIsso é um pouco repentino, não acha? E nem sabemos por quê...
 ScenarioKukulText/3:Kukul4/16	Mas, bem... Acho que pode ser possível, não é?\nEnfim... vamos verificar o resto da nave.\nPode estar acontecendo alguma coisa...
@@ -4867,7 +4867,7 @@ ScenarioKukulText/4:Kukul5/72	Gnosia
 ScenarioKukulText/4:Kukul5/73	Nesse caso, primeiro nos livramos de qualquer infectado pelos Gnosia.\nDepois disso, a rede deve reconectar. Isso vai funcionar, não vai?
 ScenarioKukulText/4:Kukul5/74	Sim, isso vai funcionar.
 ScenarioKukulText/4:Kukul5/75	É aqui que as coisas complicam...\nMas pelo menos agora sabemos exatamente o que precisamos fazer.
-ScenarioKukulText/4:Kukul5/76	O que está acontecendo?
+ScenarioKukulText/4:Kukul5/76	O que houve?
 ScenarioKukulText/4:Kukul5/77	Você perguntou o que precisam fazer.
 ScenarioKukulText/4:Kukul5/78	Hehe, o mesmo de sempre, no fim das contas.\nTemos que descobrir nossos inimigos, os infectados pelos Gnosia, e eliminá-los.
 ScenarioKukulText/4:Kukul5/79	Continuar
@@ -5297,7 +5297,7 @@ ScenarioRakioText/6:Rakio7/64	Pedir desculpas
 ScenarioRakioText/6:Rakio7/65	Você pediu desculpas a Raqio, a contragosto.
 ScenarioRakioText/6:Rakio7/66	Hunf, então você pede desculpas mesmo achando que não roubou nada?\nBem, agora vejo exatamente que tipo de pessoa você é, acho.
 ScenarioRakioText/6:Rakio7/67	Bem, tanto faz.\nPosso muito bem contar de qualquer jeito.
-ScenarioRakioText/6:Rakio7/68	Não pedir desculpas
+ScenarioRakioText/6:Rakio7/68	Não me desculpar
 ScenarioRakioText/6:Rakio7/69	Você recusou, dizendo que não tem intenção de pedir desculpas.
 ScenarioRakioText/6:Rakio7/70	Não é isso que quero ouvir, é?
 ScenarioRakioText/6:Rakio7/71	Vamos, você quer que eu conte, não quer?\nEntão peça desculpas. De joelhos. Haha.
@@ -5494,12 +5494,12 @@ ScenarioRamnantText/2:Remnant3/0	Registrar conversa
 ScenarioRamnantText/2:Remnant3/1	Conversa
 ScenarioRamnantText/2:Remnant3/3	Hã, durante as discussões... Você me defendeu...\nObrigado por isso.
 ScenarioRamnantText/2:Remnant3/4	Mas, por quê...?\nPor que você... me ajudou?
-ScenarioRamnantText/2:Remnant3/5	Porque confio em você
+ScenarioRamnantText/2:Remnant3/5	Confio em você
 ScenarioRamnantText/2:Remnant3/6	Você respondeu que foi porque confia no Remnan.
 ScenarioRamnantText/2:Remnant3/7	Ah... Eu, hã... entendo...\nMas, por quê...?
 ScenarioRamnantText/2:Remnant3/8	Mas obrigado... Fico feliz.\nCom tudo acontecendo... tão de repente...\nEu tenho me sentido... tão inquieto...
 ScenarioRamnantText/2:Remnant3/9	Eu, hã...\nVou... confiar em você também, {0}...
-ScenarioRamnantText/2:Remnant3/10	Porque gosto de você
+ScenarioRamnantText/2:Remnant3/10	Gosto de você
 ScenarioRamnantText/2:Remnant3/11	Você respondeu que foi porque gosta do Remnan.
 ScenarioRamnantText/2:Remnant3/12	Por favor, pare!\nEu odeio esse tipo de coisa!
 ScenarioRamnantText/2:Remnant3/13	A-ah... Desculpe...! Mas, eu...\nPor favor... não me olhe assim...
@@ -5614,7 +5614,7 @@ ScenarioSQText/0:SQ1/51	Continuar
 ScenarioSQText/0:SQ1/52	Mas tipo, {0}, você totalmente ficou comigo até o fim!\nEu não quero só tipo, te eliminar ou sei lá...
 ScenarioSQText/0:SQ1/53	Então vou tipo, totalmente te ter como bichinho!\nToma, coloca isto! E tipo, não tira! Ahahaha!
 ScenarioSQText/0:SQ1/54	Mais da metade da tripulação agora é Gnosia,\ne a nave foi tomada. Os resultados serão exibidos.
-ScenarioSQText/0:SQ1/55	Eu confiava em você
+ScenarioSQText/0:SQ1/55	Confiava em você
 ScenarioSQText/0:SQ1/56	Você respondeu que claro que confiava nela.
 ScenarioSQText/0:SQ1/57	Ehehehe... Isso me deixa tipo, feliz.\nValeu, {0}!
 ScenarioSQText/0:SQ1/58	Todo mundo diz que eu sou tipo, mentirosa, ou que tenho cara de mentirosa, sei lá...\nTipo, sério, isso na real meio que totalmente magoa...
@@ -5711,7 +5711,7 @@ ScenarioSQText/2:SQ3/33	É, acho que não, né?\nTá, então tipo, {0}, totalmen
 ScenarioSQText/2:SQ3/34	Então isso quer dizer, tipo...\n{0} é {1}?
 ScenarioSQText/2:SQ3/35	Seguidor da AC
 ScenarioSQText/2:SQ3/36	um Bug
-ScenarioSQText/2:SQ3/37	Seguidor da AC ou Bug
+ScenarioSQText/2:SQ3/37	Seguidor ou Bug
 ScenarioSQText/2:SQ3/38	Sou Gnosia
 ScenarioSQText/2:SQ3/39	Você respondeu que sim, você é Gnosia.
 ScenarioSQText/2:SQ3/40	Meu Deus, então a verdade tipo, aparece!\nQuer dizer, tudo bem você tipo, admitir isso...?
@@ -5942,7 +5942,7 @@ ScenarioSetsuText/3:Setsu5/6	Mas, {0}...\nDeve ter sido bem difícil fazer Raqio
 ScenarioSetsuText/3:Setsu5/7	Foi, sim
 ScenarioSetsuText/3:Setsu5/8	Você respondeu que foi mesmo bem difícil.
 ScenarioSetsuText/3:Setsu5/9	É... imagino.\nConsigo meio que imaginar.
-ScenarioSetsuText/3:Setsu5/10	Faço tudo por você
+ScenarioSetsuText/3:Setsu5/10	Tudo por você
 ScenarioSetsuText/3:Setsu5/11	Você respondeu que só está feliz por poder ajudar.
 ScenarioSetsuText/3:Setsu5/12	...\nEu também quero fazer o que puder para te ajudar, {0}...
 ScenarioSetsuText/3:Setsu5/13	Continuar
@@ -6192,7 +6192,7 @@ ScenarioSetsuText/7:Setsu8/101	O que você... está fazendo...?\nVá... *COF*...
 ScenarioSetsuText/7:Setsu8/102	O que eu faço?!\nComo posso salvar Setsu?!
 ScenarioSetsuText/7:Setsu8/103	Não dizer nada
 ScenarioSetsuText/7:Setsu8/104	O que eu faço?!\nComo posso salvar Setsu?!
-ScenarioSetsuText/7:Setsu8/105	Ir ao quarto de Raqio
+ScenarioSetsuText/7:Setsu8/105	Ao quarto de Raqio
 ScenarioSetsuText/7:Setsu8/106	Isso mesmo, Raqio tem a \"Chave de Prata\"!\nPara o quarto de Raqio!
 ScenarioSetsuText/7:Setsu8/107	A \"Chave de Prata\"...\nPor algum motivo, está num lugar muito conveniente...
 ScenarioSetsuText/7:Setsu8/108	Há uma mensagem deixada ao lado da \"Chave\"...
@@ -6264,7 +6264,7 @@ ScenarioShaminText/0:Shamin1/15	Você disse ao Sha-Ming que ele é um baita baba
 ScenarioShaminText/0:Shamin1/16	Bom, fazer o quê, né?\nA gente faz o que precisa pra sobreviver!
 ScenarioShaminText/0:Shamin1/17	Então, enfim, até amanhã!
 ScenarioShaminText/0:Shamin1/18	Atualização dos Dados da Tripulação: Sha-Ming
-ScenarioShaminText/0:Shamin1/19	Me ensine a implorar
+ScenarioShaminText/0:Shamin1/19	Ensine a implorar
 ScenarioShaminText/0:Shamin1/20	Você pediu ao Sha-Ming que te ensinasse a se humilhar daquele jeito.
 ScenarioShaminText/0:Shamin1/21	Quê, sério, cara?\nNossa, você também é um baita safado, hein?\nE olha que sou eu dizendo!
 ScenarioShaminText/0:Shamin1/22	Mas tanto faz, eu te ensino.\nÉ assim que se humilha e pede desculpa como um HOMEM de verdade!
@@ -6301,9 +6301,9 @@ ScenarioShaminText/2:Shamin3/2	Gnosia? Na nave?\nCaramba, sério?!
 ScenarioShaminText/2:Shamin3/3	Opa... Parece que a luz da minha vida pode estar prestes a se apagar.\nEsses Gnosia não tão de brincadeira...
 ScenarioShaminText/2:Shamin3/4	Papo
 ScenarioShaminText/2:Shamin3/5	O Sha-Ming começa a falar de coisas sem relação com os Gnosia.\nO que ele está tentando fazer...?
-ScenarioShaminText/2:Shamin3/6	Vamos falar de comida
-ScenarioShaminText/2:Shamin3/7	Vamos falar de amor
-ScenarioShaminText/2:Shamin3/8	Vamos contar histórias de terror
+ScenarioShaminText/2:Shamin3/6	Falar de comida
+ScenarioShaminText/2:Shamin3/7	Falar de amor
+ScenarioShaminText/2:Shamin3/8	Histórias de terror
 ScenarioShaminText/2:Shamin3/9	Fim do papo
 ScenarioShaminText/2:Shamin3/10	A conversa fiada parece ter aliviado o clima.\nEra isso que o Sha-Ming queria?
 ScenarioShaminText/2:Shamin3/11	Registrar conversa
@@ -6356,7 +6356,7 @@ ScenarioShaminText/3:Shamin4/34	Fico pensando o que é pior...
 ScenarioShaminText/3:Shamin4/35	Ser eliminado assim, sem nem saber...\nOu saber que vai ser eliminado.
 ScenarioShaminText/3:Shamin4/36	Vamos...\nMelhor ir pra cama e dormir, pra não sermos descobertos.
 ScenarioShaminText/3:Shamin4/37	Você decidiu eliminar {0}.
-ScenarioShaminText/3:Shamin4/38	Parceiro sem relação
+ScenarioShaminText/3:Shamin4/38	Alguém de fora
 ScenarioShaminText/3:Shamin4/39	Você decidiu eliminar {0}.
 ScenarioShaminText/3:Shamin4/40	Registrar conversa
 ScenarioShaminText/3:Shamin4/41	Conversa
@@ -6443,7 +6443,7 @@ ScenarioSigeText/1:Sige2/16	Eu...?!\nEi, qual é, parceiro! Eu tenho que jogar c
 ScenarioSigeText/1:Sige2/17	Então, é o destino...\nShigemichi, aceito tua desistência.
 ScenarioSigeText/1:Sige2/18	{0} foi colocado(a) em sono criogênico.
 ScenarioSigeText/1:Sige2/19	Voltar ao Quarto
-ScenarioSigeText/1:Sige2/20	Para a Sala de Recreação
+ScenarioSigeText/1:Sige2/20	Sala de recreação
 ScenarioSigeText/1:Sige2/21	O Shigemichi e o Jonas estão se enfrentando na sala de recreação.\nVamos dar uma olhada.
 ScenarioSigeText/1:Sige2/22	Você tá atrasado(a), {0}!\nA batalha já começou!
 ScenarioSigeText/1:Sige2/23	Enquanto todos assistem, a batalha entre o Shigemichi e o Jonas continua...
@@ -6502,7 +6502,7 @@ ScenarioSigeText/3:Sige4/5	Vocês são uns babacas...\nTá, então, {0}, se voc�
 ScenarioSigeText/3:Sige4/6	O que você acha que acontece?\nTipo, quando você some, o que acontece depois?
 ScenarioSigeText/3:Sige4/7	Não responder
 ScenarioSigeText/3:Sige4/8	Não faz ideia, né?\nHá, claro que não. Ninguém sabe o que acontece depois.
-ScenarioSigeText/3:Sige4/9	Você simplesmente some
+ScenarioSigeText/3:Sige4/9	Você só some
 ScenarioSigeText/3:Sige4/10	Você respondeu que provavelmente a pessoa simplesmente desaparece.
 ScenarioSigeText/3:Sige4/11	Né?\nVocê faz *PUF!* e some! Fim.
 ScenarioSigeText/3:Sige4/12	Reencarnação
@@ -6918,7 +6918,7 @@ ScenarioTutorialText/1:loop1/94	Eu só tava tipo, pensando se você tava bem. T�
 ScenarioTutorialText/1:loop1/95	Estou bem.
 ScenarioTutorialText/1:loop1/96	Você respondeu que está acompanhando.
 ScenarioTutorialText/1:loop1/97	Nooossa, que capacidade de adaptação!\nAcho que Setsu já começou a te explicar as coisas, né?
-ScenarioTutorialText/1:loop1/98	Não consigo acompanhar
+ScenarioTutorialText/1:loop1/98	Não acompanho
 ScenarioTutorialText/1:loop1/99	Você respondeu que não está conseguindo acompanhar.
 ScenarioTutorialText/1:loop1/100	Ahaha, bom, tipo, nem eu, então não se preocupa!\nAlém disso, você tem Setsu do seu lado também, {0}!
 ScenarioTutorialText/1:loop1/101	Não responder
@@ -7052,7 +7052,7 @@ ScenarioTutorialText/1:loop1/232	Sim, a SQ...\nIsso significa que, desta vez, h�
 ScenarioTutorialText/1:loop1/233	Certo, vamos ao console principal...\nVamos acabar com isto durante a discussão.
 ScenarioTutorialText/1:loop1/234	Eu dependi demais de você.\nDesta vez, deixe comigo.
 ScenarioTutorialText/1:loop1/235	Eu também aprendi muito com todos esses loops.\nHehe, deixe-me mostrar do que sou capaz.
-ScenarioTutorialText/1:loop1/236	Qual é o seu plano?
+ScenarioTutorialText/1:loop1/236	Qual é o plano?
 ScenarioTutorialText/1:loop1/237	Você perguntou a Setsu como a discussão vai se desenrolar.
 ScenarioTutorialText/1:loop1/238	Neste loop, há alguém infectado pelos Gnosia.\nPretendo garantir que todos sobrevivam.
 ScenarioTutorialText/1:loop1/239	Vou acabar com este loop sem uma única baixa.\nEntão... só observe, {2}.
@@ -7356,7 +7356,7 @@ ScenarioTutorialText/2:loop2/104	Peço desculpas, {0}...\nNão posso fornecer su
 ScenarioTutorialText/2:loop2/105	Lámen
 ScenarioTutorialText/2:loop2/106	Você respondeu que gosta de lámen.
 ScenarioTutorialText/2:loop2/107	Aposto que sim, hehe.\n{0}, você tem cara de quem prefere lámen.
-ScenarioTutorialText/2:loop2/108	Para o andar de baixo
+ScenarioTutorialText/2:loop2/108	Ao andar de baixo
 ScenarioTutorialText/2:loop2/109	Infelizmente, não há tempo para comer agora.\nSe quiser, posso mostrar o andar de baixo.
 ScenarioTutorialText/2:loop2/110	Andar de baixo
 ScenarioTutorialText/2:loop2/111	Você desceu pelo corredor em rampa.
@@ -7385,7 +7385,7 @@ ScenarioTutorialText/2:loop2/133	Isso é aterrorizante.
 ScenarioTutorialText/2:loop2/134	Vai ficar tudo bem
 ScenarioTutorialText/2:loop2/135	Você afirmou que vai ficar tudo bem.
 ScenarioTutorialText/2:loop2/136	Espero que sim...
-ScenarioTutorialText/2:loop2/137	Também tenho medo
+ScenarioTutorialText/2:loop2/137	Estou com medo
 ScenarioTutorialText/2:loop2/138	Você afirmou que também tem medo
 ScenarioTutorialText/2:loop2/139	Sim...
 ScenarioTutorialText/2:loop2/140	Não dizer nada
@@ -7522,7 +7522,7 @@ ScenarioTutorialText/4:loop4/46	Ah... SQ!\nEu, hum, na verdade... hã...
 ScenarioTutorialText/4:loop4/47	Nãão, tudo bem, tudo bem!\nPode continuar tipo, fazendo o seu lance!
 ScenarioTutorialText/4:loop4/48	Desculpe muito, {0}...\nNão sei o que deu em mim...
 ScenarioTutorialText/4:loop4/49	Acho que foi você se apresentar como Engenheiro, {0}.\nMeu peito apertou de repente, e...
-ScenarioTutorialText/4:loop4/50	Confie em mim, por favor
+ScenarioTutorialText/4:loop4/50	Confie em mim
 ScenarioTutorialText/4:loop4/51	Você respondeu que quer que ela confie que você é o Engenheiro.
 ScenarioTutorialText/4:loop4/52	Sim, eu...\nAcredito que você é o Engenheiro verdadeiro, {0}.
 ScenarioTutorialText/4:loop4/53	Hehe, pode não haver provas que sustentem isso, mas...\nÉ isso que significa confiar em alguém, não é?
@@ -7776,7 +7776,7 @@ ScenarioTutorialText/8:loop8/68	Vitória
 ScenarioTutorialText/8:loop8/69	No corredor
 ScenarioTutorialText/8:loop8/70	Agora são dois contra dois.\nEstá decidido. Vencemos.
 ScenarioTutorialText/8:loop8/71	Haha! Essa foi por pouco.\nQuer dizer, eu sempre soube que venceríamos, mas mesmo assim.\nNão tem como eu perder, certo?
-ScenarioTutorialText/8:loop8/72	Eu também me esforcei
+ScenarioTutorialText/8:loop8/72	Eu também tentei
 ScenarioTutorialText/8:loop8/73	Você respondeu que também fez o seu melhor.
 ScenarioTutorialText/8:loop8/74	Sim, acho que você também deu sua contribuição.\nNão conheço muito bem as sutilezas da mente dos burros.\nEntão agradeço por enfrentá-los no nível deles.
 ScenarioTutorialText/8:loop8/75	Concordar
@@ -7912,7 +7912,7 @@ ScenarioTutorialText/11:loop11/41	Final
 ScenarioTutorialText/11:loop11/42	Com Setsu
 ScenarioTutorialText/11:loop11/43	Por que...?
 ScenarioTutorialText/11:loop11/44	Por que eu te contei que era Gnosia...?\nPor que você me deixou sobreviver?
-ScenarioTutorialText/11:loop11/45	Não foi de propósito
+ScenarioTutorialText/11:loop11/45	Foi sem querer
 ScenarioTutorialText/11:loop11/46	Você respondeu que não pretendia que isso acontecesse.
 ScenarioTutorialText/11:loop11/47	Ah... entendo.\nBem, acho que não há nada que possamos fazer, então...
 ScenarioTutorialText/11:loop11/48	Eu esqueci
@@ -7921,7 +7921,7 @@ ScenarioTutorialText/11:loop11/50	Hã...? Sério...?
 ScenarioTutorialText/11:loop11/51	Talvez eu devesse ter falado melhor.\nDevia ter deixado mais claro. Desculpe.
 ScenarioTutorialText/11:loop11/52	Vou dizer de novo. Eu sou Gnosia.\nE, {0}, como só sobramos você e eu...\nIsso significa que os humanos perderam.
 ScenarioTutorialText/11:loop11/53	Então o tempo vai voltar de novo em breve.\nPelo menos, acho que vai...
-ScenarioTutorialText/11:loop11/54	Fizemos o que fizemos
+ScenarioTutorialText/11:loop11/54	A culpa é dos dois
 ScenarioTutorialText/11:loop11/55	Você respondeu que os dois cometeram erros.
 ScenarioTutorialText/11:loop11/56	É, acho que você tem razão...\nSendo Gnosia, eu devia ter eliminado você cedo, já que você é o Anjo da Guarda.
 ScenarioTutorialText/11:loop11/57	Acho que eu só...
@@ -7977,7 +7977,7 @@ ScenarioTutorialText/12:loop14/34	Vou ver o cara que não apareceu hoje, o Sha-M
 ScenarioTutorialText/12:loop14/35	Recusar
 ScenarioTutorialText/12:loop14/36	Você respondeu que não quer.
 ScenarioTutorialText/12:loop14/37	Ah, qual é! Só venha comigo!
-ScenarioTutorialText/12:loop14/38	Para a sala de recreação
+ScenarioTutorialText/12:loop14/38	Sala de recreação
 ScenarioTutorialText/12:loop14/39	Heh, imaginei que você ia aparecer logo.
 ScenarioTutorialText/12:loop14/40	Beleza, Setsu, que tal, em vez de todas as formalidades,\nvocê me dar um beijo bem quente aqui mesmo, hein, gata?
 ScenarioTutorialText/12:loop14/41	Sha-Ming, quantas vezes tenho que te dizer? Sou não binário.\nPare de me tratar assim, e pare com esse papo de "gata".
@@ -8065,7 +8065,7 @@ ScenarioTutorialText/13:loop17/54	Você perguntou a ela sobre a água no chão.
 ScenarioTutorialText/13:loop17/55	Ah, hã... Bati meu capacete.\nEle rachou, e um pouco da água vazou.
 ScenarioTutorialText/13:loop17/56	Aí eu fiquei toda preocupada,\nmas o Remnan veio ajudar!
 ScenarioTutorialText/13:loop17/57	Deixar assim... pode ser perigoso.
-ScenarioTutorialText/13:loop17/58	O que está acontecendo?
+ScenarioTutorialText/13:loop17/58	Fazendo o quê?
 ScenarioTutorialText/13:loop17/59	Você perguntou o que os dois estão fazendo.
 ScenarioTutorialText/13:loop17/60	O capacete... da Otome.\nEstou consertando.
 ScenarioTutorialText/13:loop17/61	Ele rachou, e um pouco da água vazou.
@@ -8678,11 +8678,11 @@ ScenarioYurikoText/2:Yuriko3/85	Você respondeu que quer saber mais sobre os Gno
 ScenarioYurikoText/2:Yuriko3/86	Continuar
 ScenarioYurikoText/2:Yuriko3/87	Muito bem.\nEntão primeiro, deixe-me perguntar.
 ScenarioYurikoText/2:Yuriko3/88	Os Gnosia eliminam humanos.\nPor que você acha que isso acontece?
-ScenarioYurikoText/2:Yuriko3/89	Eles odeiam humanos
+ScenarioYurikoText/2:Yuriko3/89	Odeiam humanos
 ScenarioYurikoText/2:Yuriko3/90	Você respondeu que acha que eles eliminam humanos por ódio.
 ScenarioYurikoText/2:Yuriko3/91	Hehe, que motivação completamente humana.\nIsso está errado. Os Gnosia não conhecem o ódio.
 ScenarioYurikoText/2:Yuriko3/92	O que os Gnosia têm é um senso de missão.\nLibertar a humanidade deste universo físico, rumo a um mundo melhor...\nEles estão tentando levar a humanidade a Gnos.
-ScenarioYurikoText/2:Yuriko3/93	Salvar a humanidade
+ScenarioYurikoText/2:Yuriko3/93	Salvar humanos
 ScenarioYurikoText/2:Yuriko3/94	Você respondeu que acha que eles tentam salvar a humanidade levando-nos\na um mundo melhor... Ao mundo de Gnos.
 ScenarioYurikoText/2:Yuriko3/95	Seu conhecimento é surpreendente.\nÉ como se você mesmo(a) já tivesse vivido como Gnosia.
 ScenarioYurikoText/2:Yuriko3/97	Não dizer nada
@@ -8745,7 +8745,7 @@ ScenarioYurikoText/3:Yuriko4/34	Você se esforçou muito até aqui.\nElogio seu 
 ScenarioYurikoText/3:Yuriko4/35	Pois bem... hehe.\nVocê queria saber sobre Gnos, não queria?
 ScenarioYurikoText/3:Yuriko4/36	Então primeiro deixe-me perguntar.\nO que você acha que Gnos é?
 ScenarioYurikoText/3:Yuriko4/37	Os resultados serão exibidos.
-ScenarioYurikoText/3:Yuriko4/38	Um invasor alienígena
+ScenarioYurikoText/3:Yuriko4/38	Invasor alienígena
 ScenarioYurikoText/3:Yuriko4/39	Você respondeu que acha que Gnos é um invasor de uma galáxia desconhecida.
 ScenarioYurikoText/3:Yuriko4/40	Hehe, um invasor?\n{0}, você tem bastante imaginação, na verdade.
 ScenarioYurikoText/3:Yuriko4/41	Infelizmente, neste universo...\nOs humanos são a única forma de \"vida inteligente\" que existe.
@@ -9317,3 +9317,364 @@ Code/was	era
 Code/wasn't	não era
 Code/were	eram
 Code/weren't	não eram
+Image/interface.label_name	NOME
+Image/interface.label_role	PAPEL
+Image/aclist.usage	Uso
+Image/help.01_01.1	Aqui explicamos o fluxo básico do jogo.
+Image/help.01_01.2	Durante o dia, discutam quem será colocado em "sono criogênico".
+Image/help.01_01.3	Após a discussão, toda a tripulação vota em quem vai para o sono criogênico.
+Image/help.01_01.4	Durante a noite, os Gnosia escolhem quem eliminar.
+Image/help.01_01.5	Com esse sistema, dois membros saem da lista a cada dia, e [quando todos os Gnosia forem eliminados, os humanos vencem]. Por outro lado, se você não conseguir eliminar os Gnosia e <eles chegarem à metade ou mais dos membros restantes, o lado Gnosia vence>.
+Image/help.01_01.6	Estas regras se baseiam nas de um jogo de grupo tradicional no estilo "Lobisomem" ou "Máfia". Pense nele como um "Lobisomem" com os termos principais trocados: o "Lobisomem" vira "Gnosia", a "forca" vira "sono criogênico", etc.
+Image/help.01_01.7	Este jogo foi criado para que um jogo tradicionalmente jogado em grupo possa ser aproveitado por uma única pessoa. Vários elementos novos, como "batalhas" de debate com atributos e habilidades de RPG e uma história de ficção científica, foram adicionados para permitir muitas variações e reviravoltas.
+Image/help.01_02.1	Para animar a mecânica central do jogo, as discussões, vários "papéis" são distribuídos ao jogador e a cada personagem. Alguns dão pistas, outros mentem para causar confusão, etc.
+Image/help.01_02.2	Tripulante
+Image/help.01_02.3	Humanos sem habilidades especiais
+Image/help.01_02.4	Anjo da\nGuarda
+Image/help.01_02.5	Papel humano\nPode proteger uma pessoa escolhida dos ataques dos Gnosia
+Image/help.01_02.6	Gnosia
+Image/help.01_02.lies	Pode mentir
+Image/help.01_02.7	Inimigo misterioso que se passa por humano\nElimina um humano por dia
+Image/help.01_02.8	Guarda
+Image/help.01_02.9	Papel humano\nOs dois Guardas podem confirmar um ao outro como humanos
+Image/help.01_02.10	Engenheiro
+Image/help.01_02.11	Papel humano\nInvestiga uma pessoa por dia e relata se é Humana ou Gnosia
+Image/help.01_02.12	Seguidor da AC
+Image/help.01_02.13	Papel Gnosia\nHumano, mas fica do lado dos Gnosia
+Image/help.01_02.14	Médico
+Image/help.01_02.15	Papel humano\nRelata se quem entrou em sono criogênico era Humano ou Gnosia
+Image/help.01_02.16	Bug
+Image/help.01_02.17	Se sobrar quando Humanos ou Gnosia vencerem, o universo é destruído e o Bug vence
+Image/help.01_02.18	Papéis que podem mentir podem fingir ser Engenheiros ou Médicos e fazer relatórios falsos.
+Image/help.01_03.1	Cada personagem, incluindo o jogador, tem um nível de "[Simpatia]" (se gostam dele ou não) e de "[Confiança]" (se é visto como amigo ou inimigo, humano ou não) em relação a cada outro personagem. Durante o debate, a Simpatia e a Confiança são afetadas pelas ações de cada um: ao "Duvidar" de alguém, "Defender" alguém ou "Refutar" um argumento, esses níveis mudam.
+Image/help.01_03.2	Ela parece suspeita...
+Image/help.01_03.3	Não gosto dela...
+Image/help.01_03.4	A Simpatia e a Confiança de Setsu e Gina em relação a SQ diminuem.
+Image/help.01_03.5	Duvidar
+Image/help.01_03.6	O quanto você consegue reduzir a Simpatia e a Confiança dos outros, e o quanto consegue evitar que as suas caiam, depende dos atributos de cada personagem.\nLeve em conta esses níveis de Simpatia e Confiança ao decidir em quem votar para eliminar.
+Image/help.01_04.1	Repetir os mesmos comentários e abusar de habilidades poderosas para puxar o debate numa direção faz acumular "[Ódio]" (atenção negativa dos outros).\nSe você acumular Ódio demais, ou ficar sem falar nada e ele cair demais, os outros vão começar a desconfiar de você, prejudicando sua Confiança.
+Image/help.01_04.2	Que suspeito...
+Image/help.01_04.3	Fala
+Image/help.01_04.4	Querem nos influenciar...
+Image/help.01_04.5	Calado para esconder uma mentira...?
+Image/help.01_04.6	Ódio sobe
+Image/help.01_04.7	Ódio cai
+Image/help.01_04.8	Além disso, acumular Ódio demais e chamar atenção jogando como Humano faz os Gnosia mirarem você mais cedo.
+Image/help.01_04.9	O ritmo em que o Ódio se acumula depende da sua Furtividade.
+Image/help.01_05.1	Os atributos mais importantes para influenciar o debate são Carisma, Lógica e Atuação.\nO quanto a Simpatia e a Confiança de todos em relação a um alvo mudam com "ataques" (como "Duvidar") e com "recuperações" (como "Defender") depende desses atributos.
+Image/help.01_05.2	[Carisma] define [o quanto os outros confiam e seguem] suas opiniões e comentários. Como os ataques de quem segue você se somam à força dos seus próprios comentários, quanto mais gente seguindo você, mais influentes ficam suas opiniões.
+Image/help.01_05.3	[Lógica] é basicamente [o poder dos ataques à Confiança] de alguém. Quanto maior a Lógica, mais dano você causa à Confiança do alvo. Claro, isso também significa que defender alguém recupera mais a Confiança dessa pessoa. Além disso, ela aumenta o número de falas anteriores
+Image/help.01_05.4	que você pode [rever] no [Histórico]
+Image/help.01_05.5	(
+Image/help.01_05.6	(segure
+Image/help.01_05.7	).
+Image/help.01_05.8	[Atuação] é basicamente [o poder dos ataques à Simpatia] de alguém. Quanto maior, mais dano à Simpatia do alvo; e defender alguém também recupera mais a Simpatia dele. Ela também torna as mentiras mais difíceis de perceber, sendo um atributo importantíssimo ao jogar como Gnosia e depender de mentiras.
+Image/help.01_05.9	Raqio tem pouco Carisma, mas muita Lógica e Atuação.\nComo pouca gente se deixa levar quando Raqio usa "Duvidar", sua influência parece fraca, mas na verdade isso causa um bom dano à Simpatia e à Confiança do alvo.
+Image/help.01_06.1	[Charme] é basicamente uma defesa para [evitar que sua Simpatia e Confiança caiam] quando você é atacado. Quanto maior o Charme, mais você enfraquece o ataque do oponente e melhor consegue refutar as dúvidas lançadas contra você, além de aumentar o número de pessoas que ajudam a recuperar sua Simpatia e Confiança. Ele facilita aumentar a Simpatia, é exigido pela habilidade "Vamos Colaborar" e pode também fazer eventos de personagens acontecerem com mais frequência.
+Image/help.01_06.2	Em seguida, a [Furtividade]. Quando seu Ódio está alto ou baixo demais, os outros começam a suspeitar de você, e a Furtividade ajuda a [reduzir o quanto seu Ódio sobe e desce].\nCom Furtividade alta, você pode comentar seguidamente contra quem quer eliminar, ou evitar que suas mentiras sejam descobertas ficando em silêncio e chamando menos atenção. Mesmo assim, personagens com Intuição alta ainda podem notar. Ela também diminui a chance de você ser alvo dos Gnosia. Pode ser um dos atributos mais importantes para sobreviver.
+Image/help.01_06.3	SQ tem Furtividade e Charme altos.\nMesmo quando duvidam dela, os outros costumam defendê-la rápido, e ela escapa das suspeitas com facilidade, o que torna difícil convencer os outros a votar nela.
+Image/help.02_01.1	Em geral,
+Image/help.02_01.2	comenta
+Image/help.02_01.3	espera para ver.
+Image/help.02_01.4	E ainda,
+Image/help.02_01.5	mostra os dados
+Image/help.02_01.6	abre o Menu
+Image/help.02_01.7	Relatório do Engenheiro
+Image/help.02_01.8	Isso mostra que
+Image/help.02_01.9	é Humano
+Image/help.02_01.10	é Gnosia
+Image/help.02_01.11	segundo o relatório.
+Image/help.02_01.12	Colaborador
+Image/help.02_01.13	Este símbolo aparece quando quem fala tem um colaborador.
+Image/help.02_01.14	Papel
+Image/help.02_01.15	Aparece quando quem fala declarou um papel.
+Image/help.02_01.16	Alvo
+Image/help.02_01.17	Mostra de quem ou com quem a pessoa está falando.
+Image/help.02_01.18	Nome de quem fala
+Image/help.02_01.19	Nome do Comando
+Image/help.02_01.20	Fica vermelho quando o jogador sabe que quem fala é Gnosia.
+Image/help.02_01.21	Nomes de habilidades e comandos aparecem aqui por um instante.
+Image/help.01_07.1	A [Intuição] não tem efeito direto nas discussões.\nEla simplesmente [aumenta sua chance de perceber mentiras] quando personagens capazes de mentir (Gnosia, Seguidores da AC, Bugs) fazem declarações falsas. Quanto menor a Atuação de quem fala, maior a chance de você perceber a mentira.
+Image/help.01_07.2	A Intuição ajuda a achar rápido os mentirosos, que devem ir para o sono criogênico o quanto antes. Por isso é uma arma importante para os humanos, e também um jeito eficaz de os Seguidores da AC descobrirem quem são os Gnosia para protegê-los.
+Image/help.01_07.3	Fique sempre de olho nos personagens com Intuição alta. Se a mais notável entre eles, a Comet, de repente começar a suspeitar muito de alguém, pode ser que ela tenha percebido que essa pessoa está mentindo. Preste atenção nesse tipo de reação, pois ela ajuda a entender melhor a situação.
+Image/help.01_07.4	Aliás, uma "Mentira" é uma declaração que contraria de propósito o que a pessoa sabe ser verdade, ou feita sem prova nem motivo real.
+Image/help.01_07.5	Duvidar
+Image/help.01_07.6	Defender
+Image/help.01_07.lie	Mentira
+Image/help.01_07.7	Para os Gnosia, duvidar de um humano ou defender um aliado é uma "[Mentira]".
+Image/help.01_07.8	Defender um humano ou duvidar de um aliado ["não é Mentira"].
+Image/help.01_07.9	Quando um Seguidor da AC se passa por Engenheiro, todo relatório dele é uma "[Mentira]".
+Image/help.01_08.1	Algumas habilidades ajudam você nas discussões, seja para descobrir inimigos ou evitar suspeitas, e exigem um nível mínimo em certos atributos.
+Image/help.01_08.2	Por exemplo, a habilidade "Inimigo Garantido", que avisa a todos que alguém com declarações suspeitas é um inimigo, exige certo nível de Lógica; e "Não Se Deixem Enganar", que torna as mentiras de um alvo suspeito mais fáceis de perceber e anula a Furtividade dele por um tempo, exige Intuição alta. Com essas habilidades, você influencia a discussão de formas que seriam difíceis só aumentando os atributos.
+Image/help.01_08.3	Mas não basta aumentar os atributos para usar essas habilidades.\nVocê precisa [aprendê-las com personagens que sabem usá-las, durante certos eventos].
+Image/help.01_08.4	Em geral, elas são obtidas em eventos marcados com "
+Image/help.01_08.5	" no mapa, durante a movimentação
+Image/help.01_08.6	livre da noite. Não deixe de conferir esses eventos.\nMas atenção: ter os atributos exigidos por uma habilidade não garante que o evento aconteça... Às vezes ele simplesmente não acontece. Foi mal.
+Image/help.01_08.7	Para detalhes sobre o efeito das habilidades e os atributos exigidos, veja "Comandos" no Menu Inicial.
+Image/help.01_09.1	Quando a discussão termina e os preparativos da votação e do sono criogênico estão concluídos, antes do salto você pode escolher um local para visitar e falar com quem estiver lá.\nPara facilitar, chamamos esse período de "Noite" (e a parte da discussão, de "Dia").
+Image/help.01_09.2	Escolha "
+Image/help.01_09.3	" para ir até o local, onde quem
+Image/help.01_09.4	estiver lá fará um único comentário. Às vezes dá para notar por ele se o personagem gosta ou não de você, ou se percebeu que você não é humano.
+Image/help.01_09.5	Em geral, visitar um personagem assim [aumenta sua Simpatia] com ele.
+Image/help.01_09.6	Dois elementos importantes da noite são os [Eventos] e [Subir de Nível], feito no seu quarto.
+Image/help.01_09.7	Quando "
+Image/help.01_09.8	" aparece no seu quarto, você pode usar a experiência acumulada
+Image/help.01_09.9	para [aumentar seus atributos].
+Image/help.01_09.10	Quando "
+Image/help.01_09.11	" aparece em algum local do mapa (em vez do símbolo "
+Image/help.01_09.12	"), vários eventos
+Image/help.01_09.13	acontecem, permitindo [aprender novas habilidades] e obter informações essenciais para [avançar a história].\nQuando a noite termina, dependendo do seu papel, você escolhe alguém para investigar ou eliminar, e então começa o debate do dia seguinte.
+Image/help.01_10.1	Para quem pode mentir, é essencial se passar por Engenheiro ou Médico e fazer relatórios falsos ou inventados de propósito, impedindo que os outros obtenham ou acreditem nas informações verdadeiras. Só que essas mentiras às vezes não batem com a situação, deixando claro que quem fez o relatório está mentindo. Isso se chama "[Inconsistência Lógica]" e pode ser apontado com a habilidade de Lógica "[Inimigo Garantido]".
+Image/help.01_10.2	Isso pode acontecer em muitas situações: algumas são óbvias, outras são mais complicadas e exigem tempo e reflexão. Ajuda supor, por exemplo, "Se essa pessoa for mesmo Engenheiro, então..." e a partir daí verificar se os comentários batem com o que você sabe ser verdade.
+Image/help.01_10.3	Aqui descrevemos alguns tipos comuns de inconsistência lógica.
+Image/help.01_10.4	A pessoa que um Engenheiro relatou como Gnosia desapareceu
+Image/help.01_10.5	Esta é simples: o Engenheiro está claramente mentindo. [Um Gnosia nunca elimina outro Gnosia].
+Image/help.01_10.6	Sem Seguidores da AC nem Bugs (só Gnosia), um Engenheiro (Médico) rival desapareceu
+Image/help.01_10.7	Quando só os Gnosia podem mentir e duas pessoas disseram ser Engenheiro (Médico), o Engenheiro (Médico) que sobrou só pode ser Gnosia. Isso porque [o próprio desaparecimento prova que a pessoa era humana].
+Image/help.01_11.1	Sem Engenheiro (Médico) verdadeiro
+Image/help.01_11.2	Acontece quando os Engenheiros (Médicos) se apresentaram no primeiro dia e você sabe que um deles é, com certeza, o verdadeiro.\nEngenheiros e Médicos verdadeiros não precisam tramar nada para manter a história coerente, e seus relatórios nunca contradizem os fatos. Se o relatório de um Médico contradiz os de todos os Engenheiros, está claro que esse Médico é falso. Confira sempre se [existe pelo menos um Médico (Engenheiro) cujos relatórios batem com os do Engenheiro (Médico) em questão].
+Image/help.01_11.3	Condições de fim não cumpridas
+Image/help.01_11.4	Esse tipo de falha é comum entre os mentirosos mais covardes.\nOs relatórios do Médico indicam quantos Gnosia restam. Se um Médico relata sempre que as pessoas verificadas eram humanas, então [já deveria haver Gnosia de sobra para dominar a nave; por que não dominaram? E por que o jogo não acabou...?] Essa pode ser mais uma Inconsistência Lógica evidente.\nÀs vezes, um Engenheiro com medo de virar alvo dos Gnosia relata que todos os investigados são "humanos" e acaba tendo relatado que todos os restantes são humanos, mas o jogo ainda não acabou... Isso também pode causar confusão.\nÀs vezes é preciso coragem para mentir bem.
+Image/help.01_12.1	Duas pessoas desapareceram (eliminação de Bug), mas quem você eliminou não foi investigado
+Image/help.01_12.2	[Só Engenheiros verdadeiros eliminam Bugs]. Um "nocaute de um golpe só" desses é, bem, puro azar.\nNeste jogo, é impossível mentir sobre "quem você investigou". Se você pretendia relatar alguém como Gnosia mas essa pessoa foi eliminada, o relatório muda para "Humano". Só que essa é uma mentira muito fácil de perceber.
+Image/help.01_12.3	Faltam Seguidores da AC/Bugs
+Image/help.01_12.4	Isso tende a ocorrer quando há muitos Engenheiros/Médicos falsos.\nSupondo que certo Engenheiro seja o verdadeiro, [os únicos Engenheiros/Médicos que ele poderia investigar e relatar como "Humano" seriam o Médico verdadeiro ou um Seguidor da AC]. E [se fossem um Bug, seriam eliminados naquela noite].
+Image/help.01_12.5	Portanto, se um Engenheiro relata dois ou mais Engenheiros/Médicos como "Humano", ou se mais tarde alguém não investigado é atacado e eliminado, isso prova que ele é falso.\nPor isso, investigar um Engenheiro rival e relatá-lo falsamente como "Humano" é uma mentira inútil e muito fácil de perceber. Por outro lado, um Engenheiro que relata um Engenheiro rival como "Humano" até parece meio confiável...
+Image/help.01_12.6	Situações assim, ou uma combinação delas, geram Inconsistências Lógicas para Engenheiros e Médicos falsos.\nTambém fica mais fácil descobrir quem é quem por simples eliminação. Tente apontar essas coisas antes dos outros personagens. É bem divertido.
+Image/help.02_02.1	Veja um resumo da situação atual apertando
+Image/help.02_02.2	na tela normal do jogo.
+Image/help.02_02.3	Papéis Conhecidos
+Image/help.02_02.4	Aparecem quando o papel é conhecido
+Image/help.02_02.5	Seu Papel
+Image/help.02_02.6	Papéis Declarados
+Image/help.02_02.7	Aparecem quando um papel foi declarado
+Image/help.02_02.8	= Engenheiro
+Image/help.02_02.9	= Médico
+Image/help.02_02.10	= Guarda
+Image/help.02_02.11	Sobreviventes
+Image/help.02_02.12	Azul: em sono criogênico\nVermelho: eliminados pelos Gnosia\nCinza: desaparecidos
+Image/help.02_03.1	Veja a configuração inicial apertando
+Image/help.02_03.2	na tela normal do jogo.
+Image/help.02_03.3	Saber quantos Gnosia existem e quantos mentirosos há além deles ajuda muito a entender os detalhes da sua situação.
+Image/help.02_04.1	Aperte
+Image/help.02_04.2	na tela normal do jogo para abrir os Dados de Referência e ver várias informações.
+Image/help.02_04.3	Papéis Declarados
+Image/help.02_04.4	Seus Papéis
+Image/help.02_04.5	Escolha um item para ver ainda mais informações.
+Image/help.02_04.6	Amigos
+Image/help.02_04.7	Mostra quem mais gosta do protagonista.
+Image/help.02_04.8	Se você tiver um Colaborador, ele aparece no lugar.
+Image/help.02_04.9	Desafetos
+Image/help.02_04.10	Mostra quem mais se opõe ao protagonista.
+Image/help.02_05.1	Aqui você pode rever os comentários feitos.
+Image/help.02_05.2	Use os botões esquerda e direita
+Image/help.02_05.3	para trocar entre os dados de cada dia.
+Image/help.02_05.4	Abra o Registro quando houver uma decisão final para ver:
+Image/help.02_05.5	Os papéis reais, as mentiras contadas,
+Image/help.02_05.6	o que cada um fez à noite (durante o salto) e outras informações antes ocultas.
+Image/help.02_05.7	Ações que apenas confirmam o que os personagens disseram não chamam atenção, então não são registradas.
+Image/help.02_06.1	Aqui você pode ver vários dados de cada personagem.
+Image/help.02_06.2	Um dos principais objetivos da história é desbloquear todos os itens especiais.
+Image/help.02_06.3	Itens Especiais Bloqueados
+Image/help.02_06.4	= Jogador é Humano
+Image/help.02_06.5	= Jogador é Gnosia
+Image/help.02_06.6	Eventos com estas marcas só são desbloqueados ao jogar com o tipo indicado.
+Image/help.02_06.7	Desça para ver o gráfico de atributos de cada personagem.
+Image/help.02_06.8	Itens Especiais Desbloqueados
+Image/help.02_06.9	Desbloqueie-os vendo eventos especiais.
+Image/help.02_07.1	Aqui você pode ver todos os relatórios dos Engenheiros.
+Image/help.02_07.2	Use
+Image/help.02_07.3	para alternar com os relatórios dos Médicos; compare os dois para descobrir quem pode estar mentindo.
+Image/help.02_07.4	Como Ler
+Image/help.02_07.5	Cada Engenheiro recebe um número provisório.\nA cor do número mostra o que o relatório diz.
+Image/help.02_07.6	Aqui, por exemplo, Shigemichi foi relatado como Humano por Chipie e como Gnosia por Jonas, e está em sono criogênico.
+Image/help.newer	Mais Recentes
+Image/help.older	Mais Antigos
+Image/help.02_08.1	Aqui você pode ver todos os relatórios dos Médicos.
+Image/help.02_08.2	Use
+Image/help.02_08.3	para alternar com os relatórios dos Engenheiros.
+Image/help.02_08.4	Como Ler
+Image/help.02_08.5	Aqui, por exemplo, Stella foi relatada como Humana por Sha-Ming e como Gnosia por Remnan.
+Image/help.02_08.6	Cada Médico recebe um número provisório.\nA cor do número mostra o que o relatório diz.
+Image/help.02_08.7	Os relatórios dos Médicos mostram quantos Gnosia ainda existem. Veja se eles batem com os relatórios dos Engenheiros ou se há alguma divergência com a situação atual.
+Image/help.02_09.1	Abra o Menu Inicial apertando
+Image/help.02_09.2	na tela normal.
+Image/help.02_09.3	Em alguns momentos o menu não abre (durante eventos, etc.).
+Image/help.02_09.4	Voltar à Configuração
+Image/help.02_09.5	Apaga o loop atual e volta para a tela de configuração.
+Image/help.02_09.6	Cor Favorita
+Image/help.02_09.7	Nível Atual
+Image/help.02_09.8	EXP Atual
+Image/help.02_09.9	O
+Image/help.02_09.10	aparece quando
+Image/help.02_09.11	você tem EXP suficiente para subir de nível.
+Image/help.02_09.12	Nome/Sexo/Loop
+Image/help.02_09.13	Atributos
+Image/help.02_09.14	Voltar ao Título
+Image/help.02_09.15	Volta para a tela de título.
+Image/help.02_09.16	Comandos
+Image/help.02_09.17	Veja detalhes das habilidades que você aprendeu além de "Duvidar" e "Defender".
+Image/help.02_09.18	Opções
+Image/help.02_09.19	Ajusta o volume e a velocidade do texto.
+Image/help.02_09.20	Como Jogar
+Image/help.02_09.21	É o que você está vendo agora.
+Image/help.02_10.1	Depois de decidir na discussão quem vai para o sono criogênico, começa a parte da "noite", em que você pode visitar outros personagens.\nMuitos dos eventos que desbloqueiam itens especiais acontecem aqui.
+Image/help.02_10.2	Nome do Local
+Image/help.02_10.3	Personagem
+Image/help.02_10.4	Mostra qual personagem está aqui.
+Image/help.02_10.5	Detalhes do Local
+Image/help.02_10.6	Visite os outros para saber o que pensam de você e ganhar um pouco de Simpatia.
+Image/help.02_10.7	Alvo
+Image/help.02_10.8	Mostra quem está presente. Às vezes outros personagens também aparecem.
+Image/help.02_10.9	O
+Image/help.02_10.10	aparece quando
+Image/help.02_10.11	há um evento especial acontecendo.
+Image/help.02_10.12	Cursor
+Image/help.02_10.13	Seu Quarto
+Image/help.02_10.14	Aqui você pode dormir sem visitar ninguém, subir de nível e ver vários comandos.
+Image/help.02_10.15	O
+Image/help.02_10.16	aparece quando você pode subir de nível.
+Image/help.02_11.1	Quando o lado Humano, o lado Gnosia ou o Bug cumpre as condições de vitória, ou quando o protagonista é colocado em sono criogênico ou eliminado, aparece uma tela com a situação atual e o papel real de cada personagem.
+Image/help.02_11.2	Dia, Vitória/Derrota
+Image/help.02_11.3	Mostra se você venceu ou perdeu e quantos dias sobreviveu.
+Image/help.02_11.4	Cor da Borda
+Image/help.02_11.5	= Vitória humana
+Image/help.02_11.6	= Vitória Gnosia
+Image/help.02_11.7	= Vitória do Bug
+Image/help.02_11.8	= Jogador em sono criogênico
+Image/help.02_11.9	= Jogador eliminado
+Image/help.02_11.10	Ícone do Papel
+Image/help.02_11.11	O ícone no canto inferior esquerdo da imagem do personagem mostra seu papel real.
+Image/help.02_11.12	Cor do Personagem
+Image/help.02_11.13	Azul = Em sono criogênico\nVermelho = Eliminado pelos Gnosia\nCinza = Desapareceu
+Image/help.02_11.14	EXP Obtida
+Image/help.02_11.15	Quando você puder subir de nível, aparece [Lv. UP!].
+Image/help.02_12.1	Aqui você ajusta a configuração do próximo loop e decide quantos personagens, quantos Gnosia e quais papéis vão aparecer, além do papel que você vai assumir.
+Image/help.02_12.2	Buscar Eventos
+Image/help.02_12.3	Veja aqui as configurações e condições que facilitam a ocorrência de eventos importantes.
+Image/help.02_12.4	Cursor
+Image/help.02_12.5	Explicação do Papel
+Image/help.02_12.6	Config. de Papéis
+Image/help.02_12.7	Aparece uma explicação simples do papel sob o cursor.
+Image/help.02_12.8	Decida quantos tripulantes e Gnosia vão aparecer, e se os outros papéis aparecem ou não.
+Image/help.02_12.9	Alguns papéis não podem ser adicionados dependendo do número de pessoas.
+Image/help.02_12.10	Seu Papel
+Image/help.02_12.11	Escolha seu papel movendo para a esquerda e a direita.\nEscolha "Aleatório" para sortear seu papel no próximo loop.
+Image/help.03_01.1	Gnosia pode ser jogado em uma única rodada, como um jogo tradicional estilo "Lobisomem", ou como uma aventura, seguindo a história até chegar ao final.
+Image/help.03_01.2	Para jogar a história toda, você vai precisar conhecer a fundo os personagens. Mais precisamente, vai precisar [preencher as "Notas" nos "Dados da Tripulação"].
+Image/help.03_01.3	Estas são as Notas.
+Image/help.03_01.4	Aperte
+Image/help.03_01.5	para abrir os dados de referência
+Image/help.03_01.6	e ver as notas com informações sobre cada tripulante.
+Image/help.03_01.7	Para desbloquear as Notas, você precisa concluir certos [eventos].
+Image/help.03_01.8	Para concluir esses eventos, assista até o fim aos eventos da noite marcados com
+Image/help.03_01.9	no mapa. Alguns são
+Image/help.03_01.10	simples, e outros exigem cumprir certas condições no debate (ex.: sobreviver até o fim com certa pessoa, colocar certa pessoa em sono criogênico, etc.).
+Image/help.03_02.1	Para um evento específico ocorrer, várias condições precisam ser cumpridas: certos personagens em certos papéis e com certo nível de afeição entre si, o protagonista em certo papel, etc.\nSe você quer avançar na história mas os eventos não acontecem, pode ser que algumas dessas condições ainda não tenham sido cumpridas.
+Image/help.03_02.2	Quando isso acontecer, aperte o botão "[Buscar Eventos]" na tela de configuração.
+Image/help.03_02.3	Este é o botão "Buscar Eventos".
+Image/help.03_02.4	Aperte
+Image/help.03_02.5	para ajustar automaticamente as
+Image/help.03_02.6	condições e favorecer a ocorrência de um evento. Deixe as condições preenchidas como estão e continue o jogo.
+Image/help.03_02.7	Alguns eventos nunca acontecem se o protagonista e os outros personagens envolvidos não estiverem nos papéis exigidos. Use "Buscar Eventos" para experimentar papéis que você usou pouco e ter a chance de ver eventos que ainda não encontrou.
+Image/help.03_03.1	Se quiser ver os eventos de um personagem específico, defenda-o nos debates e visite-o à noite para [aumentar sua Simpatia com ele].\nA maioria dos eventos acontece quando sua Simpatia com os personagens envolvidos é alta.
+Image/help.03_03.2	Alguns eventos são ativados ao usar "Defender" em certo personagem. Se você não tem usado muito "Defender", experimente usar em alguém para ver se isso ativa um evento que você ainda não viu.
+Image/help.03_03.3	Há também eventos que não acontecem nem avançam enquanto você não colaborar com certo personagem. Por exemplo, mesmo percebendo que seu colaborador está mentindo, se você continuar cooperando e sobreviver com ele até o fim, pode ver um final especial ou desbloquear itens especiais. Se sentir que travou em algum ponto da história, tente usar "Vamos Colaborar" com outro personagem.
+Image/help.03_03.4	Aliás, os atributos dos personagens aumentam a cada item especial desbloqueado, e também sobem aos poucos conforme você repete os loops. Procure cultivar relações, colaborar e sobreviver junto com personagens diferentes.
+Image/help.q	P:
+Image/help.a	R:
+Image/help.04_01.1	Dizem que sou "irritante"...
+Image/help.04_01.2	Cada vez que você comenta, o nível de [atenção ("Ódio")] dos outros sobre você aumenta. "Duvidar" e "Defender", assim como o uso de habilidades, chamam atenção em especial. Além disso, quando duvidam de você, negar as acusações e rebater rápido e sem cuidado é visto como comportamento "pouco natural", fazendo você se destacar ainda mais.
+Image/help.04_01.3	Depois de atrair a atenção do grupo, tente [ficar um tempo sem comentar] e espere todo mundo se acalmar um pouco.
+Image/help.04_01.4	Você pode [aumentar sua "Furtividade"] para chamar menos atenção ao comentar e usar habilidades.
+Image/help.04_02.1	Sempre me colocam em sono criogênico.
+Image/help.04_02.2	A maioria vota em quem acha "pouco confiável", "antipático", "suspeito" ou em quem "se destaca".
+Image/help.04_02.3	[Quanto maior o seu "Charme"], mais simpático você parece aos outros e menor a chance de ser visto como pouco confiável quando duvidam de você, o que ajuda muito. Você também pode [aumentar sua "Furtividade"] para chamar menos atenção ao comentar e usar habilidades.
+Image/help.04_02.4	Ao jogar como Gnosia ou outro personagem que pode mentir, se sua "Atuação" for baixa, suas mentiras serão percebidas logo e a chance de ir para o sono criogênico aumenta. Cuidado.
+Image/help.04_03.1	Os Gnosia me pegaram de novo...
+Image/help.04_03.2	Para começar, quem atrai muita atenção (Ódio) vira alvo fácil. Tente [aumentar sua "Furtividade"] para se destacar menos e evitar ser alvo.
+Image/help.04_03.3	Além disso, quem diz ser Engenheiro, etc., e quem claramente não é Gnosia (Guardas) também costuma virar alvo rápido.
+Image/help.04_03.4	E, se os Gnosia tiverem uma personalidade muito lógica, vão dar grande peso ao papel e ao risco de interferência ao escolher o alvo; já os Gnosia mais emotivos costumam ir direto em quem não gostam. Atacá-los provavelmente fará de você um alvo fácil.
+Image/help.04_03.5	Se achar que pode ser alvo em certa noite, use a habilidade de Furtividade "[Conversa Fiada]" para distrair os Gnosia e diminuir a chance de ser escolhido.
+Image/help.04_04.1	Por que todo mundo me odeia?
+Image/help.04_04.2	A resposta é "[Charme]".
+Image/help.04_04.3	"Charme" é um atributo defensivo que deixa você mais simpático e também reduz a desconfiança e a atenção negativa. É basicamente igual à vida real.
+Image/help.04_04.4	Se quiser saber como é viver sendo alguém bem antipático, jogue com o Charme no nível mínimo.\nPode ser uma experiência reveladora.
+Image/help.04_05.1	Ninguém me escuta.
+Image/help.04_05.2	Convencer as pessoas a ouvir você exige jeito.
+Image/help.04_05.3	Com "[Carisma]" alto, mais gente concorda e apoia suas opiniões; "[Lógica]" alta ajuda a trazer os outros para o seu lado quando você acha alguém pouco confiável; e "[Atuação]" alta permite mexer com as emoções das pessoas.
+Image/help.04_05.4	Saber [ler o clima] também é essencial. Defender alguém que todos veem como inimigo é inútil, e, se alguém estiver enfrentando você ativamente, provavelmente vai rebater qualquer comentário seu.
+Image/help.04_05.5	É frustrante quando você sabe que alguém é inimigo mas perde porque ninguém concorda com você. Só que é importante aceitar que às vezes isso acontece, deixar para lá e pensar na próxima batalha.
+Image/help.04_06.1	O Engenheiro (Médico) precisa se apresentar?
+Image/help.04_06.2	Quando um falso se apresenta, se você não se revelar e declarar seu papel na mesma hora, vão presumir que você não tem esse papel, e depois você não poderá mais declará-lo.\nPor isso, nessas horas [o melhor é declarar seu papel].
+Image/help.04_06.3	Se você não quiser se apresentar de jeito nenhum, bem, ninguém vai te obrigar, mas...\nVocê pode acabar em apuros.
+Image/help.04_07.1	O que é "Humano Garantido"?
+Image/help.04_07.2	As habilidades de Lógica "Inimigo Garantido" e "Humano Garantido" só podem ser usadas [quando está confirmado que alguém mente (Seguidor da AC, Gnosia ou Bug) ou é humano (nem Gnosia nem Bug)].
+Image/help.04_07.3	Quem é marcado como "Inimigo Garantido" não pode mais comentar e concentra os votos. Já quem é marcado como "Humano Garantido" deixa de ser alvo de dúvidas.
+Image/help.04_07.4	Se você não apontar esse fato, os personagens menos lógicos não vão perceber que a pessoa é inimiga ou humana.
+Image/help.04_07.5	Os mais lógicos consideram vários fatores e às vezes soltam um "Inimigo Garantido" em momentos que parecem estranhos ao jogador; mas, prestando atenção nos relatórios dos Engenheiros e Médicos e lendo bem o registro, você entende o raciocínio... provavelmente. Às vezes leva um tempo para entender tudo o que está no registro.
+Image/help.04_08.1	Hã, duas pessoas sumiram ao mesmo tempo...
+Image/help.04_08.2	Isso significa que uma foi vítima de um ataque Gnosia e a outra era [um Bug] eliminado pelo Engenheiro. Um desaparecimento duplo assim é a chance perfeita de descobrir quem é o Engenheiro verdadeiro: o "Engenheiro" que não investigou quem desapareceu não é o verdadeiro. Um Engenheiro falso precisa decidir "[quem investigar]" na noite anterior, e isso fica registrado, então ele [não consegue mentir] sobre isso.
+Image/help.04_08.3	Além dos desaparecimentos simultâneos, há outras [chances de descobrir quem é Bug]. Por exemplo, se a configuração não tem Anjo da Guarda e um ataque falha, é porque os Gnosia descobriram que o escolhido era um Bug. E, se o Anjo da Guarda protegeu alguém e essa pessoa sumiu mesmo assim, é porque ela foi investigada pelo Engenheiro e era um Bug.
+Image/help.04_08.4	Papéis descobertos assim aparecem na "Situação Atual", acessível com
+Image/help.04_09.1	Quero subir muitos níveis!
+Image/help.04_09.2	Ao terminar um loop, [a EXP que você ganha depende da dificuldade dele].
+Image/help.04_09.3	Deixar o loop mais difícil, por exemplo com seis Gnosia e sem Engenheiros nem Anjos da Guarda, e vencer como humano, ou vencer sendo o único Gnosia contra 14 humanos, etc., rende um monte de EXP!
+Image/help.04_09.4	Quer dizer, vai ser bem difícil, mas enfim...
+Image/help.04_09.5	Você também ganha um bônus de EXP ao concluir eventos.\nAlém disso, ganha EXP ao sobreviver junto com um colaborador, defender alguém de um ataque Gnosia como Anjo da Guarda ou, se seu personagem pode mentir, fingir ser Engenheiro ou Médico, etc. Basicamente, se algo parece dificultar a sobrevivência, ou se você provoca algo que normalmente não aconteceria, costuma ser recompensado com EXP.
+Image/help.04_10.1	Quero redistribuir meus atributos...
+Image/help.04_10.2	Tente jogar com um papel que você normalmente não escolheria, e algo legal pode acontecer.
+Image/help.04_10.3	Ah, e colocar o número de personagens em 15 também pode ajudar.
+Image/help.04_11.1	Então é tudo basicamente aleatório, né?
+Image/help.04_11.2	Os personagens [agem de acordo com suas personalidades].\nSe uma pessoa gentil vira Gnosia, provavelmente fará o possível para proteger e defender os amigos; já um Gnosia mais egoísta tende a sacrificar os amigos conforme a situação. Gnosia mais lógicos consideram coisas como evitar quem provavelmente está protegido por um Anjo da Guarda, mas também levam em conta que precisam se livrar do Engenheiro verdadeiro, etc. Já os Gnosia mais emotivos continuam mirando em quem simplesmente não gostam.
+Image/help.04_11.3	Conforme joga, se você [entender as personalidades e os padrões de comportamento dos personagens], vai ler melhor a situação e depender menos da sorte para se dar bem.
+Image/help.04_11.4	Dito isso, se você cair numa situação tipo "Comecei como Gnosia e meus parceiros eram Shigemichi e Comet", bem... foi só azar mesmo. Se quiser muito, dá para recomeçar o loop com a configuração inicial, então vai nessa...
+Image/help.04_12.1	Tá, mas o que exatamente é uma "mentira"? E fala a verdade...
+Image/help.04_12.2	Neste mundo, só Gnosia, Seguidores da AC e Bugs mentem.\nE, se sua "Intuição" for alta o bastante, às vezes você consegue perceber essas mentiras.
+Image/help.04_12.3	Então, alguns exemplos concretos de mentira...
+Image/help.04_12.4	Os [Gnosia] sabem "quem é Gnosia". Portanto, [um Gnosia dizer que outro Gnosia é humano, ou que um não-Gnosia é Gnosia, conta como mentira].
+Image/help.04_12.5	[Seguidores da AC e Bugs] não sabem "quem é Gnosia". Portanto, um falso Engenheiro ou Médico afirmar "Esta pessoa é Gnosia" ou "Aquela pessoa é humana", ou seja, [fazer relatórios falsos e inventados, é mentira].
+Image/help.04_12.6	Quando você não é Engenheiro nem Médico, [dizer que é já é mentira].\nDuvidar de alguém que você não acha suspeito, ou defender alguém que você acha suspeito, tecnicamente também é mentir, mas essas mentiras não contam neste jogo.
+Image/help.05_01.1	O que eu faço para avançar a história?
+Image/help.05_01.2	[Eventos] especiais acontecem de vez em quando ao longo do jogo.\nA história avança conforme você conclui esses eventos e [desbloqueia os "Itens Especiais"] dos personagens que aparecem neles.
+Image/help.05_01.3	Os Itens Especiais desbloqueados podem ser vistos em "Dados da Tripulação", nos "Dados de Referência".
+Image/help.05_02.1	Os eventos não parecem acontecer...
+Image/help.05_02.2	Depois de avançar um pouco na história, você poderá usar a função "Buscar Eventos" no início de um loop.
+Image/help.05_02.3	"[Buscar Eventos]" configura automaticamente condições como número de pessoas e papéis para que os eventos tenham mais chance de acontecer. Tente apertar "Buscar Eventos" algumas vezes e começar o loop quando aparecerem condições do seu agrado.
+Image/help.05_02.4	Só que... quando um evento acontece e [os Itens Especiais de um personagem são desbloqueados, os atributos dele aumentam bastante], então pode ficar mais difícil vencer.
+Image/help.05_02.5	Os eventos acabam acontecendo mesmo sem usar "Buscar Eventos".\nÉ mais fácil e divertido jogar simplesmente com os personagens e papéis que você gosta... provavelmente. Enfim, divirta-se!
+Image/help.05_03.1	É... os eventos continuam sem acontecer...
+Image/help.05_03.2	[Defender alguém, ou visitá-lo à noite e fazer amizade,] também aumenta a chance de eventos acontecerem.
+Image/help.05_03.3	Além disso, [colaborar] ou criar uma boa relação com um personagem e sobreviver com ele até o fim também pode fazer algo acontecer com essa pessoa.
+Image/help.05_03.4	Às vezes você verá uma marca de tripulante ou de Gnosia em itens especiais ainda bloqueados nos "Dados da Tripulação".\nEssas marcas indicam Itens Especiais que só são desbloqueados quando você joga como humano ou como Gnosia.
+Image/help.05_04.1	Não faço ideia do que fazer agora...
+Image/help.05_04.2	Quando isso acontecer, tente fazer um monte de coisas diferentes.
+Image/help.05_04.3	Uma hora as coisas se encaixam e voltam a andar. Não desista!
+Image/help.05_04.4	É, soa meio idealista... Mas é sério: uma hora você percebe o que precisa fazer!
+Image/help.05_05.1	Quero apagar todas as minhas memórias e começar do zero.
+Image/help.05_05.2	Então você quer viver essa maravilha toda de novo... Hehe, entendi!
+Image/help.05_05.3	Não dá para apagar de verdade todas as suas memórias, mas você pode apagar seu save, e todos os dados de conclusão somem junto.\nSe quiser mesmo recomeçar do zero, vá à tela de carregamento do título e [apague todos os seus dados salvos].
+Image/help.05_06.1	Quero dar uma pausa, onde eu salvo?
+Image/help.05_06.2	O aviso de "Save" aparece só por um instante e é fácil não ver, mas Gnosia tem [salvamento automático]!
+Image/help.05_06.3	O jogo salva sozinho quando um dia começa, quando termina uma discussão, uma votação ou a decisão do sono criogênico, e quando um loop termina.
+Image/help.05_07.1	Quero voltar e ver os comentários...
+Image/help.05_07.2	Ah, você quer dizer o [histórico]! Sim, a gente tem isso!
+Image/help.05_07.3	Durante um debate ou evento, segure a [tecla do histórico]
+Image/help.05_07.4	) para rever os comentários anteriores.
+Image/help.05_07.5	Durante um debate ou evento, segure o [analógico L] (segure
+Image/help.05_07.6	para rever os comentários anteriores.
+Image/help.05_07.7	Mas o quanto você consegue lembrar [depende da Lógica do protagonista]. Com Lógica 1, só uma linha do histórico aparece!\nIsso mesmo: a Lógica está ligada à sua memória.
+Image/help.05_08.1	Configuração do teclado
+Image/help.05_08.2	Configuração do controle
+Image/help.key_menu	Menu
+Image/help.key_backlog	Histórico
+Image/help.key_data	Dados
+Image/help.key_decision	Escolher/Observar
+Image/help.05_08.3	Escolher\nObservar
+Image/help.key_speak	Falar
+Image/help.key_back	Voltar
+Image/help.05_08.4	Situação\nAtual
+Image/help.05_08.5	Configuração\nAtual
+Image/help.key_select	Selecionar
+Image/help.05_08.6	Página Anterior
+Image/help.05_08.7	Próxima Página

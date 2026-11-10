@@ -7,7 +7,7 @@ The game ships in **English, Japanese and Simplified Chinese**. This patcher add
 
 | Language | Translated | Tested in game | Reviewed by a native speaker |
 |---|---|---|---|
-| 🇧🇷 Português (Brasil) | ✅ text + images | ✅ | ✅ |
+| 🇧🇷 Português (Brasil) | ✅ text + images + How to Play pages | ✅ | ✅ |
 | 🇪🇸 Español | ✅ text + images | ✅ | ❌ |
 | 🇩🇪 Deutsch | ✅ text + images | ❌ | ❌ |
 | 🇫🇷 Français | ✅ text + images | ❌ | ❌ |
@@ -117,6 +117,8 @@ into textures. [`translations/images.json`](translations/images.json) lists the 
 (size, baseline, color, alignment) and draws the translation in the same place with the game's own SDF fonts. The
 modified Addressables bundles are backed up, re-packed with LZ4, and the catalog's bundle CRCs are disabled so the
 game accepts them. Image texts are translated like any other line (`Image/<id>` keys).
+The How to Play pages are white text on a transparent image: their blocks are listed without the English text
+(`"en": ""`), cleared and redrawn with word wrap and `[highlight]` / `<second highlight>` colors.
 
 ## Credits
 
@@ -126,11 +128,12 @@ game accepts them. Image texts are translated like any other line (`Image/<id>` 
 
 ## Not translated
 
-Still images in English: the in-game Help pages,
-the small NAME / ROLE / TARGET
-labels of the dialogue window, "Usage" and the vertical "Req'd" in the Command List, and a few labels of the
-results and gallery screens. The headers of the Command List, Current Status, Crew Data, Discussion Log, the
-Doctor/Engineer reports, voting and the ability graph are translated.
+- The in-game **How to Play** pages (68 images) are translated in Brazilian Portuguese only; the other languages
+  still show them in English. The screenshots inside those pages stay in English in every language.
+- Still images in English: the small TARGET label of the dialogue window, the vertical "Req'd" in the Command
+  List, and a few labels of the results and gallery screens.
+- Some answer options in events are wider than their box in Spanish, German, French and Russian and wrap to a
+  second line (fixed in Brazilian Portuguese).
 
 ## Legal
 

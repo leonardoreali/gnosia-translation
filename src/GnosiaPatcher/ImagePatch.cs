@@ -46,6 +46,7 @@ static class ImagePatch
         public float? Dilate { get; set; }
         public string? Color { get; set; }                // #rrggbb[aa] (default: measured)
         public string? Accent { get; set; }               // color of [bracketed] words
+        public string? Accent2 { get; set; }              // color of <angle-bracketed> words
         public bool Wrap { get; set; }
         public int[][]? Skip { get; set; }                // areas inside the box to leave alone (x, y, w, h), e.g. a key icon
         public int[]? Ink { get; set; }                   // where the English text is (x0, y0, x1, y1), when detection needs help
@@ -179,6 +180,43 @@ static class ImagePatch
         return drawn;
     }
 
+    /// <summary>
+    /// Writes every image of the English UI bundles as PNG (from the backups when the game is patched),
+    /// to find the boxes for images.json. Returns the number of images written.
+    /// </summary>
+    public static int Dump(string dataDir, string outDir)
+    {
+        int count = 0;
+        if (!Directory.Exists(BundleDir(dataDir))) return 0;
+        foreach (var file in Directory.GetFiles(BundleDir(dataDir), "*_en_assets_all_*.bundle"))
+        {
+            string dir = Path.Combine(outDir, Path.GetFileName(file).Split("_assets_all_")[0]);
+            Directory.CreateDirectory(dir);
+            var am = new AssetsManager();
+            using (var tpk = Assembly.GetExecutingAssembly().GetManifestResourceStream("classdata.tpk")!)
+                am.LoadClassPackage(tpk);
+            var bun = am.LoadBundleFile(File.Exists(file + BackupSuffix) ? file + BackupSuffix : file, true);
+            var names = bun.file.GetAllFileNames();
+            for (int i = 0; i < names.Count; i++)
+            {
+                if (names[i].EndsWith(".resS") || names[i].EndsWith(".resource")) continue;
+                var inst = am.LoadAssetsFileFromBundle(bun, i, false);
+                am.LoadClassDatabaseFromPackage(inst.file.Metadata.UnityVersion);
+                foreach (var info in inst.file.GetAssetsOfType(AssetClassID.Texture2D))
+                {
+                    var bf = am.GetBaseField(inst, info);
+                    var tf = TextureFile.ReadTextureFile(bf);
+                    if (!tf.SetPictureDataFromBundle(bun)) tf.FillPictureData(inst);
+                    var img = Img.FromRgba(tf.DecodeTextureRaw(tf.pictureData, false), tf.m_Width, tf.m_Height);
+                    Png.Write(Path.Combine(dir, bf["m_Name"].AsString + ".png"), img.ToRgba(flip: false), img.W, img.H);
+                    count++;
+                }
+            }
+            am.UnloadAll(true);
+        }
+        return count;
+    }
+
     /// <summary>The translation of a box, with quotes unescaped (game text stores them as \").</summary>
     static string? Translated(TranslationFile t, Item it) =>
         t.Entries.TryGetValue(Key(it), out var s) && s.Length > 0 && (s != it.En || it.Redraw) ? s.Replace("\\\"", "\"") : null;
@@ -279,23 +317,26 @@ static class ImagePatch
         return new[] { C(0) * a, C(2) * a, C(4) * a, a };
     }
 
-    /// <summary>A word of the translation, split into plain and [accented] runs.</summary>
-    sealed record Word(string Text, List<(string Text, bool Accent)> Runs);
+    /// <summary>A word of the translation, split into plain (0), [accented] (1) and &lt;second accent&gt; (2) runs.</summary>
+    sealed record Word(string Text, List<(string Text, int Accent)> Runs);
 
-    /// <summary>Splits a line into words; text between [ and ] is accented, even across several words.</summary>
+    /// <summary>
+    /// Splits a line into words; text between [ and ] is drawn in the accent color and text between
+    /// &lt; and &gt; in the second accent color, even across several words.
+    /// </summary>
     static List<Word> Words(string s)
     {
         var words = new List<Word>();
-        bool accent = false;
+        int accent = 0;
         foreach (var token in s.Split(' ', StringSplitOptions.RemoveEmptyEntries))
         {
-            var runs = new List<(string, bool)>();
+            var runs = new List<(string, int)>();
             var cur = new StringBuilder();
             foreach (char ch in token)
             {
-                if (ch != '[' && ch != ']') { cur.Append(ch); continue; }
+                if (ch != '[' && ch != ']' && ch != '<' && ch != '>') { cur.Append(ch); continue; }
                 if (cur.Length > 0) { runs.Add((cur.ToString(), accent)); cur.Clear(); }
-                accent = ch == '[';
+                accent = ch == '[' ? 1 : ch == '<' ? 2 : 0;
             }
             if (cur.Length > 0) runs.Add((cur.ToString(), accent));
             words.Add(new Word(string.Concat(runs.Select(r => r.Item1)), runs));
@@ -303,7 +344,7 @@ static class ImagePatch
         return words;
     }
 
-    static string Plain(string s) => s.Replace("[", "").Replace("]", "");
+    static string Plain(string s) => s.Replace("[", "").Replace("]", "").Replace("<", "").Replace(">", "");
 
     static bool DrawItem(Img img, Item it, string text, SdfFont font, Action<string> log)
     {
@@ -421,6 +462,7 @@ static class ImagePatch
         }
         if (it.Color != null) paint = ParseColor(it.Color);
         var accent = it.Accent != null ? ParseColor(it.Accent) : paint;
+        var accent2 = it.Accent2 != null ? ParseColor(it.Accent2) : accent;
 
         // 3. size, baseline, letter spacing and weight of the English text
         string[] enLines = Plain(it.En).Split("\\n");
@@ -430,7 +472,10 @@ static class ImagePatch
         int extra = enLines.Length - 1;   // a known line height lets the size be measured on several lines
         float size = it.Size ?? (b - t + 1 - extra * (it.LineHeight ?? 0)) / Math.Max(me.t - mLast.b, 0.01f);
         float lineH = it.LineHeight ?? size * 1.25f;
-        float baseline = it.Baseline is float bl ? bl - by : b + 1 + mLast.b * size - extra * lineH;
+        // without the English text (help pages) the first line hangs from the top of the text that was there
+        float baseline = it.Baseline is float bl ? bl - by
+            : it.En.Length == 0 ? t + font.Measure("H").t * size
+            : b + 1 + mLast.b * size - extra * lineH;
         float squeeze = multi ? 1 : Math.Clamp((r - l + 1) / Math.Max((me.r - me.l) * size, 1), 0.85f, 1.15f);
         float dilate = it.Dilate ?? -0.3f;   // the UI images use a lighter cut than the game's Dosis Book
         if (Environment.GetEnvironmentVariable("GNOSIA_IMAGE_DEBUG") != null)
@@ -459,7 +504,9 @@ static class ImagePatch
             for (int tries = 0; tries < 10; tries++)
             {
                 lines = paragraphs.SelectMany(p => Wrap(p, font, size * squeeze, avail)).ToList();
-                if (baseline + (lines.Count - 1) * lineH + 0.25f * size <= bh) break;
+                // text placed without its English may always take the room the English took
+                float room = it.En.Length == 0 ? Math.Max(bh - 0.25f * size, b + 2 + 0.2f * size) : bh - 0.25f * size;
+                if (baseline + (lines.Count - 1) * lineH <= room) break;
                 size *= 0.95f; lineH *= 0.95f;
             }
         }
@@ -484,7 +531,7 @@ static class ImagePatch
             if (bottom > hi) baseline -= bottom - hi;
             else if (top < lo) baseline += lo - top;
         }
-        var mask = new float[n]; var amask = new float[n];
+        var mask = new float[n]; var amask = new float[n]; var a2mask = new float[n];
         float space = font.Advance(" ") * size * squeeze;
         for (int li = 0; li < lines.Count; li++)
         {
@@ -495,8 +542,8 @@ static class ImagePatch
             float pen = inkL - mt.l * size * squeeze, y0 = baseline + li * lineH;
             foreach (var word in lines[li])
             {
-                foreach (var (run, isAccent) in word.Runs)
-                    pen += font.Draw(isAccent ? amask : mask, bw, bh, run, pen, y0, size, squeeze, dilate);
+                foreach (var (run, level) in word.Runs)
+                    pen += font.Draw(level == 1 ? amask : level == 2 ? a2mask : mask, bw, bh, run, pen, y0, size, squeeze, dilate);
                 pen += space;
             }
         }
@@ -506,7 +553,7 @@ static class ImagePatch
         if (it.Glow != null)
         {
             glowColor = ParseColor(it.Glow);
-            glow = Blur(Blur(mask.Zip(amask, Math.Max).ToArray(), bw, bh, (int)it.GlowRadius), bw, bh, (int)it.GlowRadius);
+            glow = Blur(Blur(mask.Zip(amask, Math.Max).Zip(a2mask, Math.Max).ToArray(), bw, bh, (int)it.GlowRadius), bw, bh, (int)it.GlowRadius);
             for (int i = 0; i < n; i++) glow[i] = Math.Clamp(glow[i] * 2.2f, 0, 1);
         }
 
@@ -523,6 +570,7 @@ static class ImagePatch
                 if (glow != null) v += (glowColor![c] - v) * glow[i];
                 v += (paint[c] - v) * mask[i];
                 v += (accent[c] - v) * amask[i];
+                v += (accent2[c] - v) * a2mask[i];
                 img.P[o + c] = v;
             }
         }

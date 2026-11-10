@@ -7,6 +7,8 @@ using GnosiaPatcher;
 //                  GnosiaTranslationPatcher.exe --restore
 //   Translators:   --export reference.tsv          (key, English, Japanese, Chinese from your own copy)
 //                  --check es.tsv --ref reference.tsv
+//                  --dump-images dir               (every image of the English UI bundles, as PNG)
+//                  --preview-images dir --lang es  (the translated images, without touching the game)
 
 Console.OutputEncoding = Encoding.UTF8;
 var opts = Options.Parse(args);
@@ -37,6 +39,7 @@ try
 
     if (opts.Restore) return RestoreGame(patcher);
     if (opts.Export != null) return Exit(0, $"Exported {patcher.ExportReference(opts.Export)} lines to {opts.Export}");
+    if (opts.DumpImages != null) return Exit(0, $"{ImagePatch.Dump(dataDir, opts.DumpImages)} images written to {opts.DumpImages}");
     if (opts.PreviewImages != null)
     {
         var t = opts.File != null ? TranslationFile.FromPath(opts.File) : TranslationFile.FromResource(Language.Patchable.First(l => l.Code.Equals(opts.Lang ?? "pt-BR", StringComparison.OrdinalIgnoreCase)));
@@ -136,7 +139,7 @@ int Exit(int code, string? message)
 
 sealed class Options
 {
-    public string? Lang, Game, File, Export, Check, Reference, PreviewImages;
+    public string? Lang, Game, File, Export, Check, Reference, PreviewImages, DumpImages;
     public bool Restore;
 
     public static Options Parse(string[] args)
@@ -155,6 +158,7 @@ sealed class Options
                 case "--check": o.Check = Next(); break;
                 case "--ref": o.Reference = Next(); break;
                 case "--preview-images": o.PreviewImages = Next(); break;
+                case "--dump-images": o.DumpImages = Next(); break;
                 default: throw new ArgumentException($"Unknown option {args[i]}");
             }
         }
