@@ -12,6 +12,7 @@ using GnosiaPatcher;
 
 Console.OutputEncoding = Encoding.UTF8;
 var opts = Options.Parse(args);
+if (args.Length == 3 && args[0] == "--dump-file") { Console.WriteLine(ImagePatch.DumpFile(args[1], args[2]) + " images"); return 0; }
 bool interactive = args.Length == 0;
 
 try
@@ -167,6 +168,7 @@ sealed class Options
                 case "--ref": o.Reference = Next(); break;
                 case "--preview-images": o.PreviewImages = Next(); break;
                 case "--dump-images": o.DumpImages = Next(); break;
+                case "--dump-file": Next(); Next(); break;
                 default: throw new ArgumentException($"Unknown option {args[i]}");
             }
         }

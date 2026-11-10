@@ -220,6 +220,45 @@ static class ImagePatch
         return count;
     }
 
+    /// <summary>Writes the images of one game file (.assets or .bundle) as PNG. For finding where a picture lives.</summary>
+    public static int DumpFile(string file, string outDir)
+    {
+        Directory.CreateDirectory(outDir);
+        var am = new AssetsManager();
+        using (var tpk = Assembly.GetExecutingAssembly().GetManifestResourceStream("classdata.tpk")!)
+            am.LoadClassPackage(tpk);
+        int count = 0;
+        void Save(AssetsFileInstance inst, BundleFileInstance? bun)
+        {
+            am.LoadClassDatabaseFromPackage(inst.file.Metadata.UnityVersion);
+            foreach (var info in inst.file.GetAssetsOfType(AssetClassID.Texture2D))
+            {
+                try
+                {
+                    var bf = am.GetBaseField(inst, info);
+                    var tf = TextureFile.ReadTextureFile(bf);
+                    if (bun == null || !tf.SetPictureDataFromBundle(bun)) tf.FillPictureData(inst);
+                    var raw = tf.DecodeTextureRaw(tf.pictureData, false);
+                    if (raw == null) continue;
+                    var img = Img.FromRgba(raw, tf.m_Width, tf.m_Height);
+                    Png.Write(Path.Combine(outDir, bf["m_Name"].AsString + "_" + info.PathId + ".png"), img.ToRgba(flip: false), img.W, img.H);
+                    count++;
+                }
+                catch { }
+            }
+        }
+        if (file.EndsWith(".bundle"))
+        {
+            var bun = am.LoadBundleFile(file, true);
+            var names = bun.file.GetAllFileNames();
+            for (int i = 0; i < names.Count; i++)
+                if (!names[i].EndsWith(".resS") && !names[i].EndsWith(".resource")) Save(am.LoadAssetsFileFromBundle(bun, i, false), bun);
+        }
+        else Save(am.LoadAssetsFile(file, true), null);
+        am.UnloadAll(true);
+        return count;
+    }
+
     /// <summary>The translation of a box, with quotes unescaped (game text stores them as \").</summary>
     static string? Translated(TranslationFile t, Item it) =>
         t.Entries.TryGetValue(Key(it), out var s) && s.Length > 0 && (s != it.En || it.Redraw) ? s.Replace("\\\"", "\"") : null;
