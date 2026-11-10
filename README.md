@@ -7,7 +7,7 @@ The game ships in **English, Japanese and Simplified Chinese**. This patcher add
 
 | Language | Translated | Tested in game | Reviewed by a native speaker |
 |---|---|---|---|
-| 🇧🇷 Português (Brasil) | ✅ text + images + How to Play pages | ✅ | ✅ |
+| 🇧🇷 Português (Brasil) | ✅ text + images | ✅ | ✅ |
 | 🇪🇸 Español | ✅ text + images | ✅ | ❌ |
 | 🇩🇪 Deutsch | ✅ text + images | ❌ | ❌ |
 | 🇫🇷 Français | ✅ text + images | ❌ | ❌ |
@@ -119,6 +119,7 @@ modified Addressables bundles are backed up, re-packed with LZ4, and the catalog
 game accepts them. Image texts are translated like any other line (`Image/<id>` keys).
 The How to Play pages are white text on a transparent image: their blocks are listed without the English text
 (`"en": ""`), cleared and redrawn with word wrap and `[highlight]` / `<second highlight>` colors.
+Text on speech bubbles and on screenshots is repainted with the flat color under it (`"erase": "fill"`).
 
 ## Credits
 
@@ -128,10 +129,10 @@ The How to Play pages are white text on a transparent image: their blocks are li
 
 ## Not translated
 
-- The in-game **How to Play** pages (68 images) are translated in Brazilian Portuguese only; the other languages
-  still show them in English. The screenshots inside those pages stay in English in every language.
-- Still images in English: the small TARGET label of the dialogue window, the vertical "Req'd" in the Command
-  List, and a few labels of the results and gallery screens.
+- The screenshots inside the **How to Play** pages (they show the game in English), and the faded section
+  titles behind the page header ("Basic Rules", "Game Screen"...).
+- Still images in English: the vertical "Req'd" in the Command List and a few labels of the results and gallery
+  screens.
 - Some answer options in events are wider than their box in Spanish, German, French and Russian and wrap to a
   second line (fixed in Brazilian Portuguese).
 

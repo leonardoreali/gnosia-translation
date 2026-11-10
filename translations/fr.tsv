@@ -9409,3 +9409,364 @@ Code/weren't	n'étaient pas
 Image/interface.label_name	NOM
 Image/interface.label_role	RÔLE
 Image/aclist.usage	Usage
+Image/interface.label_target	CIBLE
+Image/help.01_01.1	Voici le déroulement de base du jeu.
+Image/help.01_01.2	Le jour, on débat pour savoir qui sera placé en "cryosommeil".
+Image/help.01_01.3	Après le débat, tout l'équipage vote pour désigner qui ira en cryosommeil.
+Image/help.01_01.4	La nuit, les Gnosia choisissent qui éliminer.
+Image/help.01_01.5	Avec ce système, deux membres quittent la liste chaque jour, et [une fois tous les Gnosia éliminés, les humains gagnent]. À l'inverse, si vous n'arrivez pas à éliminer les Gnosia et qu'<ils représentent la moitié ou plus des membres restants, le camp Gnosia gagne>.
+Image/help.01_01.6	Ces règles reposent sur celles d'un jeu de groupe classique de type "Loup-Garou" ou "Mafia". Voyez-le comme un "Loup-Garou" dont les termes principaux ont changé : le "Loup-Garou" devient "Gnosia", la "pendaison" devient "cryosommeil", etc.
+Image/help.01_01.7	Ce jeu a été conçu pour qu'un jeu qui se joue d'habitude en groupe puisse être apprécié par une seule personne. De nombreux éléments nouveaux, comme des "combats" de débat avec des paramètres et compétences de RPG et une histoire de science-fiction, ont été ajoutés pour offrir beaucoup de variations et de rebondissements.
+Image/help.01_02.1	Pour pimenter le cœur du jeu, les débats, divers "rôles" sont attribués au joueur et à chaque personnage. Certains donnent des indices, d'autres mentent pour semer la confusion, etc.
+Image/help.01_02.2	Membre\nd'équipage
+Image/help.01_02.3	Humains sans capacité spéciale
+Image/help.01_02.4	Ange\nGardien
+Image/help.01_02.5	Rôle humain\nPeut protéger une personne choisie des attaques Gnosia
+Image/help.01_02.6	Gnosia
+Image/help.01_02.lies	Peut mentir
+Image/help.01_02.7	Ennemi mystérieux qui se fait passer pour humain\nÉlimine un humain par jour
+Image/help.01_02.8	Garde
+Image/help.01_02.9	Rôle humain\nLes deux Gardes peuvent se confirmer mutuellement comme humains
+Image/help.01_02.10	Ingénieur
+Image/help.01_02.11	Rôle humain\nExamine une personne par jour et indique si elle est Humaine ou Gnosia
+Image/help.01_02.12	Adepte de l'AC
+Image/help.01_02.13	Rôle Gnosia\nHumain, mais du côté des Gnosia
+Image/help.01_02.14	Médecin
+Image/help.01_02.15	Rôle humain\nIndique si la personne mise en cryosommeil était Humaine ou Gnosia
+Image/help.01_02.16	Bug
+Image/help.01_02.17	S'il est encore là quand les Humains ou les Gnosia gagnent, l'univers est détruit et le Bug gagne
+Image/help.01_02.18	Les rôles qui peuvent mentir peuvent se faire passer pour Ingénieur ou Médecin et donner de faux rapports.
+Image/help.01_03.1	Chaque personnage, joueur compris, a un niveau d'"[Affinité]" (s'il est apprécié ou non) et de "[Confiance]" (s'il est vu comme ami ou ennemi, humain ou non) envers chacun des autres. Pendant le débat, l'Affinité et la Confiance changent selon les actions de chacun : "Douter" de quelqu'un, "Défendre" quelqu'un ou "Réfuter" un argument fait varier ces niveaux.
+Image/help.01_03.2	Elle a l'air suspecte...
+Image/help.01_03.3	Je ne l'aime pas...
+Image/help.01_03.4	L'Affinité et la Confiance de Setsu et Gina envers SQ diminuent.
+Image/help.01_03.5	Douter
+Image/help.01_03.6	À quel point vous pouvez réduire l'Affinité et la Confiance des autres, et éviter que les vôtres baissent, dépend des paramètres de chaque personnage.\nTenez compte de ces niveaux d'Affinité et de Confiance pour décider contre qui voter.
+Image/help.01_04.1	Répéter les mêmes commentaires et abuser de compétences puissantes pour orienter le débat fait monter la "[Haine]" (l'attention négative des autres).\nSi vous accumulez trop de Haine, ou si vous ne dites rien et qu'elle baisse trop, les autres commenceront à se méfier de vous, ce qui nuit à votre Confiance.
+Image/help.01_04.2	Suspect...
+Image/help.01_04.3	Parle
+Image/help.01_04.4	Ils veulent nous influencer...
+Image/help.01_04.5	Se taire pour cacher un mensonge... ?
+Image/help.01_04.6	Haine monte
+Image/help.01_04.7	Haine baisse
+Image/help.01_04.8	De plus, accumuler trop de Haine et attirer l'attention en jouant un Humain pousse les Gnosia à vous cibler plus vite.
+Image/help.01_04.9	La vitesse à laquelle la Haine s'accumule dépend de votre Discrétion.
+Image/help.01_05.1	Les paramètres les plus importants pour influencer le débat sont le Charisme, la Logique et le Jeu d'acteur.\nL'effet des "attaques" (comme "Douter") et des "récupérations" (comme "Défendre") sur l'Affinité et la Confiance de tous envers une cible dépend de ces paramètres.
+Image/help.01_05.2	Le [Charisme] définit [à quel point les autres vous font confiance et vous suivent] dans vos opinions et commentaires. Comme les attaques de ceux qui vous suivent s'ajoutent à la force de vos propres commentaires, plus vous êtes suivi, plus vos opinions pèsent.
+Image/help.01_05.3	La [Logique] est en gros [la puissance des attaques contre la Confiance] de quelqu'un. Plus elle est élevée, plus la Confiance de la cible est entamée. Bien sûr, défendre quelqu'un restaure alors aussi davantage sa Confiance. Elle augmente en outre le nombre de commentaires passés
+Image/help.01_05.4	que vous pouvez [relire] dans l'[Historique]
+Image/help.01_05.5	(
+Image/help.01_05.6	(tenez
+Image/help.01_05.7	).
+Image/help.01_05.8	Le [Jeu d'acteur] est en gros [la puissance des attaques contre l'Affinité] de quelqu'un. Plus il est élevé, plus l'Affinité de la cible est entamée ; et défendre quelqu'un restaure aussi davantage son Affinité. Il rend aussi les mensonges plus difficiles à repérer, ce qui en fait un paramètre essentiel quand on joue Gnosia et qu'on dépend du mensonge.
+Image/help.01_05.9	Raqio a peu de Charisme, mais beaucoup de Logique et de Jeu d'acteur.\nComme peu de gens suivent Raqio quand iel utilise "Douter", son influence semble faible, mais en réalité cela entame nettement l'Affinité et la Confiance de la cible.
+Image/help.01_06.1	Le [Charme] est en gros une défense pour [éviter que votre Affinité et votre Confiance baissent] quand on vous attaque. Plus votre Charme est élevé, plus vous affaiblissez l'attaque adverse et mieux vous réfutez les doutes à votre égard, tout en augmentant le nombre de personnes qui aident à restaurer votre Affinité et votre Confiance. Il facilite la hausse de l'Affinité, est requis pour la compétence "Collaborons" et peut aussi déclencher plus souvent les événements de personnages.
+Image/help.01_06.2	Vient ensuite la [Discrétion]. Quand votre Haine est trop haute ou trop basse, les autres commencent à vous soupçonner, et la Discrétion aide à [réduire les hausses et les baisses de votre Haine].\nAvec une Discrétion élevée, vous pouvez commenter sans cesse contre la personne à éliminer, ou éviter que vos mensonges soient découverts en vous taisant et en vous faisant moins remarquer. Les personnages à forte Intuition peuvent tout de même s'en apercevoir. Elle réduit aussi le risque d'être ciblé par les Gnosia. C'est peut-être l'un des paramètres les plus importants pour survivre.
+Image/help.01_06.3	SQ a une Discrétion et un Charme élevés.\nMême quand on doute d'elle, les autres la défendent en général vite, et elle esquive facilement les soupçons, si bien qu'il est difficile de convaincre les autres de voter contre elle.
+Image/help.02_01.1	En général,
+Image/help.02_01.2	commente
+Image/help.02_01.3	attend de voir.
+Image/help.02_01.4	Et aussi,
+Image/help.02_01.5	affiche les données
+Image/help.02_01.6	ouvre le Menu
+Image/help.02_01.7	Rapport de l'Ingénieur
+Image/help.02_01.8	Cela montre que
+Image/help.02_01.9	est Humain
+Image/help.02_01.10	est Gnosia
+Image/help.02_01.11	d'après le rapport.
+Image/help.02_01.12	Collaborateur
+Image/help.02_01.13	Ce symbole apparaît quand celui qui parle a un collaborateur.
+Image/help.02_01.14	Rôle
+Image/help.02_01.15	S'affiche quand celui qui parle a revendiqué un rôle.
+Image/help.02_01.16	Cible
+Image/help.02_01.17	Montre de qui ou à qui l'on parle.
+Image/help.02_01.18	Nom de celui qui parle
+Image/help.02_01.19	Nom de la commande
+Image/help.02_01.20	Devient rouge quand le joueur sait que celui qui parle est Gnosia.
+Image/help.02_01.21	Les noms des compétences et commandes s'affichent ici un instant.
+Image/help.01_07.1	L'[Intuition] n'a pas d'effet direct sur les débats.\nElle [augmente simplement vos chances de percer les mensonges] quand des personnages capables de mentir (Gnosia, Adeptes de l'AC, Bugs) font de fausses déclarations. Plus le Jeu d'acteur de celui qui parle est faible, plus vous avez de chances de percer le mensonge.
+Image/help.01_07.2	L'Intuition aide à trouver vite les menteurs, qu'il faut mettre en cryosommeil au plus tôt. C'est donc une arme importante pour les humains, et aussi un bon moyen pour les Adeptes de l'AC de découvrir qui sont les Gnosia afin de les protéger.
+Image/help.01_07.3	Gardez toujours un œil sur les personnages à forte Intuition. Si la plus remarquable d'entre eux, Comet, se met soudain à soupçonner fortement quelqu'un, c'est peut-être qu'elle a remarqué que cette personne ment. Surveillez ce genre de réaction : elle aide à mieux comprendre la situation.
+Image/help.01_07.4	Au fait, un "Mensonge" est une déclaration qui contredit exprès ce que la personne sait être vrai, ou faite sans preuve ni raison réelle.
+Image/help.01_07.5	Douter
+Image/help.01_07.6	Défendre
+Image/help.01_07.lie	Faux
+Image/help.01_07.7	Pour les Gnosia, douter d'un humain ou défendre un allié est un "[Mensonge]".
+Image/help.01_07.8	Défendre un humain ou douter d'un allié ["n'est pas un Mensonge"].
+Image/help.01_07.9	Quand un Adepte de l'AC se fait passer pour Ingénieur, chacun de ses rapports est un "[Mensonge]".
+Image/help.01_08.1	Certaines compétences vous aident dans les débats, pour démasquer des ennemis ou éviter les soupçons, et exigent un niveau minimum dans certains paramètres.
+Image/help.01_08.2	Par exemple, la compétence "Ennemi certain", qui annonce à tous qu'une personne aux déclarations suspectes est un ennemi, exige un certain niveau de Logique ; et "Ne te fais pas avoir", qui rend les mensonges d'une cible suspecte plus faciles à repérer et annule sa Discrétion un moment, exige une forte Intuition. Ces compétences permettent d'influencer le débat d'une façon difficile à obtenir en augmentant seulement les paramètres.
+Image/help.01_08.3	Mais augmenter les paramètres ne suffit pas pour utiliser ces compétences.\nIl faut [les apprendre auprès de personnages qui les maîtrisent, lors de certains événements].
+Image/help.01_08.4	En général, on les obtient lors d'événements marqués d'un "
+Image/help.01_08.5	" sur la carte, pendant le déplacement
+Image/help.01_08.6	libre de la nuit. Ne manquez pas ces événements.\nAttention toutefois : avoir les paramètres requis pour une compétence ne garantit pas que l'événement ait lieu... Parfois, il n'arrive tout simplement pas. Désolé.
+Image/help.01_08.7	Pour le détail des effets des compétences et des paramètres requis, consultez "Commandes" dans le Menu Démarrer.
+Image/help.01_09.1	Quand le débat est terminé et que le vote et le cryosommeil sont réglés, vous pouvez, avant le saut, choisir un lieu où aller et parler à la personne qui s'y trouve.\nPour simplifier, nous appelons ce moment la "Nuit" (et la partie débat, le "Jour").
+Image/help.01_09.2	Choisissez "
+Image/help.01_09.3	" pour aller à cet endroit, où la
+Image/help.01_09.4	personne présente fera un seul commentaire. On devine parfois à ce commentaire si le personnage vous apprécie ou non, ou s'il a compris que vous n'êtes pas humain.
+Image/help.01_09.5	En général, rendre ainsi visite à un personnage [augmente votre Affinité] avec lui.
+Image/help.01_09.6	Deux éléments importants de la nuit sont les [Événements] et le [Niveau sup.], à faire dans votre chambre.
+Image/help.01_09.7	Quand "
+Image/help.01_09.8	" s'affiche sur votre chambre, vous pouvez utiliser l'expérience accumulée
+Image/help.01_09.9	pour [augmenter vos paramètres].
+Image/help.01_09.10	Quand "
+Image/help.01_09.11	" s'affiche sur un lieu de la carte (au lieu du symbole "
+Image/help.01_09.12	"), des événements
+Image/help.01_09.13	se produisent et permettent d'[apprendre de nouvelles compétences] et d'obtenir des informations essentielles pour [avancer dans l'histoire].\nUne fois la nuit terminée, selon votre rôle, vous choisissez qui examiner ou éliminer, puis le débat du lendemain commence.
+Image/help.01_10.1	Pour ceux qui peuvent mentir, il est essentiel de se faire passer pour Ingénieur ou Médecin et de donner exprès des rapports faux ou inventés, afin d'empêcher les autres d'obtenir ou de croire les vraies informations. Mais ces mensonges ne collent pas toujours à la situation, et il devient alors clair que l'auteur du rapport ment. C'est ce qu'on appelle une "[Incohérence logique]", que l'on peut signaler avec la compétence de Logique "[Ennemi certain]".
+Image/help.01_10.2	Cela peut arriver dans de nombreuses situations : certaines sont évidentes, d'autres plus compliquées et demandent du temps et de la réflexion. Il est utile de supposer, par exemple, "Si cette personne est vraiment Ingénieur, alors..." puis de vérifier si les commentaires concordent avec ce que vous savez être vrai.
+Image/help.01_10.3	Voici quelques types courants d'incohérence logique.
+Image/help.01_10.4	La personne qu'un Ingénieur a désignée comme Gnosia a disparu
+Image/help.01_10.5	Celle-ci est simple : l'Ingénieur ment clairement. [Un Gnosia n'élimine jamais un autre Gnosia].
+Image/help.01_10.6	Sans Adeptes de l'AC ni Bugs (Gnosia seulement), un Ingénieur (Médecin) rival a disparu
+Image/help.01_10.7	Quand seuls les Gnosia peuvent mentir et que deux personnes ont dit être Ingénieur (Médecin), l'Ingénieur (Médecin) restant ne peut être que Gnosia. En effet, [la disparition elle-même prouve que la personne était humaine].
+Image/help.01_11.1	Plus aucun vrai Ingénieur (Médecin)
+Image/help.01_11.2	Cela arrive quand les Ingénieurs (Médecins) se sont déclarés le premier jour et que vous savez que l'un d'eux est forcément le vrai.\nLes vrais Ingénieurs et Médecins n'ont besoin d'aucune manigance pour que leur histoire tienne, et leurs rapports ne contredisent jamais les faits. Si le rapport d'un Médecin contredit ceux de tous les Ingénieurs, ce Médecin est clairement un faux. Vérifiez toujours s'[il existe au moins un Médecin (Ingénieur) dont les rapports concordent avec ceux de l'Ingénieur (Médecin) en question].
+Image/help.01_11.3	Conditions de fin non remplies
+Image/help.01_11.4	Ce type d'erreur arrive souvent aux menteurs les plus lâches.\nLes rapports du Médecin indiquent combien de Gnosia il reste. Si un Médecin rapporte sans cesse que les personnes examinées étaient humaines, alors [il devrait déjà y avoir bien assez de Gnosia pour prendre le vaisseau ; pourquoi ne l'ont-ils pas fait ? Et pourquoi la partie n'est-elle pas finie... ?] Cela peut être une autre Incohérence logique évidente.\nParfois, un Ingénieur qui craint d'être ciblé par les Gnosia déclare "humains" tous ceux qu'il examine et finit par avoir déclaré humains tous ceux qui restent, alors que la partie n'est pas finie... Cela aussi peut semer la confusion.\nIl faut parfois du courage pour bien mentir.
+Image/help.01_12.1	Deux personnes ont disparu (Bug éliminé), mais celle que vous avez éliminée n'a pas été examinée
+Image/help.01_12.2	[Seuls les vrais Ingénieurs éliminent les Bugs]. Un tel "K.-O. en un coup", eh bien, c'est simplement pas de chance.\nDans ce jeu, il est impossible de mentir sur "qui vous avez examiné". Si vous comptiez désigner quelqu'un comme Gnosia mais que cette personne a été éliminée, le rapport devient "Humain". C'est toutefois un mensonge très facile à repérer.
+Image/help.01_12.3	Pas assez d'Adeptes de l'AC/Bugs
+Image/help.01_12.4	Cela arrive souvent quand il y a beaucoup de faux Ingénieurs/Médecins.\nEn supposant qu'un certain Ingénieur soit le vrai, [les seuls Ingénieurs/Médecins qu'il pourrait examiner et déclarer "Humain" seraient le vrai Médecin ou un Adepte de l'AC]. Et [s'il s'agissait d'un Bug, il serait éliminé cette nuit-là].
+Image/help.01_12.5	Donc, si un Ingénieur déclare "Humain" deux Ingénieurs/Médecins ou plus, ou si plus tard une personne non examinée est attaquée et éliminée, cela prouve que c'est un faux.\nC'est pourquoi examiner un Ingénieur rival et le déclarer faussement "Humain" est un mensonge inutile et très facile à repérer. À l'inverse, un Ingénieur qui déclare "Humain" un Ingénieur rival paraît plutôt digne de confiance...
+Image/help.01_12.6	Ces situations, ou leur combinaison, créent des Incohérences logiques pour les faux Ingénieurs et Médecins.\nElles permettent aussi de deviner plus facilement qui est qui, par simple élimination. Essayez de signaler ce genre de chose avant les autres personnages. C'est plutôt amusant.
+Image/help.02_02.1	Affichez un résumé de la situation actuelle en appuyant sur
+Image/help.02_02.2	sur l'écran normal.
+Image/help.02_02.3	Rôles connus
+Image/help.02_02.4	S'affichent quand le rôle est connu
+Image/help.02_02.5	Votre rôle
+Image/help.02_02.6	Rôles revendiqués
+Image/help.02_02.7	S'affichent quand un rôle a été revendiqué
+Image/help.02_02.8	= Ingénieur
+Image/help.02_02.9	= Médecin
+Image/help.02_02.10	= Garde
+Image/help.02_02.11	Survivants
+Image/help.02_02.12	Bleu : en cryosommeil\nRouge : éliminés par les Gnosia\nGris : disparus
+Image/help.02_03.1	Affichez les réglages initiaux en appuyant sur
+Image/help.02_03.2	sur l'écran normal.
+Image/help.02_03.3	Savoir combien il y a de Gnosia et combien de menteurs en plus d'eux aide beaucoup à comprendre votre situation en détail.
+Image/help.02_04.1	Appuyez sur
+Image/help.02_04.2	sur l'écran normal pour ouvrir les Données de référence et consulter diverses infos.
+Image/help.02_04.3	Rôles revendiqués
+Image/help.02_04.4	Vos rôles
+Image/help.02_04.5	Choisissez un élément pour afficher encore plus d'infos.
+Image/help.02_04.6	Amis
+Image/help.02_04.7	Montre qui apprécie le plus le protagoniste.
+Image/help.02_04.8	Si vous avez un Collaborateur, c'est lui qui s'affiche à la place.
+Image/help.02_04.9	Détracteurs
+Image/help.02_04.10	Montre qui s'oppose le plus au protagoniste.
+Image/help.02_05.1	Ici, vous pouvez relire les commentaires déjà faits.
+Image/help.02_05.2	Avec les touches gauche et droite
+Image/help.02_05.3	vous passez des données d'un jour à l'autre.
+Image/help.02_05.4	Ouvrez le Journal une fois la décision finale prise pour voir :
+Image/help.02_05.5	les vrais rôles, les mensonges racontés,
+Image/help.02_05.6	ce que chacun a fait la nuit (pendant le saut) et d'autres infos jusque-là cachées.
+Image/help.02_05.7	Les actions qui ne font que confirmer les propos des personnages ne ressortent pas vraiment et ne sont donc pas enregistrées.
+Image/help.02_06.1	Ici, vous pouvez consulter diverses données sur chaque personnage.
+Image/help.02_06.2	L'un des grands objectifs de l'histoire est de débloquer tous les éléments spéciaux.
+Image/help.02_06.3	Éléments spéciaux verrouillés
+Image/help.02_06.4	= Le joueur est Humain
+Image/help.02_06.5	= Le joueur est Gnosia
+Image/help.02_06.6	Les événements portant ces marques ne se débloquent qu'en jouant le type indiqué.
+Image/help.02_06.7	Descendez pour voir le graphique des paramètres de chaque personnage.
+Image/help.02_06.8	Éléments spéciaux débloqués
+Image/help.02_06.9	Débloquez-les en voyant des événements spéciaux.
+Image/help.02_07.1	Ici, vous pouvez consulter tous les rapports des Ingénieurs.
+Image/help.02_07.2	Avec
+Image/help.02_07.3	vous basculez vers les rapports des Médecins ; comparez les deux pour trouver qui pourrait mentir.
+Image/help.02_07.4	Lecture
+Image/help.02_07.5	Chaque Ingénieur reçoit un numéro provisoire.\nLa couleur du numéro indique ce que dit le rapport.
+Image/help.02_07.6	Ici, par exemple, Shigemichi a été déclaré Humain par Chipie et Gnosia par Jonas, et il est en cryosommeil.
+Image/help.newer	Plus récents
+Image/help.older	Plus anciens
+Image/help.02_08.1	Ici, vous pouvez consulter tous les rapports des Médecins.
+Image/help.02_08.2	Avec
+Image/help.02_08.3	vous basculez vers les rapports des Ingénieurs.
+Image/help.02_08.4	Lecture
+Image/help.02_08.5	Ici, par exemple, Stella a été déclarée Humaine par Sha-Ming et Gnosia par Remnan.
+Image/help.02_08.6	Chaque Médecin reçoit un numéro provisoire.\nLa couleur du numéro indique ce que dit le rapport.
+Image/help.02_08.7	Les rapports des Médecins indiquent combien de Gnosia il reste. Vérifiez s'ils concordent avec ceux des Ingénieurs ou s'il y a un écart avec la situation actuelle.
+Image/help.02_09.1	Ouvrez le Menu Démarrer en appuyant sur
+Image/help.02_09.2	sur l'écran normal.
+Image/help.02_09.3	Le menu ne s'ouvre pas à certains moments (pendant les événements, etc.).
+Image/help.02_09.4	Retour à la config.
+Image/help.02_09.5	Efface la boucle en cours et revient à l'écran de configuration.
+Image/help.02_09.6	Couleur préférée
+Image/help.02_09.7	Niveau actuel
+Image/help.02_09.8	EXP actuelle
+Image/help.02_09.9	Le
+Image/help.02_09.10	s'affiche quand
+Image/help.02_09.11	vous avez assez d'EXP pour monter de niveau.
+Image/help.02_09.12	Nom/Sexe/Boucle
+Image/help.02_09.13	Paramètres
+Image/help.02_09.14	Retour au titre
+Image/help.02_09.15	Revient à l'écran titre.
+Image/help.02_09.16	Commandes
+Image/help.02_09.17	Détail des compétences que vous avez apprises en plus de "Douter" et "Défendre".
+Image/help.02_09.18	Options
+Image/help.02_09.19	Règle le volume et la vitesse du texte.
+Image/help.02_09.20	Comment jouer
+Image/help.02_09.21	C'est ce que vous regardez en ce moment.
+Image/help.02_10.1	Une fois décidé, par le débat, qui part en cryosommeil, la partie "nuit" commence : vous pouvez y rendre visite aux autres personnages.\nBeaucoup d'événements qui débloquent des éléments spéciaux ont lieu ici.
+Image/help.02_10.2	Nom du lieu
+Image/help.02_10.3	Personnage
+Image/help.02_10.4	Montre quel personnage se trouve ici.
+Image/help.02_10.5	Détails du lieu
+Image/help.02_10.6	Rendez visite aux autres pour savoir ce qu'ils pensent de vous et gagner un peu d'Affinité.
+Image/help.02_10.7	Cible
+Image/help.02_10.8	Montre qui est présent. D'autres personnages apparaissent parfois aussi.
+Image/help.02_10.9	Le
+Image/help.02_10.10	s'affiche quand
+Image/help.02_10.11	un événement spécial est en cours.
+Image/help.02_10.12	Curseur
+Image/help.02_10.13	Votre chambre
+Image/help.02_10.14	Ici, vous pouvez dormir sans voir personne, monter de niveau et consulter diverses commandes.
+Image/help.02_10.15	Le
+Image/help.02_10.16	s'affiche quand vous pouvez monter de niveau.
+Image/help.02_11.1	Quand le camp Humain, le camp Gnosia ou le Bug remplit ses conditions de victoire, ou quand le protagoniste est mis en cryosommeil ou éliminé, un écran affiche la situation actuelle et le vrai rôle de chaque personnage.
+Image/help.02_11.2	Jour, Victoire/Défaite
+Image/help.02_11.3	Indique si vous avez gagné ou perdu et combien de jours vous avez survécu.
+Image/help.02_11.4	Couleur du cadre
+Image/help.02_11.5	= Victoire humaine
+Image/help.02_11.6	= Victoire Gnosia
+Image/help.02_11.7	= Victoire du Bug
+Image/help.02_11.8	= Joueur en cryosommeil
+Image/help.02_11.9	= Joueur éliminé
+Image/help.02_11.10	Icône du rôle
+Image/help.02_11.11	L'icône en bas à gauche de l'image du personnage montre son vrai rôle.
+Image/help.02_11.12	Couleur du personnage
+Image/help.02_11.13	Bleu = En cryosommeil\nRouge = Éliminé par les Gnosia\nGris = Disparu
+Image/help.02_11.14	EXP obtenue
+Image/help.02_11.15	Quand vous pouvez monter de niveau, [Lv. UP!] s'affiche.
+Image/help.02_12.1	Ici, vous réglez la prochaine boucle et décidez du nombre de personnages, du nombre de Gnosia et des rôles présents, ainsi que du rôle que vous jouerez.
+Image/help.02_12.2	Chercher événements
+Image/help.02_12.3	Consultez ici les réglages et conditions qui rendent les événements importants plus probables.
+Image/help.02_12.4	Curseur
+Image/help.02_12.5	Explication du rôle
+Image/help.02_12.6	Réglage des rôles
+Image/help.02_12.7	Une explication simple du rôle sous le curseur s'affiche ici.
+Image/help.02_12.8	Décidez du nombre de membres d'équipage et de Gnosia, et de la présence ou non des autres rôles.
+Image/help.02_12.9	Certains rôles ne peuvent pas être ajoutés selon le nombre de personnes.
+Image/help.02_12.10	Votre rôle
+Image/help.02_12.11	Choisissez votre rôle avec gauche et droite.\nChoisissez "Aléatoire" pour que votre rôle de la prochaine boucle soit tiré au sort.
+Image/help.03_01.1	Gnosia peut se jouer en une seule manche, comme un jeu classique de type "Loup-Garou", ou comme une aventure, en suivant l'histoire jusqu'à la fin.
+Image/help.03_01.2	Pour vivre toute l'histoire, il vous faudra connaître les personnages à fond. Plus précisément, il faudra [remplir les "Notes" dans les "Fiches de l'équipage"].
+Image/help.03_01.3	Voici les Notes.
+Image/help.03_01.4	Appuyez sur
+Image/help.03_01.5	pour ouvrir les données de référence
+Image/help.03_01.6	et voir les notes avec les infos sur chaque membre d'équipage.
+Image/help.03_01.7	Pour débloquer les Notes, vous devez réussir certains [événements].
+Image/help.03_01.8	Pour les réussir, regardez jusqu'au bout les événements de la nuit marqués d'un
+Image/help.03_01.9	sur la carte. Les uns
+Image/help.03_01.10	sont simples, d'autres exigent de remplir certaines conditions pendant le débat (ex. : survivre jusqu'à la fin avec une certaine personne, mettre une certaine personne en cryosommeil, etc.).
+Image/help.03_02.1	Pour qu'un événement précis ait lieu, plusieurs conditions doivent être réunies : certains personnages dans certains rôles et avec un certain niveau d'affection entre eux, le protagoniste dans un certain rôle, etc.\nSi vous voulez avancer dans l'histoire mais que les événements n'arrivent pas, c'est peut-être que certaines de ces conditions ne sont pas encore remplies.
+Image/help.03_02.2	Dans ce cas, appuyez sur le bouton "[Chercher événements]" de l'écran de configuration.
+Image/help.03_02.3	Voici le bouton "Chercher événements".
+Image/help.03_02.4	Appuyez sur
+Image/help.03_02.5	pour ajuster automatiquement les
+Image/help.03_02.6	conditions et favoriser l'apparition d'un événement. Laissez les conditions remplies telles quelles et continuez la partie.
+Image/help.03_02.7	Certains événements n'arrivent jamais si le protagoniste et les autres personnages concernés n'ont pas les rôles requis. Utilisez "Chercher événements" pour essayer des rôles que vous avez peu joués et avoir une chance de voir des événements encore inconnus.
+Image/help.03_03.1	Si vous voulez voir les événements d'un personnage précis, défendez-le pendant les débats et rendez-lui visite la nuit pour [augmenter votre Affinité avec lui].\nLa plupart des événements ont lieu quand votre Affinité avec les personnages concernés est élevée.
+Image/help.03_03.2	Certains événements se déclenchent en utilisant "Défendre" sur un personnage précis. Si vous avez peu utilisé "Défendre", essayez-le sur quelqu'un pour voir si cela déclenche un événement que vous n'avez pas encore vu.
+Image/help.03_03.3	Il y a aussi des événements qui n'arrivent pas ou n'avancent pas tant que vous ne collaborez pas avec un certain personnage. Par exemple, même si vous remarquez que votre collaborateur ment, en continuant à coopérer et en survivant avec lui jusqu'à la fin, vous verrez peut-être une fin spéciale ou débloquerez des éléments spéciaux. Si vous vous sentez bloqué à un moment de l'histoire, essayez "Collaborons" avec un autre personnage.
+Image/help.collab_1	Colla-
+Image/help.collab_2	borons !
+Image/help.03_03.4	Au fait, les paramètres des personnages augmentent à chaque élément spécial débloqué, et montent aussi peu à peu au fil des boucles. Essayez de nouer des liens, de collaborer et de survivre avec différents personnages.
+Image/help.q	Q :
+Image/help.a	R :
+Image/help.04_01.1	On me dit que je suis "pénible"...
+Image/help.04_01.2	Chaque fois que vous commentez, le niveau d'[attention ("Haine")] des autres envers vous augmente. "Douter" et "Défendre" en particulier, ainsi que l'usage de compétences, attirent l'attention sur vous. De plus, quand on doute de vous, nier les accusations et répliquer vite et sans réfléchir passe pour un comportement "peu naturel", et vous vous faites encore plus remarquer.
+Image/help.04_01.3	Après avoir attiré l'attention du groupe, essayez de [ne plus commenter pendant un moment] et attendez que tout le monde se calme un peu.
+Image/help.04_01.4	Vous pouvez [augmenter votre "Discrétion"] pour moins vous faire remarquer quand vous commentez ou utilisez des compétences.
+Image/help.04_02.1	Je finis toujours en cryosommeil.
+Image/help.04_02.2	La plupart votent contre ceux qu'ils trouvent "peu fiables", "antipathiques", "louches", et contre ceux qui "se font remarquer".
+Image/help.04_02.3	[Plus votre "Charme" est élevé], plus vous paraissez sympathique aux autres et moins on vous juge peu fiable quand on doute de vous, ce qui aide énormément. Vous pouvez aussi [augmenter votre "Discrétion"] pour moins vous faire remarquer quand vous commentez ou utilisez des compétences.
+Image/help.04_02.4	Quand vous jouez Gnosia ou un autre personnage capable de mentir, si votre "Jeu d'acteur" est faible, vos mensonges seront vite percés et vous risquerez davantage le cryosommeil. Soyez prudent.
+Image/help.04_03.1	Les Gnosia m'ont encore eu...
+Image/help.04_03.2	D'abord, ceux qui attirent beaucoup l'attention (la Haine) deviennent des cibles faciles. Essayez d'[augmenter votre "Discrétion"] pour moins vous faire remarquer et éviter d'être ciblé.
+Image/help.04_03.3	De plus, ceux qui disent être Ingénieurs, etc., et ceux qui ne sont clairement pas Gnosia (les Gardes) sont eux aussi vite ciblés.
+Image/help.04_03.4	Et si les Gnosia ont un esprit très logique, ils accorderont beaucoup d'importance au rôle et au risque de gêne en choisissant leur cible ; à l'inverse, les Gnosia plus émotifs s'en prennent en général directement à ceux qu'ils n'aiment pas. Les attaquer fera sans doute de vous une cible facile.
+Image/help.04_03.5	Si vous pensez être ciblé une certaine nuit, utilisez la compétence de Discrétion "[Bavarder]" pour distraire les Gnosia et réduire le risque d'être choisi.
+Image/help.04_04.1	Pourquoi tout le monde me déteste ?
+Image/help.04_04.2	La réponse, c'est le "[Charme]".
+Image/help.04_04.3	Le "Charme" est un paramètre défensif qui vous rend plus sympathique tout en réduisant la méfiance et l'attention négative. En gros, c'est comme dans la vraie vie.
+Image/help.04_04.4	Si vous voulez savoir ce que c'est de vivre en étant vraiment antipathique, jouez avec le Charme au niveau le plus bas.\nL'expérience pourrait être révélatrice.
+Image/help.04_05.1	Personne ne m'écoute.
+Image/help.04_05.2	Convaincre les gens de vous écouter demande du doigté.
+Image/help.04_05.3	Avec un "[Charisme]" élevé, davantage de gens approuvent et soutiennent vos opinions ; une "[Logique]" élevée aide à rallier les autres quand vous jugez quelqu'un peu fiable ; et un "[Jeu d'acteur]" élevé vous permet de toucher les émotions des gens.
+Image/help.04_05.4	Savoir [sentir l'ambiance] est aussi essentiel. Défendre quelqu'un que tout le monde voit comme un ennemi ne sert à rien, et si quelqu'un vous tient tête activement, il sautera sans doute sur le moindre de vos commentaires.
+Image/help.04_05.5	C'est frustrant de savoir que quelqu'un est un ennemi et de perdre quand même parce que personne ne vous suit. Mais il faut accepter que cela arrive parfois, passer à autre chose et penser à la prochaine bataille.
+Image/help.04_06.1	L'Ingénieur (Médecin) doit-il se déclarer ?
+Image/help.04_06.2	Quand un faux se déclare, si vous ne vous révélez pas et ne revendiquez pas votre rôle au même moment, on supposera que vous n'avez pas ce rôle, et vous ne pourrez plus le revendiquer ensuite.\nDans ces moments-là, [le mieux est donc d'affirmer votre rôle].
+Image/help.04_06.3	Si vous ne voulez absolument pas vous déclarer, eh bien, personne ne vous y forcera, mais...\nVous risquez des ennuis.
+Image/help.04_07.1	Qu'est-ce que "Humain certain" ?
+Image/help.04_07.2	Les compétences de Logique "Ennemi certain" et "Humain certain" ne s'utilisent que [lorsqu'il est établi que quelqu'un ment (Adepte de l'AC, Gnosia ou Bug) ou est humain (ni Gnosia ni Bug)].
+Image/help.04_07.3	Une personne marquée "Ennemi certain" ne peut plus commenter et concentre les votes. À l'inverse, on ne doute plus d'une personne marquée "Humain certain".
+Image/help.04_07.4	Si vous ne signalez pas ce fait, les personnages peu portés sur la logique ne remarqueront pas que la personne est ennemie ou humaine.
+Image/help.04_07.5	Les plus logiques tiennent compte de nombreux facteurs et lancent parfois un "Ennemi certain" à des moments qui semblent étranges au joueur ; mais en suivant de près les rapports des Ingénieurs et des Médecins et en lisant bien le journal, vous comprendrez leur raisonnement... probablement. Il faut parfois un moment pour saisir tout ce que contient le journal.
+Image/help.04_08.1	Euh, deux personnes ont disparu en même temps...
+Image/help.04_08.2	Cela signifie que l'une a été victime d'une attaque Gnosia et que l'autre était [un Bug] éliminé par l'Ingénieur. Une double disparition de ce genre est l'occasion idéale de découvrir qui est le vrai Ingénieur : l'"Ingénieur" qui n'a pas examiné la personne disparue n'est pas le vrai. Un faux Ingénieur doit décider "[qui examiner]" la nuit précédente, et cela reste enregistré : il [ne peut donc pas mentir] là-dessus.
+Image/help.04_08.3	En dehors des disparitions simultanées, il y a d'autres [occasions de découvrir qui est un Bug]. Par exemple, si les réglages ne prévoient pas d'Ange Gardien et qu'une attaque échoue, c'est que les Gnosia ont découvert que leur cible était un Bug. Et si l'Ange Gardien a protégé quelqu'un qui disparaît quand même, c'est que cette personne a été examinée par l'Ingénieur et était un Bug.
+Image/help.04_08.4	Les rôles ainsi découverts apparaissent dans "Statut actuel", accessible avec
+Image/help.04_09.1	Je veux gagner plein de niveaux !
+Image/help.04_09.2	À la fin d'une boucle, [l'EXP gagnée dépend de sa difficulté].
+Image/help.04_09.3	Rendre la boucle plus difficile, par exemple avec six Gnosia et sans Ingénieurs ni Anges Gardiens, et gagner en tant qu'humain, ou gagner en étant le seul Gnosia contre 14 humains, etc., rapporte un paquet d'EXP !
+Image/help.04_09.4	Enfin, ce sera plutôt difficile, mais bon...
+Image/help.04_09.5	Vous gagnez aussi un bonus d'EXP en réussissant des événements.\nVous gagnez en outre de l'EXP en survivant avec un collaborateur, en repoussant une attaque Gnosia en tant qu'Ange Gardien ou, si votre personnage peut mentir, en vous faisant passer pour Ingénieur ou Médecin, etc. En gros, si quelque chose semble rendre la survie plus difficile, ou si vous provoquez ce qui n'arriverait pas normalement, vous êtes en général récompensé en EXP.
+Image/help.04_10.1	Je veux redistribuer mes paramètres...
+Image/help.04_10.2	Essayez un rôle que vous ne prendriez pas d'habitude, et il se passera peut-être quelque chose de sympa.
+Image/help.04_10.3	Ah, et régler le nombre de personnages sur 15 peut aider aussi.
+Image/help.04_11.1	Donc tout est plus ou moins aléatoire, non ?
+Image/help.04_11.2	Les personnages [agissent selon leur personnalité].\nSi une personne gentille devient Gnosia, elle fera sans doute son possible pour protéger et défendre ses amis ; un Gnosia plus égoïste, lui, sacrifiera plus volontiers ses amis selon la situation. Les Gnosia plus logiques pensent par exemple à éviter ceux qu'un Ange Gardien protège sans doute, tout en sachant qu'ils doivent se débarrasser du vrai Ingénieur, etc. Les Gnosia plus émotifs, eux, continuent de viser ceux qu'ils n'aiment tout simplement pas.
+Image/help.04_11.3	Au fil du jeu, si vous [cernez la personnalité et les habitudes de chaque personnage], vous lirez mieux la situation et dépendrez moins de la chance pour vous en sortir.
+Image/help.04_11.4	Cela dit, si vous tombez sur une situation du genre "J'ai commencé en Gnosia et mes camarades étaient Shigemichi et Comet", eh bien... c'est juste pas de chance. Si vous y tenez vraiment, vous pouvez relancer la boucle avec les réglages initiaux, alors allez-y...
+Image/help.04_12.1	OK, et c'est quoi exactement, un "mensonge" ? Sois honnête...
+Image/help.04_12.2	Dans ce monde, seuls les Gnosia, les Adeptes de l'AC et les Bugs mentent.\nEt si votre "Intuition" est assez élevée, vous percerez parfois ces mensonges.
+Image/help.04_12.3	Alors, quelques exemples concrets de mensonges...
+Image/help.04_12.4	Les [Gnosia] savent "qui est Gnosia". Donc, [un Gnosia qui affirme qu'un autre Gnosia est humain, ou qu'un non-Gnosia est Gnosia, ment].
+Image/help.04_12.5	Les [Adeptes de l'AC et les Bugs] ne savent pas "qui est Gnosia". Donc, un faux Ingénieur ou Médecin qui affirme "Cette personne est Gnosia" ou "Cette personne est humaine", autrement dit [qui donne des rapports faux et inventés, ment].
+Image/help.04_12.6	Quand vous n'êtes ni Ingénieur ni Médecin, [dire que vous l'êtes est un mensonge].\nDouter de quelqu'un que vous ne trouvez pas suspect, ou défendre quelqu'un que vous trouvez suspect, c'est techniquement mentir aussi, mais ces mensonges ne comptent pas dans ce jeu.
+Image/help.05_01.1	Que faire pour avancer dans l'histoire ?
+Image/help.05_01.2	Des [événements] spéciaux ont lieu de temps en temps au cours du jeu.\nL'histoire avance à mesure que vous réussissez ces événements et [débloquez les "éléments spéciaux"] des personnages qui y apparaissent.
+Image/help.05_01.3	Les éléments spéciaux débloqués se consultent dans les "Fiches de l'équipage", dans les "Données de référence".
+Image/help.05_02.1	Les événements n'ont pas l'air de se déclencher...
+Image/help.05_02.2	Après avoir un peu avancé dans l'histoire, vous pourrez utiliser la fonction "Chercher événements" au début d'une boucle.
+Image/help.05_02.3	"[Chercher événements]" règle automatiquement des conditions comme le nombre de personnes et les rôles pour rendre les événements plus probables. Appuyez plusieurs fois sur "Chercher événements" et lancez la boucle quand les conditions vous plaisent.
+Image/help.05_02.4	Cela dit... quand un événement a lieu et que [les éléments spéciaux d'un personnage sont débloqués, ses paramètres augmentent nettement], si bien qu'il peut devenir plus difficile de gagner.
+Image/help.05_02.5	Les événements finissent par arriver même sans "Chercher événements".\nIl est plus simple et plus amusant de jouer simplement avec les personnages et les rôles que vous aimez... probablement. Bref, amusez-vous bien !
+Image/help.05_03.1	Ouais... ces événements n'arrivent toujours pas...
+Image/help.05_03.2	[Défendre quelqu'un, ou lui rendre visite la nuit et se lier d'amitié avec lui,] rend aussi les événements plus probables.
+Image/help.05_03.3	De même, [collaborer] ou nouer une bonne relation avec un personnage, puis survivre avec lui jusqu'à la fin, peut faire arriver quelque chose avec cette personne.
+Image/help.05_03.4	Vous verrez parfois une marque d'équipage ou de Gnosia sur des éléments spéciaux encore verrouillés dans les "Fiches de l'équipage".\nCes marques désignent des éléments spéciaux qui ne se débloquent que si vous jouez un humain ou un Gnosia.
+Image/help.05_04.1	Je ne sais plus du tout quoi faire...
+Image/help.05_04.2	Quand ça arrive, essayez simplement plein de choses différentes.
+Image/help.05_04.3	Tout finira par se mettre en place et repartir. N'abandonnez pas !
+Image/help.05_04.4	Oui, ça fait un peu idéaliste... Mais sérieusement : vous finirez par comprendre ce qu'il faut faire !
+Image/help.05_05.1	Je veux effacer tous mes souvenirs et tout recommencer.
+Image/help.05_05.2	Vous voulez donc revivre toute cette merveille... Héhé, compris !
+Image/help.05_05.3	On ne peut pas vraiment effacer tous vos souvenirs, mais vous pouvez supprimer votre sauvegarde, et toutes vos données de fin de partie disparaissent avec.\nSi vous voulez vraiment tout recommencer, allez à l'écran de chargement du titre et [supprimez toutes vos sauvegardes].
+Image/help.05_06.1	Je veux faire une pause, où est-ce que je sauvegarde ?
+Image/help.05_06.2	L'indication "Save" ne s'affiche qu'un instant et se rate facilement, mais Gnosia a une [sauvegarde automatique] !
+Image/help.05_06.3	Le jeu sauvegarde tout seul quand un jour commence, quand un débat, un vote ou la décision de cryosommeil se termine, et quand une boucle se termine.
+Image/help.05_07.1	Je veux relire les commentaires...
+Image/help.05_07.2	Ah, vous parlez de l'[historique] ! Oui, on en a un !
+Image/help.05_07.3	Pendant un débat ou un événement, maintenez la [touche d'historique]
+Image/help.05_07.4	) pour relire les commentaires passés.
+Image/help.05_07.5	Pendant un débat ou un événement, maintenez le [stick L] (tenez
+Image/help.05_07.6	pour relire les commentaires passés.
+Image/help.05_07.7	Mais jusqu'où vous pouvez remonter [dépend de la Logique du protagoniste]. Avec une Logique de 1, une seule ligne de l'historique s'affiche !\nEh oui : la Logique est directement liée à votre mémoire.
+Image/help.05_08.1	Configuration du clavier
+Image/help.05_08.2	Configuration de la manette
+Image/help.key_menu	Menu
+Image/help.key_backlog	Historique
+Image/help.key_data	Données
+Image/help.key_decision	Choisir/Juste voir
+Image/help.05_08.3	Choisir\nJuste voir
+Image/help.key_speak	Parler
+Image/help.key_back	Retour
+Image/help.05_08.4	Statut\nactuel
+Image/help.05_08.5	Réglages\nactuels
+Image/help.key_select	Sélection
+Image/help.05_08.6	Page précédente
+Image/help.05_08.7	Page suivante

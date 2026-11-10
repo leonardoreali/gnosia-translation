@@ -9320,6 +9320,7 @@ Code/weren't	não eram
 Image/interface.label_name	NOME
 Image/interface.label_role	PAPEL
 Image/aclist.usage	Uso
+Image/interface.label_target	ALVO
 Image/help.01_01.1	Aqui explicamos o fluxo básico do jogo.
 Image/help.01_01.2	Durante o dia, discutam quem será colocado em "sono criogênico".
 Image/help.01_01.3	Após a discussão, toda a tripulação vota em quem vai para o sono criogênico.
@@ -9580,6 +9581,8 @@ Image/help.03_02.7	Alguns eventos nunca acontecem se o protagonista e os outros 
 Image/help.03_03.1	Se quiser ver os eventos de um personagem específico, defenda-o nos debates e visite-o à noite para [aumentar sua Simpatia com ele].\nA maioria dos eventos acontece quando sua Simpatia com os personagens envolvidos é alta.
 Image/help.03_03.2	Alguns eventos são ativados ao usar "Defender" em certo personagem. Se você não tem usado muito "Defender", experimente usar em alguém para ver se isso ativa um evento que você ainda não viu.
 Image/help.03_03.3	Há também eventos que não acontecem nem avançam enquanto você não colaborar com certo personagem. Por exemplo, mesmo percebendo que seu colaborador está mentindo, se você continuar cooperando e sobreviver com ele até o fim, pode ver um final especial ou desbloquear itens especiais. Se sentir que travou em algum ponto da história, tente usar "Vamos Colaborar" com outro personagem.
+Image/help.collab_1	Vamos
+Image/help.collab_2	Colaborar
 Image/help.03_03.4	Aliás, os atributos dos personagens aumentam a cada item especial desbloqueado, e também sobem aos poucos conforme você repete os loops. Procure cultivar relações, colaborar e sobreviver junto com personagens diferentes.
 Image/help.q	P:
 Image/help.a	R:

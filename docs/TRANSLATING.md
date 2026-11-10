@@ -95,9 +95,9 @@ GnosiaTranslationPatcher.exe --dump-images _work\dump                      every
 GnosiaTranslationPatcher.exe --preview-images _work\preview --lang <lang>  the translated images, game untouched
 ```
 
-**How to Play pages** (`Image/help.<page>.<n>`, 358 lines): the repository does not contain their English text.
+**How to Play pages** (`Image/help.<page>.<n>`, 360 lines): the repository does not contain their English text.
 Read it from the dumped images (`help_en/help_cont<page>.png`, white text: open them over a dark background) or
-translate from `translations/pt-BR.tsv`. In these lines `\n` starts a new paragraph, the patcher wraps the text
+translate from another language's file (`translations/pt-BR.tsv` is the reviewed one). In these lines `\n` starts a new paragraph, the patcher wraps the text
 by itself, `[words]` are drawn in the block's highlight color and `<words>` in its second one. Some lines are
 pieces of a sentence around a key icon that cannot move ("Press" + icon + "to open..."): keep them short.
 Check the result with `--preview-images` and shorten what gets too small.

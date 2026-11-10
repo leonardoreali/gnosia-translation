@@ -9297,3 +9297,364 @@ Code/weren't	waren nicht
 Image/interface.label_name	NAME
 Image/interface.label_role	ROLLE
 Image/aclist.usage	Einsatz
+Image/interface.label_target	ZIEL
+Image/help.01_01.1	Hier erklären wir den grundlegenden Spielablauf.
+Image/help.01_01.2	Am Tag wird diskutiert, wer in den "Kälteschlaf" geschickt wird.
+Image/help.01_01.3	Nach der Diskussion stimmt die ganze Crew ab, wer in den Kälteschlaf kommt.
+Image/help.01_01.4	In der Nacht wählen die Gnosia, wen sie eliminieren.
+Image/help.01_01.5	Durch dieses System scheiden jeden Tag zwei Mitglieder aus, und [sobald alle Gnosia eliminiert sind, gewinnen die Menschen]. Schaffst du es dagegen nicht, die Gnosia zu eliminieren, und <stellen sie die Hälfte oder mehr der verbliebenen Mitglieder, gewinnt die Gnosia-Seite>.
+Image/help.01_01.6	Diese Regeln beruhen auf denen eines klassischen Gruppenspiels wie "Werwolf" oder "Mafia". Stell es dir als "Werwolf" mit ausgetauschten Begriffen vor: Aus dem "Werwolf" wird "Gnosia", aus dem "Hängen" wird "Kälteschlaf" usw.
+Image/help.01_01.7	Dieses Spiel wurde so gestaltet, dass ein Spiel, das man sonst in einer großen Gruppe spielt, auch allein Spaß macht. Viele neue Elemente, etwa Debatten-"Kämpfe" mit RPG-Werten und Fähigkeiten sowie eine Science-Fiction-Geschichte, sorgen für zahlreiche Variationen und Wendungen.
+Image/help.01_02.1	Um die Diskussionen, den Kern des Spiels, lebendiger zu machen, erhalten der Spieler und jede Figur verschiedene "Rollen". Manche geben Hinweise, andere lügen, um Verwirrung zu stiften, usw.
+Image/help.01_02.2	Crew-\nmitglied
+Image/help.01_02.3	Menschen ohne besondere Fähigkeiten
+Image/help.01_02.4	Schutz-\nengel
+Image/help.01_02.5	Menschenrolle\nKann eine gewählte Person vor Gnosia-Angriffen schützen
+Image/help.01_02.6	Gnosia
+Image/help.01_02.lies	Kann lügen
+Image/help.01_02.7	Rätselhafter Feind, der sich als Mensch ausgibt\nEliminiert einen Menschen pro Tag
+Image/help.01_02.8	Wache
+Image/help.01_02.9	Menschenrolle\nDie zwei Wachen können sich gegenseitig als Menschen bestätigen
+Image/help.01_02.10	Ingenieur
+Image/help.01_02.11	Menschenrolle\nUntersucht eine Person pro Tag und meldet, ob sie Mensch oder Gnosia ist
+Image/help.01_02.12	AC-Anhänger
+Image/help.01_02.13	Gnosia-Rolle\nMensch, steht aber auf der Seite der Gnosia
+Image/help.01_02.14	Doktor
+Image/help.01_02.15	Menschenrolle\nMeldet, ob jemand im Kälteschlaf Mensch oder Gnosia war
+Image/help.01_02.16	Bug
+Image/help.01_02.17	Ist er noch da, wenn Menschen oder Gnosia siegen, wird das Universum zerstört und der Bug gewinnt
+Image/help.01_02.18	Rollen, die lügen können, dürfen sich als Ingenieur oder Doktor ausgeben und falsche Berichte abgeben.
+Image/help.01_03.1	Jede Figur, auch der Spieler, hat gegenüber jeder anderen Figur einen Wert für "[Sympathie]" (ob man sie mag oder nicht) und für "[Vertrauen]" (ob sie als Freund oder Feind, Mensch oder nicht gilt). In der Debatte verändern sich Sympathie und Vertrauen durch das, was die Figuren tun: Wer an jemandem "zweifelt", jemanden "verteidigt" oder ein Argument "widerlegt", verschiebt diese Werte.
+Image/help.01_03.2	Sie wirkt verdächtig...
+Image/help.01_03.3	Ich mag sie nicht...
+Image/help.01_03.4	Sympathie und Vertrauen von Setsu und Gina gegenüber SQ sinken.
+Image/help.01_03.5	Zweifeln
+Image/help.01_03.6	Wie stark du Sympathie und Vertrauen anderer senken kannst und wie gut du verhinderst, dass deine eigenen sinken, hängt von den Werten der jeweiligen Figur ab.\nBeachte diese Sympathie- und Vertrauenswerte, wenn du entscheidest, gegen wen du stimmst.
+Image/help.01_04.1	Wer dieselben Kommentare wiederholt und starke Fähigkeiten ausnutzt, um die Debatte in eine Richtung zu lenken, sammelt "[Hass]" (negative Aufmerksamkeit der anderen).\nSammelst du zu viel Hass oder sagst du gar nichts, sodass er zu stark sinkt, beginnen die anderen, dir zu misstrauen, und dein Vertrauen leidet.
+Image/help.01_04.2	Verdächtig...
+Image/help.01_04.3	Rede
+Image/help.01_04.4	Die wollen uns beeinflussen...
+Image/help.01_04.5	Schweigt, um eine Lüge zu verbergen...?
+Image/help.01_04.6	Hass steigt
+Image/help.01_04.7	Hass sinkt
+Image/help.01_04.8	Wer außerdem als Mensch zu viel Hass sammelt und auffällt, wird von den Gnosia schneller ins Visier genommen.
+Image/help.01_04.9	Wie schnell sich Hass aufbaut, hängt von deiner Tarnung ab.
+Image/help.01_05.1	Die wichtigsten Werte, um Debatten zu beeinflussen, sind Charisma, Logik und Schauspiel.\nWie stark sich Sympathie und Vertrauen aller gegenüber einem Ziel durch "Angriffe" (wie "Zweifeln") und "Erholung" (wie "Verteidigen") verändern, hängt von diesen Werten ab.
+Image/help.01_05.2	[Charisma] bestimmt, [wie sehr andere deinen Meinungen und Kommentaren vertrauen und folgen]. Da die Angriffe deiner Anhänger die Stärke deiner eigenen Kommentare erhöhen, werden deine Meinungen umso einflussreicher, je mehr Leute dir folgen.
+Image/help.01_05.3	[Logik] ist im Grunde [die Angriffskraft auf das Vertrauen] einer Person. Je höher sie ist, desto mehr Schaden nimmt das Vertrauen des Ziels. Das heißt natürlich auch, dass Verteidigen das Vertrauen stärker wiederherstellt. Außerdem erhöht sie die Zahl der früheren Kommentare,
+Image/help.01_05.4	die du im [Verlauf] [nachlesen] kannst
+Image/help.01_05.5	(
+Image/help.01_05.6	(halte
+Image/help.01_05.7	).
+Image/help.01_05.8	[Schauspiel] ist im Grunde [die Angriffskraft auf die Sympathie] einer Person. Je höher es ist, desto mehr Schaden nimmt die Sympathie des Ziels; und Verteidigen stellt die Sympathie stärker wieder her. Außerdem sind Lügen schwerer zu durchschauen, weshalb es ein enorm wichtiger Wert ist, wenn du als Gnosia spielst und auf Lügen angewiesen bist.
+Image/help.01_05.9	Raqio hat wenig Charisma, aber viel Logik und Schauspiel.\nDa sich nur wenige von Raqios "Zweifeln" mitreißen lassen, wirkt der Einfluss schwach, doch in Wahrheit schadet es Sympathie und Vertrauen des Ziels erheblich.
+Image/help.01_06.1	[Charme] ist im Grunde eine Verteidigung, die [verhindert, dass deine Sympathie und dein Vertrauen sinken], wenn du angegriffen wirst. Je höher dein Charme, desto mehr schwächst du die Angriffe des Gegners, desto besser widerlegst du Zweifel an dir und desto mehr Leute helfen, deine Sympathie und dein Vertrauen wiederherzustellen. Er erleichtert es, Sympathie zu gewinnen, ist Voraussetzung für die Fähigkeit "Zusammenarbeiten" und kann auch Figuren-Ereignisse häufiger auslösen.
+Image/help.01_06.2	Als Nächstes die [Tarnung]. Ist dein Hass zu hoch oder zu niedrig, beginnen die anderen, dich zu verdächtigen, und Tarnung hilft, [das Steigen und Sinken deines Hasses zu verringern].\nMit hoher Tarnung kannst du immer wieder gegen die Person kommentieren, die du loswerden willst, oder verhindern, dass deine Lügen auffliegen, indem du schweigst und weniger auffällst. Figuren mit hoher Intuition können es trotzdem bemerken. Außerdem wirst du seltener Ziel der Gnosia. Sie kann einer der wichtigsten Werte zum Überleben sein.
+Image/help.01_06.3	SQ hat hohe Tarnung und hohen Charme.\nSelbst wenn an ihr gezweifelt wird, verteidigen die anderen sie meist schnell, und sie weicht Verdacht leicht aus. Deshalb ist es schwer, die anderen dazu zu bringen, gegen sie zu stimmen.
+Image/help.02_01.1	Allgemein gilt:
+Image/help.02_01.2	kommentiert
+Image/help.02_01.3	wartet ab.
+Image/help.02_01.4	Außerdem:
+Image/help.02_01.5	zeigt die Daten
+Image/help.02_01.6	öffnet das Menü
+Image/help.02_01.7	Ingenieursbericht
+Image/help.02_01.8	Das zeigt:
+Image/help.02_01.9	ist Mensch
+Image/help.02_01.10	ist Gnosia
+Image/help.02_01.11	laut dem Bericht.
+Image/help.02_01.12	Partner
+Image/help.02_01.13	Dieses Symbol erscheint, wenn der Sprecher einen Partner hat.
+Image/help.02_01.14	Rolle
+Image/help.02_01.15	Erscheint, wenn der Sprecher eine Rolle beansprucht hat.
+Image/help.02_01.16	Ziel
+Image/help.02_01.17	Zeigt, über wen oder mit wem gesprochen wird.
+Image/help.02_01.18	Name des Sprechers
+Image/help.02_01.19	Befehlsname
+Image/help.02_01.20	Wird rot, wenn der Spieler weiß, dass der Sprecher Gnosia ist.
+Image/help.02_01.21	Namen von Fähigkeiten und Befehlen werden hier kurz eingeblendet.
+Image/help.01_07.1	Die [Intuition] wirkt sich nicht direkt auf Diskussionen aus.\nSie [erhöht nur deine Chance, Lügen zu durchschauen], wenn Figuren, die lügen können (Gnosia, AC-Anhänger, Bugs), falsche Aussagen machen. Je niedriger das Schauspiel des Sprechers, desto eher durchschaust du die Lüge.
+Image/help.01_07.2	Intuition hilft, Lügner schnell zu finden, die möglichst früh in den Kälteschlaf gehören. Das macht sie zu einer wichtigen Waffe für Menschen und auch zu einem guten Weg für AC-Anhänger herauszufinden, wer die Gnosia sind, um sie zu schützen.
+Image/help.01_07.3	Behalte Figuren mit hoher Intuition immer im Auge. Wenn die auffälligste von ihnen, Comet, plötzlich jemanden stark verdächtigt, hat sie vielleicht bemerkt, dass diese Person lügt. Achte auf solche Reaktionen, denn sie helfen dir, die Lage besser zu verstehen.
+Image/help.01_07.4	Übrigens: Eine "Lüge" ist eine Aussage, die absichtlich dem widerspricht, was der Sprecher für wahr hält, oder die ohne echten Beweis oder Grund gemacht wird.
+Image/help.01_07.5	Zweifeln
+Image/help.01_07.6	Verteidigen
+Image/help.01_07.lie	Lüge
+Image/help.01_07.7	Für Gnosia ist es eine "[Lüge]", an einem Menschen zu zweifeln oder einen Verbündeten zu verteidigen.
+Image/help.01_07.8	Einen Menschen zu verteidigen oder an einem Verbündeten zu zweifeln ist ["keine Lüge"].
+Image/help.01_07.9	Gibt sich ein AC-Anhänger als Ingenieur aus, ist jeder seiner Berichte eine "[Lüge]".
+Image/help.01_08.1	Manche Fähigkeiten helfen dir in Diskussionen, etwa beim Aufspüren von Feinden oder beim Vermeiden von Verdacht, und setzen bei bestimmten Werten eine Mindesthöhe voraus.
+Image/help.01_08.2	Die Fähigkeit "Sicher Feind" zum Beispiel, die allen mitteilt, dass jemand mit verdächtigen Aussagen ein Feind ist, verlangt eine gewisse Logik; und "Nicht reinfallen", das die Lügen eines verdächtigen Ziels leichter erkennbar macht und dessen Tarnung eine Zeit lang aufhebt, verlangt hohe Intuition. Mit solchen Fähigkeiten beeinflusst du die Diskussion auf eine Weise, die allein durch höhere Werte schwer möglich wäre.
+Image/help.01_08.3	Es reicht aber nicht, die Werte zu erhöhen, um diese Fähigkeiten zu nutzen.\nDu musst sie [bei bestimmten Ereignissen von Figuren lernen, die sie beherrschen].
+Image/help.01_08.4	Meist erhältst du sie bei Ereignissen mit dem Zeichen "
+Image/help.01_08.5	" auf der Karte, während der freien
+Image/help.01_08.6	Bewegung in der Nacht. Verpasse diese Ereignisse nicht.\nAber Achtung: Die nötigen Werte für eine Fähigkeit garantieren nicht, dass das Ereignis eintritt... Manchmal passiert es einfach nicht. Tut uns leid.
+Image/help.01_08.7	Details zu Fähigkeitseffekten und nötigen Werten findest du unter "Befehle" im Startmenü.
+Image/help.01_09.1	Wenn die Diskussion vorbei ist und Abstimmung und Kälteschlaf vorbereitet sind, kannst du vor dem Warp einen Ort aufsuchen und mit der Figur dort sprechen.\nDer Einfachheit halber nennen wir diese Zeit "Nacht" (und den Diskussionsteil "Tag").
+Image/help.01_09.2	Wähle "
+Image/help.01_09.3	", um zum Ort zu gehen, wo die Figur
+Image/help.01_09.4	einen einzigen Kommentar abgibt. Manchmal erkennst du daran, ob die Figur dich mag oder nicht, oder ob sie bemerkt hat, dass du kein Mensch bist.
+Image/help.01_09.5	Ein solcher Besuch [erhöht in der Regel deine Sympathie] bei dieser Figur.
+Image/help.01_09.6	Zwei wichtige Elemente der Nacht sind [Ereignisse] und das [Aufleveln] in deinem Zimmer.
+Image/help.01_09.7	Wenn "
+Image/help.01_09.8	" an deinem Zimmer erscheint, kannst du gesammelte Erfahrung nutzen,
+Image/help.01_09.9	um [deine Werte zu erhöhen].
+Image/help.01_09.10	Wenn "
+Image/help.01_09.11	" an einem Ort der Karte erscheint (statt des Zeichens "
+Image/help.01_09.12	"), finden dort
+Image/help.01_09.13	Ereignisse statt, bei denen du [neue Fähigkeiten lernen] und Informationen erhalten kannst, die für den [Fortgang der Geschichte] entscheidend sind.\nNach der Nacht wählst du je nach Rolle jemanden zum Untersuchen oder Eliminieren, dann beginnt die Debatte des nächsten Tages.
+Image/help.01_10.1	Für alle, die lügen können, ist es entscheidend, sich als Ingenieur oder Doktor auszugeben und absichtlich falsche oder erfundene Berichte abzugeben, damit die anderen wahre Informationen nicht erhalten oder nicht glauben. Manchmal passen diese Lügen aber nicht zur Lage, und es wird klar, dass der Berichtende lügt. Das nennt man "[Logischer Widerspruch]", und man kann mit der Logik-Fähigkeit "[Sicher Feind]" darauf hinweisen.
+Image/help.01_10.2	Das kann in vielen Situationen vorkommen: Manche sind offensichtlich, andere komplizierter und brauchen Zeit und Nachdenken. Es hilft, zum Beispiel anzunehmen: "Wenn diese Person wirklich Ingenieur ist, dann..." und von dort aus zu prüfen, ob die Aussagen zu dem passen, was du sicher weißt.
+Image/help.01_10.3	Hier beschreiben wir einige häufige Arten von logischen Widersprüchen.
+Image/help.01_10.4	Die Person, die ein Ingenieur als Gnosia gemeldet hat, ist verschwunden
+Image/help.01_10.5	Das ist einfach: Der Ingenieur lügt eindeutig. [Ein Gnosia eliminiert niemals einen anderen Gnosia].
+Image/help.01_10.6	Ohne AC-Anhänger und Bugs (nur Gnosia) ist ein gegnerischer Ingenieur (Doktor) verschwunden
+Image/help.01_10.7	Wenn nur Gnosia lügen können und zwei Personen behauptet haben, Ingenieur (Doktor) zu sein, kann der verbliebene Ingenieur (Doktor) nur Gnosia sein. Denn [das Verschwinden selbst beweist, dass die Person ein Mensch war].
+Image/help.01_11.1	Kein echter Ingenieur (Doktor) mehr übrig
+Image/help.01_11.2	Das passiert, wenn sich die Ingenieure (Doktoren) am ersten Tag gemeldet haben und du weißt, dass einer von ihnen sicher der echte ist.\nEchte Ingenieure und Doktoren müssen nichts aushecken, damit ihre Geschichte stimmt, und ihre Berichte widersprechen nie den Tatsachen. Widerspricht der Bericht eines Doktors allen Ingenieursberichten, ist klar, dass dieser Doktor falsch ist. Prüfe immer, ob [es mindestens einen Doktor (Ingenieur) gibt, dessen Berichte zu denen des fraglichen Ingenieurs (Doktors) passen].
+Image/help.01_11.3	Endbedingungen nicht erfüllt
+Image/help.01_11.4	Diese Art von Fehler passiert oft den feigeren Lügnern.\nDie Berichte des Doktors zeigen, wie viele Gnosia übrig sind. Meldet ein Doktor ständig, die Geprüften seien Menschen gewesen, dann [müsste es längst mehr als genug Gnosia geben, um das Schiff zu übernehmen; warum haben sie es nicht getan? Und warum ist das Spiel nicht vorbei...?] Auch das kann ein klarer Logischer Widerspruch sein.\nManchmal meldet ein Ingenieur aus Angst, Ziel der Gnosia zu werden, alle Untersuchten als "Mensch" und hat am Ende alle Verbliebenen als Menschen gemeldet, aber das Spiel ist noch nicht vorbei... Auch das kann Verwirrung stiften.\nManchmal braucht es Mut, um gut zu lügen.
+Image/help.01_12.1	Zwei Personen sind verschwunden (Bug eliminiert), aber die von dir Eliminierte wurde nicht untersucht
+Image/help.01_12.2	[Nur echte Ingenieure eliminieren Bugs]. Ein solcher "K. o. mit einem Schlag" ist, nun ja, einfach Pech.\nIn diesem Spiel kann man nicht darüber lügen, "wen man untersucht hat". Wolltest du jemanden als Gnosia melden, aber die Person wurde eliminiert, ändert sich der Bericht zu "Mensch". Das ist allerdings eine sehr leicht zu durchschauende Lüge.
+Image/help.01_12.3	Zu wenige AC-Anhänger/Bugs
+Image/help.01_12.4	Das passiert leicht, wenn es viele falsche Ingenieure/Doktoren gibt.\nAngenommen, ein bestimmter Ingenieur ist der echte, dann [wären die einzigen Ingenieure/Doktoren, die er untersuchen und als "Mensch" melden könnte, der echte Doktor oder ein AC-Anhänger]. Und [wären sie ein Bug, würden sie in dieser Nacht eliminiert].
+Image/help.01_12.5	Meldet ein Ingenieur also zwei oder mehr Ingenieure/Doktoren als "Mensch" oder wird später eine nicht untersuchte Person angegriffen und eliminiert, beweist das, dass er falsch ist.\nDeshalb ist es eine nutzlose und sehr leicht durchschaubare Lüge, einen gegnerischen Ingenieur zu untersuchen und fälschlich als "Mensch" zu melden. Umgekehrt wirkt ein Ingenieur, der einen gegnerischen Ingenieur als "Mensch" meldet, durchaus einigermaßen vertrauenswürdig...
+Image/help.01_12.6	Solche Situationen oder eine Kombination daraus führen bei falschen Ingenieuren und Doktoren zu Logischen Widersprüchen.\nAußerdem lässt sich per Ausschlussverfahren leichter herausfinden, wer wer ist. Versuche, so etwas vor den anderen Figuren anzusprechen. Das macht ziemlich Spaß.
+Image/help.02_02.1	Eine Übersicht der aktuellen Lage erhältst du mit
+Image/help.02_02.2	im normalen Bildschirm.
+Image/help.02_02.3	Bekannte Rollen
+Image/help.02_02.4	Erscheinen, wenn die Rolle bekannt ist
+Image/help.02_02.5	Deine Rolle
+Image/help.02_02.6	Beanspruchte Rollen
+Image/help.02_02.7	Erscheinen, wenn eine Rolle beansprucht wurde
+Image/help.02_02.8	= Ingenieur
+Image/help.02_02.9	= Doktor
+Image/help.02_02.10	= Wache
+Image/help.02_02.11	Überlebende
+Image/help.02_02.12	Blau: im Kälteschlaf\nRot: von den Gnosia eliminiert\nGrau: verschwunden
+Image/help.02_03.1	Die Anfangsregeln siehst du mit
+Image/help.02_03.2	im normalen Bildschirm.
+Image/help.02_03.3	Zu wissen, wie viele Gnosia es gibt und wie viele Lügner außer ihnen, hilft sehr, die Details deiner Lage zu verstehen.
+Image/help.02_04.1	Drücke
+Image/help.02_04.2	im normalen Bildschirm, um die Referenzdaten zu öffnen und verschiedene Infos einzusehen.
+Image/help.02_04.3	Beanspruchte Rollen
+Image/help.02_04.4	Deine Rollen
+Image/help.02_04.5	Wähle einen Eintrag, um noch mehr Infos zu sehen.
+Image/help.02_04.6	Freunde
+Image/help.02_04.7	Zeigt, wer die Hauptfigur am meisten mag.
+Image/help.02_04.8	Hast du einen Partner, wird er stattdessen gezeigt.
+Image/help.02_04.9	Gegner
+Image/help.02_04.10	Zeigt, wer der Hauptfigur am stärksten entgegensteht.
+Image/help.02_05.1	Hier kannst du frühere Kommentare nachlesen.
+Image/help.02_05.2	Mit den Links-/Rechts-Tasten
+Image/help.02_05.3	wechselst du zwischen den Daten der einzelnen Tage.
+Image/help.02_05.4	Öffne das Logbuch nach der endgültigen Entscheidung und sieh:
+Image/help.02_05.5	die wahren Rollen, die erzählten Lügen,
+Image/help.02_05.6	was jeder in der Nacht (während des Warps) getan hat und andere zuvor verborgene Infos.
+Image/help.02_05.7	Handlungen, die nur zu den Aussagen der Figuren passen, fallen nicht auf und werden daher nicht aufgezeichnet.
+Image/help.02_06.1	Hier kannst du verschiedene Daten zu jeder Figur ansehen.
+Image/help.02_06.2	Eines der Hauptziele der Geschichte ist es, alle besonderen Einträge freizuschalten.
+Image/help.02_06.3	Gesperrte besondere Einträge
+Image/help.02_06.4	= Spieler ist Mensch
+Image/help.02_06.5	= Spieler ist Gnosia
+Image/help.02_06.6	Ereignisse mit diesen Zeichen werden nur freigeschaltet, wenn du als der jeweilige Typ spielst.
+Image/help.02_06.7	Scrolle nach unten, um das Wertediagramm jeder Figur zu sehen.
+Image/help.02_06.8	Freigeschaltete besondere Einträge
+Image/help.02_06.9	Schalte sie durch besondere Ereignisse frei.
+Image/help.02_07.1	Hier kannst du alle Ingenieursberichte einsehen.
+Image/help.02_07.2	Mit
+Image/help.02_07.3	wechselst du zu den Doktorberichten; vergleiche beide, um herauszufinden, wer lügen könnte.
+Image/help.02_07.4	Lesehilfe
+Image/help.02_07.5	Jeder Ingenieur erhält eine vorläufige Nummer.\nDie Farbe der Nummer zeigt, was der Bericht sagt.
+Image/help.02_07.6	Hier wurde zum Beispiel Shigemichi von Chipie als Mensch und von Jonas als Gnosia gemeldet und befindet sich im Kälteschlaf.
+Image/help.newer	Neuere Berichte
+Image/help.older	Ältere Berichte
+Image/help.02_08.1	Hier kannst du alle Doktorberichte einsehen.
+Image/help.02_08.2	Mit
+Image/help.02_08.3	wechselst du zu den Ingenieursberichten.
+Image/help.02_08.4	Lesehilfe
+Image/help.02_08.5	Hier wurde zum Beispiel Stella von Sha-Ming als Mensch und von Remnan als Gnosia gemeldet.
+Image/help.02_08.6	Jeder Doktor erhält eine vorläufige Nummer.\nDie Farbe der Nummer zeigt, was der Bericht sagt.
+Image/help.02_08.7	Die Doktorberichte zeigen, wie viele Gnosia es noch gibt. Prüfe, ob sie zu den Ingenieursberichten passen oder ob es Abweichungen zur aktuellen Lage gibt.
+Image/help.02_09.1	Das Startmenü öffnest du mit
+Image/help.02_09.2	im normalen Bildschirm.
+Image/help.02_09.3	Manchmal lässt sich das Menü nicht öffnen (bei Ereignissen usw.).
+Image/help.02_09.4	Zum Setup
+Image/help.02_09.5	Löscht den aktuellen Loop und kehrt zum Setup-Bildschirm zurück.
+Image/help.02_09.6	Lieblingsfarbe
+Image/help.02_09.7	Aktuelles Level
+Image/help.02_09.8	Aktuelle EXP
+Image/help.02_09.9	Das
+Image/help.02_09.10	erscheint, wenn du
+Image/help.02_09.11	genug EXP hast, um aufzuleveln.
+Image/help.02_09.12	Name/Geschlecht/Loop
+Image/help.02_09.13	Werte
+Image/help.02_09.14	Zum Titel
+Image/help.02_09.15	Kehrt zum Titelbildschirm zurück.
+Image/help.02_09.16	Befehle
+Image/help.02_09.17	Details zu den Fähigkeiten, die du außer "Zweifeln" und "Verteidigen" gelernt hast.
+Image/help.02_09.18	Optionen
+Image/help.02_09.19	Stellt Lautstärke und Textgeschwindigkeit ein.
+Image/help.02_09.20	Anleitung
+Image/help.02_09.21	Das siehst du dir gerade an.
+Image/help.02_10.1	Nachdem in der Diskussion entschieden wurde, wer in den Kälteschlaf kommt, beginnt der "Nacht"-Teil, in dem du andere Figuren besuchen kannst.\nViele Ereignisse, die besondere Einträge freischalten, finden hier statt.
+Image/help.02_10.2	Ortsname
+Image/help.02_10.3	Figur
+Image/help.02_10.4	Zeigt, welche Figur hier ist.
+Image/help.02_10.5	Ortsdetails
+Image/help.02_10.6	Besuche andere, um zu erfahren, was sie von dir halten, und etwas Sympathie zu gewinnen.
+Image/help.02_10.7	Ziel
+Image/help.02_10.8	Zeigt, wer anwesend ist. Manchmal tauchen auch andere Figuren auf.
+Image/help.02_10.9	Das
+Image/help.02_10.10	erscheint, wenn
+Image/help.02_10.11	ein besonderes Ereignis stattfindet.
+Image/help.02_10.12	Cursor
+Image/help.02_10.13	Dein Zimmer
+Image/help.02_10.14	Hier kannst du schlafen gehen, ohne jemanden zu besuchen, aufleveln und Befehle einsehen.
+Image/help.02_10.15	Das
+Image/help.02_10.16	erscheint, wenn du aufleveln kannst.
+Image/help.02_11.1	Wenn die Menschen, die Gnosia oder der Bug ihre Siegbedingungen erfüllen oder wenn die Hauptfigur in den Kälteschlaf geschickt oder eliminiert wird, erscheint ein Bildschirm mit der aktuellen Lage und der wahren Rolle jeder Figur.
+Image/help.02_11.2	Tag, Sieg/Niederlage
+Image/help.02_11.3	Zeigt, ob du gewonnen oder verloren hast und wie viele Tage du überlebt hast.
+Image/help.02_11.4	Rahmenfarbe
+Image/help.02_11.5	= Menschen siegen
+Image/help.02_11.6	= Gnosia siegen
+Image/help.02_11.7	= Bug siegt
+Image/help.02_11.8	= Spieler im Kälteschlaf
+Image/help.02_11.9	= Spieler eliminiert
+Image/help.02_11.10	Rollensymbol
+Image/help.02_11.11	Das Symbol unten links am Bild der Figur zeigt ihre wahre Rolle.
+Image/help.02_11.12	Figurenfarbe
+Image/help.02_11.13	Blau = Im Kälteschlaf\nRot = Von Gnosia eliminiert\nGrau = Verschwunden
+Image/help.02_11.14	Erhaltene EXP
+Image/help.02_11.15	Wenn du aufleveln kannst, erscheint [Lv. UP!].
+Image/help.02_12.1	Hier stellst du den nächsten Loop ein und legst fest, wie viele Figuren, wie viele Gnosia und welche Rollen vorkommen und welche Rolle du selbst übernimmst.
+Image/help.02_12.2	Ereignissuche
+Image/help.02_12.3	Hier siehst du Einstellungen und Bedingungen, die wichtige Ereignisse wahrscheinlicher machen.
+Image/help.02_12.4	Cursor
+Image/help.02_12.5	Rollenerklärung
+Image/help.02_12.6	Rolleneinstellung
+Image/help.02_12.7	Hier erscheint eine kurze Erklärung der Rolle unter dem Cursor.
+Image/help.02_12.8	Lege fest, wie viele Crewmitglieder und Gnosia vorkommen und ob die anderen Rollen dabei sind.
+Image/help.02_12.9	Manche Rollen lassen sich je nach Personenzahl nicht hinzufügen.
+Image/help.02_12.10	Deine Rolle
+Image/help.02_12.11	Wähle deine Rolle mit links und rechts.\nWähle "Zufällig", damit deine Rolle im nächsten Loop ausgelost wird.
+Image/help.03_01.1	Gnosia lässt sich als einzelne Runde wie ein klassisches "Werwolf"-Spiel spielen oder als Abenteuer, bei dem du der Geschichte bis zum Ende folgst.
+Image/help.03_01.2	Um die ganze Geschichte zu erleben, musst du die Figuren gründlich kennenlernen. Genauer gesagt musst du [die "Notizen" in den "Crewdaten" füllen].
+Image/help.03_01.3	Das sind die Notizen.
+Image/help.03_01.4	Drücke
+Image/help.03_01.5	um die Referenzdaten zu öffnen
+Image/help.03_01.6	und die Notizen mit Infos zu jedem Crewmitglied zu sehen.
+Image/help.03_01.7	Um die Notizen freizuschalten, musst du bestimmte [Ereignisse] abschließen.
+Image/help.03_01.8	Dazu musst du die nächtlichen Ereignisse bis zum Ende ansehen, die mit
+Image/help.03_01.9	markiert sind. Manche
+Image/help.03_01.10	sind einfach, andere verlangen bestimmte Bedingungen in der Debatte (z. B. mit einer bestimmten Person bis zum Ende überleben, eine bestimmte Person in den Kälteschlaf schicken usw.).
+Image/help.03_02.1	Damit ein bestimmtes Ereignis eintritt, müssen mehrere Bedingungen erfüllt sein: bestimmte Figuren in bestimmten Rollen mit einer gewissen Zuneigung zueinander, die Hauptfigur in einer bestimmten Rolle usw.\nWenn du in der Geschichte weiterkommen willst, aber die Ereignisse ausbleiben, sind vielleicht einige dieser Bedingungen noch nicht erfüllt.
+Image/help.03_02.2	Drücke in dem Fall im Setup-Bildschirm die Taste "[Ereignissuche]".
+Image/help.03_02.3	Das ist die Taste "Ereignissuche".
+Image/help.03_02.4	Drücke
+Image/help.03_02.5	um die Bedingungen automatisch
+Image/help.03_02.6	so anzupassen, dass ein Ereignis wahrscheinlicher wird. Lass die eingetragenen Bedingungen, wie sie sind, und spiele weiter.
+Image/help.03_02.7	Manche Ereignisse treten nie ein, wenn die Hauptfigur und die anderen beteiligten Figuren nicht die nötigen Rollen haben. Probiere mit der "Ereignissuche" Rollen aus, die du bisher selten genutzt hast, um Ereignisse zu sehen, die dir noch fehlen.
+Image/help.03_03.1	Willst du die Ereignisse einer bestimmten Figur sehen, verteidige sie in Debatten und besuche sie nachts, um [deine Sympathie bei ihr zu erhöhen].\nDie meisten Ereignisse treten ein, wenn deine Sympathie bei den beteiligten Figuren hoch ist.
+Image/help.03_03.2	Manche Ereignisse werden ausgelöst, wenn du eine bestimmte Figur "verteidigst". Wenn du "Verteidigen" bisher kaum benutzt hast, probiere es bei jemandem aus und sieh, ob das ein neues Ereignis auslöst.
+Image/help.03_03.3	Es gibt auch Ereignisse, die erst eintreten oder weitergehen, wenn du mit einer bestimmten Figur zusammenarbeitest. Selbst wenn du zum Beispiel merkst, dass dein Partner lügt: Wenn du weiter kooperierst und mit ihm bis zum Ende überlebst, siehst du vielleicht ein besonderes Ende oder schaltest besondere Einträge frei. Wenn du in der Geschichte feststeckst, probiere "Zusammenarbeiten" mit einer anderen Figur.
+Image/help.collab_1	Zusammen-
+Image/help.collab_2	arbeiten
+Image/help.03_03.4	Übrigens steigen die Werte der Figuren mit jedem freigeschalteten besonderen Eintrag und auch nach und nach, wenn du Loops wiederholst. Versuche, mit verschiedenen Figuren Beziehungen aufzubauen, zusammenzuarbeiten und gemeinsam zu überleben.
+Image/help.q	F:
+Image/help.a	A:
+Image/help.04_01.1	Man sagt mir, ich sei "nervig"...
+Image/help.04_01.2	Mit jedem Kommentar steigt die [Aufmerksamkeit ("Hass")] der anderen dir gegenüber. Besonders "Zweifeln" und "Verteidigen" sowie der Einsatz von Fähigkeiten ziehen Aufmerksamkeit auf dich. Wenn an dir gezweifelt wird, gilt es außerdem als "unnatürlich", Vorwürfe schnell und unbedacht abzustreiten und zu kontern, wodurch du noch mehr auffällst.
+Image/help.04_01.3	Nachdem du die Aufmerksamkeit der Gruppe auf dich gezogen hast, versuche, [eine Weile nichts zu sagen], und warte, bis sich alle etwas beruhigt haben.
+Image/help.04_01.4	Du kannst [deine "Tarnung" erhöhen], um beim Kommentieren und beim Einsatz von Fähigkeiten weniger aufzufallen.
+Image/help.04_02.1	Ich lande ständig im Kälteschlaf.
+Image/help.04_02.2	Die meisten stimmen gegen die, die sie "unzuverlässig", "unsympathisch" oder "zwielichtig" finden, und gegen die, die "auffallen".
+Image/help.04_02.3	[Je höher dein "Charme"], desto sympathischer wirkst du auf andere und desto seltener giltst du als unzuverlässig, wenn an dir gezweifelt wird, was enorm hilft. Du kannst auch [deine "Tarnung" erhöhen], um beim Kommentieren und beim Einsatz von Fähigkeiten weniger aufzufallen.
+Image/help.04_02.4	Wenn du als Gnosia oder eine andere Figur spielst, die lügen kann, und dein "Schauspiel" niedrig ist, werden deine Lügen schnell durchschaut und du landest eher im Kälteschlaf. Sei also vorsichtig.
+Image/help.04_03.1	Die Gnosia haben mich schon wieder erwischt...
+Image/help.04_03.2	Zunächst einmal: Wer viel Aufmerksamkeit (Hass) auf sich zieht, wird ein leichtes Ziel. Versuche, [deine "Tarnung" zu erhöhen], um weniger aufzufallen und nicht ins Visier zu geraten.
+Image/help.04_03.3	Auch wer behauptet, Ingenieur usw. zu sein, und wer eindeutig kein Gnosia ist (Wachen), wird schnell zum Ziel.
+Image/help.04_03.4	Sind die Gnosia sehr logisch veranlagt, achten sie bei der Zielwahl stark auf die Rolle und das Störpotenzial; emotionalere Gnosia gehen dagegen meist direkt auf die los, die sie nicht mögen. Wer sie angreift, macht sich wahrscheinlich zum leichten Ziel.
+Image/help.04_03.5	Wenn du glaubst, in einer bestimmten Nacht Ziel zu werden, nutze die Tarnungs-Fähigkeit "[Smalltalk]", um die Gnosia abzulenken und seltener gewählt zu werden.
+Image/help.04_04.1	Warum hassen mich alle?
+Image/help.04_04.2	Die Antwort lautet "[Charme]".
+Image/help.04_04.3	"Charme" ist ein defensiver Wert, der dich sympathischer macht und zugleich Misstrauen und negative Aufmerksamkeit verringert. Im Grunde wie im echten Leben.
+Image/help.04_04.4	Wenn du wissen willst, wie es ist, als richtig unsympathischer Mensch zu leben, spiele mit Charme auf dem niedrigsten Wert.\nDas könnte eine aufschlussreiche Erfahrung sein.
+Image/help.04_05.1	Niemand hört mir zu.
+Image/help.04_05.2	Andere dazu zu bringen, dir zuzuhören, erfordert Fingerspitzengefühl.
+Image/help.04_05.3	Mit hohem "[Charisma]" stimmen dir mehr Leute zu und unterstützen deine Meinungen; hohe "[Logik]" hilft, andere auf deine Seite zu ziehen, wenn du jemanden für unzuverlässig hältst; und hohes "[Schauspiel]" lässt dich die Gefühle der Leute bewegen.
+Image/help.04_05.4	Auch [die Stimmung zu lesen] ist entscheidend. Jemanden zu verteidigen, den alle für einen Feind halten, bringt nichts, und wenn sich dir jemand aktiv entgegenstellt, wird er sich wohl auf jeden deiner Kommentare stürzen.
+Image/help.04_05.5	Es ist frustrierend, wenn du weißt, dass jemand ein Feind ist, und trotzdem verlierst, weil dir niemand zustimmt. Wichtig ist aber zu akzeptieren, dass so etwas manchmal passiert, es abzuhaken und nach vorn zum nächsten Kampf zu schauen.
+Image/help.04_06.1	Muss sich der Ingenieur (Doktor) melden?
+Image/help.04_06.2	Wenn sich ein Falscher meldet und du dich nicht gleichzeitig zu erkennen gibst und deine Rolle beanspruchst, nimmt man an, dass du diese Rolle nicht hast, und du kannst sie später nicht mehr beanspruchen.\nDeshalb ist es in solchen Momenten [am besten, deine Rolle zu nennen].
+Image/help.04_06.3	Wenn du dich auf keinen Fall melden willst, nun, niemand zwingt dich, aber...\nDu könntest Ärger bekommen.
+Image/help.04_07.1	Was ist "Sicher Mensch"?
+Image/help.04_07.2	Die Logik-Fähigkeiten "Sicher Feind" und "Sicher Mensch" lassen sich nur einsetzen, [wenn eindeutig feststeht, dass jemand lügt (AC-Anhänger, Gnosia oder Bug) oder ein Mensch ist (weder Gnosia noch Bug)].
+Image/help.04_07.3	Wer als "Sicher Feind" markiert ist, kann nicht mehr kommentieren und zieht die Stimmen auf sich. Wer dagegen als "Sicher Mensch" markiert ist, wird nicht mehr angezweifelt.
+Image/help.04_07.4	Wenn du nicht darauf hinweist, merken weniger logisch denkende Figuren nicht, dass die Person ein Feind oder ein Mensch ist.
+Image/help.04_07.5	Logische Denker berücksichtigen viele Faktoren und werfen manchmal ein "Sicher Feind" ein, wenn es dem Spieler seltsam vorkommt; achtest du aber genau auf die Berichte von Ingenieuren und Doktoren und liest das Logbuch gründlich, verstehst du ihre Überlegung... wahrscheinlich. Manchmal dauert es eine Weile, bis man alle Einträge im Logbuch versteht.
+Image/help.04_08.1	Äh, zwei Personen sind gleichzeitig verschwunden...
+Image/help.04_08.2	Das heißt, eine wurde Opfer eines Gnosia-Angriffs und die andere war [ein Bug], den der Ingenieur eliminiert hat. Ein solches Doppelverschwinden ist die perfekte Gelegenheit herauszufinden, wer der echte Ingenieur ist: Der "Ingenieur", der die verschwundene Person nicht untersucht hat, ist nicht der echte. Ein falscher Ingenieur muss in der Nacht davor entscheiden, "[wen er untersucht]", und das wird festgehalten, sodass er darüber [nicht lügen kann].
+Image/help.04_08.3	Außer beim gleichzeitigen Verschwinden gibt es weitere [Gelegenheiten herauszufinden, wer ein Bug ist]. Gibt es laut Regeln zum Beispiel keinen Schutzengel und ein Angriff schlägt fehl, haben die Gnosia herausgefunden, dass ihr Ziel ein Bug war. Und hat der Schutzengel jemanden geschützt, der trotzdem verschwindet, dann wurde diese Person vom Ingenieur untersucht und war ein Bug.
+Image/help.04_08.4	So entdeckte Rollen erscheinen unter "Aktueller Status", erreichbar mit
+Image/help.04_09.1	Ich will ganz viele Level aufsteigen!
+Image/help.04_09.2	Wenn du einen Loop beendest, [hängt die erhaltene EXP von seinem Schwierigkeitsgrad ab].
+Image/help.04_09.3	Wenn du den Loop schwerer machst, etwa mit sechs Gnosia und ohne Ingenieure und Schutzengel, und als Mensch gewinnst, oder als einziger Gnosia gegen 14 Menschen gewinnst usw., bekommst du haufenweise EXP!
+Image/help.04_09.4	Na ja, das wird ziemlich schwer, aber trotzdem...
+Image/help.04_09.5	Außerdem erhältst du einen EXP-Bonus, wenn du Ereignisse abschließt.\nEXP gibt es auch, wenn du gemeinsam mit einem Partner überlebst, als Schutzengel einen Gnosia-Angriff abwehrst oder dich, falls deine Figur lügen kann, als Ingenieur oder Doktor ausgibst usw. Kurz gesagt: Wenn etwas das Überleben erschwert oder du etwas herbeiführst, das sonst nicht passieren würde, wirst du meist mit EXP belohnt.
+Image/help.04_10.1	Ich will meine Werte neu verteilen...
+Image/help.04_10.2	Spiele eine Rolle, die du sonst nicht nehmen würdest, dann passiert vielleicht etwas Tolles.
+Image/help.04_10.3	Ach ja, die Figurenzahl auf 15 zu stellen, kann auch helfen.
+Image/help.04_11.1	Also ist im Grunde alles Zufall, oder?
+Image/help.04_11.2	Die Figuren [verhalten sich ihrer Persönlichkeit entsprechend].\nWird ein freundlicher Mensch zum Gnosia, tut er wahrscheinlich alles, um seine Freunde zu schützen und zu verteidigen; ein egoistischerer Gnosia opfert seine Freunde je nach Lage eher. Logischere Gnosia überlegen etwa, wen ein Schutzengel wahrscheinlich schützt, und meiden ihn, bedenken aber auch, dass sie den echten Ingenieur loswerden müssen usw. Emotionalere Gnosia nehmen dagegen immer wieder die ins Visier, die sie einfach nicht mögen.
+Image/help.04_11.3	Wenn du im Lauf des Spiels [die Persönlichkeiten und Verhaltensmuster der Figuren durchschaust], kannst du die Lage besser lesen und bist weniger auf Glück angewiesen.
+Image/help.04_11.4	Trotzdem: Wenn du in eine Lage gerätst wie "Ich habe als Gnosia angefangen und meine Kameraden waren Shigemichi und Comet", nun... dann hattest du einfach Pech. Wenn du unbedingt willst, kannst du den Loop mit den Anfangsregeln neu starten, also nur zu...
+Image/help.04_12.1	Okay, und was genau ist eine "Lüge"? Sei ehrlich...
+Image/help.04_12.2	In dieser Welt lügen nur Gnosia, AC-Anhänger und Bugs.\nUnd wenn deine "Intuition" hoch genug ist, kannst du diese Lügen manchmal durchschauen.
+Image/help.04_12.3	Also, ein paar konkrete Beispiele für Lügen...
+Image/help.04_12.4	Die [Gnosia] wissen, "wer Gnosia ist". Daher gilt: [Sagt ein Gnosia, ein anderer Gnosia sei ein Mensch oder ein Nicht-Gnosia sei Gnosia, ist das eine Lüge].
+Image/help.04_12.5	[AC-Anhänger und Bugs] wissen nicht, "wer Gnosia ist". Wenn also ein falscher Ingenieur oder Doktor behauptet: "Diese Person ist Gnosia" oder "Jene Person ist ein Mensch", also [falsche, erfundene Berichte abgibt, ist das eine Lüge].
+Image/help.04_12.6	Wenn du kein Ingenieur oder Doktor bist, [ist es eine Lüge zu behaupten, du seist einer].\nAn jemandem zu zweifeln, den du gar nicht verdächtig findest, oder jemanden zu verteidigen, den du verdächtig findest, ist streng genommen auch gelogen, aber solche Lügen zählen in diesem Spiel nicht.
+Image/help.05_01.1	Wie bringe ich die Geschichte voran?
+Image/help.05_01.2	Im Lauf des Spiels finden ab und zu besondere [Ereignisse] statt.\nDie Geschichte geht weiter, wenn du diese Ereignisse abschließt und [die "besonderen Einträge" freischaltest], die zu den beteiligten Figuren gehören.
+Image/help.05_01.3	Freigeschaltete besondere Einträge findest du unter "Crewdaten" in den "Referenzdaten".
+Image/help.05_02.1	Die Ereignisse treten irgendwie nicht ein...
+Image/help.05_02.2	Wenn du in der Geschichte etwas weiter bist, kannst du zu Beginn eines Loops die Funktion "Ereignissuche" nutzen.
+Image/help.05_02.3	Die "[Ereignissuche]" stellt Bedingungen wie Personenzahl und Rollen automatisch so ein, dass Ereignisse wahrscheinlicher werden. Drücke "Ereignissuche" ein paar Mal und starte den Loop, wenn dir die Bedingungen gefallen.
+Image/help.05_02.4	Allerdings... wenn ein Ereignis eintritt und [die besonderen Einträge einer Figur freigeschaltet werden, steigen deren Werte deutlich], sodass das Gewinnen schwerer werden kann.
+Image/help.05_02.5	Ereignisse treten irgendwann auch ohne "Ereignissuche" ein.\nEs ist einfacher und macht mehr Spaß, einfach mit den Figuren und Rollen zu spielen, die du magst... wahrscheinlich. Wie auch immer, viel Spaß!
+Image/help.05_03.1	Tja... die Ereignisse passieren einfach nicht...
+Image/help.05_03.2	[Jemanden zu verteidigen oder ihn nachts zu besuchen und sich anzufreunden] macht Ereignisse ebenfalls wahrscheinlicher.
+Image/help.05_03.3	Auch [zusammenzuarbeiten] oder sonst eine gute Beziehung zu einer Figur aufzubauen und mit ihr bis zum Ende zu überleben, kann etwas mit dieser Person auslösen.
+Image/help.05_03.4	Manchmal siehst du in den "Crewdaten" ein Crew- oder Gnosia-Zeichen an noch gesperrten besonderen Einträgen.\nDiese Zeichen stehen für besondere Einträge, die nur freigeschaltet werden, wenn du als Mensch bzw. als Gnosia spielst.
+Image/help.05_04.1	Ich habe keine Ahnung, was ich jetzt tun soll...
+Image/help.05_04.2	Wenn das passiert, probiere einfach alles Mögliche aus.
+Image/help.05_04.3	Irgendwann fügt sich alles und es geht weiter. Gib nicht auf!
+Image/help.05_04.4	Ja, das klingt ziemlich idealistisch... Aber im Ernst: Irgendwann merkst du, was zu tun ist!
+Image/help.05_05.1	Ich will alle meine Erinnerungen löschen und ganz von vorn anfangen.
+Image/help.05_05.2	Du willst das Ganze also noch einmal erleben... Hehe, verstanden!
+Image/help.05_05.3	Alle deine Erinnerungen kannst du nicht wirklich löschen, aber du kannst deinen Spielstand löschen, und damit verschwinden auch alle Abschlussdaten.\nWenn du wirklich ganz von vorn anfangen willst, geh zum Ladebildschirm im Titel und [lösche alle deine Spielstände].
+Image/help.05_06.1	Ich will eine Pause machen, wo speichere ich?
+Image/help.05_06.2	Der "Save"-Hinweis erscheint nur ganz kurz und wird leicht übersehen, aber Gnosia [speichert automatisch]!
+Image/help.05_06.3	Das Spiel speichert von selbst, wenn ein Tag beginnt, wenn eine Diskussion, eine Abstimmung oder die Kälteschlaf-Entscheidung endet und wenn ein Loop endet.
+Image/help.05_07.1	Ich will die Kommentare noch einmal lesen...
+Image/help.05_07.2	Ach, du meinst den [Verlauf]! Klar, den haben wir!
+Image/help.05_07.3	Während einer Debatte oder eines Ereignisses hältst du die [Verlaufstaste]
+Image/help.05_07.4	), um frühere Kommentare nachzulesen.
+Image/help.05_07.5	Während einer Debatte oder eines Ereignisses hältst du den [L-Stick] (halte
+Image/help.05_07.6	um frühere Kommentare nachzulesen.
+Image/help.05_07.7	Wie weit du dich zurückerinnern kannst, [hängt aber von der Logik der Hauptfigur ab]. Bei Logik 1 wird nur eine Zeile des Verlaufs angezeigt!\nGenau: Logik hängt direkt mit deinem Gedächtnis zusammen.
+Image/help.05_08.1	Tastaturbelegung
+Image/help.05_08.2	Controllerbelegung
+Image/help.key_menu	Menü
+Image/help.key_backlog	Verlauf
+Image/help.key_data	Daten
+Image/help.key_decision	Wählen/Mal seh'n
+Image/help.05_08.3	Wählen\nMal seh'n
+Image/help.key_speak	Reden
+Image/help.key_back	Zurück
+Image/help.05_08.4	Aktueller\nStatus
+Image/help.05_08.5	Aktuelle\nRegeln
+Image/help.key_select	Auswählen
+Image/help.05_08.6	Seite zurück
+Image/help.05_08.7	Seite vor

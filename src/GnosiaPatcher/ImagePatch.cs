@@ -38,7 +38,10 @@ static class ImagePatch
         public string En { get; set; } = "";
         public int[] Box { get; set; } = Array.Empty<int>();
         public string Align { get; set; } = "auto";      // left, right, center, auto
-        public string Erase { get; set; } = "rows";      // rows, cols, clear, copy
+        public string Erase { get; set; } = "rows";      // rows, cols, right, clear, copy, inpaint, fill, none
+        public string? Fill { get; set; }                 // fill: the flat color under the text (#rrggbb); only pixels that differ from it are repainted
+        public int[][]? ClearRects { get; set; }          // clear: the rectangles (x0, y0, x1, y1) holding the text, instead of one box around all of it
+        public bool VCenter { get; set; }                 // center the lines vertically in the box (text inside a bubble)
         public int[]? From { get; set; }                  // copy: top-left of a clean area of the same size
         public float? Size { get; set; }                  // em size in pixels (default: measured from the English text)
         public float? Baseline { get; set; }              // first baseline, image y (default: measured)
@@ -426,7 +429,8 @@ static class ImagePatch
                 for (int c = 0; c < 4; c++)
                 {
                     bool inside = it.ClearArea != null ? InPolygon(it.ClearArea, bx + x + 0.5f, by + y + 0.5f)
-                                                       : x >= el && x <= er && y >= et && y <= eb && !Cut(x, y);
+                                : it.ClearRects != null ? it.ClearRects.Any(q => bx + x >= q[0] && bx + x < q[2] && by + y >= q[1] && by + y < q[3])
+                                : x >= el && x <= er && y >= et && y <= eb && !Cut(x, y);
                     int rx = Math.Min(bw - 1, er + 1);
                     while (rx > el && Cut(rx, y)) rx--;
                     int lx = Math.Max(0, el - 1);
@@ -434,7 +438,9 @@ static class ImagePatch
                     if (Cut(rx, y)) rx = lx;
                     float v = !inside && it.Erase != "copy" ? Px(x, y, c) : it.Erase switch
                     {
-                        "none" or "inpaint" => Px(x, y, c),
+                        "none" or "inpaint" or "fill" => Px(x, y, c),
+                        // a border runs along the left of the text: take each row's color from its right end only
+                        "right" => Px(rx, y, c),
                         "clear" => 0,
                         "copy" => img.P[((it.From![1] + y) * img.W + it.From[0] + x) * 4 + c],
                         "cols" => Lerp(Px(x, Math.Max(0, et - 1), c), Px(x, Math.Min(bh - 1, eb + 1), c), (y - et + 1) / (float)(eb - et + 2)),
@@ -459,6 +465,20 @@ static class ImagePatch
                     }
             }
             Inpaint(bg, hole, bw, bh);
+        }
+        if (it.Erase == "fill" && it.Fill != null)
+        {
+            // text on a flat shape (speech bubble, panel): repaint with the shape's color every pixel that is not that color
+            var fill = ParseColor(it.Fill);
+            for (int y = Math.Max(0, et); y <= Math.Min(bh - 1, eb); y++)
+                for (int x = Math.Max(0, el); x <= Math.Min(bw - 1, er); x++)
+                {
+                    int o = (y * bw + x) * 4;
+                    if (bg[o + 3] < 0.5f) continue;
+                    float d = 0;
+                    for (int c = 0; c < 3; c++) d = Math.Max(d, Math.Abs(bg[o + c] - fill[c]));
+                    if (d > 0.10f) for (int c = 0; c < 4; c++) bg[o + c] = fill[c];
+                }
         }
         if (it.Color != null) paint = ParseColor(it.Color);
         var accent = it.Accent != null ? ParseColor(it.Accent) : paint;
@@ -506,7 +526,7 @@ static class ImagePatch
                 lines = paragraphs.SelectMany(p => Wrap(p, font, size * squeeze, avail)).ToList();
                 // text placed without its English may always take the room the English took
                 float room = it.En.Length == 0 ? Math.Max(bh - 0.25f * size, b + 2 + 0.2f * size) : bh - 0.25f * size;
-                if (baseline + (lines.Count - 1) * lineH <= room) break;
+                if (it.VCenter ? (lines.Count - 1) * lineH + size <= bh : baseline + (lines.Count - 1) * lineH <= room) break;
                 size *= 0.95f; lineH *= 0.95f;
             }
         }
@@ -517,6 +537,8 @@ static class ImagePatch
             if (squeeze * k >= 0.78f) squeeze *= k;
             else { float s2 = squeeze * k / 0.78f; size *= s2; squeeze = 0.78f; }
         }
+        if (it.Size is float asked && size < 0.8f * asked && Environment.GetEnvironmentVariable("GNOSIA_IMAGE_REPORT") != null)
+            log($"  SHRUNK {it.Id} @{bx},{by}: {asked:0} -> {size:0.0} x{squeeze:0.00}");
         if (!multi)
         {
             // accents and descenders (Õ, Ç) the English did not have must stay inside the box:
@@ -530,6 +552,11 @@ static class ImagePatch
             }
             if (bottom > hi) baseline -= bottom - hi;
             else if (top < lo) baseline += lo - top;
+        }
+        if (it.VCenter)
+        {
+            float cap = font.Measure("H").t * size;
+            baseline = (bh - (lines.Count - 1) * lineH - cap) / 2 + cap;
         }
         var mask = new float[n]; var amask = new float[n]; var a2mask = new float[n];
         float space = font.Advance(" ") * size * squeeze;
