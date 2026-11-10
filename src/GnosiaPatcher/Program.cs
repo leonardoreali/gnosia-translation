@@ -30,7 +30,15 @@ try
         if (string.IsNullOrEmpty(dataDir) || !File.Exists(Path.Combine(dataDir, "sharedassets0.assets")))
             return Exit(1, "Gnosia_Data folder not found.");
     }
-    if (System.Diagnostics.Process.GetProcessesByName("Gnosia").Length > 0)
+    // read-only modes (export, dump, preview) do not touch the game and may run while it is open
+    bool readOnly = opts.Export != null || opts.DumpImages != null || opts.PreviewImages != null;
+    // only the copy of the game that is running is locked (another copy, e.g. a test folder, can be patched)
+    bool running = System.Diagnostics.Process.GetProcessesByName("Gnosia").Any(p =>
+    {
+        try { return string.Equals(Path.GetDirectoryName(p.MainModule?.FileName), Path.GetDirectoryName(dataDir), StringComparison.OrdinalIgnoreCase); }
+        catch { return true; }
+    });
+    if (!readOnly && running)
         return Exit(1, "Please close the game first.");
 
     var patcher = new GamePatcher(dataDir);

@@ -9,6 +9,7 @@ namespace GnosiaPatcher;
 /// contains "and". This rewrites those string constants in Assembly-CSharp.dll with the translation's
 /// "Code/was", "Code/wasn't", "Code/were" and "Code/weren't" entries, and "and" with its own word for "and".
 /// The player's own Doctor/Engineer result screen glues " was " between a name and "Gnosia" the same way.
+/// The " key" and " button" the code appends to a key name in the How to Play titles ("(Q key)") are removed.
 /// </summary>
 static class CodePatch
 {
@@ -53,6 +54,14 @@ static class CodePatch
                         changed++;
                     }
             }
+            // titles such as "Current Status (Q key)" get the English " key" / " button" from the code: show "(Q)" instead
+            foreach (var method in asm.MainModule.GetTypes().SelectMany(t => t.Methods).Where(m => m.HasBody && (Loads(m, " key") || Loads(m, " button"))))
+                foreach (var ins in method.Body.Instructions)
+                    if (ins.OpCode == OpCodes.Ldstr && ((string)ins.Operand == " key" || (string)ins.Operand == " button"))
+                    {
+                        ins.Operand = "";
+                        changed++;
+                    }
             asm.Write(path + ".tmp");
         }
         File.Move(path + ".tmp", path, overwrite: true);

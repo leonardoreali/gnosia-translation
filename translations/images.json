@@ -103,6 +103,13 @@
     },
     {
       "bundle": "systm_en",
+      "textures": ["menu_load"],
+      "items": [
+        { "id": "menu.load", "en": "Load", "box": [60, 26, 250, 56], "ink": [150, 30, 298, 79], "cut": 14, "align": "right" }
+      ]
+    },
+    {
+      "bundle": "systm_en",
       "textures": ["menu_acList"],
       "items": [
         { "id": "menu.command_list", "en": "Command List", "box": [12, 62, 258, 52], "ink": [16, 72, 268, 111], "cut": 8 },
@@ -1210,7 +1217,7 @@
         {"id": "help.01_07.6", "en": "", "box": [659, 425, 147, 32], "ink": [660, 426, 738, 448], "erase": "clear", "wrap": true, "align": "left", "size": 26.0, "lineHeight": 32.0, "dilate": 0.0, "clearRects": [[661, 427, 737, 447]]},
         {"id": "help.01_07.lie", "en": "", "box": [846, 368, 56, 34], "ink": [846, 368, 902, 402], "manual": true, "erase": "fill", "fill": "#dadf00", "vCenter": true, "wrap": true, "align": "center", "size": 26.0, "lineHeight": 30.0, "dilate": 0.0, "color": "#343600"},
         {"id": "help.01_07.lie", "en": "", "box": [822, 424, 56, 34], "ink": [822, 424, 878, 458], "manual": true, "erase": "fill", "fill": "#dadf00", "vCenter": true, "wrap": true, "align": "center", "size": 26.0, "lineHeight": 30.0, "dilate": 0.0, "color": "#343600"},
-        {"id": "help.01_07.lie", "en": "", "box": [480, 494, 52, 32], "ink": [480, 494, 532, 526], "manual": true, "erase": "fill", "fill": "#dadf00", "vCenter": true, "wrap": true, "align": "center", "size": 26.0, "lineHeight": 30.0, "dilate": 0.0, "color": "#524b0f"},
+        {"id": "help.01_07.lie2", "en": "", "box": [486, 497, 40, 26], "ink": [486, 497, 526, 523], "manual": true, "erase": "fill", "fill": "#dadf00", "vCenter": true, "wrap": true, "align": "center", "size": 26.0, "lineHeight": 30.0, "dilate": 0.0, "color": "#524b0f"},
         {"id": "help.01_07.7", "en": "", "box": [138, 502, 199, 134], "ink": [139, 503, 314, 620], "erase": "clear", "wrap": true, "align": "left", "size": 26.0, "lineHeight": 32.0, "dilate": 0.0, "color": "#ffffff", "clearRects": [[140, 504, 302, 524], [140, 536, 306, 557], [140, 568, 313, 589], [140, 600, 217, 619]], "accent": "#ee6666"},
         {"id": "help.01_07.8", "en": "", "box": [806, 534, 235, 102], "ink": [807, 535, 993, 620], "erase": "clear", "wrap": true, "align": "left", "size": 26.0, "lineHeight": 32.0, "dilate": 0.0, "color": "#ffffff", "clearRects": [[808, 536, 992, 557], [809, 568, 988, 589], [809, 600, 933, 619]], "accent": "#88cc66"},
         {"id": "help.01_07.9", "en": "", "box": [1046, 457, 207, 179], "ink": [1047, 458, 1252, 576], "erase": "clear", "wrap": true, "align": "left", "size": 26.0, "lineHeight": 32.0, "dilate": 0.0, "color": "#ffffff", "clearRects": [[1048, 459, 1251, 479], [1049, 491, 1244, 512], [1049, 523, 1246, 544], [1048, 555, 1178, 575]], "accent": "#ee6666"}
@@ -1416,7 +1423,7 @@
         {"id": "help.02_07.4", "en": "", "box": [1001, 270, 156, 32], "ink": [1013, 271, 1145, 293], "erase": "clear", "wrap": true, "align": "center", "size": 26.0, "lineHeight": 32.0, "dilate": 0.0, "color": "#ffffff", "clearRects": [[1014, 272, 1144, 292]]},
         {"id": "help.02_07.5", "en": "", "box": [996, 309, 268, 216], "ink": [997, 310, 1263, 460], "erase": "clear", "wrap": true, "align": "left", "size": 26.0, "lineHeight": 32.0, "dilate": 0.0, "color": "#ffffff", "clearRects": [[998, 311, 1262, 332], [998, 343, 1198, 364], [998, 375, 1223, 395], [999, 407, 1254, 428], [999, 439, 1158, 459]]},
         {"id": "help.02_07.6", "en": "", "box": [363, 508, 879, 128], "ink": [364, 509, 926, 596], "erase": "clear", "wrap": true, "align": "left", "size": 26.0, "lineHeight": 32.0, "dilate": 0.0, "color": "#ffffff", "clearRects": [[365, 510, 901, 531], [366, 542, 903, 563], [365, 574, 607, 595]]},
-        {"id": "help.newer", "en": "", "box": [535, 161, 159, 27], "ink": [535, 161, 694, 188], "manual": true, "erase": "fill", "fill": "#d7e0e2", "vCenter": true, "wrap": true, "align": "center", "size": 26.0, "lineHeight": 30.0, "dilate": 0.0, "color": "#6b6372"}
+        {"id": "help.newer", "en": "", "box": [535, 165, 159, 23], "ink": [535, 165, 694, 188], "manual": true, "erase": "fill", "fill": "#e5e7eb", "vCenter": true, "wrap": true, "align": "center", "size": 26.0, "lineHeight": 30.0, "dilate": 0.0, "color": "#6e6776"}
       ]
     },
     {
@@ -1446,7 +1453,7 @@
         {"id": "help.02_08.5", "en": "", "box": [46, 294, 204, 216], "ink": [47, 295, 249, 445], "erase": "clear", "wrap": true, "align": "left", "size": 26.0, "lineHeight": 31.8, "dilate": 0.0, "color": "#ffffff", "clearRects": [[48, 296, 211, 317], [48, 328, 186, 347], [49, 360, 248, 381], [48, 392, 241, 413], [48, 423, 151, 444]]},
         {"id": "help.02_08.6", "en": "", "box": [995, 308, 247, 205], "ink": [996, 309, 1238, 458], "erase": "clear", "wrap": true, "align": "left", "size": 26.0, "lineHeight": 31.8, "dilate": 0.0, "color": "#ffffff", "clearRects": [[997, 310, 1237, 331], [997, 342, 1197, 363], [997, 374, 1222, 394], [998, 405, 1190, 426], [998, 437, 1218, 457]]},
         {"id": "help.02_08.7", "en": "", "box": [238, 515, 1004, 121], "ink": [239, 516, 1043, 603], "erase": "clear", "wrap": true, "align": "left", "size": 26.0, "lineHeight": 32.0, "dilate": 0.0, "color": "#ffffff", "clearRects": [[240, 517, 1013, 538], [241, 549, 1042, 570], [241, 581, 717, 602]]},
-        {"id": "help.newer", "en": "", "box": [535, 161, 159, 27], "ink": [535, 161, 694, 188], "manual": true, "erase": "fill", "fill": "#d6d9da", "vCenter": true, "wrap": true, "align": "center", "size": 26.0, "lineHeight": 30.0, "dilate": 0.0, "color": "#686e69"},
+        {"id": "help.newer", "en": "", "box": [535, 165, 159, 23], "ink": [535, 165, 694, 188], "manual": true, "erase": "fill", "fill": "#e8e9ea", "vCenter": true, "wrap": true, "align": "center", "size": 26.0, "lineHeight": 30.0, "dilate": 0.0, "color": "#6d736e"},
         {"id": "help.older", "en": "", "box": [704, 227, 150, 27], "ink": [704, 227, 854, 254], "manual": true, "erase": "fill", "fill": "#eff0f0", "vCenter": true, "wrap": true, "align": "center", "size": 26.0, "lineHeight": 30.0, "dilate": 0.0, "color": "#727070"}
       ]
     },
@@ -1612,8 +1619,8 @@
         {"id": "help.03_03.1", "en": "", "box": [108, 24, 1134, 111], "ink": [109, 25, 1217, 111], "erase": "clear", "wrap": true, "align": "left", "size": 26.0, "lineHeight": 32.0, "dilate": 0.0, "color": "#ffffff", "clearRects": [[110, 26, 1216, 47], [110, 57, 862, 78], [110, 89, 904, 110]], "accent": "#dddd00"},
         {"id": "help.03_03.2", "en": "", "box": [108, 138, 1134, 85], "ink": [109, 139, 1228, 194], "erase": "clear", "wrap": true, "align": "left", "size": 26.0, "lineHeight": 32.0, "dilate": 0.0, "color": "#ffffff", "clearRects": [[110, 140, 1227, 161], [110, 172, 975, 193]]},
         {"id": "help.03_03.3", "en": "", "box": [108, 226, 1134, 132], "ink": [109, 227, 1234, 346], "erase": "clear", "wrap": true, "align": "left", "size": 26.0, "lineHeight": 32.0, "dilate": 0.0, "color": "#ffffff", "clearRects": [[110, 228, 1211, 249], [110, 260, 1233, 281], [110, 292, 1220, 313], [110, 324, 835, 345]]},
-        {"id": "help.collab_1", "en": "", "box": [190, 392, 326, 96], "ink": [348, 404, 505, 468], "erase": "clear", "wrap": true, "align": "right", "size": 88.0, "lineHeight": 108.0, "dilate": 2.5, "color": "#f39800", "clearRects": [[430, 405, 504, 466]], "glow": "#ffffff", "glowRadius": 3.0},
-        {"id": "help.collab_2", "en": "", "box": [752, 392, 480, 96], "ink": [760, 405, 1149, 468], "erase": "clear", "wrap": true, "align": "left", "size": 88.0, "lineHeight": 108.0, "dilate": 2.5, "color": "#f39800", "clearRects": [[761, 406, 885, 466]], "glow": "#ffffff", "glowRadius": 3.0},
+        {"id": "help.collab_1", "en": "", "box": [190, 392, 326, 96], "ink": [348, 404, 505, 468], "erase": "clear", "wrap": true, "align": "right", "size": 88.0, "lineHeight": 108.0, "dilate": 2.5, "color": "#f39800", "glow": "#ffffff", "glowRadius": 3.0},
+        {"id": "help.collab_2", "en": "", "box": [752, 392, 480, 96], "ink": [760, 405, 1149, 468], "erase": "clear", "wrap": true, "align": "left", "size": 88.0, "lineHeight": 108.0, "dilate": 2.5, "color": "#f39800", "glow": "#ffffff", "glowRadius": 3.0},
         {"id": "help.03_03.4", "en": "", "box": [108, 523, 1134, 113], "ink": [109, 524, 1225, 579], "erase": "clear", "wrap": true, "align": "left", "size": 26.0, "lineHeight": 32.0, "dilate": 0.0, "color": "#ffffff", "clearRects": [[110, 525, 1110, 546], [110, 557, 1224, 578]]}
       ]
     },
