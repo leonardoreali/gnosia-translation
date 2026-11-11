@@ -38,7 +38,7 @@ static class ImagePatch
         public string En { get; set; } = "";
         public int[] Box { get; set; } = Array.Empty<int>();
         public string Align { get; set; } = "auto";      // left, right, center, auto
-        public string Erase { get; set; } = "rows";      // rows, cols, right, clear, copy, inpaint, fill, none
+        public string Erase { get; set; } = "rows";      // rows, cols, right, clear, copy, inpaint, letters, fill, none
         public string? Fill { get; set; }                 // fill: the flat color under the text (#rrggbb); only pixels that differ from it are repainted
         public int[][]? ClearRects { get; set; }          // clear: the rectangles (x0, y0, x1, y1) holding the text, instead of one box around all of it
         public bool VCenter { get; set; }                 // center the lines vertically in the box (text inside a bubble)
@@ -56,6 +56,7 @@ static class ImagePatch
         public string? Font { get; set; }                 // game font to draw with, by name prefix (default Dosis)
         public string? Glow { get; set; }                 // color of a soft glow around the letters
         public float GlowRadius { get; set; } = 3;
+        public int? TextX { get; set; }                   // image x where the translation starts, when Ink (the erased area) is wider than the English text
         public bool Manual { get; set; }                  // use Ink as the exact text area (needs Size and Color)
         public bool Enclosed { get; set; }                // only shapes fully inside the box are text (box crosses borders)
         public int Cut { get; set; }                      // ignore this many pixels of the box's bottom-right corner (slanted button edge)
@@ -461,6 +462,8 @@ static class ImagePatch
             el = l = m[0] - bx; er = r = m[2] - bx; et = t = m[1] - by; eb = b = m[3] - by;
         }
 
+        if (it.TextX is int tx) l = tx - bx;
+
         // 2. background without the text: rebuild the text's area from the pixels around it
         var bg = new float[n * 4];
         for (int y = 0; y < bh; y++)
@@ -477,7 +480,7 @@ static class ImagePatch
                     if (Cut(rx, y)) rx = lx;
                     float v = !inside && it.Erase != "copy" ? Px(x, y, c) : it.Erase switch
                     {
-                        "none" or "inpaint" or "fill" => Px(x, y, c),
+                        "none" or "inpaint" or "fill" or "letters" => Px(x, y, c),
                         // a border runs along the left of the text: take each row's color from its right end only
                         "right" => Px(rx, y, c),
                         "clear" => 0,
@@ -504,6 +507,61 @@ static class ImagePatch
                     }
             }
             Inpaint(bg, hole, bw, bh);
+        }
+        if (it.Erase == "letters")
+        {
+            // light text on horizontal stripes or a soft gradient (name, role and target plates): a letter pixel is
+            // one lighter than the end of its row; each run of them is refilled from the row's pixels beside it
+            var hole = new bool[n]; var seed = new bool[n];
+            int x0 = Math.Max(0, el), x1 = Math.Min(bw - 1, er), y0 = Math.Max(0, et), y1 = Math.Min(bh - 1, eb);
+            for (int y = y0; y <= y1; y++)
+            {
+                int rx = Math.Min(bw - 1, er + 1);
+                for (int x = x0; x <= x1; x++)
+                {
+                    if (Px(x, y, 3) < 0.5f || Px(rx, y, 3) < 0.5f) continue;
+                    float d = 0;
+                    for (int c = 0; c < 3; c++) d = Math.Max(d, Px(x, y, c) - Px(rx, y, c));
+                    seed[y * bw + x] = d > 0.035f;
+                }
+            }
+            // the plate's border may cross the area: a light shape that reaches the area's edge is not a letter
+            var todo = new Stack<int>();
+            for (int y = y0; y <= y1; y++)
+                for (int x = x0; x <= x1; x++)
+                    if ((x == x0 || x == x1 || y == y0 || y == y1) && seed[y * bw + x]) { seed[y * bw + x] = false; todo.Push(y * bw + x); }
+            while (todo.Count > 0)
+            {
+                int i = todo.Pop(), cx = i % bw, cy = i / bw;
+                for (int dy = -1; dy <= 1; dy++)
+                    for (int dx = -1; dx <= 1; dx++)
+                    {
+                        int nx = cx + dx, ny = cy + dy;
+                        if (nx < x0 || nx > x1 || ny < y0 || ny > y1 || !seed[ny * bw + nx]) continue;
+                        seed[ny * bw + nx] = false; todo.Push(ny * bw + nx);
+                    }
+            }
+            for (int y = y0; y <= y1; y++)
+                for (int x = x0; x <= x1; x++)
+                    if (seed[y * bw + x])
+                        for (int dy = -1; dy <= 1; dy++)
+                            for (int dx = -2; dx <= 2; dx++)
+                            {
+                                int nx = x + dx, ny = y + dy;
+                                if (nx >= x0 && nx <= x1 && ny >= y0 && ny <= y1 && Px(nx, ny, 3) >= 0.5f) hole[ny * bw + nx] = true;
+                            }
+            for (int y = 0; y < bh; y++)
+                for (int x = 0; x < bw; x++)
+                {
+                    if (!hole[y * bw + x]) continue;
+                    int x2 = x;
+                    while (x2 + 1 < bw && hole[y * bw + x2 + 1]) x2++;
+                    int a = x > 0 ? x - 1 : Math.Min(bw - 1, x2 + 1), z = x2 + 1 < bw ? x2 + 1 : a;
+                    for (int k = x; k <= x2; k++)
+                        for (int c = 0; c < 4; c++)
+                            bg[(y * bw + k) * 4 + c] = Lerp(Px(a, y, c), Px(z, y, c), (k - x + 1) / (float)(x2 - x + 2));
+                    x = x2;
+                }
         }
         if (it.Erase == "fill" && it.Fill != null)
         {
